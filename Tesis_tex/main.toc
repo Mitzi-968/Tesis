@@ -1,0 +1,127 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{5}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Motivación}{7}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{8}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Hipótesis}{9}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Objetivos}{9}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}General}{9}{subsection.1.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Específicos}{9}{subsection.1.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Descripción del documento}{9}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Antecedentes}{11}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Robots de Servicio en entornos Industriales}{11}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Visión Computacional}{12}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Espacios de color}{13}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Espacio RGB}{13}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Espacio HSV}{14}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Segmentación de Imágenes}{16}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Umbralización}{16}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Operaciones Morfológicas}{17}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Teoría de Conjuntos}{17}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Operaciones Lógicas}{20}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Dilatación y Erosión}{21}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Reconocimiento de Objetos}{23}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Máquinas de Estado}{25}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Sistemas expertos}{26}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Manipulación del Robot}{27}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Estado del Arte}{27}{section.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Detección de objetos}{29}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Objetos de interés}{29}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Caracterización de los objetos}{30}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Localización de objetos}{34}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Nubes de puntos}{34}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Planeación de movimientos}{35}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Movimiento de cuerpo rígido}{36}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Posición y Orientación}{36}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Transformaciones homogéneas}{39}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Descripción cinemática del robot}{40}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Manipulación de objetos}{40}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Planeación de acciones}{43}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Actividades de la competencia RoboCup Logistics}{43}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Navegación}{44}{subsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Exploración}{44}{subsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Manipulación}{44}{subsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Máquinas de estados}{44}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Estados}{44}{subsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Navegación}{45}{subsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Exploración}{45}{subsection.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Manipulación}{47}{subsection.5.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{47}{subsection.5.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.6}Algoritmos de las Máquinas de Estados - Cartas ASM}{47}{subsection.5.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.7}Implementación}{47}{subsection.5.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Resultados}{49}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Implementación}{49}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Herramientas de software}{49}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{ROS}{49}{section*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{OpenCV}{50}{section*.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{MoveIT}{50}{section*.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{RobotinoView}{51}{section*.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Herramientas de hardware}{51}{subsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Robotino FESTO}{51}{section*.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Camara RGBD - Kinect}{53}{section*.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Manipulador PhantomX Pincher AX-12}{54}{section*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Discusión}{57}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Conclusiones}{57}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Trabajo Futuro}{57}{section.7.2}%

@@ -1,0 +1,50 @@
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivaci\363n}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Planteamiento del problema}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Hip\363tesis}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Objetivos}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.4.1}{General}{section.1.4}% 6
+\BOOKMARK [2][-]{subsection.1.4.2}{Espec\355ficos}{section.1.4}% 7
+\BOOKMARK [1][-]{section.1.5}{Descripci\363n del documento}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Antecedentes}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Robots de Servicio en entornos Industriales}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Visi\363n Computacional}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Espacios de color}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Segmentaci\363n de Im\341genes}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Operaciones Morfol\363gicas}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Reconocimiento de Objetos}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{M\341quinas de Estado}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.5}{Sistemas expertos}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.6}{Manipulaci\363n del Robot}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.7}{Estado del Arte}{chapter.2}% 19
+\BOOKMARK [0][-]{chapter.3}{Detecci\363n de objetos}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Objetos de inter\351s}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Caracterizaci\363n de los objetos}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{Localizaci\363n de objetos}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.1}{Nubes de puntos}{section.3.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Planeaci\363n de movimientos}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Movimiento de cuerpo r\355gido}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{Posici\363n y Orientaci\363n}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{Transformaciones homog\351neas}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{Descripci\363n cinem\341tica del robot}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.4}{Manipulaci\363n de objetos}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{Planeaci\363n de acciones}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Actividades de la competencia RoboCup Logistics}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.1.1}{Navegaci\363n}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.2}{Exploraci\363n}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.3}{Manipulaci\363n}{section.5.1}% 35
+\BOOKMARK [1][-]{section.5.2}{M\341quinas de estados}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Estados}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Navegaci\363n}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.3}{Exploraci\363n}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.4}{Manipulaci\363n}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.5}{Entradas y salidas}{section.5.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.6}{Algoritmos de las M\341quinas de Estados - Cartas ASM}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.7}{Implementaci\363n}{section.5.2}% 43
+\BOOKMARK [0][-]{chapter.6}{Resultados}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Implementaci\363n}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.1.1}{Herramientas de software}{section.6.1}% 46
+\BOOKMARK [2][-]{subsection.6.1.2}{Herramientas de hardware}{section.6.1}% 47
+\BOOKMARK [0][-]{chapter.7}{Discusi\363n}{}% 48
+\BOOKMARK [1][-]{section.7.1}{Conclusiones}{chapter.7}% 49
+\BOOKMARK [1][-]{section.7.2}{Trabajo Futuro}{chapter.7}% 50

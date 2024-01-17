@@ -1,0 +1,54 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel}
+\usepackage{csquotes}
+%\usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+\usepackage[backend=biber]{biblatex}
+%\usepackage{dsfont}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{color}
+%\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{capt-of}
+\usepackage{sidecap}
+\sidecaptionvpos{figure}{c}
+\usepackage{caption}
+\usepackage{commath}
+\usepackage{latexsym, amsfonts, epsfig, enumerate, listings, fancyhdr}
+\usepackage{cancel}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{cancel}
+%\usepackage{anysize} 				
+%\marginsize{2cm}{2cm}{2cm}{2cm} % Izquierda, derecha, arriba, abajo
+% Para que las referencias sean hipervínculos a las figuras o ecuaciones y
+% aparezcan en color
+\usepackage[colorlinks=true,plainpages=false,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[L]{\footnotesize Universidad Nacional Autónoma de México} %encabezado izquierda
+\fancyfoot[C]{\thepage}  %centro
+\renewcommand{\footrulewidth}{0.4pt}
+\usepackage{listings}
+\bibliography{Referencias}
+
+%\title{Percepción artificial y planeación de acciones a partir de la cámara RGBD de un robot móvil.}
+%\author{Savage Carmona Jesús \and Negrete Villanueva Marco Antonio \and Ramírez Estrada Mitzi Anaid}
+
+
+\begin{document}
+\input{Portada}
+\tableofcontents
+\input{Ch01_Introduccion}
+\input{Ch02_Antecedentes}
+
+\input{Ch03_Detección_de_objetos}
+\input{Ch04_Planeación_de_movimientos}
+\input{Ch05_Planeación_de_acciones}
+\input{Ch06_Resultados}
+\input{Ch07_Discusión}
+\end{document}

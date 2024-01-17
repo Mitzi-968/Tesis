@@ -1,0 +1,201 @@
+\chapter{Resultados}
+    \section{Implementación}
+    Para lograr los objetivos planteados para el desarrollo de este proyecto se utilizaron varias herramientas de software y de hardware, las cuales hicieron posible la recopilación de los datos necesarios, así como la ejecución de las acciones planteadas como requisitos del proceso planteado.
+    Se ha hecho suficiente hincapié en que el objetivo principal de este proyecto es el aprovechamiento de los datos recabados por una cámara RGBD. En este caso, el dispositivo utilizado para la obtención de la imagen y la nube de puntos es el \textbf{Kinect}, un dispositivo distribuido por la empresa \textbf{Microsoft}, que en 2010 fue lanzado al mercado como accesorio para la consola de videojuegos XBOX 360. Adicionalmente, como base del robot móvil se utilizó la plataforma de desarrollo \textbf{Robotino} perteneciente a la empresa FESTO.
+
+    
+        \subsection{Herramientas de software}
+            \subsubsection{ROS}
+            En 2018 Edgar Vázquez realiza una breve de descripción del sistema ROS, en la cual comenta que el objetivo principal es dar soporte a la reutilización de código en la investigación y desarrollo de robótica, referenciando a Quigley en \cite{quigley_ROS}. Adicionalmente, Vázquez menciona que ROS ofrece las siguientes utilidades:
+            \begin{itemize}
+                \item Abstracción de hardware
+                \item Control de dispositivos de bajo nivel
+                \item Implementación de funcionalidades comunes entre dispositivos
+                \item Intercambio de mensajes entre procesos
+                \item Mantenimiento de paquetes
+            \end{itemize}
+
+            Vázquez añade que durante el desarrollo del comportamiento de un robot es común considerar las funcionalidades a modo de módulos, en que cada uno tiene un objetivo específico. Apunta también que ROS colabora con el transporte de la información entre dichos módulos y menciona como una ventaja la existencia de la comunidad de desarrolladores que trabajan con ROS, haciendo posible el intercambio de información, obteniendo soporte y retroalimentación actualizados.
+            \phantom{saltodelineaforzado >:D}\\
+
+            \textbf{Elementos}
+            \begin{itemize}
+                \item Nodos: los nodos son los módulos que en conjunto forman la red le trabajo, y se encargar generalmente de las funcionalidades aisladas que se mencionaron anteriormente. Es decir, la activación de los actuadores, el procesamiento de imagen, el control de la interfaz del usuario, cada una de estas actividades se encontraría bajo el cargo de un nodo, independiente de las demás, pero que bajo la estructura de ROS les es posible intercambiar información.
+                \item Paquetes: Vázquez comenta que dentro de la estructura de ROS, los paquetes pueden se comparados con carpetas, las cuales tienen características estructurales definidas y en las cuales es posible contener a los nodos. Además, dentro del paquete se deben establecer las bibliotecas u otras paqueterías que requiera la correcta ejecución de los nodos, como pueden ser los tipos de datos personalizados, recursos ajenos a ROS o archivos de configuración adicionales. 
+                \item Tópicos: son el elemento que se utiliza para intercomunicar los nodos. Dentro de la implementación con ROS es posible \textit{publicar} información dentro del entorno por medio de mensajes y haciendo uso de los tópicos, los mensajes pueden ser diversos tipos, dependiendo de los requerimientos de la implementación, adicionalmente, es posible crear nuevos tipos de mensaje de ser necesario \cite{ros_wiki_std_msgs}. 
+                \item Servicios: un método distinto a los tópicos mediante el cual también se puede compartir información son los servicios. La diferencia entre estas herramientas es que los servicios necesitan ser solicitados por otro agente, es decir, sigue un modelo petición-respuesta. Vázquez comenta que si un proceso necesita realizarse solo en momentos específicos lo recomendable es implementarlo como un servicio.
+            \end{itemize}
+
+            
+            \subsubsection{OpenCV}
+            \subsubsection{MoveIT}
+            Esta paquetería fue utilizada para la generación de las trayectorias de movimiento que realizaba el manipulador, es decir se realizan dentro de esta paquetería el análisis cinemático y dinámico del manipulador del robot. Para su configuración, MoveIt utiliza elementos dentro de la estructura de ROS para obenter la siguiente información: \textbf{URDF} (Universal Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description} para obtener la descripción de la configuración del Robot. \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. Dentro de la documentación de la paquetería se sugiere que se genere este archivo haciendo uso del asistente propio de la misma. \textbf{\textit{MoveIt configuration}} buscará dentro del entorno de ROS otras configuraciones pertinentes, como los límites de las articulaciones, cinemática, planeación de movimientos, percepción, etc. Estos archivos de configuración se encuentran dentro de la carpeta \textit{config} y se generan automáticamente al ejecutar el asistente de configuración de la paquetería.
+            \textbf{Robot Interface}
+             MoveIt se comunica con el robot a través de ROS, pudiendo leer el estado actual de las articulaciones, obtener las nubes de puntos u otra información recabada por sensores, al mismo tiempo que se comunica con los controladores del robot.
+             \begin{itemize}
+                 \item Joint state - La paquetería escucha los tópicos que publican la información en tiempo real de las articulaciones del robot.
+                 \item Transform state - La paquetería utiliza la biblioteca TF para monitorear la información de las transformaciones presentes en el robot y su entorno.
+                 \item Controller Interface - La paquetería se comunica con el controlador para el seguimiento de la trayectoria, es necesario un servidor en el robot que realice las acciones solicitadas, ya que esta interfaz solo realiza la solicitud a manera de cliente.
+             \end{itemize}
+
+            \cite{ROS_concepts_MoveIt}
+             
+            
+
+             
+            \subsubsection{RobotinoView}
+            
+        \subsection{Herramientas de hardware}
+            \subsubsection{Robotino FESTO}
+            De acuerdo con la descripción ofrecida por la empresa FESTO en su sitio web, la plataforma educativa Robotino, tiene como objetivo apoyar las labores de investigación y educación mediante un robot móvil al alcance de instituciones educativas, promoviendo el desarrollo en la robótica móvil y robótica de servicio. A continuación una lista de las especificaciones técnicas del robot:
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Sistema robótico móvil}
+            \begin{itemize}
+                \item Diámetro: 450 mm
+                \item Altura incluida la carcasa de la unidad de control: 290 mm
+                \item Peso en vacío sin acumuladores ni torre: 20 kg
+                \item Carga: máximo 30 kg
+            \end{itemize}
+            
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Chasis}
+            \begin{itemize}
+                \item Material: Chasis redondo de acero inoxidable
+                \item Protección anticolisión: banda de protección de goma con sensor de protección anticolisión integrado
+                \item Sensores: 9 sensores de distancia por infrarrojos con un rango de medición de 4 - 40 cm
+                \item Sensores: 1 sensor inductivo analógico, 2 sensores ópticos digitales
+                \item Sensores: 1 giroscopio interno de 3 ejes con sensor de aceleración
+            \end{itemize}
+
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Actuador}
+            \begin{itemize}
+                \item Ruedas: 3 ruedas omnidireccionales de 120 mm de diámetro
+                \item Motores: 3 motores DC, máx. 3600 rpm, con transmisores giratorios y reductor
+                \item Relación de transmisión: 32:1
+            \end{itemize}
+
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Interfaz I/O}
+            \begin{itemize}
+                \item Entradas/salidas digitales: 8 entradas/salidas digitales con 24 V, protegidas contra sobrecarga y cortocircuito
+                \item Entradas analógicas: 8 entradas analógicas de 0 V a 10 V a una frecuencia de exploración de 50 Hz
+                \item Salidas de potencia: 2 salidas de relé
+            \end{itemize}
+
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Fuente de alimentación de Hardware}
+            \begin{itemize}
+                \item Posibilidad de alimentación del sistema preparada para una a cuatro baterías de iones de litio de 18 V en paralelo
+                \item Hasta 10 horas de autonomía con cuatro baterías, una batería permite una autonomía de aproximadamente 2,5 horas
+                \item 24 V mediante interfaz I/O hasta 2 A
+                \item 2 conexiones de enchufe de 12 V hasta 2 A
+                \item Zócalo USB A (5 V)
+            \end{itemize}
+
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Extensión de montaje}
+            \begin{itemize}
+                \item Material: Chasis redondo de acero inoxidable
+                \item Torre de montaje de acero inoxidable con varios dispositivos de montaje y preparada para la guía de cables interna
+                \item Plataformas de montaje de posicionamiento flexible (120° cada una)
+            \end{itemize}
+
+            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma.
+
+            \begin{figure}[H]
+                \centering\includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}
+                    \caption{Robotino 3}
+                    \label{fig:Robotino}
+            \end{figure}
+                            
+            \subsubsection{Camara RGBD - Kinect}
+
+            El autor Vangos Pterneas, ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, \cite{pterneas_mastering_2022} realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019), así como un breve análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
+            El autor narra que en 2009 Microsoft lanzó al mercado el dispositivo llamado \textit{Project Natal}, cambiando el nombre a \textbf{Kinect} en 2010 y distribuyéndolo como un accesorio para la consola de videojuegos \textit{XBOX 360}. Este dispositivo es capaz de reconocer las partes del cuerpo de las personas y entender su voz en tiempo real, creando una interfaz interactiva que permitía a los usuarios utilizar la consola sin necesitar un control. Para el proyecto que este documento describe, se utilizó la versión 1 del Kinect, mostrado en la figura \ref{fig:Kinect_Parts}, donde también se observan los componentes del dispositivo.
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.3]{Figures/Kinect_parts.png}
+                    \caption{Kinect versión 1 - Componentes}
+                    \label{fig:Kinect_Parts}
+            \end{figure}
+
+            Adicionalmente Davison, en \cite{davison_kinect_2012} describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS monocromático, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. El autor también explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.  
+
+            \begin{table}
+                \centering
+                \begin{tabular}{|c|c|}
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Nube de Puntos}} \\
+                \hline
+                    Rango de Profundidad & 50 [cm] a 3 [m]\\
+                \hline
+                    Resolución de la nube de puntos & 640 $\times$ 480 píxeles\\
+                \hline
+                     Niveles de profundidad & 2048\\
+                \hline
+                     Frecuencia de salida - Nube de puntos & 30 [Hz] \\
+                \hline
+                    Frecuencia de salida - Video RGB & 30 [Hz] \\
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Micrófonos (4)}} \\
+                \hline
+                    Resolución  & 16 bits\\
+                \hline
+                    Frecuencia de muestreo & 16 [KHz]\\
+                \hline
+                
+                \hline
+                \end{tabular}
+                \caption{Especificaciones - Kinect V1}
+                \label{tab:my_label}
+            \end{table}
+                        
+            %Falta la parte de la cámara RGB y los micrófonos, no solo debo poner lo de la cámara de profundidad.
+            
+            \subsubsection{Manipulador PhantomX Pincher AX-12}
+            El manipulador utilizado para este proyecto es el brazo robótico \textbf{PhantomX Pincher AX-12} distribuido por la empresa \textit{Trossen Robotics (Interbotix)}, conocida por poner a disposición del público hardware y software \textit{open source} utilizado en robótica para uso educativo, profesional o de entretenimiento. Los dispositivos de Interbotix se encuentran construidos con servomotores DYNAMIXEL X-Series, y se pueden obtener en configuraciones de 4, 5 o 6 grados de libertad, y es posible controlarlos mediante el Middleware ROS \cite{Interbotix_interbotix}. 
+            
+            De acuerdo con la información del fabricante \cite{Interbotix_widowx_PincherArm}, este dispositivo es un brazo robótico de 4 grados de libertad, diseñado para se compatible con la plataforma robótica \textit{TurtleBot} de ROS y cuenta con los elementos necesarios para usarlo ya sea como un elemento independiente o bien, como en este caso, integrarlo dentro de otra plataforma robótica. En la figura \ref{fig:Phantom_Pincher} se muestra un ejemplo del manipulador y, a continuación, una descripción del mismo:
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Características}
+            \begin{itemize}
+                \item Actuadores Dynamixel AX-12A 
+                \item Base sólida con rodamiento de agujas. Construcción resistente en Delrin/acrílico.
+                \item Controlador robótico Arbotix para procesamiento integrado
+                \item Pinza paralela personalizable
+                \item Soportes de montaje para cámaras y sensores
+            \end{itemize}
+            
+            \phantom{saltodelineaforzado >:D}\\
+            
+            \textbf{Especificaciones}
+            \begin{itemize}
+                \item Peso: 550 [g]
+                \item Alcance Vertical: 35 [cm]
+                \item Alcance Horizontal: 31 [cm]
+                \item Fuerza:
+                \begin{itemize}
+                    \item 25[cm]/ 40[g]
+                    \item 20[cm]/ 70[g]
+                    \item 15[cm]/ 100[g]
+                \end{itemize}
+                \item Fuerza de agarre de la pinza: 500 [g]
+                \item Fuerza de levantamiento de la muñeca: 250[g]
+            \end{itemize}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.2]{Figures/Phantom_Pincher.jpg}
+                    \caption{PhantomX Pincher AX-12}
+                    \label{fig:Phantom_Pincher}
+            \end{figure}
+
