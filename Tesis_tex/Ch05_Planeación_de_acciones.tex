@@ -60,7 +60,8 @@ Dentro de la Figura solo se muestran las rutas a seguir y los puntos de inspecci
 No obstante, este es uno de los motivos por lo cual se consideró pertinente la definición de los puntos intermedios. Ya que si la navegación se ve interrumpida por  algún obstáculo y se excede el tiempo límite definido para dicha ruta, el sistema de navegación descarta esa coordenada y se define como objetivo el siguiente punto de inspección en la ruta. Adicionalmente, se definió que los puntos de inspección intermedios comprendieran perspectivas redundantes de algunas zonas, por lo que si los códigos en las paredes de las estaciones no son visibles desde un punto, es posible que lo sea desde otro.
 
 \subsection{Manipulación}
-
+Dentro de esta tarea, se aplican los conceptos mencionados en capítulos anteriores referentes al procesamiento de la imagen captada por la cárama RGBD. 
+Es en esta parte de la competencia en que se necesita identificar y localizar las piezas de interés dentro del espacio de trabajo del robot, tomarlas con el manipulador y transportarlas a otra ubicación determinada.
 
 \subsection{Entradas y salidas}
 Un elemento indispensable del comportamiento del robot depende de la información que recibe sobre su estado y el de su entorno.
@@ -70,7 +71,7 @@ Un elemento indispensable del comportamiento del robot depende de la informació
 \subsection{Algoritmos de las Máquinas de Estados - Cartas ASM}
 A continuación se muestran los diagramas de flujo que representan el funcionamiento de las máquinas de estado utilizadas para cada actividad.
 
-\begin{figure}[ht]
+\begin{figure}[Ht]
     \centering
     \includegraphics[scale= 0.4]{Figures/Navigation_CT.png}
         \caption{Navegación}
