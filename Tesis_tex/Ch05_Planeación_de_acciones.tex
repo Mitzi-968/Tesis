@@ -66,7 +66,7 @@ Para ello se solicita que el robot inicie el proceso frente a la MPS. Dadas las 
 
 Como se mencionó en capítulos anteriores, para la localización de las piezas se utilizó un algoritmo de segmentación por color de la imagen, una vez localizada, se le asigna una coordenada en el mapa relativa al origen del mismo. Dado que se cuenta ya con la información necesaria de la nube de puntos, y que la distancia que es posible alcanzar con el manipulador es limitada, el robot avanza la distancia que retrocedió anteriormente y se obtiene la transformación homogénea de la coordenada de la pieza con respecto a la posición actual del origen del manipulador del robot. Esta información es enviada al controlador del manipulador para calcular la trayectoria del mismo hacia la pieza. Dentro de la función que realiza esta acción, se posiciona la pinza frente a la coordenada solicitada, un par de centímetros antes, se abre la pinza, se realiza el desplazamiento hacia el frente para tomarla y finalmente se cierra la pinza. 
 
-Una vez que la pieza se encuentra en el manipulador, el robot puede retroceder nuevamente y realizar la navegación hasta el punto de entrega (en el extremo opuesto de la MPS). Donde nuevamente se utiliza el algoritmo de alineación y procesamiento de imagen para depositar la pieza sobre la banda transportadora. Suponiendo que se haya elegido un nivel de complejidad que involucre el uso de otra MPS, el robot realiza ahora la navegación y repite el proceso.
+Una vez que la pieza se encuentra en el manipulador, el robot puede retroceder nuevamente y realizar la navegación hasta el punto de entrega (en el extremo opuesto de la MPS). Donde una vez más se utiliza el algoritmo de alineación y procesamiento de imagen para depositar la pieza sobre la banda transportadora. Suponiendo que se haya elegido un nivel de complejidad que involucre el uso de otra MPS, el robot realiza ahora la navegación y repite el proceso.
 
 \subsection{Entradas y salidas}
 Un elemento indispensable del comportamiento del robot depende de la información que recibe sobre su estado y el de su entorno.
@@ -76,7 +76,7 @@ Un elemento indispensable del comportamiento del robot depende de la informació
 \subsection{Algoritmos de las Máquinas de Estados - Cartas ASM}
 A continuación se muestran los diagramas de flujo que representan el funcionamiento de las máquinas de estado utilizadas para cada actividad.
 
-\begin{figure}[Ht]
+\begin{figure}[ht]
     \centering
     \includegraphics[scale= 0.4]{Figures/Navigation_CT.png}
         \caption{Navegación}
