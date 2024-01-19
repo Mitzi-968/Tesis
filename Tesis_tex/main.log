@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.1.17)  17 JAN 2024 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.1.17)  18 JAN 2024 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -50,28 +50,994 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.cfg
 File: csquotes.cfg 
+)) (/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty
+Package: biblatex DATE vVERSION programmable bibliographies (PK/MW)
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/home/robocup20/TesisMaestria/Tesis_tex/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count183
+ (/home/robocup20/TesisMaestria/Tesis_tex/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count184
+\c@listtotal=\count185
+\c@listcount=\count186
+\c@liststart=\count187
+\c@liststop=\count188
+\c@citecount=\count189
+\c@citetotal=\count190
+\c@multicitecount=\count191
+\c@multicitetotal=\count192
+\c@instcount=\count193
+\c@maxnames=\count194
+\c@minnames=\count195
+\c@maxitems=\count196
+\c@minitems=\count197
+\c@citecounter=\count198
+\c@maxcitecounter=\count199
+\c@savedcitecounter=\count266
+\c@uniquelist=\count267
+\c@uniquename=\count268
+\c@refsection=\count269
+\c@refsegment=\count270
+\c@maxextratitle=\count271
+\c@maxextratitleyear=\count272
+\c@maxextraname=\count273
+\c@maxextradate=\count274
+\c@maxextraalpha=\count275
+\c@abbrvpenalty=\count276
+\c@highnamepenalty=\count277
+\c@lownamepenalty=\count278
+\c@maxparens=\count279
+\c@parenlevel=\count280
+\blx@tempcnta=\count281
+\blx@tempcntb=\count282
+\blx@tempcntc=\count283
+\c@blx@maxsection=\count284
+\blx@maxsegment@0=\count285
+\blx@notetype=\count286
+\blx@parenlevel@text=\count287
+\blx@parenlevel@foot=\count288
+\blx@sectionciteorder@0=\count289
+\blx@sectionciteorderinternal@0=\count290
+\blx@entrysetcounter=\count291
+\blx@biblioinstance=\count292
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language7
+\c@mincomprange=\count293
+\c@maxcomprange=\count294
+\c@mincompwidth=\count295
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Missing \endcsname inserted.
+<to be read again> 
+                   \blx@datamodel@constant@optiondatatypes 
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname 
+                                                  #2
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Missing \endcsname inserted.
+<to be read again> 
+                   \blx@datamodel@constant@optiondatatypes 
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname 
+                                                  #2
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Missing \endcsname inserted.
+<to be read again> 
+                   \blx@datamodel@constant@optiondatatypes 
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname 
+                                                  #2
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Missing \endcsname inserted.
+<to be read again> 
+                   \blx@datamodel@constant@optiondatatypes 
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname 
+                                                  #2
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Missing \endcsname inserted.
+<to be read again> 
+                   \blx@datamodel@constant@optiondatatypes 
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7008: Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname 
+                                                  #2
+l.7008 ...odel@constant@optiondatatypes\endcsname}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7185: Undefined control sequence.
+<argument> \blx@datamodel@dates 
+                                
+l.7185 \abx@dodates
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7199: Undefined control sequence.
+<argument> \blx@datamodel@dates 
+                                
+l.7199 \abx@dodates
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7221: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7221 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7230: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7230 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7242: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7242 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7249: Undefined control sequence.
+\abx@donameparts ...@datamodel@constant@nameparts 
+                                                  }
+l.7249 \abx@donameparts
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7253: Undefined control sequence.
+\abx@dodateparts ... \expandafter {\blx@dateparts 
+                                                  }
+l.7253 \abx@dodateparts
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7318: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7318 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7325: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7325 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7357: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7357 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7362: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.7362 \abx@dodatetypes
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7496: Undefined control sequence.
+\abx@donameparts ...@datamodel@constant@nameparts 
+                                                  }
+l.7496 \abx@donameparts
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7508: Undefined control sequence.
+<argument> \blx@datamodel@names 
+                                
+l.7508 \abx@donames
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7521: Undefined control sequence.
+<argument> \blx@datamodel@names 
+                                
+l.7521 \abx@donames
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@labelname=\count296
+\c@savedlabelname=\count297
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7523: Undefined control sequence.
+<argument> \blx@datamodel@lists 
+                                
+l.7523 \abx@dolists
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@pageref=\count298
+\c@savedpageref=\count299
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7536: Undefined control sequence.
+<argument> \blx@datamodel@labelfields 
+                                      
+l.7536 \abx@dolabelfields
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\locallabelnumberwidth=\skip57
+\locallabelalphawidth=\skip58
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:7539: Undefined control sequence.
+<argument> \blx@datamodel@labelfields 
+                                      
+l.7539 \abx@dolabelwidths
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:9217: Undefined control sequence.
+<argument> \blx@datamodel@labelfields 
+                                      
+l.9217 \abx@dolabelfields
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:14465: Undefined control sequence.
+<argument> \blx@datamodel@labelfields 
+                                      
+l.14465 \abx@dolabelfields
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'xml'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:15833: Undefined control sequence.
+<argument> \blx@datetypes 
+                          
+l.15833 \abx@dodatetypes
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'string'.
+(biblatex)                Defaulting to 'boolean'.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16082: Undefined control sequence.
+<argument> \blx@datamodel@names 
+                                
+l.16082 \abx@donames
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: useauthor undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: useeditor undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: usetranslator undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: origdate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: eventdate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16249: Package keyval Error: urldate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16249 ...se,labeltime=24h,locallabelwidth=false}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' not found.
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def
+File: biblatex.def DATE vVERSION biblatex compatibility (PK/MW)
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:24: Undefined control sequence.
+l.24 ...andafter{\blx@datamodel@constant@nameparts
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@textcitecount=\count300
+\c@textcitetotal=\count301
+\c@textcitemaxnames=\count302
+\c@biburlbigbreakpenalty=\count303
+\c@biburlbreakpenalty=\count304
+\c@biburlnumpenalty=\count305
+\c@biburlucpenalty=\count306
+\c@biburllcpenalty=\count307
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1435: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1435 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1435: Package biblatex Error: Invalid namepart 'prefix'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1435 }
+        
+Namepart 'prefix' in labelalphaname template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1435: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1435 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1435: Package biblatex Error: Invalid namepart 'family'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1435 }
+        
+Namepart 'family' in labelalphaname template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1445 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Package biblatex Error: Invalid namepart 'prefix'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1445 }
+        
+Namepart 'prefix' in uniquename template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1445 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Package biblatex Error: Invalid namepart 'family'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1445 }
+        
+Namepart 'family' in uniquename template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1445 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1445: Package biblatex Error: Invalid namepart 'given'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1445 }
+        
+Namepart 'given' in uniquename template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1456 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Package biblatex Error: Invalid namepart 'family'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1456 }
+        
+Namepart 'family' in name hash template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1456 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Package biblatex Error: Invalid namepart 'given'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1456 }
+        
+Namepart 'given' in name hash template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1456 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Package biblatex Error: Invalid namepart 'prefix'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1456 }
+        
+Namepart 'prefix' in name hash template declaration 'global' is not defined in the data model.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Undefined control sequence.
+<argument> \blx@datamodel@constants@nameparts@l 
+                                                
+l.1456 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.def:1456: Package biblatex Error: Invalid namepart 'suffix'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1456 }
+        
+Namepart 'suffix' in name hash template declaration 'global' is not defined in the data model.
+
+\c@smartand=\count308
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' not found.
+
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16283: Package biblatex Error: Style 'numeric' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16283 \RequireBibliographyStyle{\blx@bbxfile}
+                                               
+The bibliography style 'numeric' could not be found.
+
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' not found.
+
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16284: Package biblatex Error: Style 'numeric' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16284 \RequireCitationStyle{\blx@cbxfile}
+                                           
+The citation style 'numeric' could not be found.
+
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/home/robocup20/TesisMaestria/Tesis_tex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count309
+\l__pdf_internal_box=\box45
 ))
 
-! LaTeX Error: File `biblatex.sty' not found.
+LaTeX Warning: You have requested, on input line 16324, version
+               `2020/04/06' of package expl3,
+               but only version
+               `2020-02-14 L3 programming layer (loader) '
+               is available.
+
+Package biblatex Info: ... but expl3
+(biblatex)             2020-02-14 L3 programming layer (loader) 
+(biblatex)             is too old (older than 2020/04/06),
+(biblatex)             setting 'casechanger=latex2e'.
+
+! LaTeX Error: File `blx-case-latex2e.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-/home/robocup20/TesisMaestria/Tesis_tex/main.tex:8: Emergency stop.
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16325: Emergency stop.
 <read *> 
          
-l.8 \usepackage
-               {graphicx}^^M
+l.16325 \blx@casechange@postload
+                                ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 1185 strings out of 483107
- 16738 string characters out of 5964630
- 256217 words of memory out of 5000000
- 16282 multiletter control sequences out of 15000+600000
+ 6658 strings out of 483107
+ 122518 string characters out of 5964630
+ 459276 words of memory out of 5000000
+ 21700 multiletter control sequences out of 15000+600000
  532338 words of font info for 24 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 25i,0n,23p,869b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-/home/robocup20/TesisMaestria/Tesis_tex/main.tex:8:  ==> Fatal error occurred, no output PDF file produced!
+ 37i,0n,35p,869b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
+/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:16325:  ==> Fatal error occurred, no output PDF file produced!

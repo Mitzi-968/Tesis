@@ -3,14 +3,14 @@ Un aspecto importante del comportamiento del robot en el contexto que se plantea
 Con este objetivo se desarrollaron varias máquinas de estados en los que la secuencia de acciones, así como las condiciones, variaban dependiendo del objetivo final. 
 Dentro de los escenarios considerados se requiere lograr 3 tareas específicas, en las que progresivamente se añadían capacidades al desempeño del robot.
 
-Como se mencionó en secciones anteriores, para el planteamiento de las máquinas de estado se necesita determinar las entradas, salidas, estados, condiciones de transformación y las reglas de correspondencia que permiten el flujo de la información dentro de la secuencia de acciones.
+Como se mencionó en secciones anteriores, para el planteamiento de las máquinas de estado se necesita determinar las entradas, salidas, estados,  condiciones de transformación y las reglas de correspondencia que permiten el flujo de la información dentro de la secuencia de acciones.\\
 En este caso, las entradas del sistema se refieren a la información que el robot es capaz de recopilar tanto de las condiciones de su ambiente como de su estado interno.
 Haciendo uso de los sensores con que cuenta el robot puede determinar su posición respecto al mapa, y las posiciones también de los elementos en el entorno con los que debe interactuar.
 Además, la información para el desarrollo de su actividad es previamente ingresada en una base de conocimiento de la cual el robot debe poder extraer la información y saber en qué parte de la secuencia de acciones se encuentra.
 
 Es deseable que el robot cuente con estrategias que le permitan verificar si el estado en que el robot \textit{cree} que está es correcto y también comprobar que las acciones que se han registrado como realizadas se han completado correctamente.
 
-\section{Actividades de la competencia RoboCup Logistics}
+\section{Actividades de la competencia \\RoboCup Logistics}
 Como parte de las partes que componen a la competencia \textit{RoboCup Logistics} se creó una categoría en la que se evalúan las diferentes habilidades que es indispensable que el robot tenga: \textbf{Navegación, Exploración y Manipulación}. De esta forma se facilita la integración y la evaluación del desempeño del robot en un entorno controlado para cada tarea, a continuación se incluye la descripción de cada una obtenida del reglamento de la competencia \cite{technical_committee_20122022_robocup_2022}.
 
 \subsection{Navegación}
@@ -21,7 +21,7 @@ Esta etapa podría considerarse la menos compleja dentro de las tres planteadas,
 Durante la etapa de exploración se busca que el robot lleve a cabo una navegación autónoma, mientras realiza el procesamiento de la imagen capturada por su cámara para el reconocimiento de las estaciones de trabajo. Dicho reconocimiento se hace utilizando los códigos ARUCO que se encuentran en la base de las estaciones de trabajo. Además, el robot debe identificar el tipo de estación, la posición y orientación en que se encuentra cada estación y reportar la información.
 
 \subsection{Manipulación}
-En el caso de la manipulación, la posición inicial del robot se encuentra frente a una de las estaciones de trabajo. En la salida de la banda transportadora de la estación se encuentra una pieza que debe ser tomada por el manipulador. El robot debe trasladarse al otro lado de la estación y colocar la pieza en la entrada de la banda transportadora. Este proceso se repite 3 veces y dependiendo del nivel de dificultad que elija,0 se puede trabajar con una o más estaciones en las cuales se debe repetir el mismo procedimiento. 
+En el caso de la manipulación, la posición inicial del robot se encuentra frente a una de las estaciones de trabajo. En la salida de la banda transportadora de la estación se encuentra una pieza que debe ser tomada por el manipulador. El robot debe trasladarse al otro lado de la estación y colocar la pieza en la entrada de la banda transportadora. Este proceso se repite 3 veces y dependiendo del nivel de dificultad que elija, se puede trabajar con una o más estaciones en las cuales se debe repetir el mismo procedimiento. 
 
 
 \textcolor{green}{Breve descripción de las tareas y qué se necesita para resolverlas (navegación, localización, manipulación, reconocimiento de objetos, etc)}
@@ -60,8 +60,13 @@ Dentro de la Figura solo se muestran las rutas a seguir y los puntos de inspecci
 No obstante, este es uno de los motivos por lo cual se consideró pertinente la definición de los puntos intermedios. Ya que si la navegación se ve interrumpida por  algún obstáculo y se excede el tiempo límite definido para dicha ruta, el sistema de navegación descarta esa coordenada y se define como objetivo el siguiente punto de inspección en la ruta. Adicionalmente, se definió que los puntos de inspección intermedios comprendieran perspectivas redundantes de algunas zonas, por lo que si los códigos en las paredes de las estaciones no son visibles desde un punto, es posible que lo sea desde otro.
 
 \subsection{Manipulación}
-Dentro de esta tarea, se aplican los conceptos mencionados en capítulos anteriores referentes al procesamiento de la imagen captada por la cárama RGBD. 
+Dentro de esta tarea, se aplican los conceptos mencionados en capítulos anteriores referentes al procesamiento de la imagen captada por la cárama RGBD.
 Es en esta parte de la competencia en que se necesita identificar y localizar las piezas de interés dentro del espacio de trabajo del robot, tomarlas con el manipulador y transportarlas a otra ubicación determinada.
+Para ello se solicita que el robot inicie el proceso frente a la MPS. Dadas las restricciones del dispositivo Kinect es necesario que el robot se encuentre a cierta distancia mínima del objeto de interés para obtener mediciones confiables del sensor del profundidad, por lo que de la posición inicial el robot debe retroceder un metro más. Es desde esta posición donde se ejecuta una función en la cual se utiliza la imagen RGB y se detectan las líneas contenidas en la Estación, excluyendo aquellas líneas que se sabe no pertenecen a la estación y aquellas que excedan un umbral del ángulo de inclinación, esta discriminación ayuda a disminuir el ruido de líneas detectadas por la cámara. Usando movimientos angulares de la base, se reduce el error entre el ángulo que se detecta del borde de la estación y una referencia horizontal definida empíricamente. Una vez que el robot está alineado se procede a la búsqueda del objeto sobre la superficie de la MPS.
+
+Como se mencionó en capítulos anteriores, para la localización de las piezas se utilizó un algoritmo de segmentación por color de la imagen, una vez localizada, se le asigna una coordenada en el mapa relativa al origen del mismo. Dado que se cuenta ya con la información necesaria de la nube de puntos, y que la distancia que es posible alcanzar con el manipulador es limitada, el robot avanza la distancia que retrocedió anteriormente y se obtiene la transformación homogénea de la coordenada de la pieza con respecto a la posición actual del origen del manipulador del robot. Esta información es enviada al controlador del manipulador para calcular la trayectoria del mismo hacia la pieza. Dentro de la función que realiza esta acción, se posiciona la pinza frente a la coordenada solicitada, un par de centímetros antes, se abre la pinza, se realiza el desplazamiento hacia el frente para tomarla y finalmente se cierra la pinza. 
+
+Una vez que la pieza se encuentra en el manipulador, el robot puede retroceder nuevamente y realizar la navegación hasta el punto de entrega (en el extremo opuesto de la MPS). Donde nuevamente se utiliza el algoritmo de alineación y procesamiento de imagen para depositar la pieza sobre la banda transportadora. Suponiendo que se haya elegido un nivel de complejidad que involucre el uso de otra MPS, el robot realiza ahora la navegación y repite el proceso.
 
 \subsection{Entradas y salidas}
 Un elemento indispensable del comportamiento del robot depende de la información que recibe sobre su estado y el de su entorno.
@@ -78,6 +83,5 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
         \label{fig:ASM_Navigation}
     \end{figure}
 Diagramas de flujo para cada una de las tareas
-
 \subsection{Implementación}
 Pseudocódigo de la implementación en C
