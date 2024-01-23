@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1705699498 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1705699860
+["pdflatex"] 1705699498 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1705970339
   "/etc/texmf/web2c/texmf.cnf" 1705530450 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/robocup20/TesisMaestria/Tesis_tex/logreq.sty" 0 -1 0 ""
   "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1705699498 8 a94a2480d3289e625eea47cd1b285758 ""
@@ -25,6 +25,6 @@
   "logreq.sty" 0 -1 0 ""
   "main.tex" 1705699497 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
   (generated)
+  "main.log"
   "/home/robocup20/TesisMaestria/Tesis_tex/main.log"
   "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"
-  "main.log"
