@@ -28,6 +28,20 @@
 
             
             \subsubsection{OpenCV}
+            \textit{The Open Source Computer Vision Library}, se trata de una biblioteca de acceso libre a través de la cual es posible utilizar cientos de algoritmos de procesamiento de imágenes y visión computacional.
+            
+            Dentro de la información que ofrece el sitio web de la biblioteca, se menciona que cuenta con una estructura modular. Algunos de los módulos son:
+            \begin{itemize}
+                \item \textit{Core funcionality}: un módulo para definir estructuras de datos básicas, como arreglos y matrices multidimensionales, así como funciones básicas necesarias para otros módulos.
+                \item \textit{Image Processing}: Incluye filtros lineales y no lineales, transformaciones geométricas de imágenes, conversión entre espacios de color, obtención de histogramas, etc.
+                \item \textit{Video Analysis}: Permite estimación de movimiento, sustracción de fondos, y algoritmos de seguimiento de objetos. 
+                \item \textit{Camera Calibration and 3D Reconstruction}: algoritmos geométricos básicos de vistas múltiples, calibración de cámaras sencillas y stereo, estimación de la pose de objetos, elementos de reconstrucción 3D.
+                \item \textit{2D Features Framework}: detector de características, descriptores y emparejamiento de descriptores. 
+                \item \textit{Object Detection}: detección de objetos e instancias pertenecientes a clases predefinidas.
+                \item \textit{Video I/O}: interfaz fácil de usar para captura de videos, además de compresores y decompresores de archivos multimedia.
+            \end{itemize}
+            \cite{OpvenCV-website}
+
             \subsubsection{MoveIT}
             Esta paquetería fue utilizada para la generación de las trayectorias de movimiento que realizaba el manipulador, es decir se realizan dentro de esta paquetería el análisis cinemático y dinámico del manipulador del robot. Para su configuración, MoveIt utiliza elementos dentro de la estructura de ROS para obenter la siguiente información: \textbf{URDF} (Universal Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description} para obtener la descripción de la configuración del Robot. \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. Dentro de la documentación de la paquetería se sugiere que se genere este archivo haciendo uso del asistente propio de la misma. \textbf{\textit{MoveIt configuration}} buscará dentro del entorno de ROS otras configuraciones pertinentes, como los límites de las articulaciones, cinemática, planeación de movimientos, percepción, etc. Estos archivos de configuración se encuentran dentro de la carpeta \textit{config} y se generan automáticamente al ejecutar el asistente de configuración de la paquetería.
             \textbf{Robot Interface}
@@ -40,10 +54,20 @@
 
             \cite{ROS_concepts_MoveIt}
              
-            
-
-             
             \subsubsection{RobotinoView}
+            Robotino View es un entorno de programación grafico que es posible utilizar directamente con Robotino y que, de hecho, viene preinstalado con el robot desde la configuración de fábrica. Dentro de este ambiente es posible crear y ejecutar programas de control para el robot.
+            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades:
+            \begin{itemize}
+                \item Programas secuenciales son mostrtados como Grafcet
+                \item Control simultáneo de varios Robotino
+                \item Representación gráfica de componentes gráficos como bloques de función: motores, puertos de entradas y salidas (I/Os), sensores, cámaras, odometría, pinzas, manipuladores, lectura de encoders y salida de voltaje.
+                \item Bloques de función para procesamiento de imágenes: reconocimiento de líneas, búsque da de rangos de color, reconocimiento de marcadores.
+                \item Bloques de función para navegación: conducción de posición, conductor de ruta, evasión de obstáculos e integración en fábrica.
+                \item Bloques de función para intercambio de datos: UDP, TCP/IP client / server, OPC
+                \item Descarga y ejecución de programas en RobotinoView, directamente en Robotino.
+                \item Creación eintegración de funciones propias en C++
+                \item Interfaz de usuario y manuales en multiples idiomas.
+            \end{itemize} \cite{FESTO-RobotinoView}
             
         \subsection{Herramientas de hardware}
             \subsubsection{Robotino FESTO}
