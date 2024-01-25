@@ -42,6 +42,9 @@
             \end{itemize}
             \cite{OpvenCV-website}
 
+            En \cite{arevalo_librerivision_nodate}, Arévalo et.al describen la historia del proyecto OpenCV, mencionando que dio inicio en el año 2000, cuando la empresa Intel y un grupo de investigadores empezaron a trabajar en el desarrollo de una biblioteca de funciones desarrolladas en lenguaje C y especializada en Visión Computacional, con el objetivo de facilitar el uso de estas herramientas para docentes e investigadores, utilizando, además una licencia de Software Libre. 
+            Actualmente es posible utilizar esta biblioteca usando diferentes lenguajes de programación y cuenta con integraciones con otros sistemas como ROS y Matlab \textregistered 
+
             \subsubsection{MoveIT}
             Esta paquetería fue utilizada para la generación de las trayectorias de movimiento que realizaba el manipulador, es decir se realizan dentro de esta paquetería el análisis cinemático y dinámico del manipulador del robot. Para su configuración, MoveIt utiliza elementos dentro de la estructura de ROS para obenter la siguiente información: \textbf{URDF} (Universal Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description} para obtener la descripción de la configuración del Robot. \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. Dentro de la documentación de la paquetería se sugiere que se genere este archivo haciendo uso del asistente propio de la misma. \textbf{\textit{MoveIt configuration}} buscará dentro del entorno de ROS otras configuraciones pertinentes, como los límites de las articulaciones, cinemática, planeación de movimientos, percepción, etc. Estos archivos de configuración se encuentran dentro de la carpeta \textit{config} y se generan automáticamente al ejecutar el asistente de configuración de la paquetería.
             \textbf{Robot Interface}
@@ -68,6 +71,8 @@
                 \item Creación eintegración de funciones propias en C++
                 \item Interfaz de usuario y manuales en multiples idiomas.
             \end{itemize} \cite{FESTO-RobotinoView}
+
+            Esta herramienta fue utilizada durante la familizariación con el equipo, realizar pruebas básicas y para generar secuencias sencillas de movimiento, no directamente en la implementación del proyecto.
             
         \subsection{Herramientas de hardware}
             \subsubsection{Robotino FESTO}
@@ -222,4 +227,4 @@
                     \caption{PhantomX Pincher AX-12}
                     \label{fig:Phantom_Pincher}
             \end{figure}
-
+Para lograr la integración de todos los elementos anteriormente mencionados, el desarrollo se realizó utilizando una combinación de los lenguajes C++ y Python. 
