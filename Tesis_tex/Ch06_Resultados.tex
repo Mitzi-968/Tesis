@@ -140,14 +140,14 @@
 
             \begin{figure}[H]
                 \centering\includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}
-                    \caption{Robotino 3}
+                    \caption{Robotino 3 - Imagen obtenida de \cite{festo-didactic-robotino-2013}}
                     \label{fig:Robotino}
             \end{figure}
                             
             \subsubsection{Camara RGBD - Kinect}
 
-            El autor Vangos Pterneas, ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, \cite{pterneas_mastering_2022} realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019), así como un breve análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
-            El autor narra que en 2009 Microsoft lanzó al mercado el dispositivo llamado \textit{Project Natal}, cambiando el nombre a \textbf{Kinect} en 2010 y distribuyéndolo como un accesorio para la consola de videojuegos \textit{XBOX 360}. Este dispositivo es capaz de reconocer las partes del cuerpo de las personas y entender su voz en tiempo real, creando una interfaz interactiva que permitía a los usuarios utilizar la consola sin necesitar un control. Para el proyecto que este documento describe, se utilizó la versión 1 del Kinect, mostrado en la figura \ref{fig:Kinect_Parts}, donde también se observan los componentes del dispositivo.
+            El autor Vangos Pterneas, ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, \cite{pterneas_mastering_2022} realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019), así como un análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
+            El autor narra que en 2009 Microsoft lanzó al mercado el dispositivo llamado \textit{Project Natal}, cambiando el nombre a \textbf{Kinect} en 2010 y distribuyéndolo como un accesorio para la consola de videojuegos \textit{XBOX 360}. Este dispositivo es capaz de reconocer las partes del cuerpo de las personas y entender sus voces en tiempo real, creando una interfaz interactiva que permitía a los usuarios utilizar la consola sin necesitar un control físico. Para el proyecto que este documento describe, se utilizó la versión 1 del Kinect, mostrado en la figura \ref{fig:Kinect_Parts}, donde también se observan los componentes del dispositivo.
 
             \begin{figure}[H]
                 \centering
@@ -156,7 +156,9 @@
                     \label{fig:Kinect_Parts}
             \end{figure}
 
-            Adicionalmente Davison, en \cite{davison_kinect_2012} describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS monocromático, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. El autor también explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.  
+            \begin{itemize}
+                \item Sensor de Profundidad \\
+                Davison, en \cite{davison_kinect_2012} describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS monocromático, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. El autor también explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.  
 
             \begin{table}
                 \centering
@@ -172,7 +174,11 @@
                 \hline
                      Frecuencia de salida - Nube de puntos & 30 [Hz] \\
                 \hline
+                \multicolumn{2}{|c|}{\textbf{Cámara RGB}} \\
+                \hline
+                    Modo \textit{Low Resolution}\\
                     Frecuencia de salida - Video RGB & 30 [Hz] \\
+                    Resolución de Imagen  & $640\times512$
                 \hline
                 \multicolumn{2}{|c|}{\textbf{Micrófonos (4)}} \\
                 \hline
@@ -186,6 +192,13 @@
                 \caption{Especificaciones - Kinect V1}
                 \label{tab:my_label}
             \end{table}
+            \item Cámara RGB \\
+            De acuerdo con Kramer et.al (2012) el dispositivo Kinect contiene una cámara RGB que opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
+            \end{itemize}
+
+            
+
+
                         
             %Falta la parte de la cámara RGB y los micrófonos, no solo debo poner lo de la cámara de profundidad.
             
