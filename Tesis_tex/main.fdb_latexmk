@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1706663664 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1706664109
+["pdflatex"] 1706750828 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1706750828
   "/etc/texmf/web2c/texmf.cnf" 1705530450 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/robocup20/TesisMaestria/Tesis_tex/logreq.sty" 0 -1 0 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1706663664 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" 1706663664 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1706750828 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" 1706750828 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
   "/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty" 1576624944 13807 952b0226d4efca026f0e19dd266dcc22 ""
@@ -23,8 +23,8 @@
   "csquotes.def" 1705530426 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
   "csquotes.sty" 1705530426 62761 3c92d495a9e03d7254b9a3266aa17164 ""
   "logreq.sty" 0 -1 0 ""
-  "main.tex" 1706663664 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
+  "main.tex" 1706750828 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
   (generated)
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"
   "main.log"
   "/home/robocup20/TesisMaestria/Tesis_tex/main.log"
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"
