@@ -136,12 +136,13 @@
                 \item Plataformas de montaje de posicionamiento flexible (120° cada una)
             \end{itemize}
 
-            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma.
+            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma Robotino (Izq)y una del robot utilizado para este desarrollo (Der).
 
             \begin{figure}[H]
                 \centering
-                \includegraphics[scale=0.1]{Figures/Robotino_New_New.png}
-                    \caption{Robotino 3}
+                \includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}                 
+                \includegraphics[scale=0.05]{Figures/Robotino_New_New.png}
+                    \caption{Robotino 3 \cite{festo-didactic-robotino-2013}}
                     \label{fig:Robotino}
             \end{figure}
                             
@@ -162,6 +163,12 @@
                 En \cite{kramer_hacking_2012} Kramer et.al. especifican que el dispositivo Kinect utiliza una cámara MT9M001 (ver figura \ref{Kinect_Sensors}) de la compañía Micron \cite{micron_12-inch_2004}, siendo esta una cámara monocromática con un arreglo de $1280\times1024$ píxeles, aunque estas dimensiones son modificadas antes de la reducción de resolución que se realiza posteriormente.
                 Por su parte Davison, en \cite{davison_kinect_2012} describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. En  \cite{kramer_hacking_2012} se añade que el sensor infrarrojo crea un patrón ruidoso de luz infrarroja estructurada de 830 [nm]. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. Mientras que \cite{davison_kinect_2012} también se explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.
 
+                \begin{figure}[ht]
+                    \centering
+                    \includegraphics[scale=0.35]{Figures/Kinect_open.png}
+                    \caption{Proyector Infrarrojo y Sensores CMOS \cite{eetimes_inside_2010}}
+                    \label{fig:Kinect_Sensors}
+                \end{figure}
 
 
             \begin{table}
@@ -216,15 +223,6 @@
             \item Cámara de video RGB \\
             De acuerdo con Kramer et.al (2012) \cite{kramer_hacking_2012} el dispositivo Kinect contiene una cámara RGB que, de acuerdo con Bob Widenhofer en \cite{eetimes_inside_2010}, utiliza un sensor MT9M112 (ver figura \ref{Kinect_Sensors}). Kramer y su equipo especifican que la cámara opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
             \end{itemize}
-            
-            \begin{figure}[ht]
-                \centering
-                \includegraphics[scale=0.35]{Figures/Kinect_open.png}
-                \caption{Proyector Infrarrojo y Sensores CMOS \cite{eetimes_inside_2010}}
-                \label{fig:Kinect_Sensors}
-            \end{figure}
-                        
-            %Falta la parte de la cámara RGB y los micrófonos, no solo debo poner lo de la cámara de profundidad.
             
             \subsubsection{Manipulador PhantomX Pincher AX-12}
             El manipulador utilizado para este proyecto es el brazo robótico \textbf{PhantomX Pincher AX-12} distribuido por la empresa \textit{Trossen Robotics (Interbotix)}, conocida por poner a disposición del público hardware y software \textit{open source} utilizado en robótica para uso educativo, profesional o de entretenimiento. Los dispositivos de Interbotix se encuentran construidos con servomotores DYNAMIXEL X-Series, y se pueden obtener en configuraciones de 4, 5 o 6 grados de libertad, y es posible controlarlos mediante el Middleware ROS \cite{Interbotix_interbotix}. 
