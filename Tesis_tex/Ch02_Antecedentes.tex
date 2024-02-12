@@ -412,4 +412,23 @@ De forma similar, es posible encontrar múltiples soluciones  debido a la natura
 
 \section{Estado del Arte}
 
-Dentro de los enfoques utilizados por otros de los equipos participantes en la competencia
+\subsection{Antecedentes en RoboCup Logistics}
+Dentro de la documentación disponible en el sitio web oficial de la competencia se listan los \textit{Team Description Paper} (TDP), donde se describen las técnicas utilizadas por los equipos participantes. En estos documentos se encuentran pocos referentes de cámaras de profundidad utilizadas en secciones de la competencia fuera de la localización de los códigos ARUCO en las estaciones. Estas cámaras se encuentran típicamente en la parte inferior de los robots. En el TDP presentado por el equipo austriaco GRIPS (Graz Robust and Intelligent Production System) para su participación en la competencia del 2021 \cite{furbaß_robocup_2021}, el equipo describe que, para la alineación con la banda transportadora, el robot inicia en una posición de referencia cercana a la estación, desde la cual se utiliza el sensor láser y el código ARUCO que se encuentra en sus paredes para realizar la alineación. El equipo reconoce que este primer alineamiento, combinando la información de estas dos fuentes, no es muy preciso. Por lo anterior, utilizan una segunda cámara que se encuentra en una posición más elevada para los movimientos más finos del proceso. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.15]{Figures/Conveyor_GRIPS_TDP.png}     \includegraphics[scale=0.2]{Figures/Conveyor_HOG_GRIPS_TDP.png}
+        \caption{Detección de Histogramas de Gradientes Orientados - Imágenes obtenidas de \cite{furbaß_robocup_2021}}
+        \label{fig:HOG_GRIPS}
+    \end{figure}
+
+Con este objetivo implementaron un detector de Histogramas de Gradientes Orientados (HOG por sus siglas en inglés). con el cual detectan la posición de los diferentes elementos de interés dentro del espacio de trabajo. Los autores describen que el HOG identifica regiones de la imagen, en las cuales se encuentran las características más representativas de los elementos ambientales. Para este punto del proceso, las características mencionadas ya eran conocidas por el algoritmo, para lo cual fue necesaria la toma de imágenes de entrenamiento y evaluación. Una vez que se aisla la zona de interés, el HOG genera un conjunto de características. Los autores mencionan que las imágenes de entrenamiento se utilizan para encontrar las características que describen las regiones de interés y las imágenes de evaluación para verificar que dichas características realmente coincidan con los objetos, como es típico en procesos de este tipo.
+
+La descripción del proceso provista por los autores especifica que, una vez que el robot se encuentra en la posición adecuada, la cámara superior toma 4 imágenes con diferentes iluminaciones, logrados con fuentes de luz con las que cuenta el robot. Este esfuerzo se realiza con el objetivo de mitigar los errores debidos a las variaciones de iluminación naturales, y promover una correcta detección de las características de interés aún si las condiciones en las que se encuentra la estación no corresponden con las imágenes con las que fue previamente entrenado el algoritmo. Adicionalmente, para intentar robustecer el procedimiento, los autores utilizaron varios HOG en diferentes objetos, entrenando cada uno con diferentes conjuntos de imágenes, buscando diversificar las características de entrenamiento para su algoritmo de reconocimiento. En la figura \ref{label} se observan las modificaciones que el equipo GRIPS llevó a cabo en su robot hasta la edición 2021 de la competencia. Sin embargo, actualmente la implementación ya no cuenta con la cámara elevada y la estructura superior ha sido descartada.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{Figures/RobotinoGRIPS_Old.png}
+        \caption{Robotino modificado - GRIPS - Obtenida de \cite{furbaß_robocup_2021}}
+        \label{fig:Robotino_GRIPS}
+    \end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.1.17)  6 FEB 2024 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.1.17)  12 FEB 2024 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -27,69 +27,1283 @@ File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-) (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.sty
-Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
- (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count176
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-\csq@reset=\count177
-\csq@gtype=\count178
-\csq@glevel=\count179
-\csq@qlevel=\count180
-\csq@maxlvl=\count181
-\csq@tshold=\count182
-\csq@ltx@everypar=\toks17
- (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.def
-File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen137
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
- (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.cfg
-File: csquotes.cfg 
-)) (/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty
-Package: biblatex DATE vVERSION programmable bibliographies (PK/MW)
- (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks18
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks19
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count188
+\calc@Bcount=\count189
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count190
+\calc@Cskip=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count191
+\l_MT_multwidth_dim=\dimen148
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen149
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen150
+\l_MT_above_intertext_sep=\dimen151
+\l_MT_below_intertext_sep=\dimen152
+\l_MT_above_shortintertext_sep=\dimen153
+\l_MT_below_shortintertext_sep=\dimen154
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count192
+\c@continuedfloat=\count193
+)
+\c@subfigure=\count194
+\c@subtable=\count195
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks22
+\float@box=\box47
+\@float@everytoks=\toks23
+\@floatcapt=\box48
+) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+) (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen162
+\SC@CAPWD=\dimen163
+\SC@tempdima=\dimen164
+\SC@tempdimb=\dimen165
+\c@SC@C=\count197
+\SC@BOX=\box49
+) (/usr/share/texlive/texmf-dist/tex/latex/commath/commath.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen166
+\epsfysize=\dimen167
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count198
+\lst@gtempboxa=\box50
+\lst@token=\toks25
+\lst@length=\count199
+\lst@currlwidth=\dimen168
+\lst@column=\count266
+\lst@pos=\count267
+\lst@lostspace=\dimen169
+\lst@width=\dimen170
+\lst@newlines=\count268
+\lst@lineno=\count269
+\lst@maxwidth=\dimen171
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count270
+\lst@skipnumbers=\count271
+\lst@framebox=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box52
+\extrarowheight=\dimen173
+\NC@list=\toks26
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box53
+)
+\everycr=\toks27
+\minrowclearance=\skip67
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count272
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+\@linkdim=\dimen174
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count275
+\pdfmajorversion=\count276
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Option `plainpages' set `false' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count277
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen175
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
+\Fld@menulength=\count278
+\Field@Width=\dimen176
+\Fld@charsize=\dimen177
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip68
+)
+\bibdata{Referencias}
+(/home/robocup20/TesisMaestria/Tesis_tex/main.bbl
 
-! LaTeX Error: File `logreq.sty' not found.
+/home/robocup20/TesisMaestria/Tesis_tex/main.bbl:16: LaTeX Error: Missing 'biblatex' package.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:42: Emergency stop.
-<read *> 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16   {}
          
-l.42 \RequirePackage
-                    {ifthen}^^M
-*** (cannot \read from terminal in nonstop modes)
+The bibliography requires the 'biblatex' package.
 
- 
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count284
+\l__pdf_internal_box=\box54
+) (/home/robocup20/TesisMaestria/Tesis_tex/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen178
+\scratchbox=\box55
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen179
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: sidecap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+)
+\c@lstlisting=\count291
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring ON on input line 43.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count292
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (/home/robocup20/TesisMaestria/Tesis_tex/Portada.tex
+<Figures/UNAM_LOGO2.png, id=4, 803.0pt x 803.0pt>
+File: Figures/UNAM_LOGO2.png Graphic file (type png)
+<use Figures/UNAM_LOGO2.png>
+Package pdftex.def Info: Figures/UNAM_LOGO2.png  used on input line 3.
+(pdftex.def)             Requested size: 120.4448pt x 120.4448pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+<Figures/Ing_Logo.png, id=6, 361.35pt x 505.89pt>
+File: Figures/Ing_Logo.png Graphic file (type png)
+<use Figures/Ing_Logo.png>
+Package pdftex.def Info: Figures/Ing_Logo.png  used on input line 6.
+(pdftex.def)             Requested size: 83.10875pt x 116.35225pt.
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/robocup20/TesisMaestria/Tesis_tex/Figures/UNAM_LOGO2.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Ing_Logo.png>] [2
+
+]
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ (/home/robocup20/TesisMaestria/Tesis_tex/Ch01_Introduccion.tex [3] [4
+
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+LaTeX Warning: Citation `kohout_multi-robot_2020' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `navarro_pina_robot_2021' on page 5 undefined on input line 9.
+
+
+LaTeX Warning: Citation `basco_industria_2018' on page 5 undefined on input line 11.
+
+[5] [6]
+
+LaTeX Warning: Citation `roveda_robot_2022' on page 7 undefined on input line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+LaTeX Warning: Citation `ROVEDA2021103711' on page 7 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Rosenbaum2006' on page 7 undefined on input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+LaTeX Warning: Citation `basco_industria_2018' on page 7 undefined on input line 21.
+
+[7]
+
+LaTeX Warning: Citation `sun_research_2022' on page 8 undefined on input line 24.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+LaTeX Warning: Citation `robocup__mathworks_robocup_2022' on page 8 undefined on input line 26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Overfull \hbox (9.8061pt too wide) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/10 Dado que se trata de la primera in-cursi^^Son en esta com-pe-ten-cia, el planteamiento
+ []
+
+
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+ [8]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex [9] [10
+
+]
+Chapter 2.
+
+LaTeX Warning: Citation `babel_industry_2022' on page 11 undefined on input line 6.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[11]
+
+LaTeX Warning: Citation `ifr_international' on page 12 undefined on input line 20.
+
+
+LaTeX Warning: Citation `freire_importancia_2007' on page 12 undefined on input line 31.
+
+[12]
+
+LaTeX Warning: Citation `szeliski_computer_2022' on page 13 undefined on input line 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+LaTeX Warning: Citation `gonzalez_digital_2002' on page 13 undefined on input line 37.
+
+
+LaTeX Warning: Citation `gonzalez_digital_2002' on page 13 undefined on input line 40.
+
+
+LaTeX Warning: Citation `pratt_introduction_2014' on page 13 undefined on input line 43.
+
+[13]
+<Figures/CuboRGB.png, id=88, 844.15375pt x 841.1425pt>
+File: Figures/CuboRGB.png Graphic file (type png)
+<use Figures/CuboRGB.png>
+Package pdftex.def Info: Figures/CuboRGB.png  used on input line 47.
+(pdftex.def)             Requested size: 168.82776pt x 168.22551pt.
+
+
+LaTeX Warning: Citation `czerwinski_definitions_2013' on page 14 undefined on input line 55.
+
+
+LaTeX Warning: Citation `burger_digital_2022' on page 14 undefined on input line 59.
+
+
+Overfull \hbox (15.57819pt too wide) in paragraph at lines 59--60
+\OML/cmm/m/it/10 R; G; B$ \OT1/cmr/m/n/10 y se pueden obtener me-di-ante las ecua-ciones de trans-for-maci^^Son siguientes[[]]: 
+ []
+
+[14 </home/robocup20/TesisMaestria/Tesis_tex/Figures/CuboRGB.png>]
+<Figures/ConoHSV.png, id=96, 856.19875pt x 830.10126pt>
+File: Figures/ConoHSV.png Graphic file (type png)
+<use Figures/ConoHSV.png>
+Package pdftex.def Info: Figures/ConoHSV.png  used on input line 117.
+(pdftex.def)             Requested size: 171.23671pt x 166.0173pt.
+ [15]
+
+LaTeX Warning: Citation `gonzalez_digital_2002' on page 16 undefined on input line 125.
+
+
+LaTeX Warning: Citation `sonka_image_2008' on page 16 undefined on input line 126.
+
+[16 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ConoHSV.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+LaTeX Warning: Citation `sonka_image_2008' on page 17 undefined on input line 151.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+
+LaTeX Warning: Citation `gonzalez_digital_2002' on page 17 undefined on input line 155.
+
+[17]
+<Figures/Conjuntos.png, id=123, 884.30376pt x 749.80125pt>
+File: Figures/Conjuntos.png Graphic file (type png)
+<use Figures/Conjuntos.png>
+Package pdftex.def Info: Figures/Conjuntos.png  used on input line 197.
+(pdftex.def)             Requested size: 265.29317pt x 224.94211pt.
+<Figures/Conjuntos_Complemento.png, id=124, 1494.58376pt x 592.2125pt>
+File: Figures/Conjuntos_Complemento.png Graphic file (type png)
+<use Figures/Conjuntos_Complemento.png>
+Package pdftex.def Info: Figures/Conjuntos_Complemento.png  used on input line 216.
+(pdftex.def)             Requested size: 254.07587pt x 100.67479pt.
+ [18 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos.png>]
+<Figures/Conjuntos_Resta.png, id=131, 635.37375pt x 436.63126pt>
+File: Figures/Conjuntos_Resta.png Graphic file (type png)
+<use Figures/Conjuntos_Resta.png>
+Package pdftex.def Info: Figures/Conjuntos_Resta.png  used on input line 229.
+(pdftex.def)             Requested size: 108.0121pt x 74.22632pt.
+<Figures/Reflexion.png, id=132, 987.69pt x 404.51125pt>
+File: Figures/Reflexion.png Graphic file (type png)
+<use Figures/Reflexion.png>
+Package pdftex.def Info: Figures/Reflexion.png  used on input line 242.
+(pdftex.def)             Requested size: 316.06726pt x 129.44624pt.
+ [19 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Complemento.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Resta.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Reflexion.png>]
+<Figures/Traslacion.png, id=144, 1024.82875pt x 422.57875pt>
+File: Figures/Traslacion.png Graphic file (type png)
+<use Figures/Traslacion.png>
+Package pdftex.def Info: Figures/Traslacion.png  used on input line 255.
+(pdftex.def)             Requested size: 327.9519pt x 135.22795pt.
+
+
+LaTeX Warning: Reference `fig:Reflexion' on page 20 undefined on input line 260.
+
+
+LaTeX Warning: Reference `fig:Traslacion' on page 20 undefined on input line 260.
+
+
+LaTeX Warning: Reference `fig:LogicOp' on page 20 undefined on input line 265.
+
+<Figures/CompuertasLogicas.png, id=145, 1169.36874pt x 537.00626pt>
+File: Figures/CompuertasLogicas.png Graphic file (type png)
+<use Figures/CompuertasLogicas.png>
+Package pdftex.def Info: Figures/CompuertasLogicas.png  used on input line 269.
+(pdftex.def)             Requested size: 233.8696pt x 107.39934pt.
+
+LaTeX Warning: Reference `fig:LogicOpIMG' on page 20 undefined on input line 274.
+
+<Figures/LogicOp_IMG.png, id=146, 823.075pt x 792.9625pt>
+File: Figures/LogicOp_IMG.png Graphic file (type png)
+<use Figures/LogicOp_IMG.png>
+Package pdftex.def Info: Figures/LogicOp_IMG.png  used on input line 277.
+(pdftex.def)             Requested size: 246.9244pt x 237.89058pt.
+[20 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Traslacion.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/CompuertasLogicas.png>] [21 </home/robocup20/TesisMaestria/Tesis_tex/Figures/LogicOp_IMG.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+LaTeX Warning: Reference `fig:Ero+Dil' on page 22 undefined on input line 313.
+
+<Figures/ErosDil_NoGrid.png, id=163, 434.37282pt x 428.35031pt>
+File: Figures/ErosDil_NoGrid.png Graphic file (type png)
+<use Figures/ErosDil_NoGrid.png>
+Package pdftex.def Info: Figures/ErosDil_NoGrid.png  used on input line 317.
+(pdftex.def)             Requested size: 230.21649pt x 227.02458pt.
+
+LaTeX Warning: Reference `fig:Dil_ES2' on page 22 undefined on input line 322.
+
+
+LaTeX Warning: Reference `fig:Ero+Dil' on page 22 undefined on input line 322.
+
+[22 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ErosDil_NoGrid.png>]
+<Figures/Dil_ES2.png, id=171, 625.58719pt x 445.665pt>
+File: Figures/Dil_ES2.png Graphic file (type png)
+<use Figures/Dil_ES2.png>
+Package pdftex.def Info: Figures/Dil_ES2.png  used on input line 326.
+(pdftex.def)             Requested size: 156.39641pt x 111.41597pt.
+
+
+LaTeX Warning: Citation `sonka_image_2008' on page 23 undefined on input line 338.
+
+[23 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Dil_ES2.png>]
+
+LaTeX Warning: Reference `fig:Pat_Recog' on page 24 undefined on input line 345.
+
+<Figures/Clasificacion.png, id=179, 1059.96pt x 158.5925pt>
+File: Figures/Clasificacion.png Graphic file (type png)
+<use Figures/Clasificacion.png>
+Package pdftex.def Info: Figures/Clasificacion.png  used on input line 349.
+(pdftex.def)             Requested size: 317.99045pt x 47.57811pt.
+
+LaTeX Warning: Citation `treiber_introduction_2010' on page 24 undefined on input line 355.
+
+
+Overfull \hbox (1.19498pt too wide) in paragraph at lines 354--356
+[]\OT1/cmr/m/n/10 Dependiendo de la apli-caci^^Son para la cual se busque re-alizar el re-conocimiento
+ []
+
+[24 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Clasificacion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+[25]
+
+LaTeX Warning: Citation `czerwinski_definitions_2013' on page 26 undefined on input line 383.
+
+
+Overfull \hbox (24.7945pt too wide) in paragraph at lines 383--385
+\OT1/cmr/m/n/10 M^^Saquina de Es-ta-dos Fini-tos (FSM) uti-lizando un vec-tor de 5 el-e-men-tos, $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X; Y; S; ^^N; ^^U\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Citation `giarratano_zhuan_2002' on page 26 undefined on input line 390.
+
+
+LaTeX Warning: Citation `gupta_artificial_2020' on page 26 undefined on input line 392.
+
+
+LaTeX Warning: Citation `liebowitz_handbook_2019' on page 26 undefined on input line 394.
+
+[26]
+Overfull \hbox (0.61168pt too wide) in paragraph at lines 399--400
+\OT1/cmr/m/n/10 Siendo la ma-nip-u-laci^^Son de ob-je-tos un de los ob-je-tivos prin-ci-pales de este proyecto
+ []
+
+
+LaTeX Warning: Citation `ceccarelli_fundamentals_2022' on page 27 undefined on input line 403.
+
+/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex:416: Missing \endcsname inserted.
+<to be read again> 
+                   \OT1\ss 
+l.416 ...ncia del 2021 \cite{furbaß_robocup_2021}
+                                                  , el equipo describe que, ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `furba\OT1\ss _robocup_2021' on page 27 undefined on input line 416.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<Figures/Conveyor_GRIPS_TDP.png, id=202, 1191.45125pt x 902.37125pt>
+File: Figures/Conveyor_GRIPS_TDP.png Graphic file (type png)
+<use Figures/Conveyor_GRIPS_TDP.png>
+Package pdftex.def Info: Figures/Conveyor_GRIPS_TDP.png  used on input line 420.
+(pdftex.def)             Requested size: 178.70998pt x 135.34984pt.
+<Figures/Conveyor_HOG_GRIPS_TDP.png, id=203, 743.77875pt x 414.54875pt>
+File: Figures/Conveyor_HOG_GRIPS_TDP.png Graphic file (type png)
+<use Figures/Conveyor_HOG_GRIPS_TDP.png>
+Package pdftex.def Info: Figures/Conveyor_HOG_GRIPS_TDP.png  used on input line 420.
+(pdftex.def)             Requested size: 148.75311pt x 82.90828pt.
+
+/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex:421: Missing \endcsname inserted.
+<to be read again> 
+                   \OT1\ss 
+l.421 ...obtenidas de \cite{furbaß_robocup_2021}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `furba\OT1\ss _robocup_2021' on page 28 undefined on input line 421.
+
+/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex:421: Missing \endcsname inserted.
+<to be read again> 
+                   \OT1\ss 
+l.421 ...obtenidas de \cite{furbaß_robocup_2021}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `furba\OT1\ss _robocup_2021' on page 28 undefined on input line 421.
+
+[28 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_GRIPS_TDP.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_HOG_GRIPS_TDP.png>]
+
+LaTeX Warning: Reference `label' on page 29 undefined on input line 427.
+
+<Figures/RobotinoGRIPS_Old.png, id=213, 364.36125pt x 979.66pt>
+File: Figures/RobotinoGRIPS_Old.png Graphic file (type png)
+<use Figures/RobotinoGRIPS_Old.png>
+Package pdftex.def Info: Figures/RobotinoGRIPS_Old.png  used on input line 431.
+(pdftex.def)             Requested size: 91.09009pt x 244.9144pt.
+/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex:432: Missing \endcsname inserted.
+<to be read again> 
+                   \OT1\ss 
+l.432 ... Obtenida de \cite{furbaß_robocup_2021}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `furba\OT1\ss _robocup_2021' on page 29 undefined on input line 432.
+
+/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex:432: Missing \endcsname inserted.
+<to be read again> 
+                   \OT1\ss 
+l.432 ... Obtenida de \cite{furbaß_robocup_2021}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `furba\OT1\ss _robocup_2021' on page 29 undefined on input line 432.
+
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch03_Detección_de_objetos.tex [29 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoGRIPS_Old.png>] [30
+
+]
+Chapter 3.
+<Figures/Pieces.png, id=224, 1220.56pt x 828.09375pt>
+File: Figures/Pieces.png Graphic file (type png)
+<use Figures/Pieces.png>
+Package pdftex.def Info: Figures/Pieces.png  used on input line 11.
+(pdftex.def)             Requested size: 183.0761pt x 124.2087pt.
+
+LaTeX Warning: Reference `fig:Pieces' on page 31 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:EspaciodeTrabajo' on page 31 undefined on input line 16.
+
+<Figures/BandaTrans_Big.png, id=225, 1053.9375pt x 806.01125pt>
+File: Figures/BandaTrans_Big.png Graphic file (type png)
+<use Figures/BandaTrans_Big.png>
+Package pdftex.def Info: Figures/BandaTrans_Big.png  used on input line 20.
+(pdftex.def)             Requested size: 210.78377pt x 161.19939pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31] [32 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Pieces.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/BandaTrans_Big.png>]
+<Figures/Tabla_Iluminación.png, id=242, 923.45pt x 481.8pt>
+File: Figures/Tabla_Iluminación.png Graphic file (type png)
+<use Figures/Tabla_Iluminación.png>
+Package pdftex.def Info: Figures/Tabla_Iluminación.png  used on input line 32.
+(pdftex.def)             Requested size: 323.21234pt x 168.63252pt.
+<Figures/HSV_YellowRing.png, id=243, 1038.88126pt x 378.41376pt>
+File: Figures/HSV_YellowRing.png Graphic file (type png)
+<use Figures/HSV_YellowRing.png>
+Package pdftex.def Info: Figures/HSV_YellowRing.png  used on input line 41.
+(pdftex.def)             Requested size: 311.66678pt x 113.525pt.
+<Figures/Tabla_Medias_Ilum.png, id=244, 584.1825pt x 905.3825pt>
+File: Figures/Tabla_Medias_Ilum.png Graphic file (type png)
+<use Figures/Tabla_Medias_Ilum.png>
+Package pdftex.def Info: Figures/Tabla_Medias_Ilum.png  used on input line 50.
+(pdftex.def)             Requested size: 175.25609pt x 271.61684pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Tabla_Iluminación.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/HSV_YellowRing.png>]
+Overfull \hbox (0.44505pt too wide) in paragraph at lines 55--56
+\OT1/cmr/m/n/10 im^^Sagenes a eval-uar (en este caso el v^^S^^Pdeo pro-por-cionado por la c^^Samara KINECT).
+ []
+
+<Figures/RedPiece_HSV_components.png, id=253, 622.325pt x 220.825pt>
+File: Figures/RedPiece_HSV_components.png Graphic file (type png)
+<use Figures/RedPiece_HSV_components.png>
+Package pdftex.def Info: Figures/RedPiece_HSV_components.png  used on input line 59.
+(pdftex.def)             Requested size: 186.69893pt x 66.248pt.
+[34 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Tabla_Medias_Ilum.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/RedPiece_HSV_components.png>]
+<Figures/Masks_Piece.png, id=262, 823.075pt x 422.57875pt>
+File: Figures/Masks_Piece.png Graphic file (type png)
+<use Figures/Masks_Piece.png>
+Package pdftex.def Info: Figures/Masks_Piece.png  used on input line 69.
+(pdftex.def)             Requested size: 288.08057pt x 147.90477pt.
+
+
+LaTeX Warning: Reference `fig:Masks_RedPiece' on page 35 undefined on input line 74.
+
+
+LaTeX Warning: Reference `fig:RedPiece_MeanHSV' on page 35 undefined on input line 74.
+
+
+LaTeX Warning: Reference `fig:Masks_WorkSpace' on page 35 undefined on input line 74.
+
+<Figures/Masks_WS_3.png, id=263, 1274.7625pt x 662.475pt>
+File: Figures/Masks_WS_3.png Graphic file (type png)
+<use Figures/Masks_WS_3.png>
+Package pdftex.def Info: Figures/Masks_WS_3.png  used on input line 78.
+(pdftex.def)             Requested size: 345.0pt x 179.2851pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Masks_Piece.png>]
+
+LaTeX Warning: Citation `davison_kinect_2012' on page 36 undefined on input line 90.
+
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch04_Planeación_de_movimientos.tex [36 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Masks_WS_3.png>]
+Chapter 4.
+
+LaTeX Warning: Citation `lynch_modern_2017' on page 37 undefined on input line 4.
+
+
+LaTeX Warning: Citation `lynch_modern_2017' on page 37 undefined on input line 4.
+
+
+LaTeX Warning: Citation `lynch_modern_2017' on page 37 undefined on input line 6.
+
+
+Overfull \hbox (4.61166pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10 La im-ple-mentaci^^Son de este an^^Salisis se re-aliz^^So uti-lizando la her-ramienta MoveIt,
+ []
+
+
+LaTeX Warning: Citation `asada_robot_1986' on page 37 undefined on input line 13.
+
+
+LaTeX Warning: Citation `gross_statics_2013' on page 37 undefined on input line 13.
+
+[37
+
+]
+
+LaTeX Warning: Citation `asada_robot_1986' on page 38 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:RigidBodyPos' on page 38 undefined on input line 21.
+
+<Figures/RigidBodyPos.png, id=284, 856.19875pt x 861.2175pt>
+File: Figures/RigidBodyPos.png Graphic file (type png)
+<use Figures/RigidBodyPos.png>
+Package pdftex.def Info: Figures/RigidBodyPos.png  used on input line 25.
+(pdftex.def)             Requested size: 171.23671pt x 172.24045pt.
+
+LaTeX Warning: Citation `olguin_diaz_3d_2019' on page 38 undefined on input line 30.
+
+[38]
+
+LaTeX Warning: Citation `olguin_diaz_3d_2019' on page 39 undefined on input line 56.
+
+[39 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RigidBodyPos.png>]
+
+LaTeX Warning: Citation `olguin_diaz_3d_2019' on page 40 undefined on input line 73.
+
+
+LaTeX Warning: Citation `hamilton_ii_1844' on page 40 undefined on input line 76.
+
+
+LaTeX Warning: Citation `siciliano_springer_2016' on page 40 undefined on input line 77.
+
+
+Overfull \hbox (20.55617pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10 Continuando con la de-scripci^^Son de los ed-i-tores, men-cio-nan el-e-men-tos matem^^Saticos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[40]
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 139--140
+\OT1/cmr/m/n/10 El uso de Ma-tri-ces de Trans-for-ma-ciones Ho-mog^^Seneas en el an^^Salisis del movimiento,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+LaTeX Warning: Citation `lynch_modern_2017' on page 41 undefined on input line 155.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[41]
+
+LaTeX Warning: Citation `lynch_modern_2017' on page 42 undefined on input line 173.
+
+
+Overfull \hbox (15.3618pt too wide) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 Diagramas con las trans-for-ma-ciones y agre-gar cap-tura de pan-talla de rviz mostrando
+ []
+
+
+LaTeX Warning: Citation `tf_ROS' on page 42 undefined on input line 213.
+
+[42]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch05_Planeación_de_acciones.tex [43] [44
+
+]
+Chapter 5.
+
+Overfull \hbox (0.18129pt too wide) in paragraph at lines 13--13
+[]\OT1/cmr/bx/n/14.4 Actividades de la com-pe-ten-cia RoboCup Lo-
+ []
+
+
+LaTeX Warning: Citation `technical_committee_20122022_robocup_2022' on page 45 undefined on input line 14.
+
+[45] [46]
+
+LaTeX Warning: Reference `fig:Route_Exploration' on page 47 undefined on input line 45.
+
+[47]
+<Figures/Exploration_route.png, id=345, 1128.215pt x 726.715pt>
+File: Figures/Exploration_route.png Graphic file (type png)
+<use Figures/Exploration_route.png>
+Package pdftex.def Info: Figures/Exploration_route.png  used on input line 54.
+(pdftex.def)             Requested size: 338.46712pt x 218.01617pt.
+ [48 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_route.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+<Figures/Navigation_CT.png, id=358, 692.5875pt x 948.54375pt>
+File: Figures/Navigation_CT.png Graphic file (type png)
+<use Figures/Navigation_CT.png>
+Package pdftex.def Info: Figures/Navigation_CT.png  used on input line 81.
+(pdftex.def)             Requested size: 277.03009pt x 379.41077pt.
+<Figures/Manipulacion_CT_Hor.png, id=359, 737.75626pt x 828.09375pt>
+File: Figures/Manipulacion_CT_Hor.png Graphic file (type png)
+<use Figures/Manipulacion_CT_Hor.png>
+Package pdftex.def Info: Figures/Manipulacion_CT_Hor.png  used on input line 88.
+(pdftex.def)             Requested size: 368.87723pt x 414.04587pt.
+
+Overfull \hbox (23.87723pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch06_Resultados.tex [50] [51 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Navigation_CT.png>] [52 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Manipulacion_CT_Hor.png>]
+Chapter 6.
+
+LaTeX Warning: Citation `quigley_ROS' on page 53 undefined on input line 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+[53
+
+]
+
+LaTeX Warning: Citation `ros_wiki_std_msgs' on page 54 undefined on input line 25.
+
+[54]
+Overfull \hbox (4.804pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/it/10 Camera Cal-i-bra-tion and 3D Re-con-struc-tion\OT1/cmr/m/n/10 : al-go-rit-mos geom^^Setricos b^^Sasicos
+ []
+
+
+LaTeX Warning: Citation `OpvenCV-website' on page 55 undefined on input line 43.
+
+
+LaTeX Warning: Citation `arevalo_librerivision_nodate' on page 55 undefined on input line 45.
+
+
+Overfull \hbox (2.66728pt too wide) in paragraph at lines 49--52
+\OT1/cmr/m/n/10 Esta pa-que-ter^^S^^Pa fue uti-lizada para la gen-eraci^^Son de las trayec-to-rias de movimiento
+ []
+
+[55]
+
+LaTeX Warning: Citation `ROS_concepts_MoveIt' on page 56 undefined on input line 58.
+
+
+Overfull \hbox (6.05617pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/10 mo-tores, puer-tos de en-tradas y sal-i-das (I/Os), sen-sores, c^^Samaras, odometr^^S^^Pa,
+ []
+
+[56]
+
+LaTeX Warning: Citation `FESTO-RobotinoView' on page 57 undefined on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Overfull \hbox (7.72287pt too wide) in paragraph at lines 123--124
+[]\OT1/cmr/m/n/10 Posibilidad de al-i-mentaci^^Son del sis-tema preparada para una a cu-a-tro bater^^S^^Pas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+LaTeX Warning: Reference `fig:Robotino' on page 58 undefined on input line 139.
+
+<Figures/RobotinoFESTO_base+torre.png, id=409, 469.755pt x 507.39563pt>
+File: Figures/RobotinoFESTO_base+torre.png Graphic file (type png)
+<use Figures/RobotinoFESTO_base+torre.png>
+Package pdftex.def Info: Figures/RobotinoFESTO_base+torre.png  used on input line 143.
+(pdftex.def)             Requested size: 140.92758pt x 152.21986pt.
+<Figures/Robotino_New_New.png, id=410, 789.54974pt x 2054.27475pt>
+File: Figures/Robotino_New_New.png Graphic file (type png)
+<use Figures/Robotino_New_New.png>
+Package pdftex.def Info: Figures/Robotino_New_New.png  used on input line 144.
+(pdftex.def)             Requested size: 39.4798pt x 102.71976pt.
+
+LaTeX Warning: Citation `festo-didactic-robotino-2013' on page 58 undefined on input line 145.
+
+
+LaTeX Warning: Citation `festo-didactic-robotino-2013' on page 58 undefined on input line 145.
+
+[58]
+
+LaTeX Warning: Citation `pterneas_mastering_2022' on page 59 undefined on input line 151.
+
+
+LaTeX Warning: Reference `fig:Kinect_Parts' on page 59 undefined on input line 152.
+
+<Figures/Kinect_parts.png, id=415, 853.1875pt x 643.40375pt>
+File: Figures/Kinect_parts.png Graphic file (type png)
+<use Figures/Kinect_parts.png>
+Package pdftex.def Info: Figures/Kinect_parts.png  used on input line 156.
+(pdftex.def)             Requested size: 255.95822pt x 193.02261pt.
+
+LaTeX Warning: Citation `kramer_hacking_2012' on page 59 undefined on input line 163.
+
+
+LaTeX Warning: Reference `Kinect_Sensors' on page 59 undefined on input line 163.
+
+
+LaTeX Warning: Citation `micron_12-inch_2004' on page 59 undefined on input line 163.
+
+
+LaTeX Warning: Citation `davison_kinect_2012' on page 59 undefined on input line 164.
+
+
+LaTeX Warning: Citation `kramer_hacking_2012' on page 59 undefined on input line 164.
+
+
+LaTeX Warning: Citation `davison_kinect_2012' on page 59 undefined on input line 164.
+
+[59 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoFESTO_base+torre.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_New_New.png>]
+<Figures/Kinect_open.png, id=424, 706.64pt x 282.05376pt>
+File: Figures/Kinect_open.png Graphic file (type png)
+<use Figures/Kinect_open.png>
+Package pdftex.def Info: Figures/Kinect_open.png  used on input line 168.
+(pdftex.def)             Requested size: 247.3277pt x 98.72028pt.
+
+
+LaTeX Warning: Citation `eetimes_inside_2010' on page 60 undefined on input line 169.
+
+
+LaTeX Warning: Citation `eetimes_inside_2010' on page 60 undefined on input line 169.
+
+
+LaTeX Warning: Citation `kramer_hacking_2012' on page 60 undefined on input line 224.
+
+
+LaTeX Warning: Citation `eetimes_inside_2010' on page 60 undefined on input line 224.
+
+
+LaTeX Warning: Reference `Kinect_Sensors' on page 60 undefined on input line 224.
+
+[60 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_parts.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_open.png>]
+
+LaTeX Warning: Citation `Interbotix_interbotix' on page 61 undefined on input line 228.
+
+
+Overfull \hbox (5.94504pt too wide) in paragraph at lines 228--229
+\OT1/cmr/m/n/10 pos-i-tivos de In-ter-botix se en-cuen-tran con-stru-i-dos con ser-vo-mo-tores DY-NAMIXEL
+ []
+
+
+LaTeX Warning: Citation `Interbotix_widowx_PincherArm' on page 61 undefined on input line 230.
+
+
+LaTeX Warning: Reference `fig:Phantom_Pincher' on page 61 undefined on input line 230.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+<Figures/Phantom_Pincher.jpg, id=440, 903.375pt x 903.375pt>
+File: Figures/Phantom_Pincher.jpg Graphic file (type jpg)
+<use Figures/Phantom_Pincher.jpg>
+Package pdftex.def Info: Figures/Phantom_Pincher.jpg  used on input line 261.
+(pdftex.def)             Requested size: 180.6718pt x 180.6718pt.
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex [62 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Phantom_Pincher.jpg>] [63] [64
+
+]
+Chapter 7.
+/home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex:4: Undefined control sequence.
+l.4 \printbibliography
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+ [65]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+ (/home/robocup20/TesisMaestria/Tesis_tex/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  875E5829D709375C254F14E20DC5CAC9;3601.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+ ) 
 Here is how much of TeX's memory you used:
- 1617 strings out of 483107
- 23659 string characters out of 5964630
- 264931 words of memory out of 5000000
- 16687 multiletter control sequences out of 15000+600000
- 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 10889 strings out of 483107
+ 166128 string characters out of 5964630
+ 423406 words of memory out of 5000000
+ 25496 multiletter control sequences out of 15000+600000
+ 539981 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 29i,0n,25p,869b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-/home/robocup20/TesisMaestria/Tesis_tex/biblatex.sty:42:  ==> Fatal error occurred, no output PDF file produced!
+ 48i,12n,46p,1543b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/robocup20/TesisMaestria/Tesis_tex/main.pdf (65 pages, 11501563 bytes).
+PDF statistics:
+ 562 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+
