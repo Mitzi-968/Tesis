@@ -413,7 +413,7 @@ De forma similar, es posible encontrar múltiples soluciones  debido a la natura
 \section{Estado del Arte}
 
 \subsection{Antecedentes en RoboCup Logistics}
-Dentro de la documentación disponible en el sitio web oficial de la competencia se listan los \textit{Team Description Paper} (TDP), donde se describen las técnicas utilizadas por los equipos participantes. En estos documentos se encuentran pocos referentes de cámaras de profundidad utilizadas en secciones de la competencia fuera de la localización de los códigos ARUCO en las estaciones. Estas cámaras se encuentran típicamente en la parte inferior de los robots. En el TDP presentado por el equipo austriaco GRIPS (Graz Robust and Intelligent Production System) para su participación en la competencia del 2021 \cite{furbaß_robocup_2021}, el equipo describe que, para la alineación con la banda transportadora, el robot inicia en una posición de referencia cercana a la estación, desde la cual se utiliza el sensor láser y el código ARUCO que se encuentra en sus paredes para realizar la alineación. El equipo reconoce que este primer alineamiento, combinando la información de estas dos fuentes, no es muy preciso. Por lo anterior, utilizan una segunda cámara que se encuentra en una posición más elevada para los movimientos más finos del proceso. 
+Dentro de la documentación disponible en el sitio web oficial de la RoboCup se listan los \textit{Team Description Paper} (TDP), donde se describen las técnicas utilizadas por los equipos participantes. En estos documentos se encuentran pocos referentes de cámaras utilizadas en secciones de la competencia fuera de la localización de los códigos ARUCO en las estaciones. Estas cámaras se encuentran típicamente en la parte inferior de los robots. En el TDP presentado por el equipo austriaco GRIPS (Graz Robust and Intelligent Production System) para su participación en la competencia del 2021 \cite{furbaß_robocup_2021}, el equipo describe que, para la alineación con la banda transportadora, el robot inicia en una posición de referencia cercana a la estación, desde la cual se utiliza el sensor láser y el código ARUCO que se encuentra en sus paredes para realizar la alineación. El equipo reconoce que este primer alineamiento, combinando la información de estas dos fuentes, no es muy preciso. Por lo anterior, utilizan una segunda cámara que se encuentra en una posición más elevada para los movimientos más finos del proceso. 
 
 \begin{figure}[H]
     \centering
@@ -431,4 +431,13 @@ La descripción del proceso provista por los autores especifica que, una vez que
     \includegraphics[scale=0.25]{Figures/RobotinoGRIPS_Old.png}
         \caption{Robotino modificado - GRIPS - Obtenida de \cite{furbaß_robocup_2021}}
         \label{fig:Robotino_GRIPS}
-    \end{figure}
+\end{figure}
+
+Actualmente realizar la tarea de alineación, el equipo utiliza una combinación de sensores de proximidad que se encuentran debajo de y en el centro de la pinza del manipulador, utilizando también un movimiento que combina la alineación del robot con la máquina y del manipulador con la banda transportadora.
+
+De manera similar, dentro del desarrollo del trabajo para la siguiente participación en la competencia, se planea integrar sensores de proximidad, combinando los avances obtenidos del presente proyecto, con las herramientas vistas durante lo experimentado en la edición 2023. Cabe mencionar que la configuración mecánica de los manipuladores de ambos equipos es y seguirá siendo distinta. 
+
+\subsection{Segmentación por Color}
+Debido a su bajo costo de procesamiento los algoritmos de segmentación de imágenes por color siguen siendo utilizados constantemente en gran variedad de aplicaciones. Una de ellas, es la detección de enfermedades en plantas dentro de la industria agrícola. En 2022, Hassan et.al. \cite{}
+
+
