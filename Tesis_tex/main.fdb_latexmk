@@ -1,30 +1,7 @@
-# Fdb version 3
-["pdflatex"] 1707858612 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1708461560
-  "/etc/texmf/web2c/texmf.cnf" 1705530450 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/logreq.sty" 0 -1 0 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1707858612 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" 1707858612 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
-  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
-  "/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
-  "/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty" 1576624944 13807 952b0226d4efca026f0e19dd266dcc22 ""
-  "/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1576624883 18552 1e1cc7b75da0dfaacce7cdcb27d306bf ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo" 1580683321 8286 94a4316308950c5d5a69b423dbd190ac ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/book.cls" 1580683321 23147 87043b6c3ff70b5e5185aee55d462dd7 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1580683321 5050 8933a39ad74377accd18991c5eb90c58 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1569190624 45259 743c52a37a6e5ed83cfe0e128b2da10d ""
-  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1580683321 2590 e3b24ff953e5b58d924f163d25380312 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1575152344 22520 c4c2dab203104295e1e618be7e5c0f5b ""
-  "/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty" 1574631863 19963 36fd8e818f9f0f32e2db8413d4970122 ""
-  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1705530478 4878943 f742434252cb3c701e434827e758b78b ""
-  "biblatex.sty" 1705694031 533464 26b85dd05bce2d91b2fa13ef00e38b87 ""
-  "csquotes.cfg" 1705530426 7068 06f8d141725d114847527a66439066b6 ""
-  "csquotes.def" 1705530426 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
-  "csquotes.sty" 1705530426 62761 3c92d495a9e03d7254b9a3266aa17164 ""
-  "logreq.sty" 0 -1 0 ""
-  "main.tex" 1707858612 1687 654182c7228b4f3aaaf6e6d58b2d53e9 ""
+# Fdb version 4
+["pdflatex"] 1708990163.51133 "/home/robocup/TesisMaestria/Tesis_tex/main.tex" "main.pdf" "main" 1708990164.07756 2
   (generated)
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"
+  "main.aux"
   "main.log"
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.log"
+  "main.pdf"
+  (rewritten before read)

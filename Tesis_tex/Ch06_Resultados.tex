@@ -263,5 +263,24 @@
                     \label{fig:Phantom_Pincher}
             \end{figure}
 Para lograr la integración de todos los elementos anteriormente mencionados, el desarrollo se realizó utilizando una combinación de los lenguajes C++ y Python. 
-\subsection{}
-La evaluación del resultado de esta implementación se dio parcialmente durante la competencia RoboCup 2023, donde se cuenta con las estaciones de trabajo y el set de piezas completas. Durante esta evaluación bajo condiciones reales fue posible observar debilidades en la implementación que fueron cubiertas posteriormente. 
+
+\subsection{Resultados experimentales}
+La evaluación del resultado de esta implementación se dio parcialmente durante la competencia RoboCup 2023, donde se cuenta con las estaciones de trabajo y el set de piezas completas. Durante esta evaluación bajo condiciones reales fue posible observar debilidades en la implementación que fueron cubiertas posteriormente, la evaluación se continuó entonces en las instalaciones del laboratorio de Biorobótica. 
+
+Como se ha mencionado anteriormente, se obtuvieron las medias de color de las piezas bajo diferentes condiciones de iluminación. En la figura \ref{fig:AllMeans} se muestran los colores correspondientes a dichas medias, almacenadas en un archivo desde el cual el segmentador accede una vez habiéndosele indicado qué color de pieza se requiere. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{Figures/AllMeans.png}
+        \caption{}
+        \label{fig:AllMeans}
+\end{figure}
+
+Durante las pruebas realizadas, se observó que existe la posibilidad de confusión entre las piezas amarilla y verde. Esta confusión puede deberse a que en la escala de colores correspondiente al espacio HSV usado por la paquetería OpenCV la diferencia entre el valor Hue de ambas piezas es muy similar (ver)
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{Figures/hsv_colormap_opencv.png}
+        \caption{OpenCV - Espacio HSV - Mapa de color \cite{pai_adityapai2398colour-segmentation--opencv_2022}}
+        \label{fig:ColorMapHSVOpenCV}
+\end{figure}
