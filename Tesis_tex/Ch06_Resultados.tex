@@ -259,7 +259,7 @@
             \begin{figure}[H]
                 \centering
                 \includegraphics[scale=0.2]{Figures/Phantom_Pincher.jpg}
-                    \caption{PhantomX Pincher AX-12}
+                    \caption{PhantomX Pincher AX-12 \cite{Inerbotix_pincher_arm}}
                     \label{fig:Phantom_Pincher}
             \end{figure}
 Para lograr la integración de todos los elementos anteriormente mencionados, el desarrollo se realizó utilizando una combinación de los lenguajes C++ y Python. 
@@ -271,16 +271,18 @@ Como se ha mencionado anteriormente, se obtuvieron las medias de color de las pi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{Figures/AllMeans.png}
-        \caption{}
+    \includegraphics[scale=0.4]{Figures/AllMeans.png}
+        \caption{Medias de color}
         \label{fig:AllMeans}
 \end{figure}
 
-Durante las pruebas realizadas, se observó que existe la posibilidad de confusión entre las piezas amarilla y verde. Esta confusión puede deberse a que en la escala de colores correspondiente al espacio HSV usado por la paquetería OpenCV la diferencia entre el valor Hue de ambas piezas es muy similar (ver)
+Durante las pruebas realizadas, se observó que existe la posibilidad de confusión entre las piezas amarilla y verde. Esta confusión se asocia la cercanía de los colores en el mapa de colores correspondiente al espacio HSV usado por OpenCV. Es notable la poca diferencia entre el valor \textit{Hue} de ambas piezas (ver figura \ref{fig:ColorMapHSVOpenCV}) 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{Figures/hsv_colormap_opencv.png}
+    \includegraphics[scale=0.4]{Figures/PieceColors_HSVColorMap.png}
         \caption{OpenCV - Espacio HSV - Mapa de color \cite{pai_adityapai2398colour-segmentation--opencv_2022}}
         \label{fig:ColorMapHSVOpenCV}
 \end{figure}
+
+De acuerdo a la figura y a los valores obtenidos de las medias, existe un traslape entre las zonas que describen las características de color de ambos colores, mientras que para los demás elementos de interés, los cambios de magnitud son notablemente mayores.
