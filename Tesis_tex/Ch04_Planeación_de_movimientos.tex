@@ -202,17 +202,24 @@ De forma similar a las matrices de Rotación mencionadas anteriormente, la multi
 
 \section{Descripción cinemática del robot}
 
-La estructura que compone al robot para la implementación de este proyecto se muestra en la figura \ref{fig:Robotino_models}, donde se observan dos perspectivas del robot utilizando la interfaz gráfica Rviz. Para este despliegue, se cuenta con los modelos de los sensores Kinect, Hokuyo, la base del robot y la plataforma. Los elementos adicionales se representan mediante figuras tridimensionales, cuyas medidas corresponden con las de los elementos reales del robot. En la parte superior de esta figura se observa 
+La estructura que compone al robot para la implementación de este proyecto se muestra en la figura \ref{fig:Robotino_models}, donde se observan dos perspectivas del robot utilizando la interfaz gráfica Rviz. Para este despliegue, se cuenta con los modelos de los sensores Kinect, Hokuyo, la base del robot y la plataforma. Los elementos adicionales se representan mediante figuras tridimensionales, cuyas medidas corresponden con las de los elementos reales del robot.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{Figures/Robotino_New_New.png}   \includegraphics[scale=0.4]{Figures/Robotino_model_side.png} 
+    \includegraphics[scale=0.4]{Figures/Robotino_New_New.png}   \includegraphics[scale=0.4]{Figures/Robotino_model_front.png}
+    \includegraphics[scale=0.4]{Figures/Robotino_model_side.png} 
         \caption{Árbol cinemático del robot}
         \label{fig:Robotino_models}
 \end{figure}
 
-\textcolor{red}{Diagramas con las transformaciones y agregar captura de pantalla de rviz mostrando el árbol cinemático}
+Todas las articulaciones del robot con la configuración utilizada para este proyecto son rotacionales.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Figures/Robotino_DescCin.png}
+        \caption{Descripción cinemática}
+        \label{fig:RobotinoDescCin}
+\end{figure}
 
 \section{Manipulación de objetos}
 
