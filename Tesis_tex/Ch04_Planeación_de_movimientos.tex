@@ -204,26 +204,23 @@ De forma similar a las matrices de Rotación mencionadas anteriormente, la multi
 
 La estructura que compone al robot para la implementación de este proyecto se muestra en la figura \ref{fig:Robotino_models}, donde se observan dos perspectivas del robot utilizando la interfaz gráfica Rviz. Para este despliegue, se cuenta con los modelos de los sensores Kinect, Hokuyo, la base del robot y la plataforma. Los elementos adicionales se representan mediante figuras tridimensionales, cuyas medidas corresponden con las de los elementos reales del robot.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{Figures/Robotino_New_New.png}   \includegraphics[scale=0.4]{Figures/Robotino_model_front.png}
-    \includegraphics[scale=0.4]{Figures/Robotino_model_side.png} 
-        \caption{Árbol cinemático del robot}
-        \label{fig:Robotino_models}
-\end{figure}
-
 Todas las articulaciones del robot con la configuración utilizada para este proyecto son rotacionales.
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
-    \includegraphics[scale=0.4]{Figures/Robotino_DescCin.png}
-        \caption{Descripción cinemática}
-        \label{fig:RobotinoDescCin}
+    \includegraphics[scale=0.3]{Figures/Robotino_model_front.png}
+    \includegraphics[scale=0.3]{Figures/Robotino_model_side.png} 
+        \caption{Árbol cinemático del robot}
+        \label{fig:Robotino_models}
 \end{figure}
 
 \section{Manipulación de objetos}
 
 Como se menciona en el capítulo anterior, se estima la posición de la pieza de interés utilizando la información obtenida del procesamiento que se realiza a la imagen en conjunto con el análisis de la nube de puntos. Sin embargo, la posición calculada tiene como sistema de referencia aquel asociado a la cámara del sensor Kinect, por lo que es necesario realizar la transformación de esas coordenadas a unas asociadas a la base del manipulador del robot. Con este fin se utilizan las herramientas mencionadas anteriormente. Para esta implementación se utilizó la paquetería \textbf{tf}\cite{tf_ROS} incluida en la infraestructura del middleware ROS, que facilita estos cálculos en tiempo real, así como su visualización durante el desarrollo y la ejecución. Adicionalmente, el cálculo de la trayectoria final que ha de seguir el manipulador para que el efector final llegue a su destino se realizó por medio de la paquetería MoveIt.
 
-
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{Figures/Robotino_DescCin.png}
+        \caption{Descripción cinemática}
+        \label{fig:RobotinoDescCin}
+\end{figure}
