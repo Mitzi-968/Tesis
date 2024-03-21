@@ -3,7 +3,7 @@ Durante este capítulo se describen las bases teóricas que sustentan este proye
 
 \section{Robots de Servicio en entornos Industriales}
 
-Bajo la opinión de Babel en \cite{babel_industry_2022} La Industria 4.0 tiene como objetivo la \textit{interconexión directa e inteligente} de  personas, máquinas y productos. De acuerdo con el autor, esta \textit{interconexión inteligente} se refiere en este contexto a:\\
+Bajo la opinión de Babel en \cite{babel_industry_2022} La Industria 4.0 tiene como objetivo la \textit{interconexión directa e inteligente} de  personas, máquinas y productos. De acuerdo con el autor, esta \textit{interconexión inteligente} se refiere en este contexto a:
  \begin{itemize}
      \item Producción flexible
      \item Fábricas convertibles
@@ -412,12 +412,12 @@ De forma similar, es posible encontrar múltiples soluciones  debido a la natura
 \section{Estado del Arte}
 
 \subsection{Antecedentes en RoboCup Logistics}
-Dentro de la documentación disponible en el sitio web oficial de la RoboCup se listan los \textit{Team Description Paper} (TDP), donde se describen las técnicas utilizadas por los equipos participantes. En estos documentos se encuentran pocos referentes de cámaras utilizadas en secciones de la competencia fuera de la localización de los códigos ARUCO en las estaciones. Estas cámaras se encuentran típicamente en la parte inferior de los robots. En el TDP presentado por el equipo austriaco GRIPS (Graz Robust and Intelligent Production System) para su participación en la competencia del 2021 \cite{furbaß_robocup_2021}, el equipo describe que, para la alineación con la banda transportadora, el robot inicia en una posición de referencia cercana a la estación, desde la cual se utiliza el sensor láser y el código ARUCO que se encuentra en sus paredes para realizar la alineación. El equipo reconoce que este primer alineamiento, combinando la información de estas dos fuentes, no es muy preciso. Por lo anterior, utilizan una segunda cámara que se encuentra en una posición más elevada para los movimientos más finos del proceso. 
+Dentro de la documentación disponible en el sitio web oficial de la RoboCup se listan los \textit{Team Description Paper} (TDP), donde se describen las técnicas utilizadas en la competencia por los equipos participantes. En estos documentos se encuentran pocos referentes de cámaras utilizadas en secciones de la competencia fuera de la localización de los códigos ARUCO en las estaciones. Estas cámaras se encuentran típicamente en la parte inferior de los robots. En el TDP presentado por el equipo austriaco GRIPS (Graz Robust and Intelligent Production System) para su participación en la competencia del 2021 \cite{furbaß_robocup_2021}, el equipo describe que, para la alineación con la banda transportadora, el robot inicia en una posición de referencia cercana a la estación, desde la cual se utiliza el sensor láser y el código ARUCO que se encuentra en sus paredes para realizar la alineación. El equipo reconoce que este primer alineamiento, combinando la información de estas dos fuentes, no es muy preciso. Por lo anterior, utilizan una segunda cámara que se encuentra en una posición más elevada para los movimientos más finos del proceso. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.15]{Figures/Conveyor_GRIPS_TDP.png}     \includegraphics[scale=0.2]{Figures/Conveyor_HOG_GRIPS_TDP.png}
-        \caption{Detección de Histogramas de Gradientes Orientados - Imágenes obtenidas de \cite{furbaß_robocup_2021}}
+        \caption{Detección de Histogramas de Gradientes Orientados \cite{furbaß_robocup_2021}}
         \label{fig:HOG_GRIPS}
     \end{figure}
 
@@ -428,7 +428,7 @@ La descripción del proceso provista por los autores especifica que, una vez que
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{Figures/RobotinoGRIPS_Old.png}
-        \caption{Robotino modificado - GRIPS - Obtenida de \cite{furbaß_robocup_2021}}
+        \caption{Robotino modificado - GRIPS \cite{furbaß_robocup_2021}}
         \label{fig:Robotino_GRIPS}
 \end{figure}
 

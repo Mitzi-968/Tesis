@@ -39,7 +39,7 @@ Cuando se cuenta con la ruta a seguir se utiliza la función \textbf{navigate\_t
 \subsection{Exploración}
 En el caso de la etapa de exploración, se consideró establecer una ruta a seguir utilizando puntos del mapa desde los cuales realizar el escaneo en busca de las estaciones de trabajo.
 
-La ruta designada se compone por 8 \textit{Puntos de Inspección Principales} y 11 \textit{Puntos de Inspección Intermedios}. En cada uno de estos puntos robot hace una breve pausa y realiza un giro de 360 grados sobre su propio eje en 4 pasos, dando oportunidad a que la cámara RGBD encuentre los códigos de las estaciones, de ser visibles desde su posición, y los reporte. De acuerdo con las reglas de la competencia, el robot debe empezar en un punto específico, junto al borde inferior del mapa, a la izquierda o derecha dependiendo del equipo al que pertenezca. Por motivos de simplicidad, en la Figura \ref{fig:Route_Exploration} se muestra el proceso si el robot pertenece al equipo magenta.
+La ruta designada se compone por 8 \textit{Puntos de Inspección Principales} y 11 \textit{Puntos de Inspección Intermedios}. En cada uno de los puntos principales el robot hace una breve pausa y realiza una secuencia de movimientos de base que cubren 90 grados, en los cuáles solo varía la dirección del giro. Por su parte, en los puntos intermedios, se realiza un giro de 360 dando oportunidad a que la cámara encuentre los códigos de las estaciones y obtenga la información sobre ellos, de ser visibles desde su posición, y los reporte. De acuerdo con las reglas de la competencia, el robot debe empezar en un punto específico, junto al borde inferior del mapa, a la izquierda o derecha dependiendo del equipo al que pertenezca. Por motivos de simplicidad, en la Figura \ref{fig:Route_Exploration} se muestra el proceso si el robot pertenece al equipo magenta.
 Una vez que el robot ha salido de la zona designada se establecen como objetivo las coordenadas de la zona que se encuentra en la esquina inferior izquierda del mapa, señalizado en la Figura como el \textit{Punto de Inspección Principal 1}. 
 Debido a que el mapa corresponde a un rectángulo de $14\times8$[m], y a que las zonas de descanso de los robots se encuentran en la arista inferior del mapa, se decidió dividirlo en dos regiones principales, cada una de $7\times7$, dentro de las cuales se realiza la trayectoria de exploración.  
 Como se puede observar en la ilustración, en las secciones del recorrido que corresponden a las diagonales de cada mitad del mapa, se definieron 2 \textit{Puntos de Inspección Intermedios}, mientras que en las aristas se utiliza solo uno. 
@@ -78,7 +78,15 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
     \includegraphics[scale= 0.4]{Figures/Navigation_CT.png}
         \caption{Navegación}
         \label{fig:ASM_Navigation}
-    \end{figure}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale= 0.4]{Figures/Exploration_CT.png}
+        \caption{Exploración}
+        \label{fig:ASM_Exploración}
+\end{figure}
+
 
 \begin{figure}[ht]
     \centering
@@ -86,6 +94,3 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
     \caption{Manipulación}
     \label{fig:ASM_Manipulación}
 \end{figure}
-
-\subsection{Implementación}
-Pseudocódigo de la implementación en C

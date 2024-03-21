@@ -141,9 +141,15 @@
             \begin{figure}[H]
                 \centering
                 \includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}                 
-                \includegraphics[scale=0.05]{Figures/Robotino_New_New.png}
                     \caption{Robotino 3 \cite{festo-didactic-robotino-2013}}
                     \label{fig:Robotino}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.9]{Figures/Robotino_New_New.png}
+                    \caption{Robotino 3 con las modificaciones hechas}
+                    \label{fig:Robotino_NewNew}
             \end{figure}
                             
             \subsubsection{Camara RGBD - Kinect}
@@ -285,4 +291,13 @@ Durante las pruebas realizadas, se observó que existe la posibilidad de confusi
         \label{fig:ColorMapHSVOpenCV}
 \end{figure}
 
-De acuerdo a la figura y a los valores obtenidos de las medias, existe un traslape entre las zonas que describen las características de color de ambos colores, mientras que para los demás elementos de interés, los cambios de magnitud son notablemente mayores. 
+De acuerdo a la figura y a los valores obtenidos de las medias, existe un traslape entre las zonas que describen las características de color de ambos colores, mientras que para los demás elementos de interés, los cambios de magnitud son notablemente mayores. Para controlar este factor se utilizó un elemento \textit{delta} dentro de la segmentación, afectando los umbrales de los valores HSV.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Figures/AllSegmented_AllPieces.png}
+        \caption{Piezas segmentadas}
+        \label{fig:All_Segmented_AllPieces}
+\end{figure}
+
+De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de interés, se realiza un promedio de los mismos, mediante el cual se obtiene la coordenada promedio de la posición del objeto respecto a la cámara y realizando transformaciones homogéneas se obtiene su posición respecto a la base del manipulador del robot, luego de lo cual se solicita al planeador de movimientos la trayectoria a realizar para lograr el graspeo.
