@@ -147,8 +147,8 @@
             
             \begin{figure}[H]
                 \centering
-                \includegraphics[scale=0.2]{Figures/Festino2023_medidas.png}
-                    \caption{Robotino 3 con las modificaciones hechas}
+                \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}
+                    \caption{Robotino 3 modificado}
                     \label{fig:Robotino_NewNew}
             \end{figure}
                             
@@ -301,3 +301,5 @@ De acuerdo a la figura y a los valores obtenidos de las medias, existe un trasla
 \end{figure}
 
 De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de interés, se realiza un promedio de los mismos, mediante el cual se obtiene la coordenada promedio de la posición del objeto respecto a la cámara y realizando transformaciones homogéneas se obtiene su posición respecto a la base del manipulador del robot, luego de lo cual se solicita al planeador de movimientos la trayectoria a realizar para lograr el graspeo.
+
+Como se mencinó anteriormente, el planeador de trayectoria obtiene las posiciones angulares que de deben ser alcanzadas por los motores para lograr la posición deseada. De esta forma se establece como objetivo la coordeada correspondente al centroide de la pieza, el robot abre la pinza y realiza el movimiento de graspeo. Al encontrarse en la posición deseada, se cierra la pinza y se regresa a la posición de descanso del robot, desde la cual le es posible navegar al punto en que debe entregar la pieza nuevamente.
