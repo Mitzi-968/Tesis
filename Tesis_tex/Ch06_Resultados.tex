@@ -159,7 +159,7 @@
 
             \begin{figure}[ht]
                 \centering
-                \includegraphics[scale=0.3]{Figures/Kinect_parts.png}
+                \includegraphics[scale=0.25]{Figures/Kinect_parts.png}
                 \caption{Kinect versión 1 - Componentes}
                 \label{fig:Kinect_Parts}
             \end{figure}
@@ -227,7 +227,7 @@
             \end{table}
 
             \item Cámara de video RGB \\
-            De acuerdo con Kramer et.al (2012) \cite{kramer_hacking_2012} el dispositivo Kinect contiene una cámara RGB que, de acuerdo con Bob Widenhofer en \cite{eetimes_inside_2010}, utiliza un sensor MT9M112 (ver figura \ref{fig:Kinect_Sensors}). Kramer y su equipo especifican que la cámara opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
+            De acuerdo con Kramer et.al (2012) \cite{kramer_hacking_2012} el dispositivo Kinect contiene una cámara RGB que, según Bob Widenhofer en \cite{eetimes_inside_2010}, utiliza un sensor MT9M112 (ver figura \ref{fig:Kinect_Sensors}). Kramer y su equipo especifican que la cámara opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
             \end{itemize}
             
             \subsubsection{Manipulador PhantomX Pincher AX-12}
@@ -270,7 +270,7 @@
             \end{figure}
 Para lograr la integración de todos los elementos anteriormente mencionados, el desarrollo se realizó utilizando una combinación de los lenguajes C++ y Python. 
 
-\subsection{Resultados experimentales}
+\subsection{Resultados - Visión}
 La evaluación del resultado de esta implementación se dio parcialmente durante la competencia RoboCup 2023, donde se cuenta con las estaciones de trabajo y el set de piezas completas. Durante esta evaluación bajo condiciones reales fue posible observar debilidades en la implementación que fueron cubiertas posteriormente, la evaluación se continuó entonces en las instalaciones del laboratorio de Biorobótica. 
 
 Como se ha mencionado anteriormente, se obtuvieron las medias de color de las piezas bajo diferentes condiciones de iluminación. En la figura \ref{fig:AllMeans} se muestran los colores correspondientes a dichas medias, almacenadas en un archivo desde el cual el segmentador accede una vez habiéndosele indicado qué color de pieza se requiere. 
@@ -303,3 +303,80 @@ De acuerdo a la figura y a los valores obtenidos de las medias, existe un trasla
 De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de interés, se realiza un promedio de los mismos, mediante el cual se obtiene la coordenada promedio de la posición del objeto respecto a la cámara y realizando transformaciones homogéneas se obtiene su posición respecto a la base del manipulador del robot, luego de lo cual se solicita al planeador de movimientos la trayectoria a realizar para lograr el graspeo.
 
 Como se mencinó anteriormente, el planeador de trayectoria obtiene las posiciones angulares que de deben ser alcanzadas por los motores para lograr la posición deseada. De esta forma se establece como objetivo la coordeada correspondente al centroide de la pieza, el robot abre la pinza y realiza el movimiento de graspeo. Al encontrarse en la posición deseada, se cierra la pinza y se regresa a la posición de descanso del robot, desde la cual le es posible navegar al punto en que debe entregar la pieza nuevamente.
+
+\subsection{Resultados - Manipulación}
+De acuerdo a lo establecido anteriormente, la planeación de la estrategia de movimientos se lleva acabo a través de la paquetería MoveIt, para la cual existen ya herramientas para el uso del manipulador, dentro de lo cual se cuenta con la información de la configuración mecánica el robot y sus características físicas, con dicha información se realiza la planeación de las trayectorias. Durante el proceso de prueba se observó que el manipulador puee permanecer en posición extendida cierto periodo de tiempo antes de que el motor en la primera articulación ceda ante en peso de la estructura, por lo que se definió una posición predeterminada de reposo en la cual el mecanismo del manipulador no se ve forzado \ref{fig:Arm_ResPos}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Figures/Arm_RestPos.png}
+        \caption{Manipulador en posición de Reposo}
+        \label{fig:Arm_ResPos}
+\end{figure}
+
+Una vez que se cuenta con las coordenadas que el proceso de visión ha encontrado de las piezas de interés respecto a la imagen, se realiza la transformación homogénea para encontrar las correspondientes teniendo el origen del manipulador como referente. Estas coordenadas son enviadas a MoveIt y, después de planear la trayectoria, se realiza el movimiento. Las estrategias propuestas por MoveIt pueden variar dependiendo de la posición inicial en que se encuentre el manipulador. Sin embargo, dadas las condiciones en las que se encuentran las piezas de interés en el entorno planteado, las coordenadas en las cuales se tendría la mayor variación son $x$ e $y$, ya que la altura es constante respecto a las estaciones de trabajo. 
+
+Para la integración de este comportamiento en la estructura general, se creó un servicio de ROS, mediante el cual los movimientos del brazo pueden ser accesados únicamente en el momento en que la máquina de estados lo solicita. Al servicio se le ingresa la coordenada de la pieza respecto a la base y una variable de confirmación del movimiento se recibe como resultado. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Figures/Arm_MovPlan.png}
+        \caption{Planeación de movimientos}
+        \label{fig:Arm_MovPlan}
+\end{figure}
+
+Una de las ventajas que ofrece el uso de este manipulador se encuentra en la versatilidad de las posiciones que alcanza, pudiendo resisitir cambios en los 3 componentes de las coordenadas sin modificar la posición de la base del robot y utilizando los actuadores disponibles en su estructura, lo que lo haría capaz no solo de manipular los objetos que se encuentren en el centro de la banda transportadora, sino en cualquier otra superficie alcanzable de las estaciones, como pueden ser las plataformas de entrega y las rampas en las cuales se deshechan los elementos que no son de interés para la operación. 
+
+La secuencia de movimientos propuesta para la tarea que se describe consiste en cuatro pasos, sin contar el inicio y vuelta a la posición de reposo. Que fueron planteados debido a las limitaciones con las que cuenta el manipulador. Esta limitación consiste en que para ciertas posiciones de $x$ o $y$, el manipulador debe comenzar desde una coordenada mínima $z = 0.12$. Adicionalmente, para el accionamiento de la pinza, es necesario bloquear los movimientos del manipulador y enviar una variable booleana, $True$ para abrir y $False$ para cerrar.
+
+A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}
+
+\textbf{Pasos preestablecidos}
+\begin{itemize}
+    \item Reposo:\\
+    arm_srv.request.manipBlocker = false
+    arm_srv.request.x = 0.025
+    arm_srv.request.y = 0.0
+    arm_srv.request.z = 0.10
+    arm_srv.request.gripperState = false
+    \item Pinza abierta:
+    arm_srv.request.manipBlocker = true
+    arm_srv.request.x = 0.025
+    arm_srv.request.y = 0.0
+    arm_srv.request.z = 0.10
+    arm_srv.request.gripperState = true
+    \item Inicial:\\
+    arm_srv.request.manipBlocker = false
+    arm_srv.request.x = 0.04
+    arm_srv.request.y = 0.0
+    arm_srv.request.z = 0.12
+    arm_srv.request.gripperState = false
+    \item Trayectoria de Graspeo 
+    arm_srv.request.manipBlocker = false
+    arm_srv.request.x = det_piece.pose.position.x
+    arm_srv.request.y = det_piece.pose.position.y
+    arm_srv.request.z = det_piece.pose.position.z
+    arm_srv.request.gripperState = true
+    \item Pinza cerrada
+    arm_srv.request.manipBlocker = true
+    arm_srv.request.x = det_piece.pose.position.x
+    arm_srv.request.y = det_piece.pose.position.y
+    arm_srv.request.z = det_piece.pose.position.z
+    arm_srv.request.gripperState = true
+    \item Reposo
+    arm_srv.request.manipBlocker = false
+    arm_srv.request.x = 0.025
+    arm_srv.request.y = 0.0
+    arm_srv.request.z = 0.10
+    arm_srv.request.gripperState = false
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Figures/Grasping_sequence.png}
+        \caption{Secuencia de Graspeo}
+        \label{fig:Grasping_Sequence}
+\end{figure}
+
+\subsection{Resultados - Integración}
+

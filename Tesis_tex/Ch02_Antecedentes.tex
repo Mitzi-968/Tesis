@@ -331,7 +331,7 @@ Como es posible notar en el ejemplo, estas dos operaciones no son estrictamente 
 %%Detección de Bordes y Filtro Gaussiano
 
 \section{Reconocimiento de Objetos}
-Una de las partes fundamentales dentro de la visión computacional es la habilidad de reconocer objetos dentro de las imágenes que son procesadas, para lo cual se utilizan algoritmos de reconocimiento de patrones que nos permiten clasificar objetos o regiones dentro de la imagen, haciendo posible entender mejor los elementos que la componen.
+Una de las partes fundamentales de la visión computacional es la habilidad de reconocer objetos dentro de las imágenes que son procesadas, para lo cual se utilizan algoritmos de reconocimiento de patrones que nos permiten clasificar objetos o regiones dentro de la imagen, haciendo posible entender mejor los elementos que la componen.
 
 Como se ha mencionado anteriormente, para nosotros las tareas asociadas a la visión son actividades que llevamos a cabo de manera natural, sin que requiera un esfuerzo consciente en la mayoría de los casos y, teniendo ya sea un ejemplo visual o bien una descripción sobre las características de nuestro objeto de interés, somos capaces de identificarlo dentro del entorno. Con el objetivo de reconocer los objetos mediante el análisis computacional de las imágenes, es imprescindible conocer las características de dichos objetos, así como de las clases a las que pertenecen.
 
@@ -377,7 +377,7 @@ El proceso utilizado en este proyecto corresponde a la última categoría de las
 
 \section{Máquinas de Estado}
 
-Cuando se habla de máquinas de estados nos referimos a un modelo computacional con el cual se representan procesos de lógica secuencial. En este modelo cuenta con conjuntos de entradas, salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados o bien, se obtienen con la transición las salidas del sistema.
+Cuando se habla de máquinas de estados nos referimos a un modelo computacional con el cual se representan procesos de lógica secuencial. En este modelo cuenta con conjuntos de entradas, salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados.
 
 Czerwinski y Kania (2013) \cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $ \{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $. 
 Dentro de las máquinas de estados finitas se encuentran dos grandes clasificaciones, las máquinas Moore y las máquinas Mealy, que reciben su nombre de los investigadores Eduard F. Moore y George H. Mealy, que desarrollaron \textit{la teoría del autómata}. En el planteamiento de la máquina de Moore las salidas dependen únicamente del estado actual de la máquina, expresando este comportamiento en términos de los vectores definidos anteriormente se obtiene: $\lambda: S \to Y$. Por el contrario, en las máquinas Mealy las salidas dependen tanto del estado actual como de las entradas actuales del sistema. Así, la función de salida se puede representar como: $\lambda: X \times S \to Y$.
@@ -385,7 +385,7 @@ Dentro de las máquinas de estados finitas se encuentran dos grandes clasificaci
 
 \section{Sistemas expertos}
  
-A mediados del Siglo XX, cuando el concepto de Inteligencia Artificial comenzaba a popularizarse, su aplicación principal se centraba en planeación y solución de problemas, en aquel momento, era difícil imaginar que décadas más tarde las aplicaciones más importantes se encontraran en ingeniería del conocimiento y en sistemas expertos. En 1982 el profesor Edward Feigenbaum de la Universidad de Stanford, uno de los pioneros en el desarrollo de tecnología de sistemas expertos, definió un sistema experto como "un programa computacional que utiliza procedimientos de inferencia para resolver problemas que son suficientemente complicados para requerir conocimiento humano especializado para su solución."
+A mediados del Siglo XX, cuando el concepto de Inteligencia Artificial comenzaba a popularizarse, su aplicación principal se centraba en planeación y solución de problemas. En aquel momento era difícil imaginar que décadas más tarde las aplicaciones más importantes se encontraran en ingeniería del conocimiento y en sistemas expertos. En 1982 el profesor Edward Feigenbaum de la Universidad de Stanford, uno de los pioneros en el desarrollo de tecnología de sistemas expertos, definió un sistema experto como "un programa computacional que utiliza procedimientos de inferencia para resolver problemas que son suficientemente complicados para requerir conocimiento humano especializado para su solución."
 \cite{giarratano_zhuan_2002}
 
 En 2020, 38 años más tarde de esta definición, Gupta \cite{gupta_artificial_2020} refiere que un sistema experto es un programa computacional que emula la capacidad de razonar y el comportamiento de un humano con el conocimiento y experiencia de un experto en un campo específico. También indica que los sistemas expertos son utilizados para resolver problemas complejos utilizando el conocimiento almacenado en una base de datos en forma de reglas. 
@@ -404,10 +404,6 @@ Ceccareli \cite{ceccarelli_fundamentals_2022}, explica que es posible formular n
 Los autores describen que la existencia de soluciones hace referencia a que cuando una configuración dada no se encuentre dentro del rango de movilidad del manipulador, la solución numérica de la cinemática inversa no puede ser obtenida dentro del espacio de trabajo del manipulador. Para lo cual se requiere conocer el rango de movilidad de las articulaciones y los límites del espacio de trabajo antes de unir la solución numérica. En términos matemáticos, el cumplimiento de los límites del espacio de trabajo significa que las soluciones que se obtengan pertenezcan al dominio de los números reales.
 
 De forma similar, es posible encontrar múltiples soluciones  debido a la naturaleza \textit{altamente no lineal} de la posición cinemática de los manipuladores, es decir las diferentes configuraciones en las que se pueden posicionar los actuadores para que el efector final llegue a una coordenada determinada dentro del espacio de trabajo. 
-
-
-%Y añade que la solución numérica se puede obtener al realizar la formulación inversa de las expresiones de forma cerrada de las expresiones para cinemática directa. Generando una formulación matricial para obtener ecuaciones adecuadas para el sistema. Y 
-
 
 \section{Estado del Arte}
 
@@ -434,7 +430,7 @@ La descripción del proceso provista por los autores especifica que, una vez que
         \label{fig:Robotino_GRIPS}
 \end{figure}
 
-Actualmente realizar la tarea de alineación, el equipo utiliza una combinación de sensores de proximidad que se encuentran debajo de y en el centro de la pinza del manipulador, utilizando también un movimiento que combina la alineación del robot con la máquina y del manipulador con la banda transportadora.
+Para realizar la tarea de alineación, el equipo utiliza una combinación de sensores de proximidad que se encuentran debajo de y en el centro de la pinza del manipulador, utilizando también un movimiento que combina la alineación del robot con la máquina y del manipulador con la banda transportadora.
 
 De manera similar, dentro del desarrollo del trabajo para la siguiente participación en la competencia, se planea integrar sensores de proximidad, combinando los avances obtenidos del presente proyecto, con las herramientas vistas durante lo experimentado en la edición 2023. Cabe mencionar que la configuración mecánica de los manipuladores de ambos equipos es y seguirá siendo distinta. 
 
