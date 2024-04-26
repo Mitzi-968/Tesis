@@ -309,7 +309,7 @@ De acuerdo a lo establecido anteriormente, la planeación de la estrategia de mo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{Figures/Arm_RestPos.png}
+    \includegraphics[scale=0.25]{Figures/Arm_RestPos.png}
         \caption{Manipulador en posición de Reposo}
         \label{fig:Arm_ResPos}
 \end{figure}
@@ -320,7 +320,7 @@ Para la integración de este comportamiento en la estructura general, se creó u
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{Figures/Arm_MovPlan.png}
+    \includegraphics[scale=0.25]{Figures/Arm_MovPlan.png}
         \caption{Planeación de movimientos}
         \label{fig:Arm_MovPlan}
 \end{figure}
@@ -331,7 +331,7 @@ La secuencia de movimientos propuesta para la tarea que se describe consiste en 
 
 A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}
 
-\textbf{Pasos preestablecidos}
+\textbf{Pasos preestablecidos}\\
 \begin{itemize}
     \item Reposo:\\
     arm_srv.request.manipBlocker = false
@@ -373,10 +373,15 @@ A continuación se describe la secuencia utilizada, que puede ser observada tamb
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{Figures/Grasping_sequence.png}
+    \includegraphics[scale=0.3]{Figures/Grasping_sequence.png}
         \caption{Secuencia de Graspeo}
         \label{fig:Grasping_Sequence}
 \end{figure}
 
 \subsection{Resultados - Integración}
+Al proceder con la integración fue necesario hacer la unión de los modelos del robot y del brazo para poder operarse simultáneamente y que ambas partes se reconozcan una a la otra y puedan interactuar entre sí. Para esto fue necesario hacer una combinación de los archivos que los describen. Una vez que el modelo es correcto y coincide en posiciones y orientaciones con las condiciones reales del robot se procedió a probar los algoritmos que se plantearon anteriormente. 
+
+
+
+
 
