@@ -320,7 +320,7 @@ Para la integración de este comportamiento en la estructura general, se creó u
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{Figures/Arm_MovPlan.png}
+    \includegraphics[scale=0.2]{Figures/Arm_MovPlan.png}
         \caption{Planeación de movimientos}
         \label{fig:Arm_MovPlan}
 \end{figure}
@@ -329,45 +329,51 @@ Una de las ventajas que ofrece el uso de este manipulador se encuentra en la ver
 
 La secuencia de movimientos propuesta para la tarea que se describe consiste en cuatro pasos, sin contar el inicio y vuelta a la posición de reposo. Que fueron planteados debido a las limitaciones con las que cuenta el manipulador. Esta limitación consiste en que para ciertas posiciones de $x$ o $y$, el manipulador debe comenzar desde una coordenada mínima $z = 0.12$. Adicionalmente, para el accionamiento de la pinza, es necesario bloquear los movimientos del manipulador y enviar una variable booleana, $True$ para abrir y $False$ para cerrar.
 
-A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}
+A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}.\\
 
-\textbf{Pasos preestablecidos}\\
+\textbf{Pasos preestablecidos}
+
 \begin{itemize}
     \item Reposo:\\
-    arm_srv.request.manipBlocker = false
-    arm_srv.request.x = 0.025
-    arm_srv.request.y = 0.0
-    arm_srv.request.z = 0.10
+    arm_srv.request.manipBlocker = false\\
+    arm_srv.request.x = 0.025\\
+    arm_srv.request.y = 0.0\\
+    arm_srv.request.z = 0.10\\
     arm_srv.request.gripperState = false
-    \item Pinza abierta:
-    arm_srv.request.manipBlocker = true
-    arm_srv.request.x = 0.025
-    arm_srv.request.y = 0.0
-    arm_srv.request.z = 0.10
+
+    \item Pinza abierta:\\
+    arm_srv.request.manipBlocker = true\\
+    arm_srv.request.x = 0.025\\
+    arm_srv.request.y = 0.0\\
+    arm_srv.request.z = 0.10\\
     arm_srv.request.gripperState = true
+
     \item Inicial:\\
-    arm_srv.request.manipBlocker = false
-    arm_srv.request.x = 0.04
-    arm_srv.request.y = 0.0
-    arm_srv.request.z = 0.12
+    arm_srv.request.manipBlocker = false\\
+    arm_srv.request.x = 0.04\\
+    arm_srv.request.y = 0.0\\
+    arm_srv.request.z = 0.12\\
     arm_srv.request.gripperState = false
-    \item Trayectoria de Graspeo 
-    arm_srv.request.manipBlocker = false
-    arm_srv.request.x = det_piece.pose.position.x
-    arm_srv.request.y = det_piece.pose.position.y
-    arm_srv.request.z = det_piece.pose.position.z
+
+    \item Trayectoria de Graspeo \\
+    arm_srv.request.manipBlocker = false\\
+    arm_srv.request.x = det_piece.pose.position.x\\
+    arm_srv.request.y = det_piece.pose.position.y\\
+    arm_srv.request.z = det_piece.pose.position.z\\
     arm_srv.request.gripperState = true
-    \item Pinza cerrada
-    arm_srv.request.manipBlocker = true
-    arm_srv.request.x = det_piece.pose.position.x
-    arm_srv.request.y = det_piece.pose.position.y
-    arm_srv.request.z = det_piece.pose.position.z
+    
+    \item Pinza cerrada\\
+    arm_srv.request.manipBlocker = true\\
+    arm_srv.request.x = det_piece.pose.position.x\\
+    arm_srv.request.y = det_piece.pose.position.y\\
+    arm_srv.request.z = det_piece.pose.position.z\\
     arm_srv.request.gripperState = true
-    \item Reposo
-    arm_srv.request.manipBlocker = false
-    arm_srv.request.x = 0.025
-    arm_srv.request.y = 0.0
-    arm_srv.request.z = 0.10
+    
+    \item Reposo\\
+    arm_srv.request.manipBlocker = false\\
+    arm_srv.request.x = 0.025\\
+    arm_srv.request.y = 0.0\\
+    arm_srv.request.z = 0.10\\
     arm_srv.request.gripperState = false
 \end{itemize}
 

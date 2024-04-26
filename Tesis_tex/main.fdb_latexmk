@@ -1,14 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1714089130 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1714096159
+["pdflatex"] 1714096697 "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf" "main" 1714096697
   "/etc/texmf/web2c/texmf.cnf" 1705530450 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/robocup20/TesisMaestria/Tesis_tex/logreq.sty" 0 -1 0 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1714089130 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" 1714091288 1685 7b24ec42e65e71b69532bfa5f0a79ffa ""
-  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1581719732 87344 ec128793fb5196bbcc1741e5366ddac1 ""
-  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1581719732 18844 909add1631725af40d27125357ea816e ""
-  "/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf" 1581719732 1591 197370f5581711a601a8e9ab39d284b1 ""
-  "/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def" 1581719732 15529 e761dc130df77f0ce9717a25d1b52a95 ""
-  "/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def" 1580769195 5220 42a6518b499d20676051f269c61f4d9a ""
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.aux" 1714096697 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.tex" 1714096697 1694 4c77fa9f4f688d0e08b9e260c195f4ac ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
   "/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty" 1576624944 13807 952b0226d4efca026f0e19dd266dcc22 ""
@@ -28,8 +23,8 @@
   "csquotes.def" 1705530426 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
   "csquotes.sty" 1705530426 62761 3c92d495a9e03d7254b9a3266aa17164 ""
   "logreq.sty" 0 -1 0 ""
-  "main.tex" 1714091288 1685 7b24ec42e65e71b69532bfa5f0a79ffa ""
+  "main.tex" 1714096697 1694 4c77fa9f4f688d0e08b9e260c195f4ac ""
   (generated)
+  "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"
   "/home/robocup20/TesisMaestria/Tesis_tex/main.log"
   "main.log"
-  "/home/robocup20/TesisMaestria/Tesis_tex/main.pdf"

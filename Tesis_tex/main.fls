@@ -11,13 +11,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/csquotes.sty
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/csquotes.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
