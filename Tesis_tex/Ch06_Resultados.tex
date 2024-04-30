@@ -335,46 +335,56 @@ A continuación se describe la secuencia utilizada, que puede ser observada tamb
 
 \begin{itemize}
     \item Reposo:\\
-    arm_{}{}srv.request.manipBlocker = false\\
-    arm_{}srv.request.x = 0.025\\
-    arm_{}srv.request.y = 0.0\\
-    arm_{}srv.request.z = 0.10\\
-    arm_{}srv.request.gripperState = false
-
+    \begin{equation*}
+        arm_{}{}srv.request.manipBlocker = false\\
+        arm_{}srv.request.x = 0.025\\
+        arm_{}srv.request.y = 0.0\\
+        arm_{}srv.request.z = 0.10\\
+        arm_{}srv.request.gripperState = false
+    \end{equation*}
     \item Pinza abierta:\\
-    arm_{}srv.request.manipBlocker = true\\
-    arm_{}srv.request.x = 0.025\\
-    arm_{}srv.request.y = 0.0\\
-    arm_{}srv.request.z = 0.10\\
-    arm_{}srv.request.gripperState = true
-
+    \begin{equation*}
+        arm_{}srv.request.manipBlocker = true\\
+        arm_{}srv.request.x = 0.025\\
+        arm_{}srv.request.y = 0.0\\
+        arm_{}srv.request.z = 0.10\\
+        arm_{}srv.request.gripperState = true
+    \end{equation*}
     \item Inicial:\\
-    arm_{}srv.request.manipBlocker = false\\
-    arm_{}srv.request.x = 0.04\\
-    arm_{}srv.request.y = 0.0\\
-    arm_{}srv.request.z = 0.12\\
-    arm_{}srv.request.gripperState = false
+    \begin{equation*}
+        arm_{}srv.request.manipBlocker = false\\
+        arm_{}srv.request.x = 0.04\\
+        arm_{}srv.request.y = 0.0\\
+        arm_{}srv.request.z = 0.12\\
+        arm_{}srv.request.gripperState = false
+    \end{equation*}
 
     \item Trayectoria de Graspeo \\
-    arm_{}srv.request.manipBlocker = false\\
-    arm_{}srv.request.x = det_piece.pose.position.x\\
-    arm_{}srv.request.y = det_piece.pose.position.y\\
-    arm_{}srv.request.z = det_piece.pose.position.z\\
-    arm_{}srv.request.gripperState = true
+    \begin{equation*}
+        arm_{}srv.request.manipBlocker = false\\
+        arm_{}srv.request.x = det_piece.pose.position.x\\
+        arm_{}srv.request.y = det_piece.pose.position.y\\
+        arm_{}srv.request.z = det_piece.pose.position.z\\
+        arm_{}srv.request.gripperState = true
+    \end{equation*}
     
     \item Pinza cerrada\\
-    arm_{}srv.request.manipBlocker = true\\
-    arm_{}srv.request.x = det_piece.pose.position.x\\
-    arm_{}srv.request.y = det_piece.pose.position.y\\
-    arm_{}srv.request.z = det_piece.pose.position.z\\
-    arm_{}srv.request.gripperState = true
+    \begin{equation*}
+        arm_{}srv.request.manipBlocker = true\\
+        arm_{}srv.request.x = det_piece.pose.position.x\\
+        arm_{}srv.request.y = det_piece.pose.position.y\\
+        arm_{}srv.request.z = det_piece.pose.position.z\\
+        arm_{}srv.request.gripperState = true
+    \end{equation*}
     
     \item Reposo\\
-    arm_{}srv.request.manipBlocker = false\\
-    arm_{}srv.request.x = 0.025\\
-    arm_{}srv.request.y = 0.0\\
-    arm_{}srv.request.z = 0.10\\
-    arm_{}srv.request.gripperState = false
+    \begin{equation*}
+        arm_{}srv.request.manipBlocker = false\\
+        arm_{}srv.request.x = 0.025\\
+        arm_{}srv.request.y = 0.0\\
+        arm_{}srv.request.z = 0.10\\
+        arm_{}srv.request.gripperState = false
+    \end{equation*}
 \end{itemize}
 
 \begin{figure}[H]

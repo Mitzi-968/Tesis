@@ -1,16 +1,15 @@
 \documentclass{book}
-%\usepackage[utf8]{inputenc}
-%\usepackage[spanish]{babel}
-%\usepackage{csquotes}
-%\usepackage[backend=biber]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
 \usepackage{dsfont}% Esta pone los contents y las referencias de imagen
-%\usepackage{graphicx} %Estaaa
+\usepackage{graphicx} %Estaaa da error de logreq
 \usepackage{amsmath}
 \usepackage{mathtools}
 \usepackage{amssymb}
 \usepackage{color}
 \usepackage{subfigure}
-\usepackage{subcaption}
 \usepackage{float}
 \usepackage{capt-of}
 \usepackage{sidecap}
@@ -35,16 +34,11 @@
 \usepackage{listings}
 \bibliography{Referencias}
 
-%\title{Percepción artificial y planeación de acciones a partir de la cámara RGBD de un robot móvil.}
-%\author{Savage Carmona Jesús \and Negrete Villanueva Marco Antonio \and Ramírez Estrada Mitzi Anaid}
-
-
 \begin{document}
 \input{Portada}
 \tableofcontents
 \input{Ch01_Introduccion}
 \input{Ch02_Antecedentes}
-
 \input{Ch03_Detección_de_objetos}
 \input{Ch04_Planeación_de_movimientos}
 \input{Ch05_Planeación_de_acciones}

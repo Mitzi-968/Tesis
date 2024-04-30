@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
+% This file may safely be deleted. It will be recreated as
+% required.
 %
 \begingroup
 \makeatletter
@@ -16,1461 +16,1859 @@
   {}
 \endgroup
 
+\datalist[entry]{nty/global//global/global}
+  \entry{OpvenCV-website}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{About - {OpenCV}}
+    \verb{url}
+    \verb https://opencv.org/about/
+    \endverb
+    \verb{file}
+    \verb About - OpenCV:/home/robocup20/snap/zotero-snap/common/Zotero/storage
+    \verb /BZCW4H23/about.html:text/html
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
+  \endentry
 
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{asada_robot_1986}{book}{}
-      \name{author}{2}{}{%
-        {{hash=370c468f13656338addc9472a11e204d}{%
-           family={Asada},
-           familyi={A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ca625b2dc2c9110cbe11f1a4f82f8d56}{%
-           family={Slotine},
-           familyi={S\bibinitperiod},
-           given={J.-J.\bibnamedelimi E.},
-           giveni={J\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, N.Y}%
-      }
-      \list{publisher}{1}{%
-        {J. Wiley}%
-      }
-      \strng{namehash}{23dbd38f9f5993ffddaa7695620db934}
-      \strng{fullhash}{23dbd38f9f5993ffddaa7695620db934}
-      \strng{bibnamehash}{23dbd38f9f5993ffddaa7695620db934}
-      \strng{authorbibnamehash}{23dbd38f9f5993ffddaa7695620db934}
-      \strng{authornamehash}{23dbd38f9f5993ffddaa7695620db934}
-      \strng{authorfullhash}{23dbd38f9f5993ffddaa7695620db934}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-471-83029-0}
-      \field{title}{Robot analysis and control}
-      \field{year}{1986}
-      \keyw{Robotics}
-    \endentry
-    \entry{babel_industry_2022}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f88f4792f3c82e0f9deb2f4acc140e0f}{%
-           family={Babel},
-           familyi={B\bibinitperiod},
-           given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Wiesbaden [Heidelberg]}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \strng{fullhash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \strng{bibnamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \strng{authorbibnamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \strng{authornamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \strng{authorfullhash}{f88f4792f3c82e0f9deb2f4acc140e0f}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-658-37851-6}
-      \field{shorttitle}{Industry 4.0, {China} 2025, {IoT}}
-      \field{title}{Industry 4.0, {China} 2025, {IoT}: the hype around the world of automation}
-      \field{year}{2022}
-      \verb{file}
-      \verb Table of Contents PDF:/home/anie/Zotero/storage/T7PFLDUG/Babel - 2022 - Industry 4.0, China 2025, IoT the hype around the.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{basco_industria_2018}{book}{}
-      \name{author}{4}{}{%
-        {{hash=5fd62b76a112d48ba65263d7ca7a9df6}{%
-           family={Basco},
-           familyi={B\bibinitperiod},
-           given={Ana\bibnamedelima Inés},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=3126360740ba01b0e11b1a0c5562f95e}{%
-           family={Beliz},
-           familyi={B\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=77f2fb16797b8d152e3c3c629096676d}{%
-           family={Coatz},
-           familyi={C\bibinitperiod},
-           given={Diego},
-           giveni={D\bibinitperiod}}}%
-        {{hash=46626068fe1b20555214afd61d082f0a}{%
-           family={Garnero},
-           familyi={G\bibinitperiod},
-           given={Paula},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {es}%
-      }
-      \list{publisher}{1}{%
-        {Inter-American Development Bank}%
-      }
-      \strng{namehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
-      \strng{fullhash}{4e85f6207b88c93b6bc7198a525baedf}
-      \strng{bibnamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
-      \strng{authorbibnamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
-      \strng{authornamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
-      \strng{authorfullhash}{4e85f6207b88c93b6bc7198a525baedf}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{La economía global transita una nueva fase que se caracteriza por la digitalización y la conectividad. “INDUSTRIA 4.0. Fabricando el Futuro” explora los impactos de la denominada Cuarta Revolución Industrial sobre la producción manufacturera, el trabajo, las cadenas globales de valor y el comercio. La publicación reúne las voces de diversos especialistas que analizan los desafíos y oportunidades para la industria que conllevan tecnologías como Internet de las cosas, computación en nube, big data, inteligencia artificial e impresión 3D, entre otras. Asimismo, presenta los estudios de caso realizados sobre la experiencia de dos firmas argentinas que dan cuenta de los alcances de la trasformación digital: Tenaris, dedicada a la producción de tubos para la industria de petróleo y gas; y Sinteplast, dedicada a la fabricación de pinturas. “INDUSTRIA 4.0. Fabricando el Futuro” recorre estas experiencias, así como los aportes de la industria automotriz y de políticas públicas de fomento a la industria, como el caso alemán de “Industrie 4.0” y el “Mapa de ruta de la Industria 4.0” de México. De este modo, se propone ofrecer un marco para la comprensión de un fenómeno complejo cuyas consecuencias apenas se comienzan a vislumbrar.}
-      \field{month}{7}
-      \field{note}{Google-Books-ID: geiGDwAAQBAJ}
-      \field{shorttitle}{Industria 4.0}
-      \field{title}{Industria 4.0: {Fabricando} el {Futuro}}
-      \field{year}{2018}
-      \keyw{Business \& Economics / Industries / Manufacturing,Technology \& Engineering / Industrial Technology,Technology \& Engineering / Technical \& Manufacturing Industries \& Trades}
-    \endentry
-    \entry{burger_digital_2022}{book}{}
-      \name{author}{2}{}{%
-        {{hash=9ad59080ba03ad1d0e62ab1765d41109}{%
-           family={Burger},
-           familyi={B\bibinitperiod},
-           given={Wilhelm},
-           giveni={W\bibinitperiod}}}%
-        {{hash=19c08e31d97d6b90063b5872fdb30dfb}{%
-           family={Burge},
-           familyi={B\bibinitperiod},
-           given={Mark\bibnamedelima James},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Cham, Switzerland}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \strng{fullhash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \strng{bibnamehash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \strng{authorbibnamehash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \strng{authornamehash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \strng{authorfullhash}{8ce60a5cf5fe03167855ae83217ac85b}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{edition}{Third edition}
-      \field{isbn}{9783031057441}
-      \field{series}{Texts in computer science}
-      \field{shorttitle}{Digital image processing}
-      \field{title}{Digital image processing: an algorithmic introduction}
-      \field{year}{2022}
-      \verb{file}
-      \verb Table of Contents PDF:/home/robocup/Zotero/storage/PMKN6Y87/Burger and Burge - 2022 - Digital image processing an algorithmic introduct.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{ceccarelli_fundamentals_2022}{book}{}
-      \name{author}{1}{}{%
-        {{hash=514bf9cda616f40157191e02fb4696a4}{%
-           family={Ceccarelli},
-           familyi={C\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{514bf9cda616f40157191e02fb4696a4}
-      \strng{fullhash}{514bf9cda616f40157191e02fb4696a4}
-      \strng{bibnamehash}{514bf9cda616f40157191e02fb4696a4}
-      \strng{authorbibnamehash}{514bf9cda616f40157191e02fb4696a4}
-      \strng{authornamehash}{514bf9cda616f40157191e02fb4696a4}
-      \strng{authorfullhash}{514bf9cda616f40157191e02fb4696a4}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Second edition}
-      \field{isbn}{978-3-030-90846-1}
-      \field{number}{112}
-      \field{series}{Mechanisms and machine science}
-      \field{title}{Fundamentals of mechanics of robotic manipulation}
-      \field{year}{2022}
-      \verb{file}
-      \verb Table of Contents PDF:/home/robocup/Zotero/storage/KVM9BL4V/Ceccarelli - 2022 - Fundamentals of mechanics of robotic manipulation.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{ROS_concepts_MoveIt}{misc}{}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{title}{Concepts | {MoveIt}}
-      \field{urlday}{22}
-      \field{urlmonth}{11}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Concepts | MoveIt:/home/robocup/Zotero/storage/NWQJ8JT2/concepts.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://moveit.ros.org/documentation/concepts/
-      \endverb
-      \verb{url}
-      \verb https://moveit.ros.org/documentation/concepts/
-      \endverb
-    \endentry
-    \entry{czerwinski_definitions_2013}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=4fa13fd7e90d343de2a583a604994fae}{%
-           family={Czerwinski},
-           familyi={C\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f3fd7fa1e8cf6857bf422c881dc1d054}{%
-           family={Kania},
-           familyi={K\bibinitperiod},
-           given={Dariusz},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \strng{namehash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \strng{fullhash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \strng{bibnamehash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \strng{authorbibnamehash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \strng{authornamehash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \strng{authorfullhash}{dc4c98a615e06828cb68e4df71e94a8c}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Finite {State} {Machine} {Logic} {Synthesis} for {Complex} {Programmable} {Logic} {Devices}}
-      \field{isbn}{978-3-642-36165-4}
-      \field{note}{Series Title: Lecture Notes in Electrical Engineering}
-      \field{title}{Definitions and {Basic} {Properties}}
-      \field{urlday}{31}
-      \field{urlmonth}{8}
-      \field{urlyear}{2023}
-      \field{volume}{231}
-      \field{year}{2013}
-      \field{urldateera}{ce}
-      \field{pages}{9\bibrangedash 23}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1007/978-3-642-36166-1_2
-      \endverb
-      \verb{file}
-      \verb Czerwinski and Kania - 2013 - Definitions and Basic Properties.pdf:/home/robocup/Zotero/storage/7C6D6D7B/Czerwinski and Kania - 2013 - Definitions and Basic Properties.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-3-642-36166-1_2
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-3-642-36166-1_2
-      \endverb
-    \endentry
-    \entry{davison_kinect_2012}{book}{}
-      \name{author}{1}{}{%
-        {{hash=72b1f79a6f35439abb27d2ca5236fb0b}{%
-           family={Davison},
-           familyi={D\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \strng{fullhash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \strng{bibnamehash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \strng{authorbibnamehash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \strng{authornamehash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \strng{authorfullhash}{72b1f79a6f35439abb27d2ca5236fb0b}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-0-07-178317-0}
-      \field{shorttitle}{Kinect open source programming secrets}
-      \field{title}{Kinect open source programming secrets: hacking the {Kinect} with {OpenNI}, {NITE}, and {Java}}
-      \field{year}{2012}
-      \keyw{Computer input-output equipment,Equipment and supplies,Programming,Video games,Xbox 360 (Video game console)}
-    \endentry
-    \entry{freire_importancia_2007}{book}{}
-      \name{author}{1}{}{%
-        {{hash=b5bd5c8791c1bd62f9c31ce90b9c7075}{%
-           family={Freire},
-           familyi={F\bibinitperiod},
-           given={Pascual\bibnamedelima Martínez},
-           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {es}%
-      }
-      \list{publisher}{1}{%
-        {Netbiblo}%
-      }
-      \strng{namehash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \strng{fullhash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \strng{bibnamehash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \strng{authorbibnamehash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \strng{authornamehash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \strng{authorfullhash}{b5bd5c8791c1bd62f9c31ce90b9c7075}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-84-9745-172-7}
-      \field{month}{9}
-      \field{title}{La {Importancia} del {Conocimiento}. {Filosofía} y {Ciencias} {Cognitivas}}
-      \field{year}{2007}
-    \endentry
-    \entry{giarratano_zhuan_2002}{book}{}
-      \name{author}{2}{}{%
-        {{hash=ea350d5ad445e1feaa192f3a66f02256}{%
-           family={{Giarratano}},
-           familyi={G\bibinitperiod}}}%
-        {{hash=21da087a3a7b3ce8c9b63c5ca74670a5}{%
-           family={{Riley}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {Chinese}%
-      }
-      \list{location}{1}{%
-        {Beijing}%
-      }
-      \list{publisher}{1}{%
-        {Ji xie gong ye chu ban she}%
-      }
-      \strng{namehash}{7ce04134aec3d42e79ab29065ff55773}
-      \strng{fullhash}{7ce04134aec3d42e79ab29065ff55773}
-      \strng{bibnamehash}{7ce04134aec3d42e79ab29065ff55773}
-      \strng{authorbibnamehash}{7ce04134aec3d42e79ab29065ff55773}
-      \strng{authornamehash}{7ce04134aec3d42e79ab29065ff55773}
-      \strng{authorfullhash}{7ce04134aec3d42e79ab29065ff55773}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-7-111-10844-3}
-      \field{note}{OCLC: 952716560}
-      \field{shorttitle}{Zhuan jia xi tong yuan li yu bian cheng}
-      \field{title}{Zhuan jia xi tong yuan li yu bian cheng: {Third} {Edition} = {Expert} {Systems} {Principles} and {Program} ming}
-      \field{year}{2002}
-    \endentry
-    \entry{gonzalez_digital_2002}{book}{}
-      \name{author}{2}{}{%
-        {{hash=07713b8c79fe78ffaf9ab728a5f3ce88}{%
-           family={Gonzalez},
-           familyi={G\bibinitperiod},
-           given={Rafael\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f7e4f4ce32d8e1ac04f7ee5eefcabe8f}{%
-           family={Woods},
-           familyi={W\bibinitperiod},
-           given={Richard\bibnamedelima E.},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Upper Saddle River, N.J}%
-      }
-      \list{publisher}{1}{%
-        {Prentice Hall}%
-      }
-      \strng{namehash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{fullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{bibnamehash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{authorbibnamehash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{authornamehash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{authorfullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd ed}
-      \field{isbn}{978-0-201-18075-6}
-      \field{title}{Digital image processing}
-      \field{year}{2002}
-      \keyw{Digital techniques,Image processing}
-    \endentry
-    \entry{gross_statics_2013}{book}{}
-      \name{author}{1}{}{%
-        {{hash=024dd3df8bbdd2d7f23d97316f2d4b36}{%
-           family={Gross},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \strng{fullhash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \strng{bibnamehash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \strng{authorbibnamehash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \strng{authornamehash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \strng{authorfullhash}{024dd3df8bbdd2d7f23d97316f2d4b36}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Second edition}
-      \field{isbn}{978-3-642-30318-0}
-      \field{number}{1}
-      \field{series}{Engineering mechanics}
-      \field{title}{Statics}
-      \field{year}{2013}
-      \keyw{Statics,Textbooks}
-    \endentry
-    \entry{gupta_artificial_2020}{book}{}
-      \name{author}{2}{}{%
-        {{hash=49015e487bb5e9ce14f40dd6b6a8cfe7}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=72e2d61f98b9a2b5ae1846052940e387}{%
-           family={Nagpal},
-           familyi={N\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{2}{%
-        {Mercury Learning}%
-        {Information}%
-      }
-      \strng{namehash}{53ed609e70ef9186131146ae8dec3d36}
-      \strng{fullhash}{53ed609e70ef9186131146ae8dec3d36}
-      \strng{bibnamehash}{53ed609e70ef9186131146ae8dec3d36}
-      \strng{authorbibnamehash}{53ed609e70ef9186131146ae8dec3d36}
-      \strng{authornamehash}{53ed609e70ef9186131146ae8dec3d36}
-      \strng{authorfullhash}{53ed609e70ef9186131146ae8dec3d36}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1-68392-506-4}
-      \field{month}{4}
-      \field{note}{Google-Books-ID: 61PdDwAAQBAJ}
-      \field{title}{Artificial {Intelligence} and {Expert} {Systems}}
-      \field{year}{2020}
-      \keyw{Computers / Artificial Intelligence / General,Computers / Machine Theory,Computers / Reference}
-    \endentry
-    \entry{hamilton_ii_1844}{article}{}
-      \name{author}{1}{}{%
-        {{hash=669f29d983faa7a666a11ac2f96d3d92}{%
-           family={Hamilton},
-           familyi={H\bibinitperiod},
-           given={William\bibnamedelima Rowan},
-           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {Taylor & Francis}%
-      }
-      \strng{namehash}{669f29d983faa7a666a11ac2f96d3d92}
-      \strng{fullhash}{669f29d983faa7a666a11ac2f96d3d92}
-      \strng{bibnamehash}{669f29d983faa7a666a11ac2f96d3d92}
-      \strng{authorbibnamehash}{669f29d983faa7a666a11ac2f96d3d92}
-      \strng{authornamehash}{669f29d983faa7a666a11ac2f96d3d92}
-      \strng{authorfullhash}{669f29d983faa7a666a11ac2f96d3d92}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1941-5966, 1941-5974}
-      \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
-      \field{month}{7}
-      \field{number}{163}
-      \field{title}{{II}. \textit{{On} quaternions; or on a new system of imaginaries in algebra}}
-      \field{urlday}{17}
-      \field{urlmonth}{11}
-      \field{urlyear}{2023}
-      \field{volume}{25}
-      \field{year}{1844}
-      \field{urldateera}{ce}
-      \field{pages}{10\bibrangedash 13}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1080/14786444408644923
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1080/14786444408644923
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/14786444408644923
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/14786444408644923
-      \endverb
-    \endentry
-    \entry{ifr_international}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=44a001326b9459f20031d2ea28f25aba}{%
-           family={IFR},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{44a001326b9459f20031d2ea28f25aba}
-      \strng{fullhash}{44a001326b9459f20031d2ea28f25aba}
-      \strng{bibnamehash}{44a001326b9459f20031d2ea28f25aba}
-      \strng{authorbibnamehash}{44a001326b9459f20031d2ea28f25aba}
-      \strng{authornamehash}{44a001326b9459f20031d2ea28f25aba}
-      \strng{authorfullhash}{44a001326b9459f20031d2ea28f25aba}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The International Federation of Robotics is a professional non-profit organization to promote, strengthen and protect the robotics industry worldwide.}
-      \field{journaltitle}{IFR International Federation of Robotics}
-      \field{title}{International {Federation} of {Robotics}}
-      \field{urlday}{12}
-      \field{urlmonth}{8}
-      \field{urlyear}{2022}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:/home/robocup/Zotero/storage/XB4D56B4/service-robots.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://ifr.org/service-robots
-      \endverb
-      \verb{url}
-      \verb https://ifr.org/service-robots
-      \endverb
-    \endentry
-    \entry{Interbotix_interbotix}{misc}{}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{labeltitlesource}{title}
-      \field{title}{Interbotix {X}-{Series} {Arms} — {Interbotix} {X}-{Series} {Arms} {Documentation}}
-      \field{urlday}{9}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.trossenrobotics.com/interbotix_xsarms_docs/
-      \endverb
-      \verb{url}
-      \verb https://docs.trossenrobotics.com/interbotix_xsarms_docs/
-      \endverb
-    \endentry
-    \entry{kohout_multi-robot_2020}{article}{}
-      \name{author}{5}{}{%
-        {{hash=060ef3e132f9de3a34c32e1b6c61172e}{%
-           family={Kohout},
-           familyi={K\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=e0b439aaa16a9de394037044608ec462}{%
-           family={De\bibnamedelima Bortoli},
-           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fb1bbe0a0e01b11114d508eae9648119}{%
-           family={Ludwiger},
-           familyi={L\bibinitperiod},
-           given={Jakob},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e63c7fa8553dca38f2ff2dbf66d302bb}{%
-           family={Ulz},
-           familyi={U\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=68522a546de65678bbf91ade88e5a8c7}{%
-           family={Steinbauer},
-           familyi={S\bibinitperiod},
-           given={Gerald},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{293fb1024de7d18b2c27b2e41c859aa8}
-      \strng{fullhash}{c9975eeb085e887fa4d09784beb9cf9f}
-      \strng{bibnamehash}{293fb1024de7d18b2c27b2e41c859aa8}
-      \strng{authorbibnamehash}{293fb1024de7d18b2c27b2e41c859aa8}
-      \strng{authornamehash}{293fb1024de7d18b2c27b2e41c859aa8}
-      \strng{authorfullhash}{c9975eeb085e887fa4d09784beb9cf9f}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Due to increasing demands on flexibility in terms of product configuration as well as delivery time production settings increasingly use teams of mobile robot systems. The RoboCup Logistics League was designed to provide a testbed to develop and test such flexibe multi-robot approaches for production environments. It resembles a product setting with on-demand product orders of different configurations. In this article we introduce the concept of the leagues and we present the solution of the team GRIPS to face that challenge.}
-      \field{issn}{1613-7620}
-      \field{journaltitle}{Elektrotech. Inftech.}
-      \field{month}{10}
-      \field{number}{6}
-      \field{title}{A multi-robot architecture for the {RoboCup} {Logistics} {League}}
-      \field{urlday}{17}
-      \field{urlmonth}{10}
-      \field{urlyear}{2022}
-      \field{volume}{137}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \field{pages}{291\bibrangedash 296}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1007/s00502-020-00826-5
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/robocup/Zotero/storage/LWQGQLXK/Kohout et al. - 2020 - A multi-robot architecture for the RoboCup Logisti.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00502-020-00826-5
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00502-020-00826-5
-      \endverb
-      \keyw{RoboCup,flexible production,flexible Produktion,logistics,Logistik,planning,Planung}
-    \endentry
-    \entry{liebowitz_handbook_2019}{book}{}
-      \name{author}{1}{}{%
-        {{hash=19551948846f47ce3867eb58b7a24419}{%
-           family={Liebowitz},
-           familyi={L\bibinitperiod},
-           given={Jay},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press}%
-      }
-      \strng{namehash}{19551948846f47ce3867eb58b7a24419}
-      \strng{fullhash}{19551948846f47ce3867eb58b7a24419}
-      \strng{bibnamehash}{19551948846f47ce3867eb58b7a24419}
-      \strng{authorbibnamehash}{19551948846f47ce3867eb58b7a24419}
-      \strng{authornamehash}{19551948846f47ce3867eb58b7a24419}
-      \strng{authorfullhash}{19551948846f47ce3867eb58b7a24419}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-429-61249-7}
-      \field{month}{7}
-      \field{note}{Google-Books-ID: WzX3DwAAQBAJ}
-      \field{title}{The {Handbook} of {Applied} {Expert} {Systems}}
-      \field{year}{2019}
-      \keyw{Computers / Computer Engineering,Computers / Information Technology,Computers / Software Development \& Engineering / Systems Analysis \& Design}
-    \endentry
-    \entry{lynch_modern_2017}{book}{}
-      \name{author}{2}{}{%
-        {{hash=ab9086b1452a1a9813fc6765151b4f61}{%
-           family={Lynch},
-           familyi={L\bibinitperiod},
-           given={Kevin\bibnamedelima M.},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=66f19f2d439b6eb60c024ab622b0389f}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Frank\bibnamedelima C.},
-           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, UK}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{8d01efb70f6cec86f711e78e22f97a48}
-      \strng{fullhash}{8d01efb70f6cec86f711e78e22f97a48}
-      \strng{bibnamehash}{8d01efb70f6cec86f711e78e22f97a48}
-      \strng{authorbibnamehash}{8d01efb70f6cec86f711e78e22f97a48}
-      \strng{authornamehash}{8d01efb70f6cec86f711e78e22f97a48}
-      \strng{authorfullhash}{8d01efb70f6cec86f711e78e22f97a48}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-1-107-15630-2}
-      \field{note}{OCLC: ocn983881868}
-      \field{shorttitle}{Modern robotics}
-      \field{title}{Modern robotics: mechanics, planning, and control}
-      \field{year}{2017}
-      \keyw{Control systems,Robots,Robotics,Design and construction,Dynamics,Manipulators (Mechanism)}
-    \endentry
-    \entry{navarro_pina_robot_2021}{book}{}
-      \name{author}{1}{}{%
-        {{hash=135791446f17b63a01575d6457e88aa6}{%
-           family={Navarro\bibnamedelima Piña},
-           familyi={N\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Alejhandro\bibnamedelima V.},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {spa}%
-      }
-      \list{location}{1}{%
-        {Madrid}%
-      }
-      \list{publisher}{1}{%
-        {Paraninfo}%
-      }
-      \strng{namehash}{135791446f17b63a01575d6457e88aa6}
-      \strng{fullhash}{135791446f17b63a01575d6457e88aa6}
-      \strng{bibnamehash}{135791446f17b63a01575d6457e88aa6}
-      \strng{authorbibnamehash}{135791446f17b63a01575d6457e88aa6}
-      \strng{authornamehash}{135791446f17b63a01575d6457e88aa6}
-      \strng{authorfullhash}{135791446f17b63a01575d6457e88aa6}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{El robot industrial es una pieza fundamental de cualquier proceso industrial. En este libro se indica un procedimiento básico para llevar a cabo la ingeniería de la instalación de una célula robotizada, por lo que servirá de guía para cualquier persona involucrada en la instalación o que desee instalar un robot industrial en su empresa.Se acompañará al lector por cada una de las etapas que se deben seguir para desarrollar de forma efectiva una célula robotizada, desde la selección del robot, el diseño de la herramienta de trabajo y la selección de los componentes de seguridad de la célula hasta la programación. Adicionalmente, a lo largo de varios capítulos se ilustra un caso práctico real donde se demuestra cada una de las etapas mencionadas con el fi n de afianzar la teoría.El autor, Alejhandro V. Navarro Piña, es ingeniero mecánico con posgrado en Mecatrónica, profesor de posgrado en la Universidad Arturo Michelena de Venezuela y CEO en la empresa AN-Mecatrónica, especializada en el desarrollo de proyectos industriales en el sector de la ergonomía y manufactura automatizada}
-      \field{isbn}{978-84-13-66031-8}
-      \field{note}{OCLC: 1236395081}
-      \field{shorttitle}{Robot {Industrial}}
-      \field{title}{Robot {Industrial}: manual de instalación}
-      \field{year}{2021}
-    \endentry
-    \entry{olguin_diaz_3d_2019}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f1bff120a21d82670a8ecad076527021}{%
-           family={Olguín\bibnamedelima Díaz},
-           familyi={O\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Ernesto},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{f1bff120a21d82670a8ecad076527021}
-      \strng{fullhash}{f1bff120a21d82670a8ecad076527021}
-      \strng{bibnamehash}{f1bff120a21d82670a8ecad076527021}
-      \strng{authorbibnamehash}{f1bff120a21d82670a8ecad076527021}
-      \strng{authornamehash}{f1bff120a21d82670a8ecad076527021}
-      \strng{authorfullhash}{f1bff120a21d82670a8ecad076527021}
-      \field{sortinit}{O}
-      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-030-04275-2}
-      \field{number}{191}
-      \field{series}{Studies in systems, decision and control}
-      \field{shorttitle}{{3D} motion of rigid bodies}
-      \field{title}{{3D} motion of rigid bodies: a foundation for robot dynamics analysis}
-      \field{year}{2019}
-    \endentry
-    \entry{pratt_introduction_2014}{book}{}
-      \name{author}{1}{}{%
-        {{hash=dcbd63da91c0160538d394b63eb800de}{%
-           family={Pratt},
-           familyi={P\bibinitperiod},
-           given={William\bibnamedelima K.},
-           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Boca Raton [Florida]}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press, Taylor \& Francis Group}%
-      }
-      \strng{namehash}{dcbd63da91c0160538d394b63eb800de}
-      \strng{fullhash}{dcbd63da91c0160538d394b63eb800de}
-      \strng{bibnamehash}{dcbd63da91c0160538d394b63eb800de}
-      \strng{authorbibnamehash}{dcbd63da91c0160538d394b63eb800de}
-      \strng{authornamehash}{dcbd63da91c0160538d394b63eb800de}
-      \strng{authorfullhash}{dcbd63da91c0160538d394b63eb800de}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{"This book contains English language narratives of important image processing operations, from which a student is expected to create executable versions of the operations using C language programming, calls to an image processing library furnished with the book, a furnished PIKSTool interactive package or the widely supported MATLAB interactive package. Executable versions of each narrative operation are furnished so that a student can visualize the result of each operation."-- Provided by publisher}
-      \field{isbn}{978-1-4822-1670-7}
-      \field{note}{OCLC: 907445364}
-      \field{title}{Introduction to digital image processing}
-      \field{year}{2014}
-    \endentry
-    \entry{pterneas_mastering_2022}{book}{}
-      \name{author}{1}{}{%
-        {{hash=5334219c90597d1231207034bb0ac4ce}{%
-           family={Pterneas},
-           familyi={P\bibinitperiod},
-           given={Vangos},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berkeley, CA}%
-      }
-      \list{publisher}{1}{%
-        {Apress}%
-      }
-      \strng{namehash}{5334219c90597d1231207034bb0ac4ce}
-      \strng{fullhash}{5334219c90597d1231207034bb0ac4ce}
-      \strng{bibnamehash}{5334219c90597d1231207034bb0ac4ce}
-      \strng{authorbibnamehash}{5334219c90597d1231207034bb0ac4ce}
-      \strng{authornamehash}{5334219c90597d1231207034bb0ac4ce}
-      \strng{authorfullhash}{5334219c90597d1231207034bb0ac4ce}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-1-4842-8069-0}
-      \field{shorttitle}{Mastering the {Microsoft} {Kinect}}
-      \field{title}{Mastering the {Microsoft} {Kinect}: {Body} {Tracking}, {Object} {Detection}, and the {Azure} {Cloud} {Services}}
-      \field{urlday}{9}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-1-4842-8070-6
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-1-4842-8070-6
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-1-4842-8070-6
-      \endverb
-    \endentry
-    \entry{quigley_ROS}{article}{}
-      \name{author}{8}{}{%
-        {{hash=fcfd863c46660d91eb8695a9515bcb13}{%
-           family={{Quigley, Morgan}},
-           familyi={Q\bibinitperiod}}}%
-        {{hash=af6cbac1876a5983492cdaa46c4cb4cd}{%
-           family={{Gerkey, Brian}},
-           familyi={G\bibinitperiod}}}%
-        {{hash=8eb4b53c3672f37c2993caa95788f18c}{%
-           family={{Conley, Ken}},
-           familyi={C\bibinitperiod}}}%
-        {{hash=14b09f258b7ed8e4bb855d75be6dbee2}{%
-           family={{Faust, Josh}},
-           familyi={F\bibinitperiod}}}%
-        {{hash=f54c8d58ee5bd733fb0a141b9201f273}{%
-           family={{Foote, Tully}},
-           familyi={F\bibinitperiod}}}%
-        {{hash=0505788c622b0ba8315b4a14ad7f85f6}{%
-           family={{Leibs, Jeremy}},
-           familyi={L\bibinitperiod}}}%
-        {{hash=d30a0885a38611d53bfa13f7a76d45c9}{%
-           family={{Wheeler, Rob}},
-           familyi={W\bibinitperiod}}}%
-        {{hash=3c5e71fc041ba783b5aadcb6ca9dc582}{%
-           family={{Ng, Andrew}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{1f39537e34d95c7e6c2d997387ca1657}
-      \strng{fullhash}{3c96d2784c96f6b0cb26c2b9525209a3}
-      \strng{bibnamehash}{1f39537e34d95c7e6c2d997387ca1657}
-      \strng{authorbibnamehash}{1f39537e34d95c7e6c2d997387ca1657}
-      \strng{authornamehash}{1f39537e34d95c7e6c2d997387ca1657}
-      \strng{authorfullhash}{3c96d2784c96f6b0cb26c2b9525209a3}
-      \field{sortinit}{Q}
-      \field{sortinithash}{c54e16deb53fc904a621fa8fd8703b5a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ICRA Workshop on Open Source Software}
-      \field{month}{1}
-      \field{title}{{ROS}: an open-source {Robot} {Operating} {System}}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{volume}{3}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-    \endentry
-    \entry{robocup__mathworks_robocup_2022}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4ea04da49195e3b6dc9bb5210e631b0d}{%
-           family={{RoboCup \& Mathworks}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {Inglés}%
-      }
-      \strng{namehash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \strng{fullhash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \strng{bibnamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \strng{authorbibnamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \strng{authornamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \strng{authorfullhash}{4ea04da49195e3b6dc9bb5210e631b0d}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{RoboCup Autonomous Robot Manipulation Challenge}
-      \field{month}{3}
-      \field{title}{{RoboCup} {ARM} {Challenge}}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://arm.robocup.org/home
-      \endverb
-      \verb{url}
-      \verb https://arm.robocup.org/home
-      \endverb
-    \endentry
-    \entry{Rosenbaum2006}{inbook}{}
-      \name{author}{4}{}{%
-        {{hash=a195cd870b4d6276c4ce99599fd727ae}{%
-           family={Rosenbaum},
-           familyi={R\bibinitperiod},
-           given={David\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=47f18b29108c7c911538b5ad018aaf52}{%
-           family={Cohen},
-           familyi={C\bibinitperiod},
-           given={Rajal\bibnamedelima G.},
-           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=54cfc3a5fd53023666c78dc430acae23}{%
-           family={Meulenbroek},
-           familyi={M\bibinitperiod},
-           given={Ruud\bibnamedelimb G.\bibnamedelimi J.},
-           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=58c31010d816fee1a6ca3f859115e8ee}{%
-           family={Vaughan},
-           familyi={V\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=93b34f1c97d4aeed1f33271c3bc1ac3d}{%
-           family={Latash},
-           familyi={L\bibinitperiod},
-           given={Mark\bibnamedelima L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=5fd64c52a8530cc6c0f20690990533ae}{%
-           family={Lestienne},
-           familyi={L\bibinitperiod},
-           given={Francis},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Boston, MA}%
-      }
-      \list{publisher}{1}{%
-        {Springer US}%
-      }
-      \strng{namehash}{9019973245608983f352bf526682dbe6}
-      \strng{fullhash}{4d9ba7bed24cf474d8389d8486396dfd}
-      \strng{bibnamehash}{9019973245608983f352bf526682dbe6}
-      \strng{authorbibnamehash}{9019973245608983f352bf526682dbe6}
-      \strng{authornamehash}{9019973245608983f352bf526682dbe6}
-      \strng{authorfullhash}{4d9ba7bed24cf474d8389d8486396dfd}
-      \strng{editorbibnamehash}{f3864495d631af1f37d0d542f0178088}
-      \strng{editornamehash}{f3864495d631af1f37d0d542f0178088}
-      \strng{editorfullhash}{f3864495d631af1f37d0d542f0178088}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Motor Control and Learning}
-      \field{isbn}{978-0-387-28287-9}
-      \field{title}{Plans for Grasping Objects}
-      \field{year}{2006}
-      \field{pages}{9\bibrangedash 25}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1007/0-387-28287-4_2
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/0-387-28287-4_2
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/0-387-28287-4_2
-      \endverb
-    \endentry
-    \entry{ROVEDA2021103711}{article}{}
-      \name{author}{5}{}{%
-        {{hash=2de2c10e99c28606267995edef7da9fe}{%
-           family={Roveda},
-           familyi={R\bibinitperiod},
-           given={Loris},
-           giveni={L\bibinitperiod}}}%
-        {{hash=a663cde21f40e10e0ef31859f31d0146}{%
-           family={Magni},
-           familyi={M\bibinitperiod},
-           given={Mauro},
-           giveni={M\bibinitperiod}}}%
-        {{hash=40c3dc8b1d93e97071c9986bac38f52a}{%
-           family={Cantoni},
-           familyi={C\bibinitperiod},
-           given={Martina},
-           giveni={M\bibinitperiod}}}%
-        {{hash=305fc22b0a12eecc98874a863170167d}{%
-           family={Piga},
-           familyi={P\bibinitperiod},
-           given={Dario},
-           giveni={D\bibinitperiod}}}%
-        {{hash=2038a55c1fc9ef2b8795f5a86ce9c11d}{%
-           family={Bucca},
-           familyi={B\bibinitperiod},
-           given={Giuseppe},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{fullhash}{757a4bebcd242d82467f01f611415518}
-      \strng{bibnamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authorbibnamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authornamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authorfullhash}{757a4bebcd242d82467f01f611415518}
-      \field{extraname}{1}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0921-8890}
-      \field{journaltitle}{Robotics and Autonomous Systems}
-      \field{title}{Human–robot collaboration in sensorless assembly task learning enhanced by uncertainties adaptation via Bayesian Optimization}
-      \field{volume}{136}
-      \field{year}{2021}
-      \field{pages}{103711}
-      \range{pages}{1}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.robot.2020.103711
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0921889020305510
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0921889020305510
-      \endverb
-    \endentry
-    \entry{roveda_robot_2022}{article}{}
-      \name{author}{7}{}{%
-        {{hash=2de2c10e99c28606267995edef7da9fe}{%
-           family={Roveda},
-           familyi={R\bibinitperiod},
-           given={Loris},
-           giveni={L\bibinitperiod}}}%
-        {{hash=ab279c47cee3831ea85b2293029666ca}{%
-           family={Maroni},
-           familyi={M\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=068f7329d5e53ab4e65179ee914472fa}{%
-           family={Mazzuchelli},
-           familyi={M\bibinitperiod},
-           given={Lorenzo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e2be0dabce4d02373c9f6911cc377ada}{%
-           family={Praolini},
-           familyi={P\bibinitperiod},
-           given={Loris},
-           giveni={L\bibinitperiod}}}%
-        {{hash=ad7c9a441a9ccb2448bde404a6bbd5b3}{%
-           family={Shahid},
-           familyi={S\bibinitperiod},
-           given={Asad\bibnamedelima Ali},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2038a55c1fc9ef2b8795f5a86ce9c11d}{%
-           family={Bucca},
-           familyi={B\bibinitperiod},
-           given={Giuseppe},
-           giveni={G\bibinitperiod}}}%
-        {{hash=305fc22b0a12eecc98874a863170167d}{%
-           family={Piga},
-           familyi={P\bibinitperiod},
-           given={Dario},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{fullhash}{1f575d63735daee6ac202f3be97db52f}
-      \strng{bibnamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authorbibnamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authornamehash}{e683ff695cf145e51a13e62894eff92e}
-      \strng{authorfullhash}{1f575d63735daee6ac202f3be97db52f}
-      \field{extraname}{2}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0921-0296, 1573-0409}
-      \field{journaltitle}{Journal of Intelligent \& Robotic Systems}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Robot {End}-{Effector} {Mounted} {Camera} {Pose} {Optimization} in {Object} {Detection}-{Based} {Tasks}}
-      \field{urlday}{25}
-      \field{urlmonth}{1}
-      \field{urlyear}{2022}
-      \field{volume}{104}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{16}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1007/s10846-021-01558-0
-      \endverb
-      \verb{file}
-      \verb Roveda et al. - 2022 - Robot End-Effector Mounted Camera Pose Optimizatio.pdf:/home/anie/Zotero/storage/RC5VG926/Roveda et al. - 2022 - Robot End-Effector Mounted Camera Pose Optimizatio.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/s10846-021-01558-0
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/s10846-021-01558-0
-      \endverb
-    \endentry
-    \entry{siciliano_springer_2016}{book}{}
-      \name{editor}{2}{}{%
-        {{hash=38f7a70abf2d86e432d63826f560ab93}{%
-           family={Siciliano},
-           familyi={S\bibinitperiod},
-           given={Bruno},
-           giveni={B\bibinitperiod}}}%
-        {{hash=a1ed48939870abd896792330bc735967}{%
-           family={Khatib},
-           familyi={K\bibinitperiod},
-           given={Oussama},
-           giveni={O\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \strng{fullhash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \strng{bibnamehash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \strng{editorbibnamehash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \strng{editornamehash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \strng{editorfullhash}{0bdecfa7d3574a8d04c99af970a7506e}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{editor}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd edition}
-      \field{isbn}{978-3-319-32550-7}
-      \field{series}{Springer handbooks}
-      \field{title}{Springer handbook of robotics}
-      \field{year}{2016}
-    \endentry
-    \entry{sonka_image_2008}{book}{}
-      \name{author}{3}{}{%
-        {{hash=6556f80ba935e9e3980178d889753f1e}{%
-           family={Sonka},
-           familyi={S\bibinitperiod},
-           given={Milan},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b9f218be1c5751c0668129657fd74ee1}{%
-           family={Hlaváč},
-           familyi={H\bibinitperiod},
-           given={Václav},
-           giveni={V\bibinitperiod}}}%
-        {{hash=8525093f5d1006066fe0b63a4748661e}{%
-           family={Boyle},
-           familyi={B\bibinitperiod},
-           given={Roger},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Toronto}%
-      }
-      \list{publisher}{1}{%
-        {Thompson Learning}%
-      }
-      \strng{namehash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \strng{fullhash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \strng{bibnamehash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \strng{authorbibnamehash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \strng{authornamehash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \strng{authorfullhash}{ef70ba1c1fbb9b9fa2fa8dfefbac12d7}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{3. ed}
-      \field{isbn}{978-0-495-24438-7}
-      \field{title}{Image processing, analysis, and machine vision}
-      \field{year}{2008}
-    \endentry
-    \entry{ros_wiki_std_msgs}{misc}{}
-      \field{sortinit}{s}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labeltitlesource}{title}
-      \field{title}{std\_msgs - {ROS} {Wiki}}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb std_msgs - ROS Wiki:/home/robocup/Zotero/storage/WAFJD62U/std_msgs.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://wiki.ros.org/std_msgs
-      \endverb
-      \verb{url}
-      \verb http://wiki.ros.org/std_msgs
-      \endverb
-    \endentry
-    \entry{sun_research_2022}{article}{}
-      \name{author}{4}{}{%
-        {{hash=c67619924cd2ecb1e99e1432d09d6dbd}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=c0566e9faa36ebe76e6088d7d568c284}{%
-           family={Falco},
-           familyi={F\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=84b233e2528a55dfc2e215a87adbc735}{%
-           family={A.\bibnamedelimi Roa},
-           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0744448d77ff4788ff7a09d33991b87f}{%
-           family={Calli},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{7c0c6a3bfa83825e292a7f6fe762ed03}
-      \strng{fullhash}{f45d3683fea91a5ee5656326dc2d1642}
-      \strng{bibnamehash}{7c0c6a3bfa83825e292a7f6fe762ed03}
-      \strng{authorbibnamehash}{7c0c6a3bfa83825e292a7f6fe762ed03}
-      \strng{authornamehash}{7c0c6a3bfa83825e292a7f6fe762ed03}
-      \strng{authorfullhash}{f45d3683fea91a5ee5656326dc2d1642}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2377-3766}
-      \field{journaltitle}{IEEE Robotics and Automation Letters, Robotics and Automation Letters, IEEE, IEEE Robot. Autom. Lett.}
-      \field{month}{4}
-      \field{note}{Publisher: IEEE}
-      \field{number}{2}
-      \field{title}{Research {Challenges} and {Progress} in {Robotic} {Grasping} and {Manipulation} {Competitions}}
-      \field{urlday}{18}
-      \field{urlmonth}{1}
-      \field{urlyear}{2022}
-      \field{volume}{7}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{874\bibrangedash 881}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2021.3129134
-      \endverb
-      \verb{file}
-      \verb Versión enviada:/home/anie/Zotero/storage/7QRWUIZT/Sun et al. - 2022 - Research Challenges and Progress in Robotic Graspi.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://pbidi.unam.mx:8080/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=edseee&AN=edseee.9619964&lang=es&site=eds-live
-      \endverb
-      \verb{url}
-      \verb http://pbidi.unam.mx:8080/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=edseee&AN=edseee.9619964&lang=es&site=eds-live
-      \endverb
-      \keyw{Benchmark testing,Components,Circuits,Devices and Systems,Computing and Processing,dexterous manipulation,Grasping,Ice,performance evaluation and benchmarking,Robot sensing systems,Robotics and Control Systems,Robots,Service robots,Task analysis}
-    \endentry
-    \entry{szeliski_computer_2022}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f2e556c93256e7d70895d67702e14f1a}{%
-           family={Szeliski},
-           familyi={S\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer Nature Switzerland AG}%
-      }
-      \strng{namehash}{f2e556c93256e7d70895d67702e14f1a}
-      \strng{fullhash}{f2e556c93256e7d70895d67702e14f1a}
-      \strng{bibnamehash}{f2e556c93256e7d70895d67702e14f1a}
-      \strng{authorbibnamehash}{f2e556c93256e7d70895d67702e14f1a}
-      \strng{authornamehash}{f2e556c93256e7d70895d67702e14f1a}
-      \strng{authorfullhash}{f2e556c93256e7d70895d67702e14f1a}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{edition}{Second edition}
-      \field{isbn}{978-3-030-34374-3}
-      \field{series}{Texts in {Computer} {Science}}
-      \field{shorttitle}{Computer {Vision}}
-      \field{title}{Computer {Vision}: {Algorithms} and {Applications}}
-      \field{year}{2022}
-    \endentry
-    \entry{technical_committee_20122022_robocup_2022}{article}{}
-      \name{author}{1}{}{%
-        {{hash=952f74d41799d4f925a2cfbe93049f02}{%
-           family={{Technical Committee 2012–2022}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{952f74d41799d4f925a2cfbe93049f02}
-      \strng{fullhash}{952f74d41799d4f925a2cfbe93049f02}
-      \strng{bibnamehash}{952f74d41799d4f925a2cfbe93049f02}
-      \strng{authorbibnamehash}{952f74d41799d4f925a2cfbe93049f02}
-      \strng{authornamehash}{952f74d41799d4f925a2cfbe93049f02}
-      \strng{authorfullhash}{952f74d41799d4f925a2cfbe93049f02}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The rule book of the RCLL contains the rules and regulations teams participating in the competitions have to follow. They are updated every year to reflect the progress and development of the league. Typically we aim to have a 2-year cycle of the rulebook, with larger changes introduced in one year and only smaller changes to stabilize and adjust in the following year.}
-      \field{month}{4}
-      \field{title}{{RoboCup} {Logistics} {League} {Rules} and {Regulations} 2022}
-      \field{urlday}{23}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{48}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb https://ll.robocup.org/the-rcll-competition/page-3-2/
-      \endverb
-      \verb{url}
-      \verb https://ll.robocup.org/the-rcll-competition/page-3-2/
-      \endverb
-    \endentry
-    \entry{tf_ROS}{misc}{}
-      \field{sortinit}{t}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labeltitlesource}{title}
-      \field{title}{tf - {ROS} {Wiki}}
-      \field{urlday}{21}
-      \field{urlmonth}{11}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://wiki.ros.org/tf
-      \endverb
-      \verb{url}
-      \verb http://wiki.ros.org/tf
-      \endverb
-    \endentry
-    \entry{treiber_introduction_2010}{book}{}
-      \name{author}{1}{}{%
-        {{hash=fc3dcedc41a4aafacc00df87f0019f3e}{%
-           family={Treiber},
-           familyi={T\bibinitperiod},
-           given={Marco\bibnamedelima Alexander},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \strng{fullhash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \strng{bibnamehash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \strng{authorbibnamehash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \strng{authornamehash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \strng{authorfullhash}{fc3dcedc41a4aafacc00df87f0019f3e}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1-84996-234-6}
-      \field{series}{Advances in {Pattern} {Recognition}}
-      \field{title}{An {Introduction} to {Object} {Recognition}}
-      \field{urlday}{18}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-1-84996-235-3
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/robocup/Zotero/storage/TWF9T8VM/Treiber - 2010 - An Introduction to Object Recognition.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-1-84996-235-3
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-1-84996-235-3
-      \endverb
-      \keyw{3D,algorithms,Appearance-based Recognition,cognition,Computer Vision,electronics,image processing,Image Retrieval,Object Alignment,Object Pose,Object Recognition,Optical Inspection,Position Measurement,Scene Categorization}
-    \endentry
-    \entry{Interbotix_widowx_PincherArm}{misc}{}
-      \list{language}{1}{%
-        {en}%
-      }
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{labeltitlesource}{title}
-      \field{abstract}{http://www.trossenrobotics.com/WidowxRobotArmMK2}
-      \field{title}{{WidowX} {MKII} {Robotic} {Arm} - {Download} {Free} {3D} model by {Interbotix} - {Sketchfab}}
-      \field{urlday}{9}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://sketchfab.com/models/2270059391764e93aa01ad5d6a3000c1/embed?autospin=0.2&autostart=1
-      \endverb
-      \verb{url}
-      \verb https://sketchfab.com/models/2270059391764e93aa01ad5d6a3000c1/embed?autospin=0.2&autostart=1
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
+  \entry{arevalo_librerivision_nodate}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AVM}{%
+         family={Arévalo},
+         familyi={A\bibinitperiod},
+         given={V\bibnamedelima M},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={González},
+         familyi={G\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AG}{%
+         family={Ambrosio},
+         familyi={A\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \list{language}{1}{%
+      {es}%
+    }
+    \strng{namehash}{AVMGJAG1}
+    \strng{fullhash}{AVMGJAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{{LA} {LIBRERÍA} {DE} {VISIÓN} {ARTIFICIAL} {OPENCV}
+  {APLICACIÓN} {A} {LA} {DOCENCIA} {E} {INVESTIGACIÓN}}
+    \verb{file}
+    \verb Arévalo et al. - LA LIBRERÍA DE VISIÓN ARTIFICIAL OPENCV APLICACI�
+    \verb �N.pdf:/home/robocup20/snap/zotero-snap/common/Zotero/storage/93YTA8F
+    \verb Q/Arévalo et al. - LA LIBRERÍA DE VISIÓN ARTIFICIAL OPENCV APLICAC
+    \verb IÓN.pdf:application/pdf
+    \endverb
+  \endentry
+
+  \entry{asada_robot_1986}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AH}{%
+         family={Asada},
+         familyi={A\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SJJE}{%
+         family={Slotine},
+         familyi={S\bibinitperiod},
+         given={J.-J.\bibnamedelima E.},
+         giveni={J\bibinithyphendelim J\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {J. Wiley}%
+    }
+    \keyw{Robotics}
+    \strng{namehash}{AHSJJE1}
+    \strng{fullhash}{AHSJJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{isbn}{978-0-471-83029-0}
+    \field{title}{Robot analysis and control}
+    \list{location}{1}{%
+      {New York, N.Y}%
+    }
+    \field{year}{1986}
+  \endentry
+
+  \entry{babel_industry_2022}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={Babel},
+         familyi={B\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{978-3-658-37851-6}
+    \field{shorttitle}{Industry 4.0, {China} 2025, {IoT}}
+    \field{title}{Industry 4.0, {China} 2025, {IoT}: the hype around the world
+  of automation}
+    \list{location}{1}{%
+      {Wiesbaden [Heidelberg]}%
+    }
+    \verb{file}
+    \verb Table of Contents PDF:/home/anie/Zotero/storage/T7PFLDUG/Babel - 2022
+    \verb  - Industry 4.0, China 2025, IoT the hype around the.pdf:application/
+    \verb pdf
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{basco_industria_2018}{book}{}
+    \name{author}{4}{}{%
+      {{hash=BAI}{%
+         family={Basco},
+         familyi={B\bibinitperiod},
+         given={Ana\bibnamedelima Inés},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Beliz},
+         familyi={B\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Coatz},
+         familyi={C\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Garnero},
+         familyi={G\bibinitperiod},
+         given={Paula},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {es}%
+    }
+    \list{publisher}{1}{%
+      {Inter-American Development Bank}%
+    }
+    \keyw{Business \& Economics / Industries / Manufacturing, Technology \&
+  Engineering / Industrial Technology, Technology \& Engineering / Technical \&
+  Manufacturing Industries \& Trades}
+    \strng{namehash}{BAI+1}
+    \strng{fullhash}{BAIBGCDGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    La economía global transita una nueva fase que se caracteriza por la
+  digitalización y la conectividad. “INDUSTRIA 4.0. Fabricando el Futuro”
+  explora los impactos de la denominada Cuarta Revolución Industrial sobre la
+  producción manufacturera, el trabajo, las cadenas globales de valor y el
+  comercio. La publicación reúne las voces de diversos especialistas que
+  analizan los desafíos y oportunidades para la industria que conllevan
+  tecnologías como Internet de las cosas, computación en nube, big data,
+  inteligencia artificial e impresión 3D, entre otras. Asimismo, presenta los
+  estudios de caso realizados sobre la experiencia de dos firmas argentinas que
+  dan cuenta de los alcances de la trasformación digital: Tenaris, dedicada a
+  la producción de tubos para la industria de petróleo y gas; y Sinteplast,
+  dedicada a la fabricación de pinturas. “INDUSTRIA 4.0. Fabricando el
+  Futuro” recorre estas experiencias, así como los aportes de la industria
+  automotriz y de políticas públicas de fomento a la industria, como el caso
+  alemán de “Industrie 4.0” y el “Mapa de ruta de la Industria 4.0” de
+  México. De este modo, se propone ofrecer un marco para la comprensión de un
+  fenómeno complejo cuyas consecuencias apenas se comienzan a vislumbrar.%
+    }
+    \field{note}{Google-Books-ID: geiGDwAAQBAJ}
+    \field{shorttitle}{Industria 4.0}
+    \field{title}{Industria 4.0: {Fabricando} el {Futuro}}
+    \field{month}{07}
+    \field{year}{2018}
+  \endentry
+
+  \entry{burger_digital_2022}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BW}{%
+         family={Burger},
+         familyi={B\bibinitperiod},
+         given={Wilhelm},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Burge},
+         familyi={B\bibinitperiod},
+         given={Mark\bibnamedelima James},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BWBMJ1}
+    \strng{fullhash}{BWBMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{edition}{Third edition}
+    \field{isbn}{9783031057441}
+    \field{series}{Texts in computer science}
+    \field{shorttitle}{Digital image processing}
+    \field{title}{Digital image processing: an algorithmic introduction}
+    \list{location}{1}{%
+      {Cham, Switzerland}%
+    }
+    \verb{file}
+    \verb Table of Contents PDF:/home/robocup/Zotero/storage/PMKN6Y87/Burger an
+    \verb d Burge - 2022 - Digital image processing an algorithmic introduct.pd
+    \verb f:application/pdf
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{ceccarelli_fundamentals_2022}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CM}{%
+         family={Ceccarelli},
+         familyi={C\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{CM1}
+    \strng{fullhash}{CM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{Second edition}
+    \field{isbn}{978-3-030-90846-1}
+    \field{number}{112}
+    \field{series}{Mechanisms and machine science}
+    \field{title}{Fundamentals of mechanics of robotic manipulation}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \verb{file}
+    \verb Table of Contents PDF:/home/robocup/Zotero/storage/KVM9BL4V/Ceccarell
+    \verb i - 2022 - Fundamentals of mechanics of robotic manipulation.pdf:appl
+    \verb ication/pdf
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{ROS_concepts_MoveIt}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Concepts {\textbar} {MoveIt}}
+    \verb{url}
+    \verb https://moveit.ros.org/documentation/concepts/
+    \endverb
+    \verb{file}
+    \verb Concepts | MoveIt:/home/robocup/Zotero/storage/NWQJ8JT2/concepts.html
+    \verb :text/html
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{czerwinski_definitions_2013}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=CR}{%
+         family={Czerwinski},
+         familyi={C\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kania},
+         familyi={K\bibinitperiod},
+         given={Dariusz},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{CRKD1}
+    \strng{fullhash}{CRKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Finite {State} {Machine} {Logic} {Synthesis} for
+  {Complex} {Programmable} {Logic} {Devices}}
+    \verb{doi}
+    \verb 10.1007/978-3-642-36166-1_2
+    \endverb
+    \field{isbn}{978-3-642-36165-4}
+    \field{note}{Series Title: Lecture Notes in Electrical Engineering}
+    \field{pages}{9\bibrangedash 23}
+    \field{title}{Definitions and {Basic} {Properties}}
+    \verb{url}
+    \verb https://link.springer.com/10.1007/978-3-642-36166-1_2
+    \endverb
+    \field{volume}{231}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \verb{file}
+    \verb Czerwinski and Kania - 2013 - Definitions and Basic Properties.pdf:/h
+    \verb ome/robocup/Zotero/storage/7C6D6D7B/Czerwinski and Kania - 2013 - Def
+    \verb initions and Basic Properties.pdf:application/pdf
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{31}
+    \field{urlmonth}{08}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{davison_kinect_2012}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DA}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \keyw{Computer input-output equipment, Equipment and supplies, Programming,
+  Video games, Xbox 360 (Video game console)}
+    \strng{namehash}{DA1}
+    \strng{fullhash}{DA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{isbn}{978-0-07-178317-0}
+    \field{shorttitle}{Kinect open source programming secrets}
+    \field{title}{Kinect open source programming secrets: hacking the {Kinect}
+  with {OpenNI}, {NITE}, and {Java}}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{festo-didactic-robotino-2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DF}{%
+         family={Didactic},
+         familyi={D\bibinitperiod},
+         given={FESTO},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Spanish}%
+    }
+    \list{publisher}{1}{%
+      {FESTO Didactic}%
+    }
+    \strng{namehash}{DF1}
+    \strng{fullhash}{DF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{shorttitle}{Robotino {Manual}}
+    \field{title}{Robotino® - {Plataforma} de robot móvil para investigación
+  y formación}
+    \verb{url}
+    \verb https://www.lagos.udg.mx/sites/default/files/adjuntos/robotino.pdf
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{30}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{eetimes_inside_2010}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={EETimes},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    The Kinect sensor peripheral for Microsoft’s Xbox 360 puts players in the
+  game by eliminating the game controller, thanks to PrimeSense’s reference
+  design.%
+    }
+    \field{title}{Inside {Xbox} 360's {Kinect} controller}
+    \verb{url}
+    \verb https://www.eetimes.com/inside-xbox-360s-kinect-controller/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/robocup20/snap/zotero-snap/common/Zotero/storage/RYU4G
+    \verb NVL/inside-xbox-360s-kinect-controller.html:text/html
+    \endverb
+    \field{journaltitle}{EE Times}
+    \field{month}{11}
+    \field{year}{2010}
+    \field{urlday}{31}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{FESTO-RobotinoView}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Festo {Didactic} {InfoPortal}}
+    \verb{url}
+    \verb https://ip.festo-didactic.com/InfoPortal/Robotino/Software/Programmin
+    \verb g/EN/RobotinoView.html
+    \endverb
+    \verb{file}
+    \verb Festo Didactic InfoPortal:/home/robocup20/snap/zotero-snap/common/Zot
+    \verb ero/storage/ECTMI8VD/RobotinoView.html:text/html
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{freire_importancia_2007}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FPM}{%
+         family={Freire},
+         familyi={F\bibinitperiod},
+         given={Pascual\bibnamedelima Martínez},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {es}%
+    }
+    \list{publisher}{1}{%
+      {Netbiblo}%
+    }
+    \strng{namehash}{FPM1}
+    \strng{fullhash}{FPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{isbn}{978-84-9745-172-7}
+    \field{title}{La {Importancia} del {Conocimiento}. {Filosofía} y
+  {Ciencias} {Cognitivas}}
+    \field{month}{09}
+    \field{year}{2007}
+  \endentry
+
+  \entry{furbaß_robocup_2021}{article}{}
+    \name{author}{9}{}{%
+      {{hash=FL}{%
+         family={Furbaß},
+         familyi={F\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Knoﬂach},
+         familyi={K\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kohout},
+         familyi={K\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DBM}{%
+         family={De\bibnamedelima Bortoli},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moser},
+         familyi={M\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SWG}{%
+         family={Steinbauer-Wagner},
+         familyi={S\bibinithyphendelim W\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Masiero},
+         familyi={M\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Frick},
+         familyi={F\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Furhapter},
+         familyi={F\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLKLKPDBMMSSWGMAFTFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The present paper presents team GRIPS (Graz Robust and Intelligent
+  Production System) and its approaches to the challenges in the RoboCup
+  Logistics League 2020. Festo’s Robotino, a customized additional
+  construction and some further hardware, such as laser scanners, cameras, PC,
+  and PLC, are used as a hardware platform. The software architecture is built
+  in a multi-layer format. A scheduler/planner functions as a central
+  decision-making instance for all robots at the top player. Beneath this
+  layer, various BehaviourTree are used for individual decisions dduring
+  Action. At the lowest leve, the robot operating system (ROS) executes the
+  tasks assigned to the robot by the top layer.%
+    }
+    \field{title}{{RoboCup} {Logistics} {League} {Graz} {Robust} and
+  {Intelligent} {Production} {System} {GRIPS}}
+  \endentry
+
+  \entry{giarratano_zhuan_2002}{book}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={{Giarratano}},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=R}{%
+         family={{Riley}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Chinese}%
+    }
+    \list{publisher}{1}{%
+      {Ji xie gong ye chu ban she}%
+    }
+    \strng{namehash}{GR1}
+    \strng{fullhash}{GR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{isbn}{978-7-111-10844-3}
+    \field{note}{OCLC: 952716560}
+    \field{shorttitle}{Zhuan jia xi tong yuan li yu bian cheng}
+    \field{title}{Zhuan jia xi tong yuan li yu bian cheng: {Third} {Edition} =
+  {Expert} {Systems} {Principles} and {Program} ming}
+    \list{location}{1}{%
+      {Beijing}%
+    }
+    \field{year}{2002}
+  \endentry
+
+  \entry{gonzalez_digital_2002}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GRC}{%
+         family={Gonzalez},
+         familyi={G\bibinitperiod},
+         given={Rafael\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WRE}{%
+         family={Woods},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \keyw{Digital techniques, Image processing}
+    \strng{namehash}{GRCWRE1}
+    \strng{fullhash}{GRCWRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{edition}{2nd ed}
+    \field{isbn}{978-0-201-18075-6}
+    \field{title}{Digital image processing}
+    \list{location}{1}{%
+      {Upper Saddle River, N.J}%
+    }
+    \field{year}{2002}
+  \endentry
+
+  \entry{gross_statics_2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Statics, Textbooks}
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{edition}{Second edition}
+    \field{isbn}{978-3-642-30318-0}
+    \field{number}{1}
+    \field{series}{Engineering mechanics}
+    \field{title}{Statics}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{gupta_artificial_2020}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GI}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nagpal},
+         familyi={N\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{2}{%
+      {Mercury Learning}%
+      {Information}%
+    }
+    \keyw{Computers / Artificial Intelligence / General, Computers / Machine
+  Theory, Computers / Reference}
+    \strng{namehash}{GING1}
+    \strng{fullhash}{GING1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{isbn}{978-1-68392-506-4}
+    \field{note}{Google-Books-ID: 61PdDwAAQBAJ}
+    \field{title}{Artificial {Intelligence} and {Expert} {Systems}}
+    \field{month}{04}
+    \field{year}{2020}
+  \endentry
+
+  \entry{hamilton_ii_1844}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HWR}{%
+         family={Hamilton},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima Rowan},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Taylor & Francis}%
+    }
+    \strng{namehash}{HWR1}
+    \strng{fullhash}{HWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1080/14786444408644923
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1080/14786444408644923
+    \endverb
+    \field{issn}{1941-5966, 1941-5974}
+    \field{number}{163}
+    \field{pages}{10\bibrangedash 13}
+    \field{title}{{II}. \textit{{On} quaternions; or on a new system of
+  imaginaries in algebra}}
+    \verb{url}
+    \verb https://doi.org/10.1080/14786444408644923
+    \endverb
+    \field{volume}{25}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical
+  Magazine and Journal of Science}
+    \field{month}{07}
+    \field{year}{1844}
+    \field{urlday}{17}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{HASAN20227212}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HS}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Sharad},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jahan},
+         familyi={J\bibinitperiod},
+         given={Sarwar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=IMI}{%
+         family={Islam},
+         familyi={I\bibinitperiod},
+         given={Md.\bibnamedelima Imdadul},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \keyw{Average color marker, Nearest neighbor, Pixel classification, Wavelet
+  coefficients, color histogram, Random Forest}
+    \strng{namehash}{HSJSIMI1}
+    \strng{fullhash}{HSJSIMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    In this paper, we proposed a machine learning and computer vision-based
+  automated apple disease detection and recognition system based on leaf
+  symptoms. The proposed method is composed of three parts: diseased region
+  segmentation, feature extraction, and classification. We have segmented the
+  infected portion of the leaf using L*a*b* space-based color segmentation
+  method. Here, average color markers in a*b* space and the nearest neighbor
+  method have been used for classifying each pixel into either healthy,
+  infected, or background regions. We have extracted two types of features: one
+  is the proposed DWT feature and another is L*a*b* space-based color histogram
+  features. Horizontal feature fusion is performed to create the final feature
+  vector. The feature vectors have been classified using several classifiers
+  keeping Random Forrest as the base classifier. In this paper, the experiment
+  is made on Plant Village dataset, where image of Apple Scab, Black Rot, and
+  Cedar Apple Rust disease are taken for both training and testing our model.
+  The fusion of proposed DWT and color histogram features is a novel approach
+  in detecting and recognizing apple leaf disease, which got an accuracy of
+  98.63.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jksuci.2022.07.004
+    \endverb
+    \field{issn}{1319-1578}
+    \field{number}{9}
+    \field{pages}{7212\bibrangedash 7224}
+    \field{title}{Disease detection of apple leaf with combination of color
+  segmentation and modified DWT}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1319157822002312
+    \endverb
+    \field{volume}{34}
+    \field{journaltitle}{Journal of King Saud University - Computer and
+  Information Sciences}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ifr_international}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={IFR},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    The International Federation of Robotics is a professional non-profit
+  organization to promote, strengthen and protect the robotics industry
+  worldwide.%
+    }
+    \field{title}{International {Federation} of {Robotics}}
+    \verb{url}
+    \verb https://ifr.org/service-robots
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/robocup/Zotero/storage/XB4D56B4/service-robots.html:te
+    \verb xt/html
+    \endverb
+    \field{journaltitle}{IFR International Federation of Robotics}
+    \field{urlday}{12}
+    \field{urlmonth}{08}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Interbotix_interbotix}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Interbotix {X}-{Series} {Arms} — {Interbotix} {X}-{Series}
+  {Arms} {Documentation}}
+    \verb{url}
+    \verb https://docs.trossenrobotics.com/interbotix_xsarms_docs/
+    \endverb
+    \field{urlday}{09}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{kohout_multi-robot_2020}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KP}{%
+         family={Kohout},
+         familyi={K\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DBM}{%
+         family={De\bibnamedelima Bortoli},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Ludwiger},
+         familyi={L\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=UT}{%
+         family={Ulz},
+         familyi={U\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Steinbauer},
+         familyi={S\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{RoboCup, flexible production, flexible Produktion, logistics,
+  Logistik, planning, Planung}
+    \strng{namehash}{KP+1}
+    \strng{fullhash}{KPDBMLJUTSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Due to increasing demands on flexibility in terms of product configuration
+  as well as delivery time production settings increasingly use teams of mobile
+  robot systems. The RoboCup Logistics League was designed to provide a testbed
+  to develop and test such flexibe multi-robot approaches for production
+  environments. It resembles a product setting with on-demand product orders of
+  different configurations. In this article we introduce the concept of the
+  leagues and we present the solution of the team GRIPS to face that
+  challenge.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00502-020-00826-5
+    \endverb
+    \field{issn}{1613-7620}
+    \field{number}{6}
+    \field{pages}{291\bibrangedash 296}
+    \field{title}{A multi-robot architecture for the {RoboCup} {Logistics}
+  {League}}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00502-020-00826-5
+    \endverb
+    \field{volume}{137}
+    \verb{file}
+    \verb Full Text PDF:/home/robocup/Zotero/storage/LWQGQLXK/Kohout et al. - 2
+    \verb 020 - A multi-robot architecture for the RoboCup Logisti.pdf:applicat
+    \verb ion/pdf
+    \endverb
+    \field{journaltitle}{Elektrotech. Inftech.}
+    \field{month}{10}
+    \field{year}{2020}
+    \field{urlday}{17}
+    \field{urlmonth}{10}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{kramer_hacking_2012}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=KJ}{%
+         family={Kramer},
+         familyi={K\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Apress}%
+    }
+    \keyw{Programming, Video games}
+    \strng{namehash}{KJ1}
+    \strng{fullhash}{KJ1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{isbn}{978-1-4302-3867-6}
+    \field{series}{Technology in action}
+    \field{title}{Hacking the {Kinect}}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{liebowitz_handbook_2019}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LJ}{%
+         family={Liebowitz},
+         familyi={L\bibinitperiod},
+         given={Jay},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press}%
+    }
+    \keyw{Computers / Computer Engineering, Computers / Information Technology,
+  Computers / Software Development \& Engineering / Systems Analysis \& Design}
+    \strng{namehash}{LJ1}
+    \strng{fullhash}{LJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{978-0-429-61249-7}
+    \field{note}{Google-Books-ID: WzX3DwAAQBAJ}
+    \field{title}{The {Handbook} of {Applied} {Expert} {Systems}}
+    \field{month}{07}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lynch_modern_2017}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LKM}{%
+         family={Lynch},
+         familyi={L\bibinitperiod},
+         given={Kevin\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PFC}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Frank\bibnamedelima C.},
+         giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \keyw{Control systems, Robots, Robotics, Design and construction, Dynamics,
+  Manipulators (Mechanism)}
+    \strng{namehash}{LKMPFC1}
+    \strng{fullhash}{LKMPFC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{978-1-107-15630-2}
+    \field{note}{OCLC: ocn983881868}
+    \field{shorttitle}{Modern robotics}
+    \field{title}{Modern robotics: mechanics, planning, and control}
+    \list{location}{1}{%
+      {Cambridge, UK}%
+    }
+    \field{year}{2017}
+  \endentry
+
+  \entry{micron_12-inch_2004}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Micron},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{1/2-{Inch} {Megapixel} {CMOS} {Digital} {Image} {Sensor}}
+    \field{year}{2004}
+    \field{urlday}{31}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{navarro_pina_robot_2021}{book}{}
+    \name{author}{1}{}{%
+      {{hash=NPAV}{%
+         family={Navarro\bibnamedelima Piña},
+         familyi={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Alejhandro\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {spa}%
+    }
+    \list{publisher}{1}{%
+      {Paraninfo}%
+    }
+    \strng{namehash}{NPAV1}
+    \strng{fullhash}{NPAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    El robot industrial es una pieza fundamental de cualquier proceso
+  industrial. En este libro se indica un procedimiento básico para llevar a
+  cabo la ingeniería de la instalación de una célula robotizada, por lo que
+  servirá de guía para cualquier persona involucrada en la instalación o que
+  desee instalar un robot industrial en su empresa.Se acompañará al lector
+  por cada una de las etapas que se deben seguir para desarrollar de forma
+  efectiva una célula robotizada, desde la selección del robot, el diseño de
+  la herramienta de trabajo y la selección de los componentes de seguridad de
+  la célula hasta la programación. Adicionalmente, a lo largo de varios
+  capítulos se ilustra un caso práctico real donde se demuestra cada una de
+  las etapas mencionadas con el fi n de afianzar la teoría.El autor,
+  Alejhandro V. Navarro Piña, es ingeniero mecánico con posgrado en
+  Mecatrónica, profesor de posgrado en la Universidad Arturo Michelena de
+  Venezuela y CEO en la empresa AN-Mecatrónica, especializada en el desarrollo
+  de proyectos industriales en el sector de la ergonomía y manufactura
+  automatizada%
+    }
+    \field{isbn}{978-84-13-66031-8}
+    \field{note}{OCLC: 1236395081}
+    \field{shorttitle}{Robot {Industrial}}
+    \field{title}{Robot {Industrial}: manual de instalación}
+    \list{location}{1}{%
+      {Madrid}%
+    }
+    \field{year}{2021}
+  \endentry
+
+  \entry{olguin_diaz_3d_2019}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ODE}{%
+         family={Olguín\bibnamedelima Díaz},
+         familyi={O\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Ernesto},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ODE1}
+    \strng{fullhash}{ODE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{isbn}{978-3-030-04275-2}
+    \field{number}{191}
+    \field{series}{Studies in systems, decision and control}
+    \field{shorttitle}{{3D} motion of rigid bodies}
+    \field{title}{{3D} motion of rigid bodies: a foundation for robot dynamics
+  analysis}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2019}
+  \endentry
+
+  \entry{pai_adityapai2398colour-segmentation--opencv_2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PAY}{%
+         family={Pai},
+         familyi={P\bibinitperiod},
+         given={Aditya\bibnamedelima Yogish},
+         giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PAY1}
+    \strng{fullhash}{PAY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Using HSV range to track a red object from a camera mounted on a quad
+  rotor.%
+    }
+    \field{title}{{AdityaPai2398}/{Colour}-{Segmentation}-in-{OpenCV}}
+    \verb{url}
+    \verb https://github.com/AdityaPai2398/Colour-Segmentation-in-OpenCV
+    \endverb
+    \field{month}{05}
+    \field{year}{2022}
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{pratt_introduction_2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PWK}{%
+         family={Pratt},
+         familyi={P\bibinitperiod},
+         given={William\bibnamedelima K.},
+         giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press, Taylor \& Francis Group}%
+    }
+    \strng{namehash}{PWK1}
+    \strng{fullhash}{PWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    "This book contains English language narratives of important image
+  processing operations, from which a student is expected to create executable
+  versions of the operations using C language programming, calls to an image
+  processing library furnished with the book, a furnished PIKSTool interactive
+  package or the widely supported MATLAB interactive package. Executable
+  versions of each narrative operation are furnished so that a student can
+  visualize the result of each operation."-- Provided by publisher%
+    }
+    \field{isbn}{978-1-4822-1670-7}
+    \field{note}{OCLC: 907445364}
+    \field{title}{Introduction to digital image processing}
+    \list{location}{1}{%
+      {Boca Raton [Florida]}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{pterneas_mastering_2022}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PV}{%
+         family={Pterneas},
+         familyi={P\bibinitperiod},
+         given={Vangos},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Apress}%
+    }
+    \strng{namehash}{PV1}
+    \strng{fullhash}{PV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1007/978-1-4842-8070-6
+    \endverb
+    \field{isbn}{978-1-4842-8069-0}
+    \field{shorttitle}{Mastering the {Microsoft} {Kinect}}
+    \field{title}{Mastering the {Microsoft} {Kinect}: {Body} {Tracking},
+  {Object} {Detection}, and the {Azure} {Cloud} {Services}}
+    \verb{url}
+    \verb https://link.springer.com/10.1007/978-1-4842-8070-6
+    \endverb
+    \list{location}{1}{%
+      {Berkeley, CA}%
+    }
+    \field{year}{2022}
+    \field{urlday}{09}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{quigley_ROS}{article}{}
+    \name{author}{8}{}{%
+      {{hash=Q}{%
+         family={{Quigley, Morgan}},
+         familyi={Q\bibinitperiod},
+      }}%
+      {{hash=G}{%
+         family={{Gerkey, Brian}},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=C}{%
+         family={{Conley, Ken}},
+         familyi={C\bibinitperiod},
+      }}%
+      {{hash=F}{%
+         family={{Faust, Josh}},
+         familyi={F\bibinitperiod},
+      }}%
+      {{hash=F}{%
+         family={{Foote, Tully}},
+         familyi={F\bibinitperiod},
+      }}%
+      {{hash=L}{%
+         family={{Leibs, Jeremy}},
+         familyi={L\bibinitperiod},
+      }}%
+      {{hash=W}{%
+         family={{Wheeler, Rob}},
+         familyi={W\bibinitperiod},
+      }}%
+      {{hash=N}{%
+         family={{Ng, Andrew}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{Q+1}
+    \strng{fullhash}{QGCFFLWN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{title}{{ROS}: an open-source {Robot} {Operating} {System}}
+    \field{volume}{3}
+    \field{journaltitle}{ICRA Workshop on Open Source Software}
+    \field{month}{01}
+    \field{year}{2009}
+    \field{urlday}{13}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{robocup__mathworks_robocup_2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{RoboCup \& Mathworks}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Inglés}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{RoboCup} {ARM} {Challenge}}
+    \verb{url}
+    \verb https://arm.robocup.org/home
+    \endverb
+    \field{journaltitle}{RoboCup Autonomous Robot Manipulation Challenge}
+    \field{month}{03}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Inerbotix_pincher_arm}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Robotic {Arms}}
+    \verb{url}
+    \verb https://www.interbotix.com/Robotic-Arms
+    \endverb
+    \verb{file}
+    \verb Robotic Arms:/home/robocup20/snap/zotero-snap/common/Zotero/storage/Z
+    \verb 4I9ZA5S/Robotic-Arms.html:text/html
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{Rosenbaum2006}{inbook}{}
+    \name{author}{4}{}{%
+      {{hash=RDA}{%
+         family={Rosenbaum},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CRG}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Rajal\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MRGJ}{%
+         family={Meulenbroek},
+         familyi={M\bibinitperiod},
+         given={Ruud G.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vaughan},
+         familyi={V\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=LML}{%
+         family={Latash},
+         familyi={L\bibinitperiod},
+         given={Mark\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lestienne},
+         familyi={L\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer US}%
+    }
+    \strng{namehash}{RDA+1}
+    \strng{fullhash}{RDACRGMRGJVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Motor Control and Learning}
+    \verb{doi}
+    \verb 10.1007/0-387-28287-4_2
+    \endverb
+    \field{isbn}{978-0-387-28287-9}
+    \field{pages}{9\bibrangedash 25}
+    \field{title}{Plans for Grasping Objects}
+    \verb{url}
+    \verb https://doi.org/10.1007/0-387-28287-4_2
+    \endverb
+    \list{location}{1}{%
+      {Boston, MA}%
+    }
+    \field{year}{2006}
+  \endentry
+
+  \entry{ROVEDA2021103711}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RL}{%
+         family={Roveda},
+         familyi={R\bibinitperiod},
+         given={Loris},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Magni},
+         familyi={M\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cantoni},
+         familyi={C\bibinitperiod},
+         given={Martina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Piga},
+         familyi={P\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bucca},
+         familyi={B\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RL+1}
+    \strng{fullhash}{RLMMCMPDBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.robot.2020.103711
+    \endverb
+    \field{issn}{0921-8890}
+    \field{pages}{103711}
+    \field{title}{Human–robot collaboration in sensorless assembly task
+  learning enhanced by uncertainties adaptation via Bayesian Optimization}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0921889020305510
+    \endverb
+    \field{volume}{136}
+    \field{journaltitle}{Robotics and Autonomous Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{roveda_robot_2022}{article}{}
+    \name{author}{7}{}{%
+      {{hash=RL}{%
+         family={Roveda},
+         familyi={R\bibinitperiod},
+         given={Loris},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Maroni},
+         familyi={M\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mazzuchelli},
+         familyi={M\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Praolini},
+         familyi={P\bibinitperiod},
+         given={Loris},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SAA}{%
+         family={Shahid},
+         familyi={S\bibinitperiod},
+         given={Asad\bibnamedelima Ali},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bucca},
+         familyi={B\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Piga},
+         familyi={P\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{RL+1}
+    \strng{fullhash}{RLMMMLPLSAABGPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1007/s10846-021-01558-0
+    \endverb
+    \field{issn}{0921-0296, 1573-0409}
+    \field{number}{1}
+    \field{pages}{16}
+    \field{title}{Robot {End}-{Effector} {Mounted} {Camera} {Pose}
+  {Optimization} in {Object} {Detection}-{Based} {Tasks}}
+    \verb{url}
+    \verb https://link.springer.com/10.1007/s10846-021-01558-0
+    \endverb
+    \field{volume}{104}
+    \verb{file}
+    \verb Roveda et al. - 2022 - Robot End-Effector Mounted Camera Pose Optimiz
+    \verb atio.pdf:/home/anie/Zotero/storage/RC5VG926/Roveda et al. - 2022 - Ro
+    \verb bot End-Effector Mounted Camera Pose Optimizatio.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of Intelligent \& Robotic Systems}
+    \field{month}{01}
+    \field{year}{2022}
+    \field{urlday}{25}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{siciliano_springer_2016}{book}{}
+    \name{editor}{2}{}{%
+      {{hash=SB}{%
+         family={Siciliano},
+         familyi={S\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Khatib},
+         familyi={K\bibinitperiod},
+         given={Oussama},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SBKO1}
+    \strng{fullhash}{SBKO1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{2nd edition}
+    \field{isbn}{978-3-319-32550-7}
+    \field{series}{Springer handbooks}
+    \field{title}{Springer handbook of robotics}
+    \list{location}{1}{%
+      {Berlin Heidelberg}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{sonka_image_2008}{book}{}
+    \name{author}{3}{}{%
+      {{hash=SM}{%
+         family={Sonka},
+         familyi={S\bibinitperiod},
+         given={Milan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HV}{%
+         family={Hlaváč},
+         familyi={H\bibinitperiod},
+         given={Václav},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Boyle},
+         familyi={B\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Thompson Learning}%
+    }
+    \strng{namehash}{SMHVBR1}
+    \strng{fullhash}{SMHVBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{3. ed}
+    \field{isbn}{978-0-495-24438-7}
+    \field{title}{Image processing, analysis, and machine vision}
+    \list{location}{1}{%
+      {Toronto}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{ros_wiki_std_msgs}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{std\_msgs - {ROS} {Wiki}}
+    \verb{url}
+    \verb http://wiki.ros.org/std_msgs
+    \endverb
+    \verb{file}
+    \verb std_msgs - ROS Wiki:/home/robocup/Zotero/storage/WAFJD62U/std_msgs.ht
+    \verb ml:text/html
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{sun_research_2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SY}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Falco},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ARM}{%
+         family={A.\bibnamedelima Roa},
+         familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Calli},
+         familyi={C\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Benchmark testing, Components, Circuits, Devices and Systems,
+  Computing and Processing, dexterous manipulation, Grasping, Ice, performance
+  evaluation and benchmarking, Robot sensing systems, Robotics and Control
+  Systems, Robots, Service robots, Task analysis}
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYFJARMCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1109/LRA.2021.3129134
+    \endverb
+    \field{issn}{2377-3766}
+    \field{note}{Publisher: IEEE}
+    \field{number}{2}
+    \field{pages}{874\bibrangedash 881}
+    \field{title}{Research {Challenges} and {Progress} in {Robotic} {Grasping}
+  and {Manipulation} {Competitions}}
+    \verb{url}
+    \verb http://pbidi.unam.mx:8080/login?url=https://search.ebscohost.com/logi
+    \verb n.aspx?direct=true&db=edseee&AN=edseee.9619964&lang=es&site=eds-live
+    \endverb
+    \field{volume}{7}
+    \verb{file}
+    \verb Versión enviada:/home/anie/Zotero/storage/7QRWUIZT/Sun et al. - 2022
+    \verb  - Research Challenges and Progress in Robotic Graspi.pdf:application
+    \verb /pdf
+    \endverb
+    \field{journaltitle}{IEEE Robotics and Automation Letters, Robotics and
+  Automation Letters, IEEE, IEEE Robot. Autom. Lett.}
+    \field{month}{04}
+    \field{year}{2022}
+    \field{urlday}{18}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{szeliski_computer_2022}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SR}{%
+         family={Szeliski},
+         familyi={S\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer Nature Switzerland AG}%
+    }
+    \strng{namehash}{SR1}
+    \strng{fullhash}{SR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{Second edition}
+    \field{isbn}{978-3-030-34374-3}
+    \field{series}{Texts in {Computer} {Science}}
+    \field{shorttitle}{Computer {Vision}}
+    \field{title}{Computer {Vision}: {Algorithms} and {Applications}}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2022}
+  \endentry
+
+  \entry{technical_committee_20122022_robocup_2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{Technical Committee 2012–2022}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    The rule book of the RCLL contains the rules and regulations teams
+  participating in the competitions have to follow. They are updated every year
+  to reflect the progress and development of the league. Typically we aim to
+  have a 2-year cycle of the rulebook, with larger changes introduced in one
+  year and only smaller changes to stabilize and adjust in the following year.%
+    }
+    \field{pages}{48}
+    \field{title}{{RoboCup} {Logistics} {League} {Rules} and {Regulations}
+  2022}
+    \verb{url}
+    \verb https://ll.robocup.org/the-rcll-competition/page-3-2/
+    \endverb
+    \field{month}{04}
+    \field{year}{2022}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{tf_ROS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{tf - {ROS} {Wiki}}
+    \verb{url}
+    \verb http://wiki.ros.org/tf
+    \endverb
+    \field{urlday}{21}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{treiber_introduction_2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TMA}{%
+         family={Treiber},
+         familyi={T\bibinitperiod},
+         given={Marco\bibnamedelima Alexander},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{3D, algorithms, Appearance-based Recognition, cognition, Computer
+  Vision, electronics, image processing, Image Retrieval, Object Alignment,
+  Object Pose, Object Recognition, Optical Inspection, Position Measurement,
+  Scene Categorization}
+    \strng{namehash}{TMA1}
+    \strng{fullhash}{TMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1007/978-1-84996-235-3
+    \endverb
+    \field{isbn}{978-1-84996-234-6}
+    \field{series}{Advances in {Pattern} {Recognition}}
+    \field{title}{An {Introduction} to {Object} {Recognition}}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/978-1-84996-235-3
+    \endverb
+    \list{location}{1}{%
+      {London}%
+    }
+    \verb{file}
+    \verb Full Text PDF:/home/robocup/Zotero/storage/TWF9T8VM/Treiber - 2010 -
+    \verb An Introduction to Object Recognition.pdf:application/pdf
+    \endverb
+    \field{year}{2010}
+    \field{urlday}{18}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Interbotix_widowx_PincherArm}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    http://www.trossenrobotics.com/WidowxRobotArmMK2%
+    }
+    \field{title}{{WidowX} {MKII} {Robotic} {Arm} - {Download} {Free} {3D}
+  model by {Interbotix} - {Sketchfab}}
+    \field{urlday}{09}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+\enddatalist
 \endinput
-
