@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.29)  29 APR 2024 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.29)  29 APR 2024 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -250,16 +250,6 @@ Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
@@ -277,6 +267,12 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
 \c@smartand=\count373
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -648,8 +644,8 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count420
 \l__pdf_internal_box=\box54
 ) (/home/robocup20/TesisMaestria/Tesis_tex/main.aux
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 \openout1 = `main.aux'.
 
@@ -679,10 +675,7 @@ File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout3 = `main-blx.bib'.
+\openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
@@ -788,69 +781,26 @@ LaTeX Info: Redefining \% on input line 2.
 
  (/home/robocup20/TesisMaestria/Tesis_tex/Ch01_Introduccion.tex [4]
 Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
 [5
 
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \vbox (badness 6559) has occurred while \output is active []
-
- [8]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex [9] [10
+] [6] [7] [8]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex [9] [10
 
 ]
 Cap\'{\i }tulo 2.
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
- []
-
-[12] [13]
+[11] [12] [13]
 <Figures/CuboRGB.png, id=387, 844.15375pt x 841.1425pt>
 File: Figures/CuboRGB.png Graphic file (type png)
 <use Figures/CuboRGB.png>
-Package pdftex.def Info: Figures/CuboRGB.png  used on input line 47.
+Package pdftex.def Info: Figures/CuboRGB.png  used on input line 50.
 (pdftex.def)             Requested size: 168.82776pt x 168.22551pt.
  [14 </home/robocup20/TesisMaestria/Tesis_tex/Figures/CuboRGB.png>]
 <Figures/ConoHSV.png, id=401, 856.19875pt x 830.10126pt>
 File: Figures/ConoHSV.png Graphic file (type png)
 <use Figures/ConoHSV.png>
-Package pdftex.def Info: Figures/ConoHSV.png  used on input line 117.
+Package pdftex.def Info: Figures/ConoHSV.png  used on input line 120.
 (pdftex.def)             Requested size: 171.23671pt x 166.0173pt.
  [15] [16 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ConoHSV.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
@@ -858,98 +808,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 <Figures/Conjuntos.png, id=429, 884.30376pt x 749.80125pt>
 File: Figures/Conjuntos.png Graphic file (type png)
 <use Figures/Conjuntos.png>
-Package pdftex.def Info: Figures/Conjuntos.png  used on input line 197.
+Package pdftex.def Info: Figures/Conjuntos.png  used on input line 199.
 (pdftex.def)             Requested size: 265.29317pt x 224.94211pt.
 <Figures/Conjuntos_Complemento.png, id=430, 1494.58376pt x 592.2125pt>
 File: Figures/Conjuntos_Complemento.png Graphic file (type png)
 <use Figures/Conjuntos_Complemento.png>
-Package pdftex.def Info: Figures/Conjuntos_Complemento.png  used on input line 216.
+Package pdftex.def Info: Figures/Conjuntos_Complemento.png  used on input line 218.
 (pdftex.def)             Requested size: 254.07587pt x 100.67479pt.
  [18 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos.png>]
 <Figures/Conjuntos_Resta.png, id=437, 635.37375pt x 436.63126pt>
 File: Figures/Conjuntos_Resta.png Graphic file (type png)
 <use Figures/Conjuntos_Resta.png>
-Package pdftex.def Info: Figures/Conjuntos_Resta.png  used on input line 229.
+Package pdftex.def Info: Figures/Conjuntos_Resta.png  used on input line 231.
 (pdftex.def)             Requested size: 108.0121pt x 74.22632pt.
 <Figures/Reflexion.png, id=438, 987.69pt x 404.51125pt>
 File: Figures/Reflexion.png Graphic file (type png)
 <use Figures/Reflexion.png>
-Package pdftex.def Info: Figures/Reflexion.png  used on input line 242.
+Package pdftex.def Info: Figures/Reflexion.png  used on input line 244.
 (pdftex.def)             Requested size: 316.06726pt x 129.44624pt.
  [19 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Complemento.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Resta.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Reflexion.png>]
 <Figures/Traslacion.png, id=450, 1024.82875pt x 422.57875pt>
 File: Figures/Traslacion.png Graphic file (type png)
 <use Figures/Traslacion.png>
-Package pdftex.def Info: Figures/Traslacion.png  used on input line 255.
+Package pdftex.def Info: Figures/Traslacion.png  used on input line 257.
 (pdftex.def)             Requested size: 327.9519pt x 135.22795pt.
 <Figures/CompuertasLogicas.png, id=454, 1169.36874pt x 537.00626pt>
 File: Figures/CompuertasLogicas.png Graphic file (type png)
 <use Figures/CompuertasLogicas.png>
-Package pdftex.def Info: Figures/CompuertasLogicas.png  used on input line 269.
+Package pdftex.def Info: Figures/CompuertasLogicas.png  used on input line 271.
 (pdftex.def)             Requested size: 233.8696pt x 107.39934pt.
 <Figures/LogicOp_IMG.png, id=456, 823.075pt x 792.9625pt>
 File: Figures/LogicOp_IMG.png Graphic file (type png)
 <use Figures/LogicOp_IMG.png>
-Package pdftex.def Info: Figures/LogicOp_IMG.png  used on input line 277.
+Package pdftex.def Info: Figures/LogicOp_IMG.png  used on input line 279.
 (pdftex.def)             Requested size: 246.9244pt x 237.89058pt.
  [20 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Traslacion.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/CompuertasLogicas.png>] [21 </home/robocup20/TesisMaestria/Tesis_tex/Figures/LogicOp_IMG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
 <Figures/ErosDil_NoGrid.png, id=474, 434.37282pt x 428.35031pt>
 File: Figures/ErosDil_NoGrid.png Graphic file (type png)
 <use Figures/ErosDil_NoGrid.png>
-Package pdftex.def Info: Figures/ErosDil_NoGrid.png  used on input line 317.
+Package pdftex.def Info: Figures/ErosDil_NoGrid.png  used on input line 320.
 (pdftex.def)             Requested size: 230.21649pt x 227.02458pt.
-[22 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ErosDil_NoGrid.png>]
+ [22 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ErosDil_NoGrid.png>]
 <Figures/Dil_ES2.png, id=483, 625.58719pt x 445.665pt>
 File: Figures/Dil_ES2.png Graphic file (type png)
 <use Figures/Dil_ES2.png>
-Package pdftex.def Info: Figures/Dil_ES2.png  used on input line 326.
+Package pdftex.def Info: Figures/Dil_ES2.png  used on input line 329.
 (pdftex.def)             Requested size: 156.39641pt x 111.41597pt.
  [23 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Dil_ES2.png>]
 <Figures/Clasificacion.png, id=493, 1059.96pt x 158.5925pt>
 File: Figures/Clasificacion.png Graphic file (type png)
 <use Figures/Clasificacion.png>
-Package pdftex.def Info: Figures/Clasificacion.png  used on input line 349.
+Package pdftex.def Info: Figures/Clasificacion.png  used on input line 352.
 (pdftex.def)             Requested size: 317.99045pt x 47.57811pt.
- [24 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Clasificacion.png>]
-Overfull \hbox (24.57338pt too wide) in paragraph at lines 382--384
-\OT1/cmr/m/n/10 M^^Saqui-na de Es-ta-dos Fi-ni-tos (FSM) uti-li-zan-do un vec-tor de 5 ele-men-tos, $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X; Y; S; ^^N; ^^U\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 ,
- []
-
-[25]
-Underfull \vbox (badness 2318) has occurred while \output is active []
-
- [26] [27]
+ [24 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Clasificacion.png>] [25] [26] [27]
 <Figures/Conveyor_GRIPS_TDP.png, id=525, 1191.45125pt x 902.37125pt>
 File: Figures/Conveyor_GRIPS_TDP.png Graphic file (type png)
 <use Figures/Conveyor_GRIPS_TDP.png>
-Package pdftex.def Info: Figures/Conveyor_GRIPS_TDP.png  used on input line 417.
+Package pdftex.def Info: Figures/Conveyor_GRIPS_TDP.png  used on input line 422.
 (pdftex.def)             Requested size: 178.70998pt x 135.34984pt.
 <Figures/Conveyor_HOG_GRIPS_TDP.png, id=526, 743.77875pt x 414.54875pt>
 File: Figures/Conveyor_HOG_GRIPS_TDP.png Graphic file (type png)
 <use Figures/Conveyor_HOG_GRIPS_TDP.png>
-Package pdftex.def Info: Figures/Conveyor_HOG_GRIPS_TDP.png  used on input line 417.
+Package pdftex.def Info: Figures/Conveyor_HOG_GRIPS_TDP.png  used on input line 422.
 (pdftex.def)             Requested size: 148.75311pt x 82.90828pt.
  [28 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_GRIPS_TDP.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_HOG_GRIPS_TDP.png>]
 <Figures/RobotinoGRIPS_Old.png, id=538, 364.36125pt x 979.66pt>
 File: Figures/RobotinoGRIPS_Old.png Graphic file (type png)
 <use Figures/RobotinoGRIPS_Old.png>
-Package pdftex.def Info: Figures/RobotinoGRIPS_Old.png  used on input line 428.
+Package pdftex.def Info: Figures/RobotinoGRIPS_Old.png  used on input line 433.
 (pdftex.def)             Requested size: 91.09009pt x 244.9144pt.
  [29 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoGRIPS_Old.png>]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch03_Detección_de_objetos.tex [30]
 Cap\'{\i }tulo 3.
 <Figures/Pieces.png, id=553, 1220.56pt x 828.09375pt>
 File: Figures/Pieces.png Graphic file (type png)
 <use Figures/Pieces.png>
-Package pdftex.def Info: Figures/Pieces.png  used on input line 11.
+Package pdftex.def Info: Figures/Pieces.png  used on input line 12.
 (pdftex.def)             Requested size: 183.0761pt x 124.2087pt.
 <Figures/BandaTrans_Big.png, id=556, 1053.9375pt x 806.01125pt>
 File: Figures/BandaTrans_Big.png Graphic file (type png)
 <use Figures/BandaTrans_Big.png>
-Package pdftex.def Info: Figures/BandaTrans_Big.png  used on input line 20.
+Package pdftex.def Info: Figures/BandaTrans_Big.png  used on input line 21.
 (pdftex.def)             Requested size: 210.78377pt x 161.19939pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -960,17 +898,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Figures/Tabla_Iluminación.png, id=570, 923.45pt x 481.8pt>
 File: Figures/Tabla_Iluminación.png Graphic file (type png)
 <use Figures/Tabla_Iluminación.png>
-Package pdftex.def Info: Figures/Tabla_Iluminación.png  used on input line 32.
+Package pdftex.def Info: Figures/Tabla_Iluminación.png  used on input line 33.
 (pdftex.def)             Requested size: 323.21234pt x 168.63252pt.
 <Figures/HSV_YellowRing.png, id=571, 1038.88126pt x 378.41376pt>
 File: Figures/HSV_YellowRing.png Graphic file (type png)
 <use Figures/HSV_YellowRing.png>
-Package pdftex.def Info: Figures/HSV_YellowRing.png  used on input line 41.
+Package pdftex.def Info: Figures/HSV_YellowRing.png  used on input line 42.
 (pdftex.def)             Requested size: 311.66678pt x 113.525pt.
 <Figures/Tabla_Medias_Ilum.png, id=572, 584.1825pt x 905.3825pt>
 File: Figures/Tabla_Medias_Ilum.png Graphic file (type png)
 <use Figures/Tabla_Medias_Ilum.png>
-Package pdftex.def Info: Figures/Tabla_Medias_Ilum.png  used on input line 48.
+Package pdftex.def Info: Figures/Tabla_Medias_Ilum.png  used on input line 49.
 (pdftex.def)             Requested size: 175.25609pt x 271.61684pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -979,18 +917,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Figures/RedPiece_HSV_components.png, id=581, 622.325pt x 220.825pt>
 File: Figures/RedPiece_HSV_components.png Graphic file (type png)
 <use Figures/RedPiece_HSV_components.png>
-Package pdftex.def Info: Figures/RedPiece_HSV_components.png  used on input line 57.
+Package pdftex.def Info: Figures/RedPiece_HSV_components.png  used on input line 58.
 (pdftex.def)             Requested size: 186.69893pt x 66.248pt.
  [34 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Tabla_Medias_Ilum.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/RedPiece_HSV_components.png>]
 <Figures/Masks_Piece.png, id=590, 823.075pt x 422.57875pt>
 File: Figures/Masks_Piece.png Graphic file (type png)
 <use Figures/Masks_Piece.png>
-Package pdftex.def Info: Figures/Masks_Piece.png  used on input line 67.
+Package pdftex.def Info: Figures/Masks_Piece.png  used on input line 68.
 (pdftex.def)             Requested size: 288.08057pt x 147.90477pt.
 <Figures/Masks_WS_3.png, id=594, 1274.7625pt x 662.475pt>
 File: Figures/Masks_WS_3.png Graphic file (type png)
 <use Figures/Masks_WS_3.png>
-Package pdftex.def Info: Figures/Masks_WS_3.png  used on input line 76.
+Package pdftex.def Info: Figures/Masks_WS_3.png  used on input line 77.
 (pdftex.def)             Requested size: 345.0pt x 179.2851pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1005,324 +943,199 @@ File: Figures/RigidBodyPos.png Graphic file (type png)
 <use Figures/RigidBodyPos.png>
 Package pdftex.def Info: Figures/RigidBodyPos.png  used on input line 25.
 (pdftex.def)             Requested size: 171.23671pt x 172.24045pt.
- [38] [39 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RigidBodyPos.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-[41]
+ [38] [39 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RigidBodyPos.png>] [40] [41]
 <Figures/Robotino_model_front.png, id=656, 534.19576pt x 339.669pt>
 File: Figures/Robotino_model_front.png Graphic file (type png)
 <use Figures/Robotino_model_front.png>
-Package pdftex.def Info: Figures/Robotino_model_front.png  used on input line 211.
+Package pdftex.def Info: Figures/Robotino_model_front.png  used on input line 217.
 (pdftex.def)             Requested size: 160.25996pt x 101.90147pt.
 <Figures/Robotino_model_side.png, id=657, 448.074pt x 339.669pt>
 File: Figures/Robotino_model_side.png Graphic file (type png)
 <use Figures/Robotino_model_side.png>
-Package pdftex.def Info: Figures/Robotino_model_side.png  used on input line 212.
+Package pdftex.def Info: Figures/Robotino_model_side.png  used on input line 218.
 (pdftex.def)             Requested size: 134.42323pt x 101.90147pt.
- [42 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_front.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_side.png>]
-<Figures/Robotino_DescCin.png, id=667, 501.875pt x 461.725pt>
+ [42]
+<Figures/Robotino_DescCin.png, id=666, 501.875pt x 461.725pt>
 File: Figures/Robotino_DescCin.png Graphic file (type png)
 <use Figures/Robotino_DescCin.png>
-Package pdftex.def Info: Figures/Robotino_DescCin.png  used on input line 223.
+Package pdftex.def Info: Figures/Robotino_DescCin.png  used on input line 229.
 (pdftex.def)             Requested size: 150.56366pt x 138.51857pt.
-) (/home/robocup20/TesisMaestria/Tesis_tex/Ch05_Planeación_de_acciones.tex [43 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_DescCin.png>] [44
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch05_Planeación_de_acciones.tex [43 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_front.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_side.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_DescCin.png>] [44
 
 ]
 Cap\'{\i }tulo 5.
-
-Overfull \hbox (4.68127pt too wide) in paragraph at lines 13--13
-[]\OT1/cmr/bx/n/14.4 Actividades de la com-pe-ten-cia Ro-bo-Cup Lo-
- []
-
 [45] [46] [47]
 <Figures/Exploration_route.png, id=696, 1128.215pt x 726.715pt>
 File: Figures/Exploration_route.png Graphic file (type png)
 <use Figures/Exploration_route.png>
-Package pdftex.def Info: Figures/Exploration_route.png  used on input line 51.
+Package pdftex.def Info: Figures/Exploration_route.png  used on input line 52.
 (pdftex.def)             Requested size: 338.46712pt x 218.01617pt.
- [48 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_route.png>]
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [49]
+ [48 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_route.png>] [49]
 <Figures/Navigation_CT.png, id=707, 692.5875pt x 948.54375pt>
 File: Figures/Navigation_CT.png Graphic file (type png)
 <use Figures/Navigation_CT.png>
-Package pdftex.def Info: Figures/Navigation_CT.png  used on input line 78.
+Package pdftex.def Info: Figures/Navigation_CT.png  used on input line 79.
 (pdftex.def)             Requested size: 277.03009pt x 379.41077pt.
 <Figures/Exploration_CT.png, id=708, 686.565pt x 1000.73875pt>
 File: Figures/Exploration_CT.png Graphic file (type png)
 <use Figures/Exploration_CT.png>
-Package pdftex.def Info: Figures/Exploration_CT.png  used on input line 85.
+Package pdftex.def Info: Figures/Exploration_CT.png  used on input line 86.
 (pdftex.def)             Requested size: 343.28166pt x 500.36816pt.
 <Figures/Manipulacion_CT_Hor.png, id=709, 737.75626pt x 828.09375pt>
 File: Figures/Manipulacion_CT_Hor.png Graphic file (type png)
 <use Figures/Manipulacion_CT_Hor.png>
-Package pdftex.def Info: Figures/Manipulacion_CT_Hor.png  used on input line 93.
-(pdftex.def)             Requested size: 368.87723pt x 414.04587pt.
-
-Overfull \hbox (23.87723pt too wide) in paragraph at lines 93--94
- [][] 
- []
-
+Package pdftex.def Info: Figures/Manipulacion_CT_Hor.png  used on input line 94.
+(pdftex.def)             Requested size: 295.09727pt x 331.23163pt.
 ) (/home/robocup20/TesisMaestria/Tesis_tex/Ch06_Resultados.tex [50] [51 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Navigation_CT.png>] [52 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_CT.png>] [53 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Manipulacion_CT_Hor.png>] [54
 
 ]
 Cap\'{\i }tulo 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 [55] [56] [57] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 <Figures/RobotinoFESTO_base+torre.png, id=777, 469.755pt x 507.39563pt>
 File: Figures/RobotinoFESTO_base+torre.png Graphic file (type png)
 <use Figures/RobotinoFESTO_base+torre.png>
-Package pdftex.def Info: Figures/RobotinoFESTO_base+torre.png  used on input line 143.
+Package pdftex.def Info: Figures/RobotinoFESTO_base+torre.png  used on input line 140.
 (pdftex.def)             Requested size: 140.92758pt x 152.21986pt.
-[60]
-<Figures/Festino2023_medidas.png, id=785, 1084.05pt x 1053.9375pt>
+<Figures/Festino2023_medidas.png, id=778, 1084.05pt x 1053.9375pt>
 File: Figures/Festino2023_medidas.png Graphic file (type png)
 <use Figures/Festino2023_medidas.png>
-Package pdftex.def Info: Figures/Festino2023_medidas.png  used on input line 150.
+Package pdftex.def Info: Figures/Festino2023_medidas.png  used on input line 140.
 (pdftex.def)             Requested size: 184.28606pt x 179.167pt.
- [61 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoFESTO_base+torre.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Festino2023_medidas.png>]
-<Figures/Kinect_parts.png, id=799, 853.1875pt x 643.40375pt>
+[60]
+<Figures/Kinect_parts.png, id=788, 853.1875pt x 643.40375pt>
 File: Figures/Kinect_parts.png Graphic file (type png)
 <use Figures/Kinect_parts.png>
-Package pdftex.def Info: Figures/Kinect_parts.png  used on input line 162.
+Package pdftex.def Info: Figures/Kinect_parts.png  used on input line 159.
 (pdftex.def)             Requested size: 213.29636pt x 160.85054pt.
-<Figures/Kinect_open.png, id=806, 706.64pt x 282.05376pt>
+ [61 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoFESTO_base+torre.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Festino2023_medidas.png>]
+<Figures/Kinect_open.png, id=809, 706.64pt x 282.05376pt>
 File: Figures/Kinect_open.png Graphic file (type png)
 <use Figures/Kinect_open.png>
-Package pdftex.def Info: Figures/Kinect_open.png  used on input line 174.
+Package pdftex.def Info: Figures/Kinect_open.png  used on input line 171.
 (pdftex.def)             Requested size: 247.3277pt x 98.72028pt.
- [62 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_parts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+ [62 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_parts.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_open.png>] [63]
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-[63 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_open.png>]
 <Figures/Phantom_Pincher.jpg, id=834, 903.375pt x 903.375pt>
 File: Figures/Phantom_Pincher.jpg Graphic file (type jpg)
 <use Figures/Phantom_Pincher.jpg>
-Package pdftex.def Info: Figures/Phantom_Pincher.jpg  used on input line 267.
+Package pdftex.def Info: Figures/Phantom_Pincher.jpg  used on input line 263.
 (pdftex.def)             Requested size: 180.6718pt x 180.6718pt.
- [64]
+[64 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Phantom_Pincher.jpg>]
 <Figures/AllMeans.png, id=843, 584.1825pt x 727.71875pt>
 File: Figures/AllMeans.png Graphic file (type png)
 <use Figures/AllMeans.png>
-Package pdftex.def Info: Figures/AllMeans.png  used on input line 280.
-(pdftex.def)             Requested size: 233.66885pt x 291.08234pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Phantom_Pincher.jpg>]
-<Figures/PieceColors_HSVColorMap.png, id=851, 752.8125pt x 572.1375pt>
+Package pdftex.def Info: Figures/AllMeans.png  used on input line 277.
+(pdftex.def)             Requested size: 175.25609pt x 218.3173pt.
+<Figures/PieceColors_HSVColorMap.png, id=845, 752.8125pt x 572.1375pt>
 File: Figures/PieceColors_HSVColorMap.png Graphic file (type png)
 <use Figures/PieceColors_HSVColorMap.png>
-Package pdftex.def Info: Figures/PieceColors_HSVColorMap.png  used on input line 289.
+Package pdftex.def Info: Figures/PieceColors_HSVColorMap.png  used on input line 286.
 (pdftex.def)             Requested size: 301.11966pt x 228.85094pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllMeans.png>]
-<Figures/AllSegmented_AllPieces.png, id=860, 369.38pt x 816.04875pt>
+ [65 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllMeans.png>]
+<Figures/AllSegmented_AllPieces.png, id=855, 369.38pt x 816.04875pt>
 File: Figures/AllSegmented_AllPieces.png Graphic file (type png)
 <use Figures/AllSegmented_AllPieces.png>
-Package pdftex.def Info: Figures/AllSegmented_AllPieces.png  used on input line 298.
+Package pdftex.def Info: Figures/AllSegmented_AllPieces.png  used on input line 295.
 (pdftex.def)             Requested size: 147.74937pt x 326.41371pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67 </home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces.png>]
-<Figures/Arm_RestPos.png, id=875, 579.16376pt x 559.08875pt>
+ [66 </home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png>] [67 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces.png>]
+<Figures/Arm_RestPos.png, id=870, 579.16376pt x 559.08875pt>
 File: Figures/Arm_RestPos.png Graphic file (type png)
 <use Figures/Arm_RestPos.png>
-Package pdftex.def Info: Figures/Arm_RestPos.png  used on input line 312.
+Package pdftex.def Info: Figures/Arm_RestPos.png  used on input line 335.
 (pdftex.def)             Requested size: 144.79057pt x 139.77184pt.
-<Figures/Arm_MovPlan.png, id=876, 677.53125pt x 738.76pt>
+<Figures/Arm_MovPlan.png, id=871, 677.53125pt x 738.76pt>
 File: Figures/Arm_MovPlan.png Graphic file (type png)
 <use Figures/Arm_MovPlan.png>
-Package pdftex.def Info: Figures/Arm_MovPlan.png  used on input line 323.
+Package pdftex.def Info: Figures/Arm_MovPlan.png  used on input line 346.
 (pdftex.def)             Requested size: 135.50385pt x 147.74937pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1661) has occurred while \output is active []
 
- [69 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-
-Overfull \hbox (347.03816pt too wide) detected at line 344
-\OML/cmm/m/it/10 arm[][]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[] arm[]srv:request:x \OT1/cmr/m/n/10 = 0[]025[] \OML/cmm/m/it/10 arm[]srv:request:y \OT1/cmr/m/n/10 = 0[]0[] \OML/cmm/m/it/10 arm[]srv:request:z \OT1/cmr/m/n/10 = 0[]10[] \OML/cmm/m/it/10 arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-
-Overfull \hbox (337.03584pt too wide) detected at line 352
-\OML/cmm/m/it/10 arm[]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 true[] arm[]srv:request:x \OT1/cmr/m/n/10 = 0[]025[] \OML/cmm/m/it/10 arm[]srv:request:y \OT1/cmr/m/n/10 = 0[]0[] \OML/cmm/m/it/10 arm[]srv:request:z \OT1/cmr/m/n/10 = 0[]10[] \OML/cmm/m/it/10 arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 true
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
-
- []
-
-
-Overfull \hbox (342.03815pt too wide) detected at line 360
-\OML/cmm/m/it/10 arm[]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[] arm[]srv:request:x \OT1/cmr/m/n/10 = 0[]04[] \OML/cmm/m/it/10 arm[]srv:request:y \OT1/cmr/m/n/10 = 0[]0[] \OML/cmm/m/it/10 arm[]srv:request:z \OT1/cmr/m/n/10 = 0[]12[] \OML/cmm/m/it/10 arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-
- []
-
-[70 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_MovPlan.png>]
-Overfull \hbox (600.7277pt too wide) detected at line 369
-\OML/cmm/m/it/10 arm[]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[] arm[]srv:request:x \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:x[] arm[]srv:request:y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:y[] arm[]srv:request:z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:z[] arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 true
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-
- []
-
-
-Overfull \hbox (595.72655pt too wide) detected at line 378
-\OML/cmm/m/it/10 arm[]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 true[] arm[]srv:request:x \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:x[] arm[]srv:request:y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:y[] arm[]srv:request:z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 det[]iece:pose:position:z[] arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 true
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-
-Overfull \hbox (347.03816pt too wide) detected at line 387
-\OML/cmm/m/it/10 arm[]srv:request:manipBlocker \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[] arm[]srv:request:x \OT1/cmr/m/n/10 = 0[]025[] \OML/cmm/m/it/10 arm[]srv:request:y \OT1/cmr/m/n/10 = 0[]0[] \OML/cmm/m/it/10 arm[]srv:request:z \OT1/cmr/m/n/10 = 0[]10[] \OML/cmm/m/it/10 arm[]srv:request:gripperState \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false
- []
-
+ [68 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png>] [69 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_MovPlan.png>] [70]
 <Figures/Grasping_sequence.png, id=890, 1088.065pt x 501.875pt>
 File: Figures/Grasping_sequence.png Graphic file (type png)
 <use Figures/Grasping_sequence.png>
-Package pdftex.def Info: Figures/Grasping_sequence.png  used on input line 392.
+Package pdftex.def Info: Figures/Grasping_sequence.png  used on input line 422.
 (pdftex.def)             Requested size: 326.42203pt x 150.56366pt.
 ) (/home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex [71 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png>] [72
 
 ]
 Cap\'{\i }tulo 7.
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[73]) [74] [75
 
- []
-
-) [74]
+] [76] [77]
 Overfull \hbox (5.8274pt too wide) in paragraph at lines 47--47
 []\OT1/cmr/m/it/10 About - OpenCV\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / opencv . org / about/$[][] \OT1/cmr/m/n/10 (vi-si-ta-do 24[]01[]2024). 
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 32.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
- [75
 
-] [76]
 Overfull \hbox (31.5487pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 yo de 2022. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / github . com / AdityaPai2398 / Colour -[] Segmentation -[]
  []
 
-[77]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [78]
+[78]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (/home/robocup20/TesisMaestria/Tesis_tex/main.aux
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A2522821578A7B093FAA69D0A7388F08;3957.
+(rerunfilecheck)             Checksum: B4D3EA12DC48F86301A2B478EA78D9B5;3904.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19830 strings out of 481239
- 337986 string characters out of 5920377
- 815619 words of memory out of 5000000
- 34502 multiletter control sequences out of 15000+600000
+ 19759 strings out of 481239
+ 335407 string characters out of 5920377
+ 995547 words of memory out of 5000000
+ 34434 multiletter control sequences out of 15000+600000
  540526 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,51p,1577b,2206s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,64p,1578b,2206s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on /home/robocup20/TesisMaestria/Tesis_tex/main.pdf (78 pages, 9969252 bytes).
+Output written on /home/robocup20/TesisMaestria/Tesis_tex/main.pdf (78 pages, 9970663 bytes).
 PDF statistics:
- 1113 PDF objects out of 1200 (max. 8388607)
- 908 compressed objects within 10 object streams
- 240 named destinations out of 1000 (max. 500000)
+ 1115 PDF objects out of 1200 (max. 8388607)
+ 910 compressed objects within 10 object streams
+ 241 named destinations out of 1000 (max. 500000)
  669 words of extra memory for PDF output out of 10000 (max. 10000000)
 

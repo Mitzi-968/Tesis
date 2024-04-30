@@ -1,5 +1,5 @@
 \chapter{Resultados}
-    \section{Implementación}
+    \section{Herramientas}
     Para lograr los objetivos planteados para el desarrollo de este proyecto se utilizaron varias herramientas de software y de hardware, las cuales hicieron posible la recopilación de los datos necesarios, así como la ejecución de las acciones planteadas como requisitos del proceso planteado.
     Se ha hecho suficiente hincapié en que el objetivo principal de este proyecto es el aprovechamiento de los datos recabados por una cámara RGBD. En este caso, el dispositivo utilizado para la obtención de la imagen y la nube de puntos es el \textbf{Kinect}, un dispositivo distribuido por la empresa \textbf{Microsoft}, que en 2010 fue lanzado al mercado como accesorio para la consola de videojuegos XBOX 360. Adicionalmente, como base del robot móvil se utilizó la plataforma de desarrollo \textbf{Robotino} perteneciente a la empresa FESTO.
 
@@ -15,8 +15,7 @@
                 \item Mantenimiento de paquetes
             \end{itemize}
 
-            Vázquez añade que durante el desarrollo del comportamiento de un robot es común considerar las funcionalidades a modo de módulos, en que cada uno tiene un objetivo específico. Apunta también que ROS colabora con el transporte de la información entre dichos módulos y menciona como una ventaja la existencia de la comunidad de desarrolladores que trabajan con ROS, haciendo posible el intercambio de información, obteniendo soporte y retroalimentación actualizados.
-            \phantom{saltodelineaforzado >:D}\\
+            Vázquez añade que durante el desarrollo del comportamiento de un robot es común considerar las funcionalidades a modo de módulos, en que cada uno tiene un objetivo específico. Apunta también que ROS colabora con el transporte de la información entre dichos módulos y menciona como una ventaja la existencia de la comunidad de desarrolladores que trabajan con ROS, haciendo posible el intercambio de información, obteniendo soporte y retroalimentación actualizados. \phantom{saltodelineaforzado >:D}\\
 
             \textbf{Elementos}
             \begin{itemize}
@@ -59,7 +58,7 @@
              
             \subsubsection{RobotinoView}
             Robotino View es un entorno de programación grafico que es posible utilizar directamente con Robotino y que, de hecho, viene preinstalado con el robot desde la configuración de fábrica. Dentro de este ambiente es posible crear y ejecutar programas de control para el robot.
-            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades:
+            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades\cite{FESTO-RobotinoView}:
             \begin{itemize}
                 \item Programas secuenciales son mostrtados como Grafcet
                 \item Control simultáneo de varios Robotino
@@ -70,7 +69,7 @@
                 \item Descarga y ejecución de programas en RobotinoView, directamente en Robotino.
                 \item Creación e integración de funciones propias en C++
                 \item Interfaz de usuario y manuales en multiples idiomas.
-            \end{itemize} \cite{FESTO-RobotinoView}
+            \end{itemize}
 
             Esta herramienta fue utilizada durante la familizariación con el equipo, realizar pruebas básicas y para generar secuencias sencillas de movimiento, no directamente en la implementación del proyecto.
             
@@ -96,9 +95,7 @@
                 \item Sensores: 9 sensores de distancia por infrarrojos con un rango de medición de 4 - 40 cm
                 \item Sensores: 1 sensor inductivo analógico, 2 sensores ópticos digitales
                 \item Sensores: 1 giroscopio interno de 3 ejes con sensor de aceleración
-            \end{itemize}
-
-            \phantom{saltodelineaforzado >:D}\\
+            \end{itemize}\newpage
             
             \textbf{Actuador}
             \begin{itemize}
@@ -136,21 +133,21 @@
                 \item Plataformas de montaje de posicionamiento flexible (120° cada una)
             \end{itemize}
 
-            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma Robotino y en \ref*{fig:Robotino_NewNew} se muestra una imagen del robot utilizado para este desarrollo.
+            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma Robotino y en \ref*{fig:Robotino} se muestra una imagen del robot utilizado para este desarrollo.
 
             \begin{figure}[H]
                 \centering
-                \includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}                 
-                    \caption{Robotino 3 \cite{festo-didactic-robotino-2013}}
+                \includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}\quad \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}                
+                    \caption{Robotino 3 \cite{festo-didactic-robotino-2013} \qquad\qquad\quad\phantom{-}\qquad Robotino 3 modificado}
                     \label{fig:Robotino}
             \end{figure}
             
-            \begin{figure}[H]
-                \centering
-                \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}
-                    \caption{Robotino 3 modificado}
-                    \label{fig:Robotino_NewNew}
-            \end{figure}
+            %\begin{figure}[H]
+            %    \centering
+            %    \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}
+            %        \caption{Robotino 3 modificado}
+            %        \label{fig:Robotino_NewNew}
+            %\end{figure}
                             
             \subsubsection{Camara RGBD - Kinect}
 
@@ -233,8 +230,7 @@
             \subsubsection{Manipulador PhantomX Pincher AX-12}
             El manipulador utilizado para este proyecto es el brazo robótico \textbf{PhantomX Pincher AX-12} distribuido por la empresa \textit{Trossen Robotics (Interbotix)}, conocida por poner a disposición del público hardware y software \textit{open source} utilizado en robótica para uso educativo, profesional o de entretenimiento. Los dispositivos de Interbotix se encuentran construidos con servomotores DYNAMIXEL X-Series, y se pueden obtener en configuraciones de 4, 5 o 6 grados de libertad, y es posible controlarlos mediante el Middleware ROS \cite{Interbotix_interbotix}. 
             
-            De acuerdo con la información del fabricante \cite{Interbotix_widowx_PincherArm}, este dispositivo es un brazo robótico de 4 grados de libertad, diseñado para se compatible con la plataforma robótica \textit{TurtleBot} de ROS y cuenta con los elementos necesarios para usarlo ya sea como un elemento independiente o bien, como en este caso, integrarlo dentro de otra plataforma robótica. En la figura \ref{fig:Phantom_Pincher} se muestra un ejemplo del manipulador y, a continuación, una descripción del mismo:
-            \phantom{saltodelineaforzado >:D}\\
+            De acuerdo con la información del fabricante \cite{Interbotix_widowx_PincherArm}, este dispositivo es un brazo robótico de 4 grados de libertad, diseñado para se compatible con la plataforma robótica \textit{TurtleBot} de ROS y cuenta con los elementos necesarios para usarlo ya sea como un elemento independiente o bien, como en este caso, integrarlo dentro de otra plataforma robótica, en la figura \ref{fig:Phantom_Pincher} se muestra un ejemplo del manipulador.\newpage
             
             \textbf{Características}
             \begin{itemize}
@@ -268,16 +264,17 @@
                     \caption{PhantomX Pincher AX-12 \cite{Inerbotix_pincher_arm}}
                     \label{fig:Phantom_Pincher}
             \end{figure}
-Para lograr la integración de todos los elementos anteriormente mencionados, el desarrollo se realizó utilizando una combinación de los lenguajes C++ y Python. 
 
-\subsection{Resultados - Visión}
+\section{Implementación}
+Para lograr la integración de todos los elementos anteriormente mencionados, los algoritmos en los que se procesa la imagen se realizan utilizando scripts de python, mientras que las máquinas de estados se programaron en C++.
+
 La evaluación del resultado de esta implementación se dio parcialmente durante la competencia RoboCup 2023, donde se cuenta con las estaciones de trabajo y el set de piezas completas. Durante esta evaluación bajo condiciones reales fue posible observar debilidades en la implementación que fueron cubiertas posteriormente, la evaluación se continuó entonces en las instalaciones del laboratorio de Biorobótica. 
 
-Como se ha mencionado anteriormente, se obtuvieron las medias de color de las piezas bajo diferentes condiciones de iluminación. En la figura \ref{fig:AllMeans} se muestran los colores correspondientes a dichas medias, almacenadas en un archivo desde el cual el segmentador accede una vez habiéndosele indicado qué color de pieza se requiere. 
+Como se ha mencionado anteriormente, se obtuvieron las medias de color de las piezas bajo diferentes condiciones de iluminación. En la figura \ref{fig:AllMeans} se muestran los colores correspondientes a dichas medias, almacenadas en un archivo yaml desde el cual el segmentador accede una vez habiéndosele indicado qué color de pieza se requiere. 
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.4]{Figures/AllMeans.png}
+    \includegraphics[scale=0.3]{Figures/AllMeans.png}
         \caption{Medias de color}
         \label{fig:AllMeans}
 \end{figure}
@@ -293,7 +290,7 @@ Durante las pruebas realizadas, se observó que existe la posibilidad de confusi
 
 De acuerdo a la figura y a los valores obtenidos de las medias, existe un traslape entre las zonas que describen las características de color de ambos colores, mientras que para los demás elementos de interés, los cambios de magnitud son notablemente mayores. Para controlar este factor se utilizó un elemento \textit{delta} dentro de la segmentación, afectando los umbrales de los valores HSV.
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \includegraphics[scale=0.4]{Figures/AllSegmented_AllPieces.png}
         \caption{Piezas segmentadas}
@@ -303,6 +300,32 @@ De acuerdo a la figura y a los valores obtenidos de las medias, existe un trasla
 De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de interés, se realiza un promedio de los mismos, mediante el cual se obtiene la coordenada promedio de la posición del objeto respecto a la cámara y realizando transformaciones homogéneas se obtiene su posición respecto a la base del manipulador del robot, luego de lo cual se solicita al planeador de movimientos la trayectoria a realizar para lograr el graspeo.
 
 Como se mencinó anteriormente, el planeador de trayectoria obtiene las posiciones angulares que de deben ser alcanzadas por los motores para lograr la posición deseada. De esta forma se establece como objetivo la coordeada correspondente al centroide de la pieza, el robot abre la pinza y realiza el movimiento de graspeo. Al encontrarse en la posición deseada, se cierra la pinza y se regresa a la posición de descanso del robot, desde la cual le es posible navegar al punto en que debe entregar la pieza nuevamente.
+
+La evaluación del algoritmo se realizó utilizando el flujo de video obtenido de la cámara Kinect, conectado al robot y mostrando las coordenadas de los objetos buscados. En estas pruebas el objeto de interés se encontraba a una distancia horizontal mínima de 40 [cm] respecto al eje del kinect, esto debido a las limitaciones de la nube de puntos de la cámara. el experimento se realizó en 35 repeticiones, variando las posiciones de las piezas dentro del espacio de trabajo, así como la posición del robot respecto al mismo. Adicionalmente, se colocaba más de un elemento de interés en el rango visual del robot. Después de las modificaciones realizadas al parámetro delta del segmentador, el comportamiento en que se confundían piezas amarillas con piezas verdes no volvió a presentarse.
+
+Con las pruebas realizadas, se obtuvieron los siguientes resultados:
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+        \textbf{Pieza} & \textbf{Experimentos exitosos} & \textbf{Porcentaje de detección}\\
+    \hline
+        Azul & 29 & 82.85\\
+    \hline
+        Amarillo & 26 & 74.28\\
+    \hline
+        Naranja & 27 & 77.14 \\
+    \hline
+        Rojo & 30 & 85.71 \\
+    \hline
+        Verde & 29 & 82.85 \\
+    \hline
+    \end{tabular}
+    \caption{Resultados - Detección de piezas}
+    \label{tab:Res-Vis}
+\end{table}
+
 
 \subsection{Resultados - Manipulación}
 De acuerdo a lo establecido anteriormente, la planeación de la estrategia de movimientos se lleva acabo a través de la paquetería MoveIt, para la cual existen ya herramientas para el uso del manipulador, dentro de lo cual se cuenta con la información de la configuración mecánica el robot y sus características físicas, con dicha información se realiza la planeación de las trayectorias. Durante el proceso de prueba se observó que el manipulador puee permanecer en posición extendida cierto periodo de tiempo antes de que el motor en la primera articulación ceda ante en peso de la estructura, por lo que se definió una posición predeterminada de reposo en la cual el mecanismo del manipulador no se ve forzado \ref{fig:Arm_ResPos}.
@@ -329,62 +352,69 @@ Una de las ventajas que ofrece el uso de este manipulador se encuentra en la ver
 
 La secuencia de movimientos propuesta para la tarea que se describe consiste en cuatro pasos, sin contar el inicio y vuelta a la posición de reposo. Que fueron planteados debido a las limitaciones con las que cuenta el manipulador. Esta limitación consiste en que para ciertas posiciones de $x$ o $y$, el manipulador debe comenzar desde una coordenada mínima $z = 0.12$. Adicionalmente, para el accionamiento de la pinza, es necesario bloquear los movimientos del manipulador y enviar una variable booleana, $True$ para abrir y $False$ para cerrar.
 
-A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}.\\
+A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}.
+
+
 
 \textbf{Pasos preestablecidos}
-
 \begin{itemize}
-    \item Reposo:\\
-    \begin{equation*}
-        arm_{}{}srv.request.manipBlocker = false\\
+    \item Reposo:
+    \begin{multline*}
+        \phantom{holis}\\
+        arm_{}srv.request.manipBlocker = false\\
         arm_{}srv.request.x = 0.025\\
         arm_{}srv.request.y = 0.0\\
         arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = false
-    \end{equation*}
-    \item Pinza abierta:\\
-    \begin{equation*}
+        arm_{}srv.request.gripperState = false\\
+    \end{multline*}
+    \item Pinza abierta:
+    \begin{multline*}
+        \phantom{holis}\\
         arm_{}srv.request.manipBlocker = true\\
         arm_{}srv.request.x = 0.025\\
         arm_{}srv.request.y = 0.0\\
         arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = true
-    \end{equation*}
-    \item Inicial:\\
-    \begin{equation*}
+        arm_{}srv.request.gripperState = true\\
+    \end{multline*}
+    \item Inicial:
+    \begin{multline*}
+        \phantom{holis}\\
         arm_{}srv.request.manipBlocker = false\\
         arm_{}srv.request.x = 0.04\\
         arm_{}srv.request.y = 0.0\\
         arm_{}srv.request.z = 0.12\\
-        arm_{}srv.request.gripperState = false
-    \end{equation*}
+        arm_{}srv.request.gripperState = false\\
+    \end{multline*}
 
-    \item Trayectoria de Graspeo \\
-    \begin{equation*}
+    \item Trayectoria de Graspeo:
+    \begin{multline*}
+        \phantom{holis}\\
         arm_{}srv.request.manipBlocker = false\\
         arm_{}srv.request.x = det_piece.pose.position.x\\
         arm_{}srv.request.y = det_piece.pose.position.y\\
         arm_{}srv.request.z = det_piece.pose.position.z\\
-        arm_{}srv.request.gripperState = true
-    \end{equation*}
+        arm_{}srv.request.gripperState = true\\
+    \end{multline*}
     
-    \item Pinza cerrada\\
-    \begin{equation*}
+    \item Pinza cerrada
+    \begin{multline*}
+        \phantom{holis}\\
         arm_{}srv.request.manipBlocker = true\\
         arm_{}srv.request.x = det_piece.pose.position.x\\
         arm_{}srv.request.y = det_piece.pose.position.y\\
         arm_{}srv.request.z = det_piece.pose.position.z\\
-        arm_{}srv.request.gripperState = true
-    \end{equation*}
+        arm_{}srv.request.gripperState = true\\
+    \end{multline*}
     
-    \item Reposo\\
-    \begin{equation*}
+    \item Reposo
+    \begin{multline*}
+        \phantom{holis}\\
         arm_{}srv.request.manipBlocker = false\\
         arm_{}srv.request.x = 0.025\\
         arm_{}srv.request.y = 0.0\\
         arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = false
-    \end{equation*}
+        arm_{}srv.request.gripperState = false\\
+    \end{multline*}
 \end{itemize}
 
 \begin{figure}[H]
@@ -393,6 +423,27 @@ A continuación se describe la secuencia utilizada, que puede ser observada tamb
         \caption{Secuencia de Graspeo}
         \label{fig:Grasping_Sequence}
 \end{figure}
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+        \textbf{Pieza} & \textbf{Experimentos exitosos} & \textbf{Porcentaje de éxito}\\
+    \hline
+        Azul & 29 & 82.85\\
+    \hline
+        Amarillo & 26 & 74.28\\
+    \hline
+        Naranja & 27 & 77.14 \\
+    \hline
+        Rojo & 30 & 85.71 \\
+    \hline
+        Verde & 29 & 82.85 \\
+    \hline
+    \end{tabular}
+    \caption{Resultados - Manipulación de piezas}
+    \label{tab:Res-Man}
+\end{table}
 
 \subsection{Resultados - Integración}
 Al proceder con la integración fue necesario hacer la unión de los modelos del robot y del brazo para poder operarse simultáneamente y que ambas partes se reconozcan una a la otra y puedan interactuar entre sí. Para esto fue necesario hacer una combinación de los archivos que los describen. Una vez que el modelo es correcto y coincide en posiciones y orientaciones con las condiciones reales del robot se procedió a probar los algoritmos que se plantearon anteriormente. 

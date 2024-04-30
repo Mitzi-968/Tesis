@@ -32,7 +32,10 @@ La visión es una de las herramientas básicas con la que la mayoría de los ser
 \end{itemize}
 
 El autor Richard Szeliski \cite{szeliski_computer_2022}, menciona que el objetivo de la visión computacional es describir el mundo que vemos en una o más imágenes y reconstruir sus propiedades (forma, iluminación o distribución de colores). Simulando así una forma de imitar el comportamiento de la visión de los seres vivos, mediante máquinas y algoritmos computacionales. Haciendo una relación con la teoría de Marr, los dos primeros niveles son conceptualmente similares. El tercer nivel, el de la implementación, es el que encuentra el mayor cambio, reemplazando a los agentes biológicos por equipos de cómputo que puedan otorgar la información necesaria para extraer la misma información de las imágenes que obtendría el sistema de visión humano.
-Afortunadamente, la visión computacional se encuentra en constante desarrollo, tanto en cuestión de hardware como en relación a los algoritmos que se utilizan, y su uso se encuentra presente en gran variedad de aplicaciones.\\
+
+
+Afortunadamente, la visión computacional se encuentra en constante desarrollo, tanto en cuestión de hardware como en relación a los algoritmos que se utilizan, y su uso se encuentra presente en gran variedad de aplicaciones.
+
 
 El elemento base de este análisis es la \textbf{Imagen}. En \cite{gonzalez_digital_2002} González y Woods la definen como una función bidimensional $f(i,j)$, donde $i$ y $j$ son coordenadas espaciales de un plano, mientras que la amplitud de $f$ con cualquier par de coordenadas $(i,j)$ se conoce como \textit{intensidad} o \textit{nivel de gris} de la imagen en dicho punto. Se considera una \textbf{Imagen Digital} siempre y cuando $i$, $j$ y los valores de la amplitud de $f$ sean finitos. Los autores destacan también que la imagen digital se compone de un número finito de elementos, cada uno de los cuales tiene una ubicación y valor particulares, comúnmente conocidos como \textbf{píxeles}.
 
@@ -143,16 +146,15 @@ Este proceso corresponde a la transformación de una imagen de entrada $f$ a una
 \begin{equation*}
 g(i,j) =\begin{cases*}
 1, & para $f(i,j) \geq T$,\\
-0, & para $f(i,j) < T$,
-\end{cases*}
+0, & para $f(i,j) < T$ \end{cases*} 
 \end{equation*}
 \phantom{saltodelinea}\\
 
-Donde $T$ representa el umbral (Threshold). Después de esta trasnformación, todos los pixeles dentro de la imagen que se encuentren dentro del/los umbrales definidos tendrán un valor de 1 y a aquellos que no satisfagan la condición se les asigna el valor 0 (o vice versa) \cite{sonka_image_2008}.
-\phantom{saltodelinea}\\
+Donde $T$ representa el umbral (Threshold). Después de esta trasnformación, todos los pixeles dentro de la imagen que se encuentren dentro del/los umbrales definidos tendrán un valor de 1 y a aquellos que no satisfagan la condición se les asigna el valor 0 (o vice versa) \cite{sonka_image_2008}. \phantom{saltodelinea}
 
 
- González y Woods \cite{gonzalez_digital_2002} describen el proceso de segmentación de imágenes en el espacio HSV de la siguiente manera:
+
+González y Woods \cite{gonzalez_digital_2002} describen el proceso de segmentación de imágenes en el espacio HSV de la siguiente manera:
 \begin{itemize}
     \item Separar la imagen en sus componentes HSV.
     \item Reconocer las zonas de la imagen (y los valores de los píxeles) donde se encuentran las características de interés.
@@ -300,7 +302,8 @@ en estas ecuaciones, el conjunto $B$ es comúnmente mencionado como el \textit{e
 
 Vale la pena mencionar que esta definición de la operación dilatación coincide con el proceso para realizar la convolución, dado que de forma similar se \textit{invierte} uno de los operandos y se recorre sobre el otro elemento de la operación. Es importante recalcar que la convolución es una más de las operaciones que con frecuencia se utilizan para el procesamiento de imágenes, por ejemplo para el filtrado de las imágenes, al hacer la convolución de la forma matricial de la imagen con la matriz que represente el filtro que se busca aplicar. 
 
-\emph{Erosión}\\
+\emph{Erosión}
+
 
 Para los conjuntos $A$ y $B$, pertenecientes a $Z^{2}$, la operación erosión, representada como $A \ominus B$, se define como:
 
@@ -379,7 +382,9 @@ El proceso utilizado en este proyecto corresponde a la última categoría de las
 
 Cuando se habla de máquinas de estados nos referimos a un modelo computacional con el cual se representan procesos de lógica secuencial. En este modelo cuenta con conjuntos de entradas, salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados.
 
-Czerwinski y Kania (2013) \cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $ \{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $. 
+Czerwinski y Kania \cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $\{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $.
+
+
 Dentro de las máquinas de estados finitas se encuentran dos grandes clasificaciones, las máquinas Moore y las máquinas Mealy, que reciben su nombre de los investigadores Eduard F. Moore y George H. Mealy, que desarrollaron \textit{la teoría del autómata}. En el planteamiento de la máquina de Moore las salidas dependen únicamente del estado actual de la máquina, expresando este comportamiento en términos de los vectores definidos anteriormente se obtiene: $\lambda: S \to Y$. Por el contrario, en las máquinas Mealy las salidas dependen tanto del estado actual como de las entradas actuales del sistema. Así, la función de salida se puede representar como: $\lambda: X \times S \to Y$.
 
 

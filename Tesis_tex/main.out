@@ -31,7 +31,7 @@
 \BOOKMARK [1][-]{section.4.3}{Descripci\363n cinem\341tica del robot}{chapter.4}% 31
 \BOOKMARK [1][-]{section.4.4}{Manipulaci\363n de objetos}{chapter.4}% 32
 \BOOKMARK [0][-]{chapter.5}{Planeaci\363n de acciones}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Actividades de la competencia RoboCup Logistics}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.1}{Actividades}{chapter.5}% 34
 \BOOKMARK [2][-]{subsection.5.1.1}{Navegaci\363n}{section.5.1}% 35
 \BOOKMARK [2][-]{subsection.5.1.2}{Exploraci\363n}{section.5.1}% 36
 \BOOKMARK [2][-]{subsection.5.1.3}{Manipulaci\363n}{section.5.1}% 37
@@ -43,12 +43,12 @@
 \BOOKMARK [2][-]{subsection.5.2.5}{Entradas y salidas}{section.5.2}% 43
 \BOOKMARK [2][-]{subsection.5.2.6}{Algoritmos de las M\341quinas de Estados - Cartas ASM}{section.5.2}% 44
 \BOOKMARK [0][-]{chapter.6}{Resultados}{}% 45
-\BOOKMARK [1][-]{section.6.1}{Implementaci\363n}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.1}{Herramientas}{chapter.6}% 46
 \BOOKMARK [2][-]{subsection.6.1.1}{Herramientas de software}{section.6.1}% 47
 \BOOKMARK [2][-]{subsection.6.1.2}{Herramientas de hardware}{section.6.1}% 48
-\BOOKMARK [2][-]{subsection.6.1.3}{Resultados - Visi\363n}{section.6.1}% 49
-\BOOKMARK [2][-]{subsection.6.1.4}{Resultados - Manipulaci\363n}{section.6.1}% 50
-\BOOKMARK [2][-]{subsection.6.1.5}{Resultados - Integraci\363n}{section.6.1}% 51
+\BOOKMARK [1][-]{section.6.2}{Implementaci\363n}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.2.1}{Resultados - Manipulaci\363n}{section.6.2}% 50
+\BOOKMARK [2][-]{subsection.6.2.2}{Resultados - Integraci\363n}{section.6.2}% 51
 \BOOKMARK [0][-]{chapter.7}{Conclusiones y Trabajo Futuro}{}% 52
 \BOOKMARK [1][-]{section.7.1}{Conclusiones}{chapter.7}% 53
 \BOOKMARK [2][-]{subsection.7.1.1}{Visi\363n Computacional}{section.7.1}% 54

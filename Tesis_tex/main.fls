@@ -54,10 +54,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
@@ -181,7 +181,7 @@ INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.aux
 OUTPUT /home/robocup20/TesisMaestria/Tesis_tex/main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-OUTPUT /home/robocup20/TesisMaestria/Tesis_tex/main-blx.bib
+OUTPUT /home/robocup20/TesisMaestria/Tesis_tex/main.bcf
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.bbl
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.bbl
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.bbl
@@ -399,8 +399,6 @@ INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.aux
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/main.out
