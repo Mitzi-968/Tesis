@@ -1,18 +1,24 @@
 \chapter{Conclusiones y Trabajo Futuro}
 \section{Conclusiones}
-De acuerdo a los experimentos reportados anteriormente, se obtienen las siguientes conclusiones.
 \subsection{Visión Computacional}
-El módulo de segmentación de objetos es capaz de localizar el 80\% de las veces los objetos de interés en las pruebas realizadas utilizando las imágenes obtenidas del dipositivo Kinect (640x512 pixeles). Para cada pieza fueron utilizadas cuatro imágenes con diferentes iluminaciones y se tomó la muestra de la media de color de la zonas más representativas de cada cambio de iluminación.
+El módulo de segmentación de objetos es capaz de localizar entre el 70 y 80\% de las veces los objetos de interés en las pruebas realizadas utilizando las imágenes obtenidas del dipositivo Kinect (640x512 pixeles). Para la obtención de las medias de color de cada pieza fueron utilizadas cuatro imágenes con diferentes iluminaciones y se tomó la muestra de zonas más representativas de cada cambio de iluminación.
+
+
 El segmentador fue probado tanto en imágenes estáticas obtenidas de videos de ejecuciones de la competencia como con el flujo de video obtenido de la ejecución de los algoritmos con el robot.
 
-Además de lo anterior, el módulo obtiene exitosamente la posición de la pieza en un 95\% de las ocasiones, entregando la coordenada asociada para la posterior manipulación de los objetos.
+Bajo estas condiciones, en 13 de los experimentos, correspondientes al 7\%, la pieza fue correctamente segmentada, pero la coordenada asociada no coorespondía con la posición real del objeto. De acuerdo a esto, el módulo obtiene exitosamente la posición de la pieza en la mayoría de las ocasiones, 93\%, entregando la coordenada asociada para la posterior manipulación de los objetos cuando las pruebas se realizan sin la integración de los movimientos del brazo.
 
-Uno de los motivos que llevaron a la decisión de utilizar segmentación por color como la técnica indicada para este proyecto se basa en lo ligero de la implementación, siendo que en ejecución es imperceptible algún retraso en el sistema cuando se utilizan ya sea el sistema de detección o la localización de los objetos, por lo que no representa una afectación en el tiempo de ejecución del proceso general.
+Uno de los motivos que llevaron a la decisión de utilizar segmentación por color como la técnica indicada para este proyecto se basa en lo ligero de la implementación, siendo que en ejecución es imperceptible algún retraso en el sistema cuando se utilizan ya sea el sistema de detección o la localización de los objetos, por lo que no representa una afectación en el tiempo de ejecución del proceso general.\newpage
 
 A partir de las condiciones menicionadas, se concluye que la implementación de este módulo cumple con los objetivos de \textit{Procesar la imagen obtenida por una cámara RGB en la estructura de un robot para identificar objetos en el espacio de trabajo de acuerdo a sus características.} y \textit{Utilizar la nube de puntos  obtenida de la cámara de profundidad para conocer la posición relativa de los objetos y plataformas de interés y planear la trayectoria óptima del manipulador para tomarlos.}
 
 \subsection{Manipulación}
-El módulo encargado de la manipulación del robot tiene éxito en un 70\% de los experimentos, a partir de los cuales se observó la necesidad de integrar adicionalmente un sistema con el cual sea posible la calibración de los movimientos finos del manipulador, debido a que las propias características del mismo propiciaban en ocasiones el movimiento accidental de la pieza como parte de la trayectoria de manipulación, por lo que se considera que el objetivo \textit{Identificar los objetos de interés presentes dentro del espacio de trabajo de un robot de servicio para fábricas inteligentes y sujetarlos exitosamente con el manipulador del robot.} se cumplió parcialmente, dado que el objeto es exitosamente identificado, pero la estrategia de movimiento debe incluir movimientos menos abruptos.
+El módulo encargado de la manipulación del robot tiene éxito en aproximadamente 70\% de los experimentos, a partir de los cuales se observó la necesidad de integrar adicionalmente un sistema con el cual sea posible la calibración de los movimientos finos del manipulador, debido a que las características del mismo propiciaban en ocasiones el movimiento accidental de la pieza como parte de la trayectoria de manipulación. 
+
+En las pruebas realizadas de visión y manipulación combinadas, se encontró que los movimientos que realiza el manipulador producen vibraciones en la estructura del robot. Esta vibración genera un ligero desajuste en la posición del kinect respecto al robot, y por consiguiente se obtiene un error en las mediciones de posición de la cámara, dado que el movimiento del dispositivo no es registrado dentro del modelo del robot y después de varias repeticiones del experimento, lo que comenzó como variaciones impercepribles se convertía en cambios milimétricos y, dado el tamaño de la pinza del manipulador y de los objetos mismos generaban errores en el graspeo.
+
+
+Por lo anterior descrito, se considera que el objetivo \textit{Identificar los objetos de interés presentes dentro del espacio de trabajo de un robot de servicio para fábricas inteligentes y sujetarlos exitosamente con el manipulador del robot.} se cumplió parcialmente, dado que el objeto es exitosamente identificado, pero la estrategia de movimiento debe incluir movimientos menos abruptos y un posicionamento más firme del dispositivo Kinect o la cámara que se busque utlizar.
 
 \section{Trabajo Futuro}
 Como trabajo futuro se propone lo siguiente:

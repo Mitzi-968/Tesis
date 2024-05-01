@@ -292,7 +292,7 @@ De acuerdo a la figura y a los valores obtenidos de las medias, existe un trasla
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.4]{Figures/AllSegmented_AllPieces.png}
+    \includegraphics[scale=0.4]{Figures/AllSegmented_AllPieces_Names.png}
         \caption{Piezas segmentadas}
         \label{fig:All_Segmented_AllPieces}
 \end{figure}
@@ -302,8 +302,6 @@ De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de 
 Como se mencinó anteriormente, el planeador de trayectoria obtiene las posiciones angulares que de deben ser alcanzadas por los motores para lograr la posición deseada. De esta forma se establece como objetivo la coordeada correspondente al centroide de la pieza, el robot abre la pinza y realiza el movimiento de graspeo. Al encontrarse en la posición deseada, se cierra la pinza y se regresa a la posición de descanso del robot, desde la cual le es posible navegar al punto en que debe entregar la pieza nuevamente.
 
 La evaluación del algoritmo se realizó utilizando el flujo de video obtenido de la cámara Kinect, conectado al robot y mostrando las coordenadas de los objetos buscados. En estas pruebas el objeto de interés se encontraba a una distancia horizontal mínima de 40 [cm] respecto al eje del kinect, esto debido a las limitaciones de la nube de puntos de la cámara. el experimento se realizó en 35 repeticiones, variando las posiciones de las piezas dentro del espacio de trabajo, así como la posición del robot respecto al mismo. Adicionalmente, se colocaba más de un elemento de interés en el rango visual del robot. Después de las modificaciones realizadas al parámetro delta del segmentador, el comportamiento en que se confundían piezas amarillas con piezas verdes no volvió a presentarse.
-
-Con las pruebas realizadas, se obtuvieron los siguientes resultados:
 
 \begin{table}
     \centering
@@ -326,6 +324,7 @@ Con las pruebas realizadas, se obtuvieron los siguientes resultados:
     \label{tab:Res-Vis}
 \end{table}
 
+\newpage
 
 \subsection{Resultados - Manipulación}
 De acuerdo a lo establecido anteriormente, la planeación de la estrategia de movimientos se lleva acabo a través de la paquetería MoveIt, para la cual existen ya herramientas para el uso del manipulador, dentro de lo cual se cuenta con la información de la configuración mecánica el robot y sus características físicas, con dicha información se realiza la planeación de las trayectorias. Durante el proceso de prueba se observó que el manipulador puee permanecer en posición extendida cierto periodo de tiempo antes de que el motor en la primera articulación ceda ante en peso de la estructura, por lo que se definió una posición predeterminada de reposo en la cual el mecanismo del manipulador no se ve forzado \ref{fig:Arm_ResPos}.
@@ -361,59 +360,59 @@ A continuación se describe la secuencia utilizada, que puede ser observada tamb
     \item Reposo:
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = false\\
-        arm_{}srv.request.x = 0.025\\
-        arm_{}srv.request.y = 0.0\\
-        arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = false\\
+        arm\_srv.request.manipBlocker = false\\
+        arm\_srv.request.x = 0.025\\
+        arm\_srv.request.y = 0.0\\
+        arm\_srv.request.z = 0.10\\
+        arm\_srv.request.gripperState = false\\
     \end{multline*}
     \item Pinza abierta:
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = true\\
-        arm_{}srv.request.x = 0.025\\
-        arm_{}srv.request.y = 0.0\\
-        arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = true\\
+        arm\_srv.request.manipBlocker = true\\
+        arm\_srv.request.x = 0.025\\
+        arm\_srv.request.y = 0.0\\
+        arm\_srv.request.z = 0.10\\
+        arm\_srv.request.gripperState = true\\
     \end{multline*}
     \item Inicial:
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = false\\
-        arm_{}srv.request.x = 0.04\\
-        arm_{}srv.request.y = 0.0\\
-        arm_{}srv.request.z = 0.12\\
-        arm_{}srv.request.gripperState = false\\
+        arm\_srv.request.manipBlocker = false\\
+        arm\_srv.request.x = 0.04\\
+        arm\_srv.request.y = 0.0\\
+        arm\_srv.request.z = 0.12\\
+        arm\_srv.request.gripperState = false\\
     \end{multline*}
 
     \item Trayectoria de Graspeo:
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = false\\
-        arm_{}srv.request.x = det_piece.pose.position.x\\
-        arm_{}srv.request.y = det_piece.pose.position.y\\
-        arm_{}srv.request.z = det_piece.pose.position.z\\
-        arm_{}srv.request.gripperState = true\\
+        arm\_srv.request.manipBlocker = false\\
+        arm\_srv.request.x = det_piece.pose.position.x\\
+        arm\_srv.request.y = det_piece.pose.position.y\\
+        arm\_srv.request.z = det_piece.pose.position.z\\
+        arm\_srv.request.gripperState = true\\
     \end{multline*}
     
     \item Pinza cerrada
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = true\\
-        arm_{}srv.request.x = det_piece.pose.position.x\\
-        arm_{}srv.request.y = det_piece.pose.position.y\\
-        arm_{}srv.request.z = det_piece.pose.position.z\\
-        arm_{}srv.request.gripperState = true\\
+        arm\_srv.request.manipBlocker = true\\
+        arm\_srv.request.x = det_piece.pose.position.x\\
+        arm\_srv.request.y = det_piece.pose.position.y\\
+        arm\_srv.request.z = det_piece.pose.position.z\\
+        arm\_srv.request.gripperState = true\\
     \end{multline*}
     
     \item Reposo
     \begin{multline*}
         \phantom{holis}\\
-        arm_{}srv.request.manipBlocker = false\\
-        arm_{}srv.request.x = 0.025\\
-        arm_{}srv.request.y = 0.0\\
-        arm_{}srv.request.z = 0.10\\
-        arm_{}srv.request.gripperState = false\\
+        arm\_srv.request.manipBlocker = false\\
+        arm\_srv.request.x = 0.025\\
+        arm\_srv.request.y = 0.0\\
+        arm\_srv.request.z = 0.10\\
+        arm\_srv.request.gripperState = false\\
     \end{multline*}
 \end{itemize}
 
@@ -424,29 +423,52 @@ A continuación se describe la secuencia utilizada, que puede ser observada tamb
         \label{fig:Grasping_Sequence}
 \end{figure}
 
-\begin{table}
+Debido a que en la posición de reposo la pinza obstruye la cámara del dispositivo Kinect, fue necesario determinar una posición del brazo desde la cual no interfiriera en la detección de los objetos. Para lo anterior se especificaron las posiciones angulares que debe tener cada uno de los actuadores del brazo. 
+
+
+\textbf{Posición \textit{Kinect\_hide}}
+    \begin{multline*}
+        \phantom{holis}\\
+        group.setPlanningTime(4.0);\\
+        group.setJointValueTarget("arm\_shoulder_pan_joint", 2.40);\\
+        group.setJointValueTarget("arm\_shoulder_lift_joint", 1.32);\\
+        group.setJointValueTarget("arm\_elbow_flex_joint", 0.31);\\
+        group.setJointValueTarget("arm\_wrist_flex_joint", 0.61);\\
+        group.asyncMove();\\
+    \end{multline*}
+
+\begin{figure}[ht]
     \centering
-    \begin{tabular}{|c|c|c|}
-    \hline
-        \textbf{Pieza} & \textbf{Experimentos exitosos} & \textbf{Porcentaje de éxito}\\
-    \hline
-        Azul & 29 & 82.85\\
-    \hline
-        Amarillo & 26 & 74.28\\
-    \hline
-        Naranja & 27 & 77.14 \\
-    \hline
-        Rojo & 30 & 85.71 \\
-    \hline
-        Verde & 29 & 82.85 \\
-    \hline
-    \end{tabular}
-    \caption{Resultados - Manipulación de piezas}
-    \label{tab:Res-Man}
-\end{table}
+    \includegraphics[scale=0.8]{Figures/Kinect_hide.png}
+        \caption{Posición \textit{Kinect\_hide}}
+        \label{fig:Kinect_hide}
+\end{figure}
+
+%\begin{table}
+%    \centering
+%    \begin{tabular}{|c|c|c|}
+%    \hline
+%        \textbf{Pieza} & \textbf{Experimentos exitosos} & \textbf{Porcentaje de éxito}\\
+%    \hline
+%        Azul & 29 & 82.85\\
+%    \hline
+%        Amarillo & 26 & 74.28\\
+%    \hline
+%        Naranja & 27 & 77.14 \\
+%    \hline
+%        Rojo & 30 & 85.71 \\
+%    \hline
+%        Verde & 29 & 82.85 \\
+%    \hline
+%    \end{tabular}
+%    \caption{Resultados - Manipulación de piezas}
+%    \label{tab:Res-Man}
+%\end{table}
 
 \subsection{Resultados - Integración}
-Al proceder con la integración fue necesario hacer la unión de los modelos del robot y del brazo para poder operarse simultáneamente y que ambas partes se reconozcan una a la otra y puedan interactuar entre sí. Para esto fue necesario hacer una combinación de los archivos que los describen. Una vez que el modelo es correcto y coincide en posiciones y orientaciones con las condiciones reales del robot se procedió a probar los algoritmos que se plantearon anteriormente. 
+Al proceder con la integración fue necesario hacer la unión de los modelos del robot y del brazo para poder operarse simultáneamente y que ambas partes se reconozcan una a la otra y puedan interactuar entre sí. Para lo cual se hizo una combinación de los archivos que los describen, una vez que el modelo es correcto y coincide en posiciones y orientaciones con las condiciones reales del robot se procedió a probar los algoritmos que se plantearon anteriormente. 
+
+Anteriormente se mencionó de forma breve que al realizar estas pruebas conjuntas, y dado que en la estructura de la máquina de estados se definía que se realizarían secuencialmente los movimientos de base del robot, del manipulador y la ejecución del algoritmo de visión, se obtiene un error debido a la vibración que genera el manipulador en la estructura sobre la cual se encuentra el Kinect. 
 
 
 

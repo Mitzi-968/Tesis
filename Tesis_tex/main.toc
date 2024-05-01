@@ -125,9 +125,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Implementación}{65}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Resultados - Manipulación}{67}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Resultados - Manipulación}{68}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Resultados - Integración}{71}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.2}Resultados - Integración}{72}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusiones y Trabajo Futuro}{73}{chapter.7}%
 \defcounter {refsection}{0}\relax 

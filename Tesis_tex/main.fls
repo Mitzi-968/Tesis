@@ -384,9 +384,9 @@ INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllMeans.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png
-INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces.png
-INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces.png
-INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces_Names.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces_Names.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces_Names.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png
@@ -396,6 +396,9 @@ INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_MovPlan.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_hide.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_hide.png
+INPUT /home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_hide.png
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex
 INPUT /home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
