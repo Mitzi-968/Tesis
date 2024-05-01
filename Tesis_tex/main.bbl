@@ -1056,54 +1056,6 @@
       \field{abstract}{The present paper presents team GRIPS (Graz Robust and Intelligent Production System) and its approaches to the challenges in the RoboCup Logistics League 2020. Festo’s Robotino, a customized additional construction and some further hardware, such as laser scanners, cameras, PC, and PLC, are used as a hardware platform. The software architecture is built in a multi-layer format. A scheduler/planner functions as a central decision-making instance for all robots at the top player. Beneath this layer, various BehaviourTree are used for individual decisions dduring Action. At the lowest leve, the robot operating system (ROS) executes the tasks assigned to the robot by the top layer.}
       \field{title}{{RoboCup} {Logistics} {League} {Graz} {Robust} and {Intelligent} {Production} {System} {GRIPS}}
     \endentry
-    \entry{HASAN20227212}{article}{}
-      \name{author}{3}{}{%
-        {{hash=f4b5f98f572cb085e868016a50f3b22b}{%
-           family={Hasan},
-           familyi={H\bibinitperiod},
-           given={Sharad},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f430f315527b35620cc0c77cddbd0836}{%
-           family={Jahan},
-           familyi={J\bibinitperiod},
-           given={Sarwar},
-           giveni={S\bibinitperiod}}}%
-        {{hash=052a00a3b10e3cbd6c6f8fa7987cc504}{%
-           family={Islam},
-           familyi={I\bibinitperiod},
-           given={Md.\bibnamedelimi Imdadul},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-      }
-      \strng{namehash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \strng{fullhash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \strng{bibnamehash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \strng{authorbibnamehash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \strng{authornamehash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \strng{authorfullhash}{0d08620fa547ee2895f9c4c9dbc04f8e}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we proposed a machine learning and computer vision-based automated apple disease detection and recognition system based on leaf symptoms. The proposed method is composed of three parts: diseased region segmentation, feature extraction, and classification. We have segmented the infected portion of the leaf using L*a*b* space-based color segmentation method. Here, average color markers in a*b* space and the nearest neighbor method have been used for classifying each pixel into either healthy, infected, or background regions. We have extracted two types of features: one is the proposed DWT feature and another is L*a*b* space-based color histogram features. Horizontal feature fusion is performed to create the final feature vector. The feature vectors have been classified using several classifiers keeping Random Forrest as the base classifier. In this paper, the experiment is made on Plant Village dataset, where image of Apple Scab, Black Rot, and Cedar Apple Rust disease are taken for both training and testing our model. The fusion of proposed DWT and color histogram features is a novel approach in detecting and recognizing apple leaf disease, which got an accuracy of 98.63.}
-      \field{issn}{1319-1578}
-      \field{journaltitle}{Journal of King Saud University - Computer and Information Sciences}
-      \field{number}{9}
-      \field{title}{Disease detection of apple leaf with combination of color segmentation and modified DWT}
-      \field{volume}{34}
-      \field{year}{2022}
-      \field{pages}{7212\bibrangedash 7224}
-      \range{pages}{13}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.jksuci.2022.07.004
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1319157822002312
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1319157822002312
-      \endverb
-      \keyw{Average color marker,Nearest neighbor,Pixel classification,Wavelet coefficients,color histogram,Random Forest}
-    \endentry
     \entry{davison_kinect_2012}{book}{}
       \name{author}{1}{}{%
         {{hash=72b1f79a6f35439abb27d2ca5236fb0b}{%
@@ -1195,8 +1147,8 @@
       \strng{authorbibnamehash}{23dbd38f9f5993ffddaa7695620db934}
       \strng{authornamehash}{23dbd38f9f5993ffddaa7695620db934}
       \strng{authorfullhash}{23dbd38f9f5993ffddaa7695620db934}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-471-83029-0}
@@ -1362,8 +1314,8 @@
       \field{year}{2016}
     \endentry
     \entry{tf_ROS}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{tf - {ROS} {Wiki}}
       \field{urlday}{21}
@@ -1636,8 +1588,8 @@
       \strng{authorbibnamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authornamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authorfullhash}{5334219c90597d1231207034bb0ac4ce}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-1-4842-8069-0}
@@ -1750,8 +1702,8 @@
       \endverb
     \endentry
     \entry{Interbotix_interbotix}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{title}{Interbotix {X}-{Series} {Arms} — {Interbotix} {X}-{Series} {Arms} {Documentation}}
       \field{urlday}{9}

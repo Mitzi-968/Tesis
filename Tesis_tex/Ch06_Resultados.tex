@@ -15,7 +15,7 @@
                 \item Mantenimiento de paquetes
             \end{itemize}
 
-            Vázquez añade que durante el desarrollo del comportamiento de un robot es común considerar las funcionalidades a modo de módulos, en que cada uno tiene un objetivo específico. Apunta también que ROS colabora con el transporte de la información entre dichos módulos y menciona como una ventaja la existencia de la comunidad de desarrolladores que trabajan con ROS, haciendo posible el intercambio de información, obteniendo soporte y retroalimentación actualizados. \phantom{saltodelineaforzado >:D}\\
+            Vázquez añade que durante el desarrollo del comportamiento de un robot es común considerar las funcionalidades a modo de módulos, en que cada uno tiene un objetivo específico. Apunta también que ROS colabora con el transporte de la información entre dichos módulos y menciona como una ventaja la existencia de la comunidad de desarrolladores que trabajan con ROS, haciendo posible el intercambio de información, obteniendo soporte y retroalimentación actualizados. \phantom{saltodelineaforzado >:D\\}
 
             \textbf{Elementos}
             \begin{itemize}
@@ -76,7 +76,7 @@
         \subsection{Herramientas de hardware}
             \subsubsection{Robotino FESTO}
             De acuerdo con la descripción ofrecida por la empresa FESTO en su sitio web, la plataforma educativa Robotino, tiene como objetivo apoyar las labores de investigación y educación mediante un robot móvil al alcance de instituciones educativas, promoviendo el desarrollo en la robótica móvil y robótica de servicio. A continuación una lista de las especificaciones técnicas del robot:
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Sistema robótico móvil}
             \begin{itemize}
@@ -86,7 +86,7 @@
                 \item Carga: máximo 30 kg
             \end{itemize}
             
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Chasis}
             \begin{itemize}
@@ -104,7 +104,7 @@
                 \item Relación de transmisión: 32:1
             \end{itemize}
 
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Interfaz I/O}
             \begin{itemize}
@@ -113,7 +113,7 @@
                 \item Salidas de potencia: 2 salidas de relé
             \end{itemize}
 
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Fuente de alimentación de Hardware}
             \begin{itemize}
@@ -124,7 +124,7 @@
                 \item Zócalo USB A (5 V)
             \end{itemize}
 
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Extensión de montaje}
             \begin{itemize}
@@ -133,16 +133,16 @@
                 \item Plataformas de montaje de posicionamiento flexible (120° cada una)
             \end{itemize}
 
-            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma Robotino y en \ref*{fig:Robotino} se muestra una imagen del robot utilizado para este desarrollo.
+            El robot originalmente cuenta con una cámara incluida en la base pero bajo las condiciones de este proyecto no se consideró necesario su uso, en la figura \ref{fig:Robotino} se observa una imagen de la plataforma Robotino y en \ref{fig:Robotino} se muestra una imagen del robot utilizado para este desarrollo.
 
-            \begin{figure}[H]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[scale=0.3]{Figures/RobotinoFESTO_base+torre.png}\quad \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}                
                     \caption{Robotino 3 \cite{festo-didactic-robotino-2013} \qquad\qquad\quad\phantom{-}\qquad Robotino 3 modificado}
                     \label{fig:Robotino}
             \end{figure}
             
-            %\begin{figure}[H]
+            %\begin{figure}[ht]
             %    \centering
             %    \includegraphics[scale=0.17]{Figures/Festino2023_medidas.png}
             %        \caption{Robotino 3 modificado}
@@ -241,7 +241,7 @@
                 \item Soportes de montaje para cámaras y sensores
             \end{itemize}
             
-            \phantom{saltodelineaforzado >:D}\\
+            \phantom{saltodelineaforzado >:D\\}
             
             \textbf{Especificaciones}
             \begin{itemize}
@@ -258,7 +258,7 @@
                 \item Fuerza de levantamiento de la muñeca: 250[g]
             \end{itemize}
 
-            \begin{figure}[H]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[scale=0.2]{Figures/Phantom_Pincher.jpg}
                     \caption{PhantomX Pincher AX-12 \cite{Inerbotix_pincher_arm}}
@@ -281,7 +281,7 @@ Como se ha mencionado anteriormente, se obtuvieron las medias de color de las pi
 
 Durante las pruebas realizadas, se observó que existe la posibilidad de confusión entre las piezas amarilla y verde. Esta confusión se asocia la cercanía de los colores en el mapa de colores correspondiente al espacio HSV usado por OpenCV. Es notable la poca diferencia entre el valor \textit{Hue} de ambas piezas (ver figura \ref{fig:ColorMapHSVOpenCV}) 
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \includegraphics[scale=0.4]{Figures/PieceColors_HSVColorMap.png}
         \caption{OpenCV - Espacio HSV - Mapa de color \cite{pai_adityapai2398colour-segmentation--opencv_2022}}
@@ -329,117 +329,111 @@ La evaluación del algoritmo se realizó utilizando el flujo de video obtenido d
 \subsection{Resultados - Manipulación}
 De acuerdo a lo establecido anteriormente, la planeación de la estrategia de movimientos se lleva acabo a través de la paquetería MoveIt, para la cual existen ya herramientas para el uso del manipulador, dentro de lo cual se cuenta con la información de la configuración mecánica el robot y sus características físicas, con dicha información se realiza la planeación de las trayectorias. Durante el proceso de prueba se observó que el manipulador puee permanecer en posición extendida cierto periodo de tiempo antes de que el motor en la primera articulación ceda ante en peso de la estructura, por lo que se definió una posición predeterminada de reposo en la cual el mecanismo del manipulador no se ve forzado \ref{fig:Arm_ResPos}.
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.25]{Figures/Arm_RestPos.png}
-        \caption{Manipulador en posición de Reposo}
-        \label{fig:Arm_ResPos}
+    \includegraphics[scale=0.23]{Figures/Arm_RestPos.png}           \includegraphics[scale=0.15]{Figures/Arm_MovPlan.png}
+    \caption{Izq) Posición de Reposo - Der) Posición Final}
+    \label{fig:Arm_ResPos}
 \end{figure}
 
 Una vez que se cuenta con las coordenadas que el proceso de visión ha encontrado de las piezas de interés respecto a la imagen, se realiza la transformación homogénea para encontrar las correspondientes teniendo el origen del manipulador como referente. Estas coordenadas son enviadas a MoveIt y, después de planear la trayectoria, se realiza el movimiento. Las estrategias propuestas por MoveIt pueden variar dependiendo de la posición inicial en que se encuentre el manipulador. Sin embargo, dadas las condiciones en las que se encuentran las piezas de interés en el entorno planteado, las coordenadas en las cuales se tendría la mayor variación son $x$ e $y$, ya que la altura es constante respecto a las estaciones de trabajo. 
 
-Para la integración de este comportamiento en la estructura general, se creó un servicio de ROS, mediante el cual los movimientos del brazo pueden ser accesados únicamente en el momento en que la máquina de estados lo solicita. Al servicio se le ingresa la coordenada de la pieza respecto a la base y una variable de confirmación del movimiento se recibe como resultado. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.2]{Figures/Arm_MovPlan.png}
-        \caption{Planeación de movimientos}
-        \label{fig:Arm_MovPlan}
-\end{figure}
+Para la integración de este comportamiento en la estructura general, se creó un servicio de ROS, mediante el cual los movimientos del brazo pueden ser accesados únicamente en el momento en que la máquina de estados lo solicita. Al servicio se le ingresa la coordenada de la pieza respecto a la base y una variable de confirmación del movimiento se recibe como resultado. en la figura \ref{fig:Arm_ResPos} a) se puede observar la visualización que se obtiene del planeador de MoveIt dentro de la herramienta Rviz. En este ejemplo, se observa en color gris la pose original y en color naranja la posición deseada del manipulador, como parte de esta visualización se genera una animación de la trayectoria de movimiento solicitada, antes de ejecutarla.
 
 Una de las ventajas que ofrece el uso de este manipulador se encuentra en la versatilidad de las posiciones que alcanza, pudiendo resisitir cambios en los 3 componentes de las coordenadas sin modificar la posición de la base del robot y utilizando los actuadores disponibles en su estructura, lo que lo haría capaz no solo de manipular los objetos que se encuentren en el centro de la banda transportadora, sino en cualquier otra superficie alcanzable de las estaciones, como pueden ser las plataformas de entrega y las rampas en las cuales se deshechan los elementos que no son de interés para la operación. 
 
 La secuencia de movimientos propuesta para la tarea que se describe consiste en cuatro pasos, sin contar el inicio y vuelta a la posición de reposo. Que fueron planteados debido a las limitaciones con las que cuenta el manipulador. Esta limitación consiste en que para ciertas posiciones de $x$ o $y$, el manipulador debe comenzar desde una coordenada mínima $z = 0.12$. Adicionalmente, para el accionamiento de la pinza, es necesario bloquear los movimientos del manipulador y enviar una variable booleana, $True$ para abrir y $False$ para cerrar.
 
 A continuación se describe la secuencia utilizada, que puede ser observada también en la figura \ref{fig:All_Segmented_AllPieces}.
-
-
-
+\phantom{holis}\\
+\phantom{holis}\\
 \textbf{Pasos preestablecidos}
-\begin{itemize}
-    \item Reposo:
-    \begin{multline*}
+    \begin{center}
+    \emph{Reposo:}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = false\\
         arm\_srv.request.x = 0.025\\
         arm\_srv.request.y = 0.0\\
         arm\_srv.request.z = 0.10\\
         arm\_srv.request.gripperState = false\\
-    \end{multline*}
-    \item Pinza abierta:
-    \begin{multline*}
+        \phantom{saltodelineaforzado >:D}\\
+        
+    \emph{Pinza abierta:}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = true\\
         arm\_srv.request.x = 0.025\\
         arm\_srv.request.y = 0.0\\
         arm\_srv.request.z = 0.10\\
         arm\_srv.request.gripperState = true\\
-    \end{multline*}
-    \item Inicial:
-    \begin{multline*}
+        \phantom{saltodelineaforzado >:D}\\
+    \newpage
+    \emph{Inicial:}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = false\\
         arm\_srv.request.x = 0.04\\
         arm\_srv.request.y = 0.0\\
         arm\_srv.request.z = 0.12\\
         arm\_srv.request.gripperState = false\\
-    \end{multline*}
+        \phantom{saltodelineaforzado >:D}\\
 
-    \item Trayectoria de Graspeo:
-    \begin{multline*}
+    \emph{Trayectoria de Graspeo:}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = false\\
-        arm\_srv.request.x = det_piece.pose.position.x\\
-        arm\_srv.request.y = det_piece.pose.position.y\\
-        arm\_srv.request.z = det_piece.pose.position.z\\
+        arm\_srv.request.x = det\_piece.pose.position.x\\
+        arm\_srv.request.y = det\_piece.pose.position.y\\
+        arm\_srv.request.z = det\_piece.pose.position.z\\
         arm\_srv.request.gripperState = true\\
-    \end{multline*}
-    
-    \item Pinza cerrada
-    \begin{multline*}
+        \phantom{saltodelineaforzado >:D}\\
+   
+    \emph{Pinza cerrada}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = true\\
-        arm\_srv.request.x = det_piece.pose.position.x\\
-        arm\_srv.request.y = det_piece.pose.position.y\\
-        arm\_srv.request.z = det_piece.pose.position.z\\
+        arm\_srv.request.x = det\_piece.pose.position.x\\
+        arm\_srv.request.y = det\_piece.pose.position.y\\
+        arm\_srv.request.z = det\_piece.pose.position.z\\
         arm\_srv.request.gripperState = true\\
-    \end{multline*}
-    
-    \item Reposo
-    \begin{multline*}
+        \phantom{saltodelineaforzado >:D}\\
+
+    \emph{Reposo}
+        \phantom{holis}\\
         \phantom{holis}\\
         arm\_srv.request.manipBlocker = false\\
         arm\_srv.request.x = 0.025\\
         arm\_srv.request.y = 0.0\\
         arm\_srv.request.z = 0.10\\
         arm\_srv.request.gripperState = false\\
-    \end{multline*}
-\end{itemize}
+    \end{center}
 
-\begin{figure}[H]
+
+\begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.3]{Figures/Grasping_sequence.png}
+    \includegraphics[scale=0.2]{Figures/Grasping_sequence.png}
         \caption{Secuencia de Graspeo}
         \label{fig:Grasping_Sequence}
 \end{figure}
 
-Debido a que en la posición de reposo la pinza obstruye la cámara del dispositivo Kinect, fue necesario determinar una posición del brazo desde la cual no interfiriera en la detección de los objetos. Para lo anterior se especificaron las posiciones angulares que debe tener cada uno de los actuadores del brazo. 
-
+Debido a que en la posición de reposo la pinza obstruye la cámara del dispositivo Kinect, fue necesario determinar una posición del brazo desde la cual no interfiriera en la detección de los objetos. Para lo anterior se especificaron las posiciones angulares que debe tener cada uno de los actuadores del brazo.\\
+\phantom{saltodelineaforzado >:D\\}
 
 \textbf{Posición \textit{Kinect\_hide}}
-    \begin{multline*}
-        \phantom{holis}\\
+\begin{center}
         group.setPlanningTime(4.0);\\
-        group.setJointValueTarget("arm\_shoulder_pan_joint", 2.40);\\
-        group.setJointValueTarget("arm\_shoulder_lift_joint", 1.32);\\
-        group.setJointValueTarget("arm\_elbow_flex_joint", 0.31);\\
-        group.setJointValueTarget("arm\_wrist_flex_joint", 0.61);\\
+        group.setJointValueTarget('arm\_shoulder\_pan\_joint', 2.40);\\
+        group.setJointValueTarget('arm\_shoulder\_lift\_joint', 1.32);\\
+        group.setJointValueTarget('arm\_elbow\_flex\_joint', 0.31);\\
+        group.setJointValueTarget('arm\_wrist\_flex\_joint', 0.61);\\
         group.asyncMove();\\
-    \end{multline*}
+\end{center}
+        
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.8]{Figures/Kinect_hide.png}
+    \includegraphics[scale=0.5]{Figures/Kinect_hide.png}
         \caption{Posición \textit{Kinect\_hide}}
         \label{fig:Kinect_hide}
 \end{figure}
