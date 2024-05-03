@@ -5,13 +5,13 @@ Durante este capítulo se describen las bases teóricas que sustentan este proye
 
 Bajo la opinión de Babel en \cite{babel_industry_2022} La Industria 4.0 tiene como objetivo la \textit{interconexión directa e inteligente} de  personas, máquinas y productos. De acuerdo con el autor, esta \textit{interconexión inteligente} se refiere en este contexto a:
  \begin{itemize}
-     \item Producción flexible
-     \item Fábricas convertibles
-     \item Soluciones enfocadas en el consumidor
-     \item Logística optimizada
-     \item Red de datos estandarizada
-     \item Administración de reciclaje de recursos
-     \item Digitalización de la producción
+     \item Producción flexible.
+     \item Fábricas convertibles.
+     \item Soluciones enfocadas en el consumidor.
+     \item Logística optimizada.
+     \item Red de datos estandarizada.
+     \item Administración de reciclaje de recursos.
+     \item Digitalización de la producción.
  \end{itemize}
  El autor también describe que bajo su perspectiva, la llamada Industria 4.0 consiste en la producción industrial en red y que busca optimizar la cadena de valor y mejorar la administración del ciclo de vida de las plantas y fábricas en la red global. La introducción de robots de servicio móviles que realicen actividades de apoyo dentro de las instalaciones de una fábrica pueden contribuir con estos dos últimos objetivos, colaborando en la transformación de las plantas hacia un modelo más flexible y permitiendo diversificar las actividades que se realizan en ellas.
 
@@ -47,7 +47,7 @@ De acuerdo con Pratt \cite{pratt_introduction_2014} las imágenes que se obtiene
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.2]{Figures/CuboRGB.png}
+\includegraphics[scale=0.18]{Figures/CuboRGB.png}
     \caption{Espacio RGB}
     \label{fig:RGB_Space}
 \end{figure}
@@ -59,59 +59,68 @@ Sonka y Hlavac \cite{czerwinski_definitions_2013} detallan que este espacio de c
 
 Mencionan también que el espacio RGB es utilizado para almacenamiento, procesamiento, codificación o presentación de las imágenes en televisiones, a diferencia del espacio HSV, cuyas aplicaciones se encuentran más enfocadas a la percepción del color y al uso de la imagen en gráficos de computadora.
 
-Los valores asociados a cada uno de los parámetros del espacio HSV son, como se mencionó anteriormente, transformaciones no lineales de los valores  $R,G,B$ y se pueden obtener mediante las ecuaciones de transformación siguientes\cite{burger_digital_2022}:
+Los valores asociados a cada uno de los parámetros del espacio HSV son, como se mencionó anteriormente, transformaciones no lineales de los valores  $R,G,B$ y se pueden obtener mediante las ecuaciones de transformación descritas por \cite{burger_digital_2022} en las ecuaciones \ref{eqn:RGBaHSV1} a \ref{eqn:H_degrees}:\\
 
 Siendo:
 
-\begin{equation*}
+\begin{equation}
 C_{min} = min(R,G,B), \quad
 C_{max} = max(R,G,B), \quad
-\Delta = C_{max} - C_{min},
-\end{equation*}
+\Delta = C_{max} - C_{min}
+\label{eqn:RGBaHSV1}
+\end{equation}
 
+\phantom{holis}\\
+\phantom{holis}\\
 Entonces,
 
-\begin{equation*}
+\begin{equation}
     S = \begin{cases*}
   \frac{\Delta}{C_{max}}, & para $C_{max} > 0$.\\
   0, & otros casos,
     \end{cases*}
-\end{equation*}
+    \label{eqn:Saturation}
+\end{equation}
 
 Con el objetivo de mantener los valores de estas transformaciones entre $[0,1]$, se divide entre el valor máximo que será posible que tenga la representación, comúnmente 255.
 
 \begin{equation}
 V = \frac{C_{max}}{255},
+\label{eqn:Value}
 \end{equation}
 
-\begin{equation*}
+\begin{equation}
 R^{'} = \frac{C_{max}-R}{\Delta},  \quad G^{'} = \frac{C_{max}-G}{\Delta},  \quad B^{'} = \frac{C_{max}-B}{\Delta},
-\end{equation*}
+\label{eqn:R_prima}
+\end{equation}
 
 Posteriormente, dependiendo de cuál de los colores en la representación RGB tuviera el valor máximo, se calcula un valor preliminar del matiz, de la siguiente forma:
 
-\begin{equation*}
+\begin{equation}
     H^{'} = \begin{cases*}
   B^{'} - G^{'}, & cuando $R = C_{max}$,\\
   R^{'} - B^{'}+2, & cuando $G = C_{max}$,\\
   G^{'} - R^{'}+4, & cuando $B = C_{max}$,
     \end{cases*}
-\end{equation*}
+\label{eqn:H_prima}
+\end{equation}
 
 Lo que resulta en una representación dentro del intervalo $[-1,5]$ y finalmente se obtiene la normalización dentro del intervalo $[0,1]$ como se muestra a continuación.
 
-\begin{equation*}
+\begin{equation}
     H = \frac{1}{6}\cdot\begin{cases*}
   (H^{'}+6), & cuando $H^{'}=0$,\\
   H^{'}, & otros casos,
     \end{cases*}
-\end{equation*}
+    \label{eqn:H_normalizada}
+\end{equation}
 
 Finalmente, para obtener la representación de la componente H como el correspondiente a un ángulo se multiplica por 360.
 
-\begin{equation*}
+\begin{equation}
     H^{\circ} = H\cdot360
-\end{equation*}
+    \label{eqn:H_degrees}
+\end{equation}
 
 Este espacio puede ser gráficamente representado como un prisma circular invertido, donde el radio de la base representa el valor de la saturación (S), La altura del cono representa la intensidad (V), y el matiz (H) se obtiene mediante un ángulo trazado sobre la base del cilindro, comenzando con el color rojo, que se encuentra en 0 grados, el color verde en 120 grados y finalmente el color azul en 240 grados. 
 
@@ -130,22 +139,26 @@ Sonka et al. (2018)\cite{sonka_image_2008}, ahondan en las características de l
 
 
 
-Se dice que la segmentación completa de una imagen R es el conjunto finito de regiones $R_{1}, ..., R_{S}$, expresado matemáticamente como: 
+Se dice que la segmentación completa de una imagen R es el conjunto finito de regiones $R_{1}, ..., R_{S}$, expresado matemáticamente como se muestra en la ecuación \ref{eqn:segmentacion}: 
 
-\begin{equation*}
+\begin{equation}
 R = \bigcup^{S}_{i = 1}, \quad
 R_{i} \cap R_{j} = 0, \quad
 i \neq j
-\end{equation*}
+\label{eqn:segmentacion}
+\end{equation}
 
 \subsubsection{Umbralización}
 La umbralización es una de las herramientas más antiguas para realizar segmentación de imágenes, y tiene como ventaja que no requiere muchos recursos computacionales para realizarla, por lo que es todavía ampliamente utilizada en diferentes aplicaciones. Esta técnica consiste en establecer valores dentro de los cuales se considera aceptable la característica de interés.
 
 Este proceso corresponde a la transformación de una imagen de entrada $f$ a una salida segmentada, una imagen binaria $g$, de la siguiente forma:
 
-$$g(i,j) =\begin{cases*}
-    1, & para $f(i,j) \geq T$,\\
-    0, & para $f(i,j) < T$ \end{cases*} $$
+\begin{equation}
+    g(i,j) =\begin{cases*}
+        1, & para $f(i,j) \geq T$,\\
+        0, & para $f(i,j) < T$ \end{cases*}    
+    \label{eqn:segmented_bin}
+\end{equation}
 
 Donde $T$ representa el umbral (Threshold). Después de esta trasnformación, todos los pixeles dentro de la imagen que se encuentren dentro del/los umbrales definidos tendrán un valor de 1 y a aquellos que no satisfagan la condición se les asigna el valor 0 (o vice versa) \cite{sonka_image_2008}. \phantom{saltodelinea}
 
@@ -175,21 +188,24 @@ Un \textbf{conjunto} se representa por lo contenido entre dos llaves: $\{\cdot\}
 
 Si todos los elementos de A se encuentran también en el conjunto B, se dice que el conjunto A es un \textbf{subconjunto} del B y se escribe de la siguiente forma:
 
-\begin{equation*}
+\begin{equation}
 A\subseteq B
-\end{equation*}
+\label{eqn:subconjunto}
+\end{equation}
 
 La \textbf{unión} $C$ de los conjuntos $A$ y $B$ es aquel conjunto al que pertenecen todos los elementos ya sea de A, B o de ambos y se expresa como:
 
-\begin{equation*}
+\begin{equation}
 C = A \cup B
-\end{equation*}
+\label{eqn:union}
+\end{equation}
 
 La \textbf{intersección} $D$ de dos conjuntos es el conjunto que contiene a los elementos que pertenecen a $A$ y a $B$:
 
-\begin{equation*}
+\begin{equation}
 D = A \cap B
-\end{equation*}
+\label{eqn:interseccion}
+\end{equation}
 
 \begin{figure}[H]
 \centering
@@ -200,15 +216,18 @@ D = A \cap B
 
 Se dice que dos conjuntos son \textbf{mutuamente excluyentes} si no tienen ningún elemento en común, 
 
-\begin{equation*}
+\begin{equation}
 A \cap B = \oslash
-\end{equation*}
+\label{eqn:mutuamente_excluyentes}
+\end{equation}
 
 El \textbf{complemento} del conjunto A es el conjunto de todos aquellos elementos que no pertenecen a A.
 
-\begin{equation*}
+\begin{equation}
 A^{C} = \{\omega \mid \omega \notin A\}
-\end{equation*}
+\label{eqn:complemento}
+\end{equation}
+\phantom{sdlf}\\
 Dado el conjunto Universal $U$:
 \begin{figure}[H]
 \centering
@@ -219,9 +238,10 @@ Dado el conjunto Universal $U$:
 
 La \textbf{diferencia} entre dos conjuntos $A$ y $B$ representada como $A-B$, es el conjunto de elementos que pertenecen a A pero no a B se define como:
 
-\begin{equation*}
+\begin{equation}
 A - B = \{ \omega \mid \omega \in A, \omega \notin B \} = A \cap B^{C}
-\end{equation*}
+\label{eqn:diferencia}
+\end{equation}
 
 \begin{figure}[H]
 \centering
@@ -232,9 +252,10 @@ A - B = \{ \omega \mid \omega \in A, \omega \notin B \} = A \cap B^{C}
 
 La reflexión del conjunto B se define como:
 
-\begin{equation*}
+\begin{equation}
 \hat{B} = \{ \omega \mid \omega -b, \textup{ para } b \in B \}
-\end{equation*}
+\label{eqn:reflexion}
+\end{equation}
 
 \begin{figure}[H]
 \centering
@@ -245,9 +266,10 @@ La reflexión del conjunto B se define como:
 
 La traslación del conjunto A al punto $Z = (z_{1}, z_{2})$, representada como $(A)_{z}$, se define como:
 
-\begin{equation*}
+\begin{equation}
 (A)_{z} = \{ c \mid c = a+z, \textup{ para } a \in A \}
-\end{equation*}
+\label{eqn:traslacion}
+\end{equation}
 
 \begin{figure}[H]
 \centering
@@ -266,7 +288,7 @@ Algunas de las operaciones binarias que con más frecuencia se utilizan para el 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.2]{Figures/CompuertasLogicas.png}
-    \caption{Operaciones Lógicas AND, OR y NOT}
+    \caption{Operaciones lógicas AND, OR y NOT}
     \label{fig:LogicOp}
 \end{figure}
 
@@ -274,7 +296,7 @@ Estas operaciones tienen comportamientos similares a los mencionados en teoría 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.3]{Figures/LogicOp_IMG.png}
-    \caption{Operaciones Lógicas Aplicadas a Imagen}
+    \caption{Operaciones lógicas aplicadas a imagen}
     \label{fig:LogicOpIMG}
 \end{figure}
 
@@ -285,15 +307,17 @@ Estas operaciones se consideran básicas dentro el procesamiento morfológico de
 \emph{Dilatación}\\
 Siendo $A$ y $B$ dos conjuntos en $Z^2$, la dilatación de $A$ y $B$, expresada como $A \oplus B$, se define como:
 
-\begin{equation*}
+\begin{equation}
 A \oplus B = \{ z \mid (\hat{B})_{Z} \cap A \neq \oslash \}
-\end{equation*}
+\label{eqn:dilatacion}
+\end{equation}
 
 Para obtener esta ecuación es necesario obtener la reflexión de $B$ sobre su origen e invirtiendo su reflexión en $z$. La dilatación de A por B es el conjunto de todos los desplazamientos de $z$, tal que B y A se sobreponen por al menos un elemento. De acuerdo con esta descripción, es posible re-escribir la anterior definición como:
 
-\begin{equation*}
+\begin{equation}
 A \oplus B = \{ z \mid [(\hat{B})_{Z} \cap A] \subseteq A \}
-\end{equation*}
+\label{eqn:dilatacion2}
+\end{equation}
 
 en estas ecuaciones, el conjunto $B$ es comúnmente mencionado como el \textit{elemento estructurante} de la dilatación y otras operaciones.
 

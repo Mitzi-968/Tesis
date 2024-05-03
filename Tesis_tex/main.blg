@@ -1,16 +1,16 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[69] biber:322> INFO - === mar abr 30, 2024, 20:23:05
-[82] Biber.pm:415> INFO - Reading 'main.bcf'
-[151] Biber.pm:943> INFO - Found 47 citekeys in bib section 0
-[163] Biber.pm:4256> INFO - Processing section 0
-[163] Utils.pm:75> INFO - Globbing data source 'Referencias.bib'
-[163] Utils.pm:91> INFO - Globbed data source 'Referencias.bib' to Referencias.bib
-[172] Biber.pm:4455> INFO - Looking for bibtex format file 'Referencias.bib' for section 0
-[176] bibtex.pm:1653> INFO - LaTeX decoding ...
-[260] bibtex.pm:1471> INFO - Found BibTeX data source 'Referencias.bib'
-[510] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[510] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[510] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[536] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[560] bbl.pm:755> INFO - Output to main.bbl
+[84] biber:322> INFO - === jue may  2, 2024, 18:21:12
+[98] Biber.pm:415> INFO - Reading 'main.bcf'
+[159] Biber.pm:943> INFO - Found 47 citekeys in bib section 0
+[175] Biber.pm:4256> INFO - Processing section 0
+[175] Utils.pm:75> INFO - Globbing data source 'Referencias.bib'
+[175] Utils.pm:91> INFO - Globbed data source 'Referencias.bib' to Referencias.bib
+[184] Biber.pm:4455> INFO - Looking for bibtex format file 'Referencias.bib' for section 0
+[188] bibtex.pm:1653> INFO - LaTeX decoding ...
+[267] bibtex.pm:1471> INFO - Found BibTeX data source 'Referencias.bib'
+[526] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[557] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[581] bbl.pm:755> INFO - Output to main.bbl
