@@ -3,7 +3,7 @@ Una de las capacidades base que se busca que tenga el robot al deber colaborar c
 
 Esta definición de la posición del robot en función del tiempo se conoce como \textbf{trayectoria}\cite{lynch_modern_2017}. En Robótica, cada punto en el espacio de trabajo corresponde a una configuración única de los actuadores del robot y cada una de estas configuraciones se puede representar como un punto en un espacio conformado por el conjunto de configuraciones posibles de acuerdo con la configuración física del robot. De esta manera, la configuración de un brazo robótico con $n$ articulaciones se puede representar como una lista de $n$ posiciones articulares: $q = (\theta_{0},...,\theta_{n})$. Siguiendo las condiciones anteriores, los autores definen el \textit{espacio de configuraciones libre} como aquel que contiene todas las configuraciones del robot en las que no colisiona con ningún obstáculo ni excede los límites de sus articulaciones \cite{lynch_modern_2017}.
 
-Dentro del trabajo realizado se busca que el robot sea capaz de dirigir su efector final a la coordenada en que se estima se encuentre la pieza de interés. Una vez que se ha conectado este objetivo específico con los conceptos teóricos anteriormente mencionados, es posible remarcar el uso de la \textbf{Cinemática directa}, la cual se encarga del cálculo de la posición y orientación de un sistema coordenado asociado al efector final del robot desde las coordenadas $\theta$ de sus articulaciones \cite{lynch_modern_2017} 
+Dentro del trabajo realizado se busca que el robot sea capaz de dirigir su efector final a la coordenada en que se estima se encuentre la pieza de interés. Una vez que se ha conectado este objetivo específico con los conceptos teóricos anteriormente mencionados, es posible remarcar el uso de la \textbf{Cinemática directa}, la cual se encarga del cálculo de la posición y orientación de un sistema coordenado asociado al efector final del robot desde las coordenadas $\theta$ de sus articulaciones \cite{lynch_modern_2017}.
 
 La implementación de este análisis se realizó utilizando la herramienta MoveIt, que es posible utilizar dentro del entorno de ROS. esta herramienta lleva a cabo los cálculos necesarios para obtener los movimientos necesarios en la configuración del manipulador para alcanzar una pose específica. 
 
@@ -23,65 +23,78 @@ De forma similar, en \cite{asada_robot_1986} los autores comentan que para repre
 \begin{figure}[ht]
 \centering
 \includegraphics[scale= 0.2]{Figures/RigidBodyPos.png}
-    \caption{Posición y Orientación de un cuerpo rígido}
+    \caption{Posición y orientación de un cuerpo rígido}
     \label{fig:RigidBodyPos}
 \end{figure}
 
-Para el estudio de la orientación entre los sistemas coordenados establecidos es pertinente mencionar el concepto de las rotaciones básicas. En \cite{olguin_diaz_3d_2019} Olguín explica que una simplificación útil para este planteamiento es considerar un movimiento rotatorio sin traslación. Si se considera únicamente la rotación sobre uno de los ejes Cartesianos se conoce como una Rotación Básica. El autor añade en su explicación las matrices asociadas a las rotaciones sobre los ejes. Utilizando estas matrices es posible encontrar la posición de un punto existente en el sistema rotado, mediante la transformación que resulta en sus coordenadas referentes al sistema original.
+Para el estudio de la orientación entre los sistemas coordenados establecidos es pertinente mencionar el concepto de las rotaciones básicas. En \cite{olguin_diaz_3d_2019} Olguín explica que una simplificación útil para este planteamiento es considerar un movimiento rotatorio sin traslación. Si se considera únicamente la rotación sobre uno de los ejes Cartesianos se conoce como una Rotación Básica. El autor añade en su explicación las matrices asociadas a las rotaciones sobre los ejes. Utilizando estas matrices (mostradas en las ecuaciones \ref{eqn:mtxRotx} a \ref{eqn:mtxRotz}) es posible encontrar la posición de un punto existente en el sistema rotado, mediante la transformación que resulta en sus coordenadas referentes al sistema original.
 
-\begin{equation*}
+\begin{equation}
     R_{x,\phi}=\begin{bmatrix}
     1 & 0 & 0\\
     0 & cos_{\phi} & -sin_{\phi}\\
     0 & sin_{\phi} & cos_{\phi}
     \end{bmatrix}
-\end{equation*}
+    \label{eqn:mtxRotx}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     R_{y,\theta}=\begin{bmatrix}
     cos_{\theta} & 0 & sin_{\theta}\\
     0 & 1 & 0\\
     -sin_{\theta} & 0 & cos_{\theta}\\
     \end{bmatrix}
-\end{equation*}
+    \label{eqn:mtxRoty}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     R_{z,\psi}=\begin{bmatrix}
     cos_{\psi} & -sin_{\psi} & 0\\
     sin_{\psi} & cos_{\psi} & 0\\
     0 & 0 & 1
     \end{bmatrix}
-\end{equation*}
+    \label{eqn:mtxRotz}
+\end{equation}
 
-Como parte del análisis del movimiento del robot comúnmente se encuentran rotaciones que no coinciden con el movimiento sobre solo uno de los ejes, sino que se tratan de movimientos complejos que resultan de combinaciones de otros movimientos. En \cite{olguin_diaz_3d_2019} los autores establecen que toda rotación se obtiene con rotaciones básicas sucesivas. Sin embargo, consideran importante apuntar que es indispensable conocer el orden en el cual se realizan las rotaciones, dado que rotaciones sobre el sistema original (extrínsecas) dan resultados distintos que las rotaciones realizadas sobre el sistema coordenado asociado al cuerpo rígido (intrínsecas), este planteamiento permite la existencia de diferentes combinaciones de secuencias de rotación que llevan al mismo resultado. Para esto, Olgín menciona el estudio de \textbf{Rotaciones Compuestas}, con el cual es posible analizar las interacciones entre las diferentes matrices de rotación y su efecto en el objeto. Dentro de la notación utilizada para este tema es común encontrar lo siguiente: \textbf{$R_{a}^{b}$} y \textbf{$p^{(a)}$}, la primera expresión se refiere a la rotación existente entre el sistema \textbf{$b$} usando como referencia al sistema \textbf{$a$} y la segunda al punto \textbf{$p$} usando como origen al sistema \textbf{$a$}. Utilizando esta notación se puede expresar la relación entre el punto y las matrices de rotación.
-Asumiendo la existencia de los sistemas coordenados $\Sigma_{0}$, $\Sigma_{1}$ y $\Sigma_{2}$, la orientación de un punto $p$ se puede expresar de la siguiente forma: 
+Como parte del análisis del movimiento del robot comúnmente se encuentran rotaciones que no coinciden con el movimiento sobre solo uno de los ejes, sino que se tratan de movimientos complejos que resultan de combinaciones de otros movimientos. En \cite{olguin_diaz_3d_2019} los autores establecen que toda rotación se obtiene con rotaciones básicas sucesivas. Sin embargo, consideran importante apuntar que es indispensable conocer el orden en el cual se realizan las rotaciones, dado que rotaciones sobre el sistema original (extrínsecas) dan resultados distintos que las rotaciones realizadas sobre el sistema coordenado asociado al cuerpo rígido (intrínsecas), este planteamiento permite la existencia de diferentes combinaciones de secuencias de rotación que llevan al mismo resultado. Para esto, Olgín menciona el estudio de \textbf{Rotaciones Compuestas}, con el cual es posible analizar las interacciones entre las diferentes matrices de rotación y su efecto en el objeto. Dentro de la notación utilizada para este tema es común encontrar lo siguiente: \textbf{$R_{a}^{b}$} y \textbf{$p^{(a)}$}, la primera expresión se refiere a la rotación existente entre el sistema \textbf{$b$} usando como referencia al sistema \textbf{$a$} y la segunda al punto \textbf{$p$} usando como origen al sistema \textbf{$a$}. Utilizando esta notación se puede expresar la relación entre el punto y las matrices de rotación.\newpage
+
+
+Suponiendo la existencia de los sistemas coordenados $\Sigma_{0}$, $\Sigma_{1}$ y $\Sigma_{2}$, la orientación de un punto $p$ se puede expresar de la siguiente forma: 
 
 \begin{equation*}
     p^{(1)}=R_{1}^{2}p^{(2)}
 \end{equation*}
-\begin{equation*}
+\begin{equation}
     p^{(0)}=R_{0}^{1}p^{(1)} =R_{0}^{1}R_{1}^{2}p^{(2)} =R_{0}^{2}p^{(2)}
-\end{equation*}
+    \label{eqn:rot_punto}
+\end{equation}
 
 En las ecuaciones anteriores se puede observar una de las propiedades del análisis de las matrices de rotación. En este caso, la matriz de rotación compuesta $R_{0}^{2}$ se puede obtener mediante una multiplicación matricial para rotaciones intrínsecas:
 
-\begin{equation*} R_{0}^{2}=R_{0}^{1}R_{1}^{2}
-\end{equation*}
+\begin{equation} R_{0}^{2}=R_{0}^{1}R_{1}^{2}
+\label{eqn:mtxRotCompuesta}
+\end{equation}
 
-\emph{Ángulos de Euler}
+\phantom{holis}\\
+\textbf{\textit{Ángulos de Euler}}\\
 
-Una vez que se ha establecido como base el análisis de las rotaciones, en \cite{olguin_diaz_3d_2019} el autor indica que \textit{-toda combinación de rotaciones básicas sobre los ejes principales tiene tres ángulos \textbf{independientes} conocidos como los Ángulos de Euler-}, profundiza diciendo que las rotaciones básicas pueden realizarse ya sea todas en el sistema coordenado base (parametrización extrínseca), todas en el sistema coordenado actual (parametrización intrínseca), o bien usando una combinación de las posibilidades anteriores. Esta última opción conlleva procedimientos muy engorrosos, por lo que el autor no recomienda su uso. Olguín indica también que en la práctica hay 24 formas distintas de representar una matriz de rotación utilizando 3 ángulos de Euler independientes, conformadas de 12 combinaciones extrínsecas para rotaciones basadas en un sistema coordenado fijo y 12 combinaciones intrínsecas para rotaciones basadas en el sistema coordenado actual.
+Una vez que se ha establecido como base el análisis de las rotaciones, en \cite{olguin_diaz_3d_2019} el autor indica que \textit{-toda combinación de rotaciones básicas sobre los ejes principales tiene tres ángulos \textbf{independientes} conocidos como los Ángulos de Euler-}, profundiza diciendo que las rotaciones básicas pueden realizarse ya sea todas en el sistema coordenado base (parametrización extrínseca), todas en el sistema coordenado actual (parametrización intrínseca), o bien usando una combinación de las posibilidades anteriores. Esta última opción conlleva procedimientos muy engorrosos, por lo que el autor no recomienda su uso. Olguín indica también que en la práctica hay 24 formas distintas de representar una matriz de rotación utilizando tres ángulos de Euler independientes, conformadas de 12 combinaciones extrínsecas para rotaciones basadas en un sistema coordenado fijo y 12 combinaciones intrínsecas para rotaciones basadas en el sistema coordenado actual.
 
-\emph{Cuaterniones}\\
+\phantom{holis}\\
+\textbf{\textit{Cuaterniones}}\\
+
 La representación de la orientación por medio de cuaterniones fue planteada inicialmente por Sir William Rowan Hamilton \cite{hamilton_ii_1844} y se utiliza en robótica gracias a que no se obtienen singularidades, como sí sucede con la representación con Ángulos de Euler o Ángulos fijos. También se considera imprescindible mencionarlos dado que el middleware ROS, utilizado durante la implementación de este proyecto recurre a ellos para las transformaciones homogéneas que realiza.
 De acuerdo con Siciliano, B. \& Khatib, O. (Eds.). (2016) \cite{siciliano_springer_2016}, un cuarternion \textbf{$\epsilon$} se define de la siguiente forma:
-\begin{equation*}
+\begin{equation}
     \epsilon = \epsilon_{0}+\epsilon_{1}i+
     \epsilon_{2}j+
     \epsilon_{3}k
-\end{equation*}
+    \label{eqn:quat_def}
+\end{equation}
 
-En la ecuación anterior, los componentes $\epsilon_{0}$, $\epsilon_{1}$, $\epsilon_{2}$ y $\epsilon_{3}$, son escalares, conocidos en ocasiones como parámetros de Euler, mientras que $i$, $j$ y $k$ son operadores y se definen para satisfacer las siguientes reglas de correspondencia.
+En la ecuación anterior, los componentes $\epsilon_{0}$, $\epsilon_{1}$, $\epsilon_{2}$ y $\epsilon_{3}$, son escalares, conocidos en ocasiones como parámetros de Euler.
+\newpage
+Por su parte, $i$, $j$ y $k$ son operadores y se definen para satisfacer las siguientes reglas de correspondencia:
 
 \begin{equation*}
     ii=jj=kk=-1
@@ -89,48 +102,50 @@ En la ecuación anterior, los componentes $\epsilon_{0}$, $\epsilon_{1}$, $\epsi
 \begin{equation*}
     ij=k,\quad jk=i, \quad ki=j
 \end{equation*}
-\begin{equation*}
+\begin{equation}
     ji=-k, \quad kj = -i, \quad ik = -j
-\end{equation*}
+    \label{eqn:ijk}
+\end{equation}
 
-Continuando con la descripción de los editores, mencionan elementos matemáticos necesarios para el manejo algebráico de los cuaterniones.
+\phantom{holis}\\
+Continuando con la descripción de los editores, mencionan los elementos matemáticos necesarios para el manejo algebráico de los cuaterniones:\\
 
 \textbf{Suma de cuaterniones}: se obtiene al sumar por separado sus respectivos componentes:
-
 
 \begin{equation*}
     \epsilon_{A} = \epsilon_{0}+\epsilon_{1}i+
     \epsilon_{2}j+
     \epsilon_{3}k
 \end{equation*}
-
 \begin{equation*}
     \epsilon_{B} = \epsilon_{4}+\epsilon_{5}i+
     \epsilon_{6}j+
     \epsilon_{7}k
 \end{equation*}
-
 \begin{equation*}
     \epsilon_{C} = \epsilon_{A} + \epsilon_{B}
 \end{equation*}
-\begin{equation*}
+\begin{equation}
 \epsilon_{C} =                     (\epsilon_{0}+
     \epsilon_{4})+(\epsilon_{1}+\epsilon_{5})i+
     (\epsilon_{2}+\epsilon_{6})j+
     (\epsilon_{3}+\epsilon_{7})k
-\end{equation*}
+    \label{eqn:quat_suma}
+\end{equation}
 
-\textbf{Elemento nulo para adición}
+\textbf{Elemento nulo para adición:}
 
-\begin{equation*}
+\begin{equation}
     0 = 0 + 0i + 0j + 0k
-\end{equation*}
+    \label{eqn:quat_suma_null_element}
+\end{equation}
 
-\textbf{Elemento nulo para multiplicación}
+\textbf{Elemento nulo para multiplicación:}
 
-\begin{equation*}
+\begin{equation}
     I = 1 + 0i + 0j + 0k
-\end{equation*}
+    \label{eqn:quat_mult_null_element}
+\end{equation}
 
 Comúnmente, el elemento $\epsilon_{0}$ es conocido como la parte escalas del cuaternion, mientras que los elementos $(\epsilon_{1},\epsilon_{2}, \epsilon_{3})$ se conoce como la parte vectorial.
 
@@ -140,7 +155,7 @@ El uso de Matrices de Transformaciones Homogéneas en el análisis del movimient
 
 
 
-\begin{equation*}
+\begin{equation}
 	T = 
     \begin{bmatrix}
 	R & p\\
@@ -152,14 +167,16 @@ El uso de Matrices de Transformaciones Homogéneas en el análisis del movimient
 	r_{31} & r_{32} & r_{33} & p_{3}\\
 	0 & 0 & 0 & 1 
 	\end{bmatrix}
-\end{equation*}
+    \label{eqn:Mtx_HomoTrans}
+\end{equation}
 
+\newpage
 En \cite{lynch_modern_2017} se listan a manera de Proposiciones algunas de las propiedades de las matrices de transformación homogéneas, como son:
 
 
 \begin{itemize}
     \item La inversa de una matriz de Transformación $T \in SE(3)$ es también una matriz de transformación y cumple con la siguiente forma:
-    \begin{equation*}
+    \begin{equation}
         T^{-1} = 
     \begin{bmatrix}
 	R & p\\
@@ -169,14 +186,15 @@ En \cite{lynch_modern_2017} se listan a manera de Proposiciones algunas de las p
 	R^{T} & -R^{T}p\\
 	0 & 1 
 	\end{bmatrix}
-    \end{equation*}
+    \label{eqn:Mtx_HT_Inv}
+    \end{equation}
     \item El producto de dos matrices de transformación es también una matriz de transformación.
     \item La multiplicación de matrices de transformación cumple con la propiedad asociativa: $(T_{1}T_{2})T_{3}=T_{1}(T_{2}T_{3})$, pero no con la propiedad conmutativa: $T_{1}T_{2}\neq T_{2}T_{1}$  
 \end{itemize}
 
-Siguiendo la descripción del autor en \cite{lynch_modern_2017}, es útil calcular el valor de $Rx+p$, siendo que $x \in R^{3}$ y $(R,p)$ representa la matriz $T$. Para hacer compatible el vector $x$ con las dimensiones de la matriz $T$, se concatena un $1$ al vector $x$, con lo cual es posible realizar el cálculo mediante una multiplicación de matrices.
+Siguiendo la descripción del autor en \cite{lynch_modern_2017}, es útil calcular el valor de $Rx+p$, siendo que $x \in R^{3}$ y $(R,p)$ representa la matriz $T$. Para hacer compatible el vector $x$ con las dimensiones de la matriz $T$, se concatena un $1$ al vector $x$, con lo cual es posible realizar el cálculo mediante una multiplicación de matrices\ref{eqn:Vector_Rp}.
 
-\begin{equation*}
+\begin{equation}
     T \begin{bmatrix}
         x\\1
     \end{bmatrix} = 
@@ -192,19 +210,22 @@ Siguiendo la descripción del autor en \cite{lynch_modern_2017}, es útil calcul
 	Rx + p\\
     1 
 	\end{bmatrix}
-\end{equation*}
+    \label{eqn:Vector_Rp}
+\end{equation}
 
 De esta operación se obtiene el vector $ \left[x^{T}\quad 1\right]^{T}$ se conoce como la representación de $x$ en coordenadas homogéneas. En el contexto en que no encontramos, estas matrices son comúnmente utilizadas para cambiar los sistemas coordenados que se utilizan como referencia. 
 
 De forma similar a las matrices de Rotación mencionadas anteriormente, la multiplicación de estas matrices permite obtener relaciones entre los distintos sistemas de referencia:
 
-\begin{equation*}
+\begin{equation}
     T_{ab}T_{bc} = T_{a\cancel{b}}T_{\cancel{b}c}=T_{ac}
-\end{equation*}
+    \label{eqn:Trans_Sist_Ref_Mat}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     T_{ab}v_{b} = T_{a\cancel{b}}v_{\cancel{b}}=v_{a}
-\end{equation*}
+    \label{eqn:Trans_Sist_Ref_Vec}
+\end{equation}
 
 \section{Descripción cinemática del robot}
 

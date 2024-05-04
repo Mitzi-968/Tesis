@@ -1,7 +1,7 @@
 \chapter{Planeación de acciones}
 Un aspecto importante del comportamiento del robot en el contexto que se plantea es que le sea posible desarrollar una serie de actividades que en conjunto lleven a un resultado final.
 Con este objetivo se desarrollaron varias máquinas de estados en los que la secuencia de acciones, así como las condiciones, variaban dependiendo del objetivo final. 
-Dentro de los escenarios considerados se requiere lograr 3 tareas específicas, en las que progresivamente se añadían capacidades al desempeño del robot.
+Dentro de los escenarios considerados se requiere lograr tres tareas específicas, en las que progresivamente se añadían capacidades al desempeño del robot.
 
 Como se mencionó en secciones anteriores, para el planteamiento de las máquinas de estado se necesita determinar las entradas, salidas, estados,  condiciones de transformación y las reglas de correspondencia que permiten el flujo de la información dentro de la secuencia de acciones.\\
 En este caso, las entradas del sistema se refieren a la información que el robot es capaz de recopilar tanto de las condiciones de su ambiente como de su estado interno.
@@ -12,17 +12,17 @@ Es deseable que el robot cuente con estrategias que le permitan verificar si el 
 
 \section{Actividades}
 
-Como parte de las secciones que componen a la competencia \textit{RoboCup Logistics} se creó una categoría en la que se evalúan las diferentes habilidades que es indispensable que el robot tenga: \textbf{Navegación, Exploración y Manipulación}. De esta forma se facilita la integración y la evaluación del desempeño del robot en un entorno controlado para cada tarea, a continuación se incluye la descripción de cada una obtenida del reglamento de la competencia \cite{technical_committee_20122022_robocup_2022}.
+Como parte de las secciones que componen a la competencia \textit{RoboCup Logistics} se creó una categoría en la que se evalúan las diferentes habilidades que es indispensable que el robot tenga: \textbf{navegación, exploración y manipulación}. De esta forma se facilita la integración y la evaluación del desempeño del robot en un entorno controlado para cada tarea, a continuación se incluye la descripción de cada una obtenida del reglamento de la competencia \cite{technical_committee_20122022_robocup_2022}.
 
 \subsection{Navegación}
-Para la evaluación de la Navegación se solicita que el robot \textit{visite} 12 puntos aleatorios dentro del espacio y permanecer en esa posición por al menos 5 segundos consecutivos, utilizando el menor tiempo posible y evadiendo obstáculos estáticos durante su desplazamiento.
+Para la evaluación de la Navegación se solicita que el robot \textit{visite} 12 puntos aleatorios dentro del espacio y permanecer en esa posición por al menos cinco segundos consecutivos, utilizando el menor tiempo posible y evadiendo obstáculos estáticos durante su desplazamiento.
 Esta etapa podría considerarse la menos compleja dentro de las tres planteadas, pero es una actividad primordial dentro del desempeño del robot, dado que de no ser capaz de realizarla, no sería posible completar las siguientes.
 
 \subsection{Exploración}
 Durante la etapa de exploración se busca que el robot lleve a cabo una navegación autónoma, mientras realiza el procesamiento de la imagen capturada por su cámara para el reconocimiento de las estaciones de trabajo. Dicho reconocimiento se hace utilizando los códigos ARUCO que se encuentran en la base de las estaciones de trabajo. Además, el robot debe identificar el tipo de estación, la posición y orientación en que se encuentra cada estación y reportar la información.
 
 \subsection{Manipulación}
-En el caso de la manipulación, la posición inicial del robot se encuentra frente a una de las estaciones de trabajo. En la salida de la banda transportadora de la estación se encuentra una pieza que debe ser tomada por el manipulador. El robot debe trasladarse al otro lado de la estación y colocar la pieza en la entrada de la banda transportadora. Este proceso se repite 3 veces y dependiendo del nivel de dificultad que elija, se puede trabajar con una o más estaciones en las cuales se debe repetir el mismo procedimiento. 
+En el caso de la manipulación, la posición inicial del robot se encuentra frente a una de las estaciones de trabajo. En la salida de la banda transportadora de la estación se encuentra una pieza que debe ser tomada por el manipulador. El robot debe trasladarse al otro lado de la estación y colocar la pieza en la entrada de la banda transportadora. Este proceso se repite tres veces y dependiendo del nivel de dificultad que elija, se puede trabajar con una o más estaciones en las cuales se debe repetir el mismo procedimiento. 
 
 \section{Máquinas de estados}
 Una vez conocidos los requerimientos establecidos en el reglamento para considerar como exitosas estas tareas, se explicará a continuación cómo se realizó la implementación de las tareas haciendo uso de Máquinas de Estados Finitos.
@@ -40,7 +40,7 @@ Cuando se cuenta con la ruta a seguir se utiliza la función \textbf{navigate\_t
 \subsection{Exploración}
 En el caso de la etapa de exploración, se consideró establecer una ruta a seguir utilizando puntos del mapa desde los cuales realizar el escaneo en busca de las estaciones de trabajo.
 
-La ruta designada se compone por 8 \textit{Puntos de Inspección Principales} y 11 \textit{Puntos de Inspección Intermedios}. En cada uno de los puntos principales el robot hace una breve pausa y realiza una secuencia de movimientos de base que cubren 90 grados, en los cuáles solo varía la dirección del giro. Por su parte, en los puntos intermedios, se realiza un giro de 360 dando oportunidad a que la cámara encuentre los códigos de las estaciones y obtenga la información sobre ellos, de ser visibles desde su posición, y los reporte. De acuerdo con las reglas de la competencia, el robot debe empezar en un punto específico, junto al borde inferior del mapa, a la izquierda o derecha dependiendo del equipo al que pertenezca. Por motivos de simplicidad, en la Figura \ref{fig:Route_Exploration} se muestra el proceso si el robot pertenece al equipo magenta.
+La ruta designada se compone por ocho \textit{Puntos de Inspección Principales} y 11 \textit{Puntos de Inspección Intermedios}. En cada uno de los puntos principales el robot hace una breve pausa y realiza una secuencia de movimientos de base que cubren 90 grados, en los cuáles solo varía la dirección del giro. Por su parte, en los puntos intermedios, se realiza un giro de 360 dando oportunidad a que la cámara encuentre los códigos de las estaciones y obtenga la información sobre ellos, de ser visibles desde su posición, y los reporte. De acuerdo con las reglas de la competencia, el robot debe empezar en un punto específico, junto al borde inferior del mapa, a la izquierda o derecha dependiendo del equipo al que pertenezca. Por motivos de simplicidad, en la Figura \ref{fig:Route_Exploration} se muestra el proceso si el robot pertenece al equipo magenta.
 Una vez que el robot ha salido de la zona designada se establecen como objetivo las coordenadas de la zona que se encuentra en la esquina inferior izquierda del mapa, señalizado en la Figura como el \textit{Punto de Inspección Principal 1}. 
 Debido a que el mapa corresponde a un rectángulo de $14\times8$[m], y a que las zonas de descanso de los robots se encuentran en la arista inferior del mapa, se decidió dividirlo en dos regiones principales, cada una de $7\times7$, dentro de las cuales se realiza la trayectoria de exploración.  
 Como se puede observar en la ilustración, en las secciones del recorrido que corresponden a las diagonales de cada mitad del mapa, se definieron 2 \textit{Puntos de Inspección Intermedios}, mientras que en las aristas se utiliza solo uno. 
@@ -68,11 +68,14 @@ Una vez que la pieza se encuentra en el manipulador, el robot puede retroceder n
 
 \subsection{Entradas y salidas}
 Un elemento indispensable del comportamiento del robot depende de la información que recibe sobre su estado y el de su entorno.
+
+
 \textbf{Localización} - El robot debe \textit{saber} su posición relativa al espacio en que se encuentra, esto, cuando es posible, se logra con un mapa previo del entorno en que se planea que el robot desempeñe sus actividades, y el cambio en su posición dentro del mapa se monitorea y actualiza constantemente mediante una combinación entre la odometría del robot y el algoritmo de localización de Monte Carlo, utilizando las lecturas que recibe del sensor de distancia que se encuentra en la  base del robot.
+
 \textbf{Navegación} - El robot debe ser capaz de moverse dentro de su entorno, por lo que es necesaria la implementación de un algoritmo que le permita moverse de un punto a otro. Esta navegación se debe realizar sin colisionar con otros objetos en el espacio. En el sistema de navegación utilizado para este proyecto, desarrollado por el Laboratorio de Biorobótica de la Facultad e Ingniería de la UNAM y probado previamente en la liga @Home (tanto OpenPlatform como D) de la competencia RoboCup, se utilizan las lecturas del sensor de distancia, en conjunto con el algoritmo A* para realizar el cálculo de una ruta óptima entre dos puntos. 
 
 \subsection{Algoritmos de las Máquinas de Estados - Cartas ASM}
-A continuación se muestran los diagramas de flujo que representan el funcionamiento de las máquinas de estado utilizadas para cada actividad.
+A continuación se muestran los diagramas de flujo que representan el funcionamiento de las máquinas de estado utilizadas para cada actividad. Navegación \ref{fig:ASM_Navigation}, exploración \ref{fig:ASM_Exploración}, manipulación \ref{fig:ASM_Manipulación}.
 
 \begin{figure}[ht]
     \centering
@@ -95,5 +98,3 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
     \caption{Manipulación}
     \label{fig:ASM_Manipulación}
 \end{figure}
-
-skfduhs

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.5.2)  2 MAY 2024 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.29)  3 MAY 2024 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/festinopumas/TesisMaestria/Tesis_tex/main.tex
-(/home/festinopumas/TesisMaestria/Tesis_tex/main.tex
+**/home/robocup20/TesisMaestria/Tesis_tex/main.tex
+(/home/robocup20/TesisMaestria/Tesis_tex/main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
@@ -47,7 +47,7 @@ Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
-)) (/home/festinopumas/TesisMaestria/Tesis_tex/csquotes.sty
+)) (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
@@ -63,12 +63,12 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \csq@maxlvl=\count184
 \csq@tshold=\count185
 \csq@ltx@everypar=\toks18
- (/home/festinopumas/TesisMaestria/Tesis_tex/csquotes.def
+ (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (/home/festinopumas/TesisMaestria/Tesis_tex/csquotes.cfg
+ (/home/robocup20/TesisMaestria/Tesis_tex/csquotes.cfg
 File: csquotes.cfg 
 )) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
@@ -643,7 +643,7 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count420
 \l__pdf_internal_box=\box54
-) (/home/festinopumas/TesisMaestria/Tesis_tex/main.aux
+) (/home/robocup20/TesisMaestria/Tesis_tex/main.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
@@ -679,7 +679,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/home/festinopumas/TesisMaestria/Tesis_tex/main.bbl)
+ (/home/robocup20/TesisMaestria/Tesis_tex/main.bbl)
 Package biblatex Info: Reference section=0 on input line 37.
 Package biblatex Info: Reference segment=0 on input line 37.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -741,11 +741,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (/home/festinopumas/TesisMaestria/Tesis_tex/main.out) (/home/festinopumas/TesisMaestria/Tesis_tex/main.out)
+ (/home/robocup20/TesisMaestria/Tesis_tex/main.out) (/home/robocup20/TesisMaestria/Tesis_tex/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- (/home/festinopumas/TesisMaestria/Tesis_tex/Portada.tex
+ (/home/robocup20/TesisMaestria/Tesis_tex/Portada.tex
 <Figures/UNAM_LOGO2.png, id=221, 803.0pt x 803.0pt>
 File: Figures/UNAM_LOGO2.png Graphic file (type png)
 <use Figures/UNAM_LOGO2.png>
@@ -770,20 +770,20 @@ Package pdftex.def Info: Figures/Ing_Logo.png  used on input line 6.
 (pdftex.def)             Requested size: 83.10875pt x 116.35225pt.
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/festinopumas/TesisMaestria/Tesis_tex/Figures/UNAM_LOGO2.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Ing_Logo.png>] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/robocup20/TesisMaestria/Tesis_tex/Figures/UNAM_LOGO2.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Ing_Logo.png>] [2
 
-] (/home/festinopumas/TesisMaestria/Tesis_tex/main.toc
+] (/home/robocup20/TesisMaestria/Tesis_tex/main.toc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [3])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (/home/festinopumas/TesisMaestria/Tesis_tex/Ch01_Introduccion.tex [4]
+ (/home/robocup20/TesisMaestria/Tesis_tex/Ch01_Introduccion.tex [4]
 Cap\'{\i }tulo 1.
 [5
 
-] [6] [7] [8]) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex [9] [10
+] [6] [7] [8]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch02_Antecedentes.tex [9] [10
 
 ]
 Cap\'{\i }tulo 2.
@@ -798,13 +798,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[14 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/CuboRGB.png>]
+[14 </home/robocup20/TesisMaestria/Tesis_tex/Figures/CuboRGB.png>]
 <Figures/ConoHSV.png, id=395, 856.19875pt x 830.10126pt>
 File: Figures/ConoHSV.png Graphic file (type png)
 <use Figures/ConoHSV.png>
 Package pdftex.def Info: Figures/ConoHSV.png  used on input line 129.
 (pdftex.def)             Requested size: 171.23671pt x 166.0173pt.
- [15] [16 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/ConoHSV.png>] [17]
+ [15] [16 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ConoHSV.png>] [17]
 <Figures/Conjuntos.png, id=430, 884.30376pt x 749.80125pt>
 File: Figures/Conjuntos.png Graphic file (type png)
 <use Figures/Conjuntos.png>
@@ -815,7 +815,7 @@ File: Figures/Conjuntos_Complemento.png Graphic file (type png)
 <use Figures/Conjuntos_Complemento.png>
 Package pdftex.def Info: Figures/Conjuntos_Complemento.png  used on input line 234.
 (pdftex.def)             Requested size: 254.07587pt x 100.67479pt.
- [18 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Conjuntos.png>]
+ [18 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos.png>]
 <Figures/Conjuntos_Resta.png, id=443, 635.37375pt x 436.63126pt>
 File: Figures/Conjuntos_Resta.png Graphic file (type png)
 <use Figures/Conjuntos_Resta.png>
@@ -826,7 +826,7 @@ File: Figures/Reflexion.png Graphic file (type png)
 <use Figures/Reflexion.png>
 Package pdftex.def Info: Figures/Reflexion.png  used on input line 262.
 (pdftex.def)             Requested size: 316.06726pt x 129.44624pt.
- [19 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Conjuntos_Complemento.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Conjuntos_Resta.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Reflexion.png>]
+ [19 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Complemento.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conjuntos_Resta.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Reflexion.png>]
 <Figures/Traslacion.png, id=458, 1024.82875pt x 422.57875pt>
 File: Figures/Traslacion.png Graphic file (type png)
 <use Figures/Traslacion.png>
@@ -842,241 +842,256 @@ File: Figures/LogicOp_IMG.png Graphic file (type png)
 <use Figures/LogicOp_IMG.png>
 Package pdftex.def Info: Figures/LogicOp_IMG.png  used on input line 298.
 (pdftex.def)             Requested size: 246.9244pt x 237.89058pt.
- [20 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Traslacion.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/CompuertasLogicas.png>] [21 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/LogicOp_IMG.png>]
+ [20 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Traslacion.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/CompuertasLogicas.png>] [21 </home/robocup20/TesisMaestria/Tesis_tex/Figures/LogicOp_IMG.png>]
 <Figures/ErosDil_NoGrid.png, id=486, 434.37282pt x 428.35031pt>
 File: Figures/ErosDil_NoGrid.png Graphic file (type png)
 <use Figures/ErosDil_NoGrid.png>
-Package pdftex.def Info: Figures/ErosDil_NoGrid.png  used on input line 341.
+Package pdftex.def Info: Figures/ErosDil_NoGrid.png  used on input line 343.
 (pdftex.def)             Requested size: 230.21649pt x 227.02458pt.
- [22 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/ErosDil_NoGrid.png>]
-<Figures/Dil_ES2.png, id=495, 625.58719pt x 445.665pt>
+ [22 </home/robocup20/TesisMaestria/Tesis_tex/Figures/ErosDil_NoGrid.png>]
+<Figures/Dil_ES2.png, id=496, 625.58719pt x 445.665pt>
 File: Figures/Dil_ES2.png Graphic file (type png)
 <use Figures/Dil_ES2.png>
-Package pdftex.def Info: Figures/Dil_ES2.png  used on input line 350.
+Package pdftex.def Info: Figures/Dil_ES2.png  used on input line 352.
 (pdftex.def)             Requested size: 156.39641pt x 111.41597pt.
- [23 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Dil_ES2.png>]
-<Figures/Clasificacion.png, id=504, 1059.96pt x 158.5925pt>
+ [23 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Dil_ES2.png>]
+<Figures/Clasificacion.png, id=505, 1059.96pt x 158.5925pt>
 File: Figures/Clasificacion.png Graphic file (type png)
 <use Figures/Clasificacion.png>
-Package pdftex.def Info: Figures/Clasificacion.png  used on input line 373.
+Package pdftex.def Info: Figures/Clasificacion.png  used on input line 375.
 (pdftex.def)             Requested size: 317.99045pt x 47.57811pt.
- [24 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Clasificacion.png>] [25] [26] [27]
-<Figures/Conveyor_GRIPS_TDP.png, id=536, 1191.45125pt x 902.37125pt>
+ [24 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Clasificacion.png>] [25] [26] [27]
+<Figures/Conveyor_GRIPS_TDP.png, id=537, 1191.45125pt x 902.37125pt>
 File: Figures/Conveyor_GRIPS_TDP.png Graphic file (type png)
 <use Figures/Conveyor_GRIPS_TDP.png>
-Package pdftex.def Info: Figures/Conveyor_GRIPS_TDP.png  used on input line 443.
+Package pdftex.def Info: Figures/Conveyor_GRIPS_TDP.png  used on input line 445.
 (pdftex.def)             Requested size: 178.70998pt x 135.34984pt.
-<Figures/Conveyor_HOG_GRIPS_TDP.png, id=537, 743.77875pt x 414.54875pt>
+<Figures/Conveyor_HOG_GRIPS_TDP.png, id=538, 743.77875pt x 414.54875pt>
 File: Figures/Conveyor_HOG_GRIPS_TDP.png Graphic file (type png)
 <use Figures/Conveyor_HOG_GRIPS_TDP.png>
-Package pdftex.def Info: Figures/Conveyor_HOG_GRIPS_TDP.png  used on input line 443.
+Package pdftex.def Info: Figures/Conveyor_HOG_GRIPS_TDP.png  used on input line 445.
 (pdftex.def)             Requested size: 148.75311pt x 82.90828pt.
- [28 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Conveyor_GRIPS_TDP.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Conveyor_HOG_GRIPS_TDP.png>]
-<Figures/RobotinoGRIPS_Old.png, id=549, 364.36125pt x 979.66pt>
+ [28 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_GRIPS_TDP.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Conveyor_HOG_GRIPS_TDP.png>]
+<Figures/RobotinoGRIPS_Old.png, id=550, 364.36125pt x 979.66pt>
 File: Figures/RobotinoGRIPS_Old.png Graphic file (type png)
 <use Figures/RobotinoGRIPS_Old.png>
-Package pdftex.def Info: Figures/RobotinoGRIPS_Old.png  used on input line 454.
+Package pdftex.def Info: Figures/RobotinoGRIPS_Old.png  used on input line 456.
 (pdftex.def)             Requested size: 91.09009pt x 244.9144pt.
 
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [29 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/RobotinoGRIPS_Old.png>]) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch03_Detección_de_objetos.tex [30]
+ [29 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoGRIPS_Old.png>]) (/home/robocup20/TesisMaestria/Tesis_tex/Ch03_Detección_de_objetos.tex [30]
 Cap\'{\i }tulo 3.
-<Figures/Pieces.png, id=562, 1220.56pt x 828.09375pt>
+<Figures/Pieces.png, id=563, 1220.56pt x 828.09375pt>
 File: Figures/Pieces.png Graphic file (type png)
 <use Figures/Pieces.png>
 Package pdftex.def Info: Figures/Pieces.png  used on input line 11.
 (pdftex.def)             Requested size: 183.0761pt x 124.2087pt.
-<Figures/BandaTrans_Big.png, id=565, 1053.9375pt x 806.01125pt>
+<Figures/BandaTrans_Big.png, id=566, 1053.9375pt x 806.01125pt>
 File: Figures/BandaTrans_Big.png Graphic file (type png)
 <use Figures/BandaTrans_Big.png>
 Package pdftex.def Info: Figures/BandaTrans_Big.png  used on input line 20.
 (pdftex.def)             Requested size: 210.78377pt x 161.19939pt.
 [31
 
-] [32 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Pieces.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/BandaTrans_Big.png>]
-<Figures/Tabla_Iluminación.png, id=579, 923.45pt x 481.8pt>
+] [32 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Pieces.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/BandaTrans_Big.png>]
+<Figures/Tabla_Iluminación.png, id=580, 923.45pt x 481.8pt>
 File: Figures/Tabla_Iluminación.png Graphic file (type png)
 <use Figures/Tabla_Iluminación.png>
 Package pdftex.def Info: Figures/Tabla_Iluminación.png  used on input line 33.
 (pdftex.def)             Requested size: 323.21234pt x 168.63252pt.
-<Figures/HSV_YellowRing.png, id=580, 1038.88126pt x 378.41376pt>
+<Figures/HSV_YellowRing.png, id=581, 1038.88126pt x 378.41376pt>
 File: Figures/HSV_YellowRing.png Graphic file (type png)
 <use Figures/HSV_YellowRing.png>
 Package pdftex.def Info: Figures/HSV_YellowRing.png  used on input line 42.
 (pdftex.def)             Requested size: 311.66678pt x 113.525pt.
-<Figures/Tabla_Medias_Ilum.png, id=581, 584.1825pt x 905.3825pt>
+<Figures/Tabla_Medias_Ilum.png, id=582, 584.1825pt x 905.3825pt>
 File: Figures/Tabla_Medias_Ilum.png Graphic file (type png)
 <use Figures/Tabla_Medias_Ilum.png>
 Package pdftex.def Info: Figures/Tabla_Medias_Ilum.png  used on input line 49.
 (pdftex.def)             Requested size: 204.46693pt x 316.88863pt.
-<Figures/RedPiece_HSV_components.png, id=582, 622.325pt x 220.825pt>
+<Figures/RedPiece_HSV_components.png, id=583, 622.325pt x 220.825pt>
 File: Figures/RedPiece_HSV_components.png Graphic file (type png)
 <use Figures/RedPiece_HSV_components.png>
 Package pdftex.def Info: Figures/RedPiece_HSV_components.png  used on input line 58.
 (pdftex.def)             Requested size: 186.69893pt x 66.248pt.
- [33 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Tabla_Iluminación.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/HSV_YellowRing.png>]
-<Figures/Masks_Piece.png, id=591, 823.075pt x 422.57875pt>
+ [33 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Tabla_Iluminación.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/HSV_YellowRing.png>]
+<Figures/Masks_Piece.png, id=592, 823.075pt x 422.57875pt>
 File: Figures/Masks_Piece.png Graphic file (type png)
 <use Figures/Masks_Piece.png>
 Package pdftex.def Info: Figures/Masks_Piece.png  used on input line 69.
 (pdftex.def)             Requested size: 288.08057pt x 147.90477pt.
- [34 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Tabla_Medias_Ilum.png>]
-<Figures/Masks_WS_3.png, id=603, 1274.7625pt x 662.475pt>
+ [34 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Tabla_Medias_Ilum.png>]
+<Figures/Masks_WS_3.png, id=604, 1274.7625pt x 662.475pt>
 File: Figures/Masks_WS_3.png Graphic file (type png)
 <use Figures/Masks_WS_3.png>
 Package pdftex.def Info: Figures/Masks_WS_3.png  used on input line 80.
 (pdftex.def)             Requested size: 310.4979pt x 161.35254pt.
-) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch04_Planeación_de_movimientos.tex [35 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/RedPiece_HSV_components.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Masks_Piece.png>] [36 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Masks_WS_3.png>]
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch04_Planeación_de_movimientos.tex [35 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RedPiece_HSV_components.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Masks_Piece.png>] [36 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Masks_WS_3.png>]
 Cap\'{\i }tulo 4.
 [37
 
 ]
-<Figures/RigidBodyPos.png, id=632, 856.19875pt x 861.2175pt>
+<Figures/RigidBodyPos.png, id=633, 856.19875pt x 861.2175pt>
 File: Figures/RigidBodyPos.png Graphic file (type png)
 <use Figures/RigidBodyPos.png>
 Package pdftex.def Info: Figures/RigidBodyPos.png  used on input line 25.
 (pdftex.def)             Requested size: 171.23671pt x 172.24045pt.
- [38] [39 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/RigidBodyPos.png>] [40] [41]
-<Figures/Robotino_model_front.png, id=665, 534.19576pt x 339.669pt>
+ [38] [39 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RigidBodyPos.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+[41]
+<Figures/Robotino_model_front.png, id=680, 534.19576pt x 339.669pt>
 File: Figures/Robotino_model_front.png Graphic file (type png)
 <use Figures/Robotino_model_front.png>
-Package pdftex.def Info: Figures/Robotino_model_front.png  used on input line 217.
+Package pdftex.def Info: Figures/Robotino_model_front.png  used on input line 238.
 (pdftex.def)             Requested size: 160.25996pt x 101.90147pt.
-<Figures/Robotino_model_side.png, id=666, 448.074pt x 339.669pt>
+<Figures/Robotino_model_side.png, id=681, 448.074pt x 339.669pt>
 File: Figures/Robotino_model_side.png Graphic file (type png)
 <use Figures/Robotino_model_side.png>
-Package pdftex.def Info: Figures/Robotino_model_side.png  used on input line 218.
+Package pdftex.def Info: Figures/Robotino_model_side.png  used on input line 239.
 (pdftex.def)             Requested size: 134.42323pt x 101.90147pt.
  [42]
-<Figures/Robotino_DescCin.png, id=675, 501.875pt x 461.725pt>
+<Figures/Robotino_DescCin.png, id=693, 501.875pt x 461.725pt>
 File: Figures/Robotino_DescCin.png Graphic file (type png)
 <use Figures/Robotino_DescCin.png>
-Package pdftex.def Info: Figures/Robotino_DescCin.png  used on input line 229.
+Package pdftex.def Info: Figures/Robotino_DescCin.png  used on input line 250.
 (pdftex.def)             Requested size: 150.56366pt x 138.51857pt.
-) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch05_Planeación_de_acciones.tex [43 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Robotino_model_front.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Robotino_model_side.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Robotino_DescCin.png>] [44
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch05_Planeación_de_acciones.tex [43 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_front.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_model_side.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Robotino_DescCin.png>] [44
 
 ]
 Cap\'{\i }tulo 5.
 [45] [46] [47]
-<Figures/Exploration_route.png, id=705, 1128.215pt x 726.715pt>
+<Figures/Exploration_route.png, id=724, 1128.215pt x 726.715pt>
 File: Figures/Exploration_route.png Graphic file (type png)
 <use Figures/Exploration_route.png>
 Package pdftex.def Info: Figures/Exploration_route.png  used on input line 52.
 (pdftex.def)             Requested size: 338.46712pt x 218.01617pt.
- [48 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Exploration_route.png>] [49]
-<Figures/Navigation_CT.png, id=716, 692.5875pt x 948.54375pt>
+ [48 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_route.png>] [49]
+<Figures/Navigation_CT.png, id=738, 692.5875pt x 948.54375pt>
 File: Figures/Navigation_CT.png Graphic file (type png)
 <use Figures/Navigation_CT.png>
-Package pdftex.def Info: Figures/Navigation_CT.png  used on input line 79.
+Package pdftex.def Info: Figures/Navigation_CT.png  used on input line 82.
 (pdftex.def)             Requested size: 277.03009pt x 379.41077pt.
-<Figures/Exploration_CT.png, id=717, 686.565pt x 1000.73875pt>
+<Figures/Exploration_CT.png, id=739, 686.565pt x 1000.73875pt>
 File: Figures/Exploration_CT.png Graphic file (type png)
 <use Figures/Exploration_CT.png>
-Package pdftex.def Info: Figures/Exploration_CT.png  used on input line 86.
+Package pdftex.def Info: Figures/Exploration_CT.png  used on input line 89.
 (pdftex.def)             Requested size: 343.28166pt x 500.36816pt.
-<Figures/Manipulacion_CT_Hor.png, id=718, 737.75626pt x 828.09375pt>
+<Figures/Manipulacion_CT_Hor.png, id=740, 737.75626pt x 828.09375pt>
 File: Figures/Manipulacion_CT_Hor.png Graphic file (type png)
 <use Figures/Manipulacion_CT_Hor.png>
-Package pdftex.def Info: Figures/Manipulacion_CT_Hor.png  used on input line 94.
+Package pdftex.def Info: Figures/Manipulacion_CT_Hor.png  used on input line 97.
 (pdftex.def)             Requested size: 295.09727pt x 331.23163pt.
-) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch06_Resultados.tex [50] [51 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Navigation_CT.png>] [52 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Exploration_CT.png>] [53 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Manipulacion_CT_Hor.png>] [54
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch06_Resultados.tex [50] [51 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Navigation_CT.png>] [52 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Exploration_CT.png>] [53 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Manipulacion_CT_Hor.png>] [54
 
 ]
 Cap\'{\i }tulo 6.
 [55] [56] [57] [58] [59]
-<Figures/RobotinoFESTO_base+torre.png, id=787, 469.755pt x 507.39563pt>
+<Figures/RobotinoFESTO_base+torre.png, id=809, 469.755pt x 507.39563pt>
 File: Figures/RobotinoFESTO_base+torre.png Graphic file (type png)
 <use Figures/RobotinoFESTO_base+torre.png>
 Package pdftex.def Info: Figures/RobotinoFESTO_base+torre.png  used on input line 140.
 (pdftex.def)             Requested size: 140.92758pt x 152.21986pt.
-<Figures/Festino2023_medidas.png, id=788, 1084.05pt x 1053.9375pt>
+<Figures/Festino2023_medidas.png, id=810, 1084.05pt x 1053.9375pt>
 File: Figures/Festino2023_medidas.png Graphic file (type png)
 <use Figures/Festino2023_medidas.png>
 Package pdftex.def Info: Figures/Festino2023_medidas.png  used on input line 140.
 (pdftex.def)             Requested size: 184.28606pt x 179.167pt.
  [60]
-<Figures/Kinect_parts.png, id=798, 853.1875pt x 643.40375pt>
+<Figures/Kinect_parts.png, id=820, 853.1875pt x 643.40375pt>
 File: Figures/Kinect_parts.png Graphic file (type png)
 <use Figures/Kinect_parts.png>
 Package pdftex.def Info: Figures/Kinect_parts.png  used on input line 159.
 (pdftex.def)             Requested size: 213.29636pt x 160.85054pt.
- [61 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/RobotinoFESTO_base+torre.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Festino2023_medidas.png>]
-<Figures/Kinect_open.png, id=819, 706.64pt x 282.05376pt>
+ [61 </home/robocup20/TesisMaestria/Tesis_tex/Figures/RobotinoFESTO_base+torre.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Festino2023_medidas.png>]
+<Figures/Kinect_open.png, id=841, 706.64pt x 282.05376pt>
 File: Figures/Kinect_open.png Graphic file (type png)
 <use Figures/Kinect_open.png>
 Package pdftex.def Info: Figures/Kinect_open.png  used on input line 171.
 (pdftex.def)             Requested size: 247.3277pt x 98.72028pt.
- [62 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Kinect_parts.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Kinect_open.png>] [63]
-<Figures/Phantom_Pincher.jpg, id=844, 903.375pt x 903.375pt>
+ [62 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_parts.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_open.png>] [63]
+<Figures/Phantom_Pincher.jpg, id=866, 903.375pt x 903.375pt>
 File: Figures/Phantom_Pincher.jpg Graphic file (type jpg)
 <use Figures/Phantom_Pincher.jpg>
 Package pdftex.def Info: Figures/Phantom_Pincher.jpg  used on input line 263.
 (pdftex.def)             Requested size: 180.6718pt x 180.6718pt.
-<Figures/AllMeans.png, id=848, 584.1825pt x 727.71875pt>
+<Figures/AllMeans.png, id=870, 584.1825pt x 727.71875pt>
 File: Figures/AllMeans.png Graphic file (type png)
 <use Figures/AllMeans.png>
 Package pdftex.def Info: Figures/AllMeans.png  used on input line 277.
 (pdftex.def)             Requested size: 175.25609pt x 218.3173pt.
  [64]
-<Figures/PieceColors_HSVColorMap.png, id=855, 752.8125pt x 572.1375pt>
+<Figures/PieceColors_HSVColorMap.png, id=877, 752.8125pt x 572.1375pt>
 File: Figures/PieceColors_HSVColorMap.png Graphic file (type png)
 <use Figures/PieceColors_HSVColorMap.png>
 Package pdftex.def Info: Figures/PieceColors_HSVColorMap.png  used on input line 286.
 (pdftex.def)             Requested size: 301.11966pt x 228.85094pt.
-<Figures/AllSegmented_AllPieces_Names.png, id=858, 491.8375pt x 843.15pt>
+<Figures/AllSegmented_AllPieces_Names.png, id=880, 491.8375pt x 843.15pt>
 File: Figures/AllSegmented_AllPieces_Names.png Graphic file (type png)
 <use Figures/AllSegmented_AllPieces_Names.png>
 Package pdftex.def Info: Figures/AllSegmented_AllPieces_Names.png  used on input line 295.
 (pdftex.def)             Requested size: 196.7315pt x 337.25401pt.
- [65 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Phantom_Pincher.jpg>] [66 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/AllMeans.png>]
-<Figures/Arm_RestPos.png, id=872, 579.16376pt x 559.08875pt>
+ [65 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Phantom_Pincher.jpg>] [66 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllMeans.png>]
+<Figures/Arm_RestPos.png, id=894, 579.16376pt x 559.08875pt>
 File: Figures/Arm_RestPos.png Graphic file (type png)
 <use Figures/Arm_RestPos.png>
 Package pdftex.def Info: Figures/Arm_RestPos.png  used on input line 334.
 (pdftex.def)             Requested size: 133.20485pt x 128.58769pt.
-<Figures/Arm_MovPlan.png, id=873, 677.53125pt x 738.76pt>
+<Figures/Arm_MovPlan.png, id=895, 677.53125pt x 738.76pt>
 File: Figures/Arm_MovPlan.png Graphic file (type png)
 <use Figures/Arm_MovPlan.png>
 Package pdftex.def Info: Figures/Arm_MovPlan.png  used on input line 334.
 (pdftex.def)             Requested size: 101.62529pt x 110.8092pt.
- [67 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png>] [68 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces_Names.png>] [69 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png> </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Arm_MovPlan.png>]
-<Figures/Grasping_sequence.png, id=896, 1088.065pt x 501.875pt>
+ [67 </home/robocup20/TesisMaestria/Tesis_tex/Figures/PieceColors_HSVColorMap.png>] [68 </home/robocup20/TesisMaestria/Tesis_tex/Figures/AllSegmented_AllPieces_Names.png>] [69 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_RestPos.png> </home/robocup20/TesisMaestria/Tesis_tex/Figures/Arm_MovPlan.png>]
+<Figures/Grasping_sequence.png, id=919, 1088.065pt x 501.875pt>
 File: Figures/Grasping_sequence.png Graphic file (type png)
 <use Figures/Grasping_sequence.png>
 Package pdftex.def Info: Figures/Grasping_sequence.png  used on input line 415.
 (pdftex.def)             Requested size: 217.60915pt x 100.37321pt.
- [70 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png>]
-<Figures/Kinect_hide.png, id=903, 316.18124pt x 228.855pt>
+ [70 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Grasping_sequence.png>]
+<Figures/Kinect_hide.png, id=926, 316.18124pt x 228.855pt>
 File: Figures/Kinect_hide.png Graphic file (type png)
 <use Figures/Kinect_hide.png>
 Package pdftex.def Info: Figures/Kinect_hide.png  used on input line 436.
 (pdftex.def)             Requested size: 158.09023pt x 114.42722pt.
-) (/home/festinopumas/TesisMaestria/Tesis_tex/Ch07_Discusión.tex [71 </home/festinopumas/TesisMaestria/Tesis_tex/Figures/Kinect_hide.png>] [72
+) (/home/robocup20/TesisMaestria/Tesis_tex/Ch07_Discusión.tex [71 </home/robocup20/TesisMaestria/Tesis_tex/Figures/Kinect_hide.png>] [72
 
 ]
 Cap\'{\i }tulo 7.
-[73] [74]) [75] [76
+[73] [74]) (/home/robocup20/TesisMaestria/Tesis_tex/Referencias.tex) [75] [76
 
 ] [77] [78]
-Overfull \hbox (5.8274pt too wide) in paragraph at lines 47--47
+Overfull \hbox (5.8274pt too wide) in paragraph at lines 48--48
 []\OT1/cmr/m/it/10 About - OpenCV\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / opencv . org / about/$[][] \OT1/cmr/m/n/10 (vi-si-ta-do 24[]01[]2024). 
  []
 
 [79]
-Overfull \hbox (31.5487pt too wide) in paragraph at lines 47--47
+Overfull \hbox (31.5487pt too wide) in paragraph at lines 48--48
 \OT1/cmr/m/n/10 yo de 2022. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / github . com / AdityaPai2398 / Colour -[] Segmentation -[]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 [80]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
- (/home/festinopumas/TesisMaestria/Tesis_tex/main.aux
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+ (/home/robocup20/TesisMaestria/Tesis_tex/main.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CA9D0F0A5E9C4B09A925C097EAC4D294;3750.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1084,18 +1099,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19782 strings out of 481239
- 335820 string characters out of 5920378
- 996362 words of memory out of 5000000
- 34440 multiletter control sequences out of 15000+600000
+ 19818 strings out of 481239
+ 336350 string characters out of 5920377
+ 997279 words of memory out of 5000000
+ 34457 multiletter control sequences out of 15000+600000
  540526 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,64p,1581b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,64p,1586b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on /home/festinopumas/TesisMaestria/Tesis_tex/main.pdf (80 pages, 10377565 bytes).
+Output written on /home/robocup20/TesisMaestria/Tesis_tex/main.pdf (80 pages, 10379830 bytes).
 PDF statistics:
- 1135 PDF objects out of 1200 (max. 8388607)
- 926 compressed objects within 10 object streams
- 257 named destinations out of 1000 (max. 500000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 951 compressed objects within 10 object streams
+ 273 named destinations out of 1000 (max. 500000)
  658 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -71,7 +71,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Descripción cinemática del robot}{42}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Manipulación de objetos}{42}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Manipulación de objetos}{43}{section.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Planeación de acciones}{45}{chapter.5}%
 \defcounter {refsection}{0}\relax 

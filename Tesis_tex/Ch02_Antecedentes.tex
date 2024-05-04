@@ -323,23 +323,25 @@ en estas ecuaciones, el conjunto $B$ es comúnmente mencionado como el \textit{e
 
 Vale la pena mencionar que esta definición de la operación dilatación coincide con el proceso para realizar la convolución, dado que de forma similar se \textit{invierte} uno de los operandos y se recorre sobre el otro elemento de la operación. Es importante recalcar que la convolución es una más de las operaciones que con frecuencia se utilizan para el procesamiento de imágenes, por ejemplo para el filtrado de las imágenes, al hacer la convolución de la forma matricial de la imagen con la matriz que represente el filtro que se busca aplicar. 
 
+\phantom{holis}\\
 \emph{Erosión}
 
 
 Para los conjuntos $A$ y $B$, pertenecientes a $Z^{2}$, la operación erosión, representada como $A \ominus B$, se define como:
 
-\begin{equation*}
+\begin{equation}
 A \ominus B = \{ z \mid (B)_{Z} \subseteq A \}
-\end{equation*}
+\label{eqn:erosion}
+\end{equation}
 
 Es decir, la erosión aplicada a estos conjuntos resulta en el conjunto de todos los puntos $z$, tal que B (traducido en puntos $z$), que son contenidos en A.
 
-En la figura \ref{fig:Ero+Dil} se muestra un ejemplo de los efectos de la operación morfológica, a)Imagen original, b)Matriz de 3x3 como Elemento estructurante, c)Operación Erosión aplicada a la Imagen Original, d)Operación Dilatación aplicada a c).
+En la figura \ref{fig:Ero+Dil} se muestra un ejemplo de los efectos de la operación morfológica, a)imagen original, b)matriz de 3x3 como elemento estructurante, c)operación erosión aplicada a la imagen original, d)operación dilatación aplicada a c).
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.53]{Figures/ErosDil_NoGrid.png}
-    \caption{Operaciones Morfológicas: Dilatación y Erosión}
+    \caption{Operaciones Morfológicas: dilatación y erosión}
     \label{fig:Ero+Dil}
 \end{figure}
 
@@ -348,7 +350,7 @@ Como es posible notar en el ejemplo, estas dos operaciones no son estrictamente 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.25]{Figures/Dil_ES2.png}
-    \caption{Dilatación aplicada con distinto Elemento Estructurante}
+    \caption{Dilatación aplicada con distinto elemento estructurante}
     \label{fig:Dil_ES2}
 \end{figure}
 
@@ -371,7 +373,7 @@ El proceso principal para el reconocimiento de patrones se muestra en la figura 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.3]{Figures/Clasificacion.png}
-    \caption{Reconocimiento de Objetos}
+    \caption{Reconocimiento de objetos}
     \label{fig:Pat_Recog}
 \end{figure}
 
@@ -391,7 +393,7 @@ Una vez establecidas estas condiciones, el autor lista algunos métodos de recon
 
 \begin{itemize}
     \item \textbf{Métodos globales}\\ Buscan modelar y encontrar los objetos únicamente con características globales.
-    \item \textbf{Métodos basados en Transformación y Búsqueda}\\ La pose del objeto se determina buscando el espacio de transformaciones entre el modelo y la información de la imagen
+    \item \textbf{Métodos basados en Transformación y Búsqueda}\\ La pose del objeto se determina buscando el espacio de transformaciones entre el modelo y la información de la imagen.
     \item \textbf{Métodos basados en Correspondencia Geométrica}\\ Utilizan las relaciones geométricas entre varias parte del objeto y establece correspondencias entre el modelo y las características de la imagen.
     \item \textbf{Métodos basados en descriptores}\\ Buscan identificar los objetos utilizando descriptores, normalmente de la apariencia de los objetos en regiones locales cerca de los puntos de interés. 
 \end{itemize}
@@ -441,7 +443,7 @@ Dentro de la documentación disponible en el sitio web oficial de la RoboCup se 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.15]{Figures/Conveyor_GRIPS_TDP.png}     \includegraphics[scale=0.2]{Figures/Conveyor_HOG_GRIPS_TDP.png}
-        \caption{Detección de Histogramas de Gradientes Orientados \cite{furbaß_robocup_2021}}
+        \caption{Detección de Histogramas de Gradientes Orientados (HOG)\cite{furbaß_robocup_2021}}
         \label{fig:HOG_GRIPS}
     \end{figure}
 
