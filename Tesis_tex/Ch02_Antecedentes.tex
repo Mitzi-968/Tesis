@@ -25,9 +25,9 @@ La visión es una de las herramientas básicas con la que la mayoría de los ser
 \begin{itemize} 
     \item \textbf{Computacional}: en el cual se determina aquello que se busca estudiar.\\
     \textit{¿Qué tarea se realiza?}
-    \item \textbf{Representación y algoritmo}: donde se plantea la representación que se le dará a las entradas y salidas, además del algoritmo que se utilizará para su procesamiento, es decir, la forma en que el sistema cognitivo realiza la actividad \\
+    \item \textbf{Representación y algoritmo}: donde se plantea la representación que se le dará a las entradas y salidas, además del algoritmo que se utilizará para su procesamiento, es decir, la forma en que el sistema cognitivo realiza la actividad. \\
     \textit{¿Cómo se lleva a cabo la tarea?}
-    \item \textbf{Implementación en hardware}, corresponde al mecanismo físico que se ha de usar para obtener las representaciones y ejecutar el algoritmo seleccionados en el nivel anterior \\
+    \item \textbf{Implementación en hardware}, corresponde al mecanismo físico que se ha de usar para obtener las representaciones y ejecutar el algoritmo seleccionados en el nivel anterior. \\
     \textit{¿Qué dispositivo puede realizar la tarea?}\cite{freire_importancia_2007}
 \end{itemize}
 
@@ -345,7 +345,7 @@ En la figura \ref{fig:Ero+Dil} se muestra un ejemplo de los efectos de la operac
     \label{fig:Ero+Dil}
 \end{figure}
 
-Como es posible notar en el ejemplo, estas dos operaciones no son estrictamente inversas entre sí. Además, dado que al realizar la operación erosión se pierde información sobre los detalles de la imagen original, es imposible recuperarla aplicando la dilatación. Adicionalmente, elemento estructurante tiene gran influencia en el resultado que se obtendrá, dado que una modificación en sus dimensiones o su forma resulta en una evidente modificación de la imagen final, un ejemplo de esto puede verse en la figura \ref{fig:Dil_ES2}, utilizando nuevamente  \ref{fig:Ero+Dil}, inciso c) como imagen base.
+Como es posible notar en el ejemplo, estas dos operaciones no son estrictamente inversas entre sí. Además, dado que al realizar la operación erosión se pierde información sobre los detalles de la imagen original es imposible recuperarla aplicando la dilatación. Adicionalmente, elemento estructurante tiene gran influencia en el resultado que se obtendrá, ya que una modificación en sus dimensiones o su forma resulta en una evidente modificación de la imagen final, un ejemplo de esto puede verse en la figura \ref{fig:Dil_ES2}, utilizando nuevamente  \ref{fig:Ero+Dil}, inciso c) como imagen base.
 
 \begin{figure}[H]
 \centering
@@ -353,8 +353,6 @@ Como es posible notar en el ejemplo, estas dos operaciones no son estrictamente 
     \caption{Dilatación aplicada con distinto elemento estructurante}
     \label{fig:Dil_ES2}
 \end{figure}
-
-%%Detección de Bordes y Filtro Gaussiano
 
 \section{Reconocimiento de Objetos}
 Una de las partes fundamentales de la visión computacional es la habilidad de reconocer objetos dentro de las imágenes que son procesadas, para lo cual se utilizan algoritmos de reconocimiento de patrones que nos permiten clasificar objetos o regiones dentro de la imagen, haciendo posible entender mejor los elementos que la componen.
@@ -403,7 +401,7 @@ El proceso utilizado en este proyecto corresponde a la última categoría de las
 
 \section{Máquinas de Estado}
 
-Cuando se habla de máquinas de estados nos referimos a un modelo computacional con el cual se representan procesos de lógica secuencial. En este modelo cuenta con conjuntos de entradas, salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados.
+El término 'máquinas de estado' se refiere a un modelo computacional con el cual se representan procesos de lógica secuencial. Este modelo cuenta con conjuntos de entradas, conjuntos de salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados.
 
 Czerwinski y Kania \cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $\{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $.
 
@@ -418,9 +416,7 @@ A mediados del Siglo XX, cuando el concepto de Inteligencia Artificial comenzaba
 
 En 2020, 38 años más tarde de esta definición, Gupta \cite{gupta_artificial_2020} refiere que un sistema experto es un programa computacional que emula la capacidad de razonar y el comportamiento de un humano con el conocimiento y experiencia de un experto en un campo específico. También indica que los sistemas expertos son utilizados para resolver problemas complejos utilizando el conocimiento almacenado en una base de datos en forma de reglas. 
 
-De acuerdo con Liebowitz \cite{liebowitz_handbook_2019} la adquisición de conocimiento es el proceso de extraer, estructurar y organizar el conocimiento de diferentes fuentes, usualmente humanos expertos en un área, de forma tal que la habilidad de solucionar problemas pueda ser capturada y transformada para que una computadora sea capaz de leerla. De acuerdo con este autor: "Sin conocimiento explícitamente representado, un sistema experto no es más que un programa de computadora."
-
-Gupta y Liebowitz señalan también que uno de los pasos intermedios entre la adquisición de conocimiento y la implementación de sistemas expertos es la intervención de un Ingeniero de conocimiento, un individuo que estudia la forma en que los expertos toman decisiones y lo traduce a reglas en términos comprensibles para la máquina. A partir de esto, Gupta menciona que los sistemas expertos son también conocidos como sistemas basados en conocimiento o sistemas expertos basados en conocimientos, así como sistemas basados en reglas, y que se consideran como Inteligencia Artificial Aplicada. 
+De acuerdo con Liebowitz \cite{liebowitz_handbook_2019} la adquisición de conocimiento es el proceso de extraer, estructurar y organizar el conocimiento de diferentes fuentes, usualmente humanos expertos en un área, de forma tal que la habilidad de solucionar problemas pueda ser capturada y transformada para que una computadora sea capaz de leerla. De acuerdo con este autor: 'Sin conocimiento explícitamente representado, un sistema experto no es más que un programa de computadora.' Gupta y Liebowitz señalan también que uno de los pasos intermedios entre la adquisición de conocimiento y la implementación de sistemas expertos es la intervención de un Ingeniero de conocimiento, un individuo que estudia la forma en que los expertos toman decisiones y lo traduce a reglas en términos comprensibles para la máquina. A partir de esto, Gupta menciona que los sistemas expertos son considerados como Inteligencia Artificial Aplicada. 
 
 \section{Manipulación del Robot}
 Siendo la manipulación de objetos un de los objetivos principales de este proyecto es pertinente explicar la forma en que le es posible al robot tomar los objetos que se espera que transporte. Para esto, es necesario realizar el análisis cinemático del robot, que consiste en el estudio de la relación que guarda el efector final respecto a la estructura que compone el manipulador del robot, es decir el comportamiento que debe tener cada articulación del robot para que el efector final pueda posicionarse en las coordenadas finales deseadas para el comportamiento esperado del robot.

@@ -35,7 +35,7 @@ La secuencia de Estados comienza con una etapa en la que se espera que el robot 
 Debido a que la información de las zonas objetivo se recibe como una cadena de texto, es necesario procesarla y se colocan los nombres en un arreglo desde el cual es más sencillo acceder a la información, además de conocer cuáles de los puntos ya han sido visitados y cuáles aún están pendientes. 
 La condición de trancisión para este estado depende de la bandera \textbf{flag\_zones} mediante la cual se verifica que todas las zonas solicitadas se hayan visitado exitosamente, de lo contrario se sigue intentando, este proceso se repite hasta que se haya completado las zonas o bien se termine el tiempo permitido.
 Con el arreglo de las zonas que se ha de visitar y sabiendo previamente las posiciones de las zonas en el mapa, se utiliza el algoritmo \textbf{Nearest Neighbour}, mediante el cual se calcula una ruta a seguir por el robot, buscando hacer el recorrido en el menor tiempo posible.
-Cuando se cuenta con la ruta a seguir se utiliza la función \textbf{navigate\_to\_location}, con la cual el robot se desplaza hasta el centro de la zona solicitada. Se agrega un tiempo de espera para cumplir con los 5 segundos que se requieren para considerar la visita como exitosa y una vez pasado ese tiempo, se continúa con la ruta. Haciendo uso de la bandera \textbf{cont} se verifica el número de zonas visitadas y, en caso de haber completado las 12 zonas, se concluye la ejecución de la máquina de estados. 
+Cuando se cuenta con la ruta a seguir se utiliza la función \textbf{navigate\_to\_location}, con la cual el robot se desplaza hasta el centro de la zona solicitada. Se agrega un tiempo de espera para cumplir con los cinco segundos que se requieren para considerar la visita como exitosa y una vez pasado ese tiempo, se continúa con la ruta. Haciendo uso de la bandera \textbf{cont} se verifica el número de zonas visitadas y, en caso de haber completado las 12 zonas, se concluye la ejecución de la máquina de estados. 
 
 \subsection{Exploración}
 En el caso de la etapa de exploración, se consideró establecer una ruta a seguir utilizando puntos del mapa desde los cuales realizar el escaneo en busca de las estaciones de trabajo.
@@ -80,14 +80,14 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
 \begin{figure}[ht]
     \centering
     \includegraphics[scale= 0.4]{Figures/Navigation_CT.png}
-        \caption{Navegación}
+        \caption{Diagrama de carta ASM -Navegación}
         \label{fig:ASM_Navigation}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[scale= 0.5]{Figures/Exploration_CT.png}
-        \caption{Exploración}
+        \caption{Diagrama de carta ASM - Exploración}
         \label{fig:ASM_Exploración}
 \end{figure}
 
@@ -95,6 +95,6 @@ A continuación se muestran los diagramas de flujo que representan el funcionami
 \begin{figure}[ht]
     \centering
     \includegraphics[scale= 0.4]{Figures/Manipulacion_CT_Hor.png}
-    \caption{Manipulación}
+    \caption{Diagrama de carta ASM - Manipulación}
     \label{fig:ASM_Manipulación}
 \end{figure}
