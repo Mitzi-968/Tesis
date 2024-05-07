@@ -1,13 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Resumen}{VII}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimientos}{IX}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivación}{3}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Planteamiento del problema}{4}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Hipótesis}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Hipótesis}{5}{section.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Objetivos}{5}{section.1.4}%
 \defcounter {refsection}{0}\relax 
@@ -23,21 +27,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Espacios de color}{9}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Espacio RGB}{9}{section*.2}%
+\contentsline {subsubsection}{Espacio RGB}{9}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Espacio HSV}{10}{section*.4}%
+\contentsline {subsubsection}{Espacio HSV}{10}{section*.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Segmentación de Imágenes}{12}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Umbralización}{12}{section*.6}%
+\contentsline {subsubsection}{Umbralización}{12}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Operaciones Morfológicas}{13}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Teoría de Conjuntos}{13}{section*.7}%
+\contentsline {subsubsection}{Teoría de Conjuntos}{13}{section*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Operaciones Lógicas}{16}{section*.13}%
+\contentsline {subsubsection}{Operaciones Lógicas}{16}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dilatación y Erosión}{17}{section*.16}%
+\contentsline {subsubsection}{Dilatación y Erosión}{17}{section*.19}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Reconocimiento de Objetos}{19}{section.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -93,7 +97,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.4}Manipulación}{45}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{45}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{46}{subsection.5.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.6}Algoritmos de las Máquinas de Estados - Cartas ASM}{46}{subsection.5.2.6}%
 \defcounter {refsection}{0}\relax 
@@ -103,21 +107,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Herramientas de software}{51}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ROS}{51}{section*.37}%
+\contentsline {subsubsection}{ROS}{51}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{OpenCV}{52}{section*.38}%
+\contentsline {subsubsection}{OpenCV}{52}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MoveIT}{53}{section*.39}%
+\contentsline {subsubsection}{MoveIT}{53}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RobotinoView}{54}{section*.40}%
+\contentsline {subsubsection}{RobotinoView}{54}{section*.43}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.2}Herramientas de hardware}{55}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Robotino FESTO}{55}{section*.41}%
+\contentsline {subsubsection}{Robotino FESTO}{55}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Camara RGBD - Kinect}{57}{section*.43}%
+\contentsline {subsubsection}{Camara RGBD - Kinect}{57}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Manipulador PhantomX Pincher AX-12}{59}{section*.47}%
+\contentsline {subsubsection}{Manipulador PhantomX Pincher AX-12}{59}{section*.50}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Implementación}{60}{section.6.2}%
 \defcounter {refsection}{0}\relax 
@@ -134,3 +138,5 @@
 \contentsline {subsection}{\numberline {7.1.2}Manipulación}{70}{subsection.7.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Trabajo Futuro}{70}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Referencias}{71}{section.7.2}%

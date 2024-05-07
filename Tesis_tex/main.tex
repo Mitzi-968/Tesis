@@ -2,9 +2,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{csquotes}
-\usepackage[backend=biber,style=numeric,sortcites,natbib=true,sorting=none]{biblatex}
-\usepackage{dsfont}% Esta pone los contents y las referencias de imagen
-\usepackage{graphicx} %Estaaa da error de logreq
+\usepackage[backend=biber,style=apa,sortcites,natbib=true,sorting=none]{biblatex}
+\usepackage{dsfont}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{mathtools}
 \usepackage{amssymb}
@@ -37,6 +37,9 @@
 \begin{document}
 \input{Portada}
 \tableofcontents
+\listoffigures
+\input{Resumen}
+\input{Agradecimientos}
 \input{Ch01_Introduccion}
 \input{Ch02_Antecedentes}
 \input{Ch03_Detección_de_objetos}
@@ -44,5 +47,5 @@
 \input{Ch05_Planeación_de_acciones}
 \input{Ch06_Resultados}
 \input{Ch07_Discusión}
-\input{Referencias.tex}
+\input{Referencias}
 \end{document}

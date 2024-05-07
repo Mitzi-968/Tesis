@@ -1,0 +1,94 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Espacio RGB\relax }}{10}{figure.caption.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Espacio HSV, representación cónica\relax }}{12}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Unión e Intersección de Conjuntos\relax }}{14}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Complemento\relax }}{15}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diferencia\relax }}{15}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Reflexión\relax }}{15}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Traslación\relax }}{16}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Operaciones lógicas AND, OR y NOT\relax }}{16}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Operaciones lógicas aplicadas a imagen\relax }}{17}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Operaciones Morfológicas: dilatación y erosión\relax }}{18}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Dilatación aplicada con distinto elemento estructurante\relax }}{19}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Reconocimiento de objetos\relax }}{20}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Detección de Histogramas de Gradientes Orientados (HOG)\cite {furbaß_robocup_2021}\relax }}{24}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Robotino modificado - GRIPS \cite {furbaß_robocup_2021}\relax }}{25}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Objetos de interés\relax }}{28}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ejemplo del espacio de trabajo del robot\relax }}{28}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Efectos de los cambios de iluminación en las piezas\relax }}{29}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de anillo amarillo en: izq) HSV\relax }}{29}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Medias de color a diferentes iluminaciones y en diferentes regiones - base roja\relax }}{30}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Pieza roja - componentes a) H b) S c) V\relax }}{31}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Pieza roja\relax }}{31}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Espacio de trabajo\relax }}{32}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Posición y orientación de un cuerpo rígido\relax }}{35}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Árbol cinemático del robot\relax }}{39}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Descripción cinemática\relax }}{39}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Exploración\relax }}{44}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de carta ASM -Navegación\relax }}{47}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de carta ASM - Exploración\relax }}{48}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de carta ASM - Manipulación\relax }}{49}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Robotino 3 \cite {festo-didactic-robotino-2013} \hskip 2em\relax \hskip 2em\relax \hskip 1em\relax \phantom {-}\hskip 2em\relax Robotino 3 modificado\relax }}{57}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Kinect versión 1 - Componentes\relax }}{58}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Proyector Infrarrojo y Sensores CMOS \cite {eetimes_inside_2010}\relax }}{58}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces PhantomX Pincher AX-12 \cite {Inerbotix_pincher_arm}\relax }}{61}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Medias de color\relax }}{62}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces OpenCV - espacio HSV - mapa de color \cite {pai_adityapai2398colour-segmentation--opencv_2022}\relax }}{63}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Piezas segmentadas\relax }}{64}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Izq) Posición de reposo - Der) posición final\relax }}{65}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Secuencia de graspeo\relax }}{66}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Posición \textit {Kinect\_hide}\relax }}{67}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
