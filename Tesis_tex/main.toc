@@ -7,17 +7,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivación}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Planteamiento del problema}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Hipótesis}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Hipótesis}{4}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Objetivos}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Objetivos}{4}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}General}{5}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.1}General}{4}{subsection.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Específicos}{5}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}Específicos}{4}{subsection.1.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Descripción del documento}{4}{section.1.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Antecedentes}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
@@ -125,9 +127,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Implementación}{60}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Resultados - Manipulación}{63}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Resultados - Visión}{62}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Resultados - Integración}{67}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.2}Resultados - Manipulación}{63}{subsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Resultados - Integración}{67}{subsection.6.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusiones y Trabajo Futuro}{69}{chapter.7}%
 \defcounter {refsection}{0}\relax 

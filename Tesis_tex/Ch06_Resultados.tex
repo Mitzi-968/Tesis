@@ -297,6 +297,7 @@ De esta manera, al obtener los pixeles de la imagen que pertenecen al objeto de 
 
 Como se mencinó anteriormente, el planeador de trayectoria obtiene las posiciones angulares que de deben ser alcanzadas por los motores para lograr la posición deseada. De esta forma se establece como objetivo la coordeada correspondente al centroide de la pieza, el robot abre la pinza y realiza el movimiento de graspeo. Al encontrarse en la posición deseada, se cierra la pinza y se regresa a la posición de descanso del robot, desde la cual le es posible navegar al punto en que debe entregar la pieza nuevamente.
 
+\subsection{Resultados - Visión}
 La evaluación del algoritmo se realizó utilizando el flujo de video obtenido de la cámara Kinect, conectado al robot y mostrando las coordenadas de los objetos buscados. En estas pruebas el objeto de interés se encontraba a una distancia horizontal mínima de 40 [cm] respecto al eje del kinect, esto debido a las limitaciones de la nube de puntos de la cámara. el experimento se realizó en 35 repeticiones, variando las posiciones de las piezas dentro del espacio de trabajo, así como la posición del robot respecto al mismo. Adicionalmente, se colocaba más de un elemento de interés en el rango visual del robot. Después de las modificaciones realizadas al parámetro delta del segmentador, el comportamiento en que se confundían piezas amarillas con piezas verdes no volvió a presentarse.
 
 \begin{table}
