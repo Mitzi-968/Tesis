@@ -3,7 +3,7 @@ Durante este capítulo se describen las bases teóricas que sustentan este proye
 
 \section{Robots de Servicio en entornos Industriales}
 
-Bajo la opinión de Babel en \cite{babel_industry_2022} La Industria 4.0 tiene como objetivo la \textit{interconexión directa e inteligente} de  personas, máquinas y productos. De acuerdo con el autor, esta \textit{interconexión inteligente} se refiere en este contexto a:
+Bajo la opinión de Babel (\cite*{babel_industry_2022}) La Industria 4.0 tiene como objetivo la \textit{interconexión directa e inteligente} de  personas, máquinas y productos. De acuerdo con el autor, esta \textit{interconexión inteligente} se refiere en este contexto a:
  \begin{itemize}
      \item Producción flexible.
      \item Fábricas convertibles.
@@ -13,14 +13,15 @@ Bajo la opinión de Babel en \cite{babel_industry_2022} La Industria 4.0 tiene c
      \item Administración de reciclaje de recursos.
      \item Digitalización de la producción.
  \end{itemize}
+
  El autor también describe que bajo su perspectiva, la llamada Industria 4.0 consiste en la producción industrial en red y que busca optimizar la cadena de valor y mejorar la administración del ciclo de vida de las plantas y fábricas en la red global. La introducción de robots de servicio móviles que realicen actividades de apoyo dentro de las instalaciones de una fábrica pueden contribuir con estos dos últimos objetivos, colaborando en la transformación de las plantas hacia un modelo más flexible y permitiendo diversificar las actividades que se realizan en ellas.
 
 Tradicionalmente, la robótica de servicio ha tenido como objetivo ser de ayuda para usuarios que por cualquier motivo se encuentren con dificultades para realizar tareas que sean repetitivas, sucias o incluso peligrosas, teniendo como foco aquellas actividades a realizar dentro de un entorno doméstico. En la actualidad, este tipo de robots aún se encuentran en constante desarrollo y no se cuenta todavía con una introducción real de estas herramientas en la cotidianeidad de las ciudades, siendo un poco más comunes en centros de desarrollo como universidades o institutos de investigación. Sin embargo, las habilidades mediante las cuales llevan a cabo las tareas que se menciona, son extrapolables y útiles fuera del ambiente doméstico. 
 
-De acuerdo con la Federación Internacional de Robótica, se define un \textbf{robot de servicio profesional} como \textit{aquel que es utilizado en tareas comerciales, y para el cual se requiere cierto grado de autonomía, ya sea parcial o completa} \cite{ifr_international}. Los robots que se busca tratar en este documento cuentan con un grado alto de autonomía, partiendo de la idea de que, una vez asignada una tarea y con el conocimiento previo que se considera necesario, el robot debe ser capaz de llevar dicha tarea a término, siendo idealmente resistente a cambios en las condiciones del entorno.
+De acuerdo con la Federación Internacional de Robótica, se define un \textbf{robot de servicio profesional} como "\textit{aquel que es utilizado en tareas comerciales, y para el cual se requiere cierto grado de autonomía, ya sea parcial o completa} (\cite*{ifr_international})". Los robots que se busca tratar en este documento cuentan con un grado alto de autonomía, partiendo de la idea de que, una vez asignada una tarea y con el conocimiento previo que se considera necesario, el robot debe ser capaz de llevar dicha tarea a término, siendo idealmente resistente a cambios en las condiciones del entorno.
   
 \section{Visión Computacional}
-La visión es una de las herramientas básicas con la que la mayoría de los seres vivos cuenta, es un proceso que realizamos día a día sin que nos represente un gran esfuerzo y a través de ella somos capaces de distinguir formas, profundidades, colores, entre otras características de los objetos de forma automática, realizando complicados cálculos y análisis sin ser conscientes de ello. Es por este motivo que utilizar sistemas para aprovechar la información disponible mediante el análisis computacional de imágenes es una temática que se encuentra con frecuencia entre las investigaciones desde hace décadas. Uno de los ejemplos más representativos de esto es la obra póstuma \textit{Visión}, del científico cognitivo David Marr (1945-1980) publicada en 1982. En este trabajo, Marr propone los siguientes tres niveles en los cuales descompone la percepción visual humana:
+La visión es una de las herramientas básicas con la que la mayoría de los seres vivos cuenta, es un proceso que realizamos día a día sin que nos represente un gran esfuerzo y a través de ella somos capaces de distinguir formas, profundidades, colores, entre otras características de los objetos de forma automática, realizando complicados cálculos y análisis sin ser conscientes de ello. Es por este motivo que utilizar sistemas para aprovechar la información disponible mediante el análisis computacional de imágenes es una temática que se encuentra con frecuencia entre las investigaciones desde hace décadas. Uno de los ejemplos más representativos de esto es la obra póstuma \textit{Visión}, del científico cognitivo David Marr (1945-1980) publicada en 1982. De acuerdo con \cite{freire_importancia_2007}, en dicho trabajo Marr propuso los siguientes tres niveles en los cuales descompone la percepción visual humana:
 
 \begin{itemize} 
     \item \textbf{Computacional}: en el cual se determina aquello que se busca estudiar.\\
@@ -28,22 +29,24 @@ La visión es una de las herramientas básicas con la que la mayoría de los ser
     \item \textbf{Representación y algoritmo}: donde se plantea la representación que se le dará a las entradas y salidas, además del algoritmo que se utilizará para su procesamiento, es decir, la forma en que el sistema cognitivo realiza la actividad. \\
     \textit{¿Cómo se lleva a cabo la tarea?}
     \item \textbf{Implementación en hardware}, corresponde al mecanismo físico que se ha de usar para obtener las representaciones y ejecutar el algoritmo seleccionados en el nivel anterior. \\
-    \textit{¿Qué dispositivo puede realizar la tarea?}\cite{freire_importancia_2007}
+    \textit{¿Qué dispositivo puede realizar la tarea?} \cite*{freire_importancia_2007}
 \end{itemize}
 
-El autor Richard Szeliski \cite{szeliski_computer_2022}, menciona que el objetivo de la visión computacional es describir el mundo que vemos en una o más imágenes y reconstruir sus propiedades (forma, iluminación o distribución de colores). Simulando así una forma de imitar el comportamiento de la visión de los seres vivos, mediante máquinas y algoritmos computacionales. Haciendo una relación con la teoría de Marr, los dos primeros niveles son conceptualmente similares. El tercer nivel, el de la implementación, es el que encuentra el mayor cambio, reemplazando a los agentes biológicos por equipos de cómputo que puedan otorgar la información necesaria para extraer la misma información de las imágenes que obtendría el sistema de visión humano.
+El autor Richard \cite{szeliski_computer_2022}, menciona que el objetivo de la visión computacional es describir el mundo que vemos en una o más imágenes y reconstruir sus propiedades (forma, iluminación o distribución de colores). Simulando así una forma de imitar el comportamiento de la visión de los seres vivos, mediante máquinas y algoritmos computacionales. 
+
+Haciendo una relación con la teoría de Marr, los dos primeros niveles son conceptualmente similares. El tercer nivel, el de la implementación, es el que encuentra el mayor cambio, reemplazando a los agentes biológicos por equipos de cómputo que puedan otorgar la información necesaria para extraer la misma información de las imágenes que obtendría el sistema de visión humano.
 
 
 Afortunadamente, la visión computacional se encuentra en constante desarrollo, tanto en cuestión de hardware como en relación a los algoritmos que se utilizan, y su uso se encuentra presente en gran variedad de aplicaciones.
 
 
-El elemento base de este análisis es la \textbf{Imagen}. En \cite{gonzalez_digital_2002} González y Woods la definen como una función bidimensional $f(i,j)$, donde $i$ y $j$ son coordenadas espaciales de un plano, mientras que la amplitud de $f$ con cualquier par de coordenadas $(i,j)$ se conoce como \textit{intensidad} o \textit{nivel de gris} de la imagen en dicho punto. Se considera una \textbf{Imagen Digital} siempre y cuando $i$, $j$ y los valores de la amplitud de $f$ sean finitos. Los autores destacan también que la imagen digital se compone de un número finito de elementos, cada uno de los cuales tiene una ubicación y valor particulares, comúnmente conocidos como \textbf{píxeles}.
+El elemento base de este análisis es la \textbf{Imagen}, la cual, en palabras de \cite{gonzalez_digital_2002}, se define como una función bidimensional $f(i,j)$, donde $i$ y $j$ son coordenadas espaciales de un plano, mientras que la amplitud de $f$ con cualquier par de coordenadas $(i,j)$ se conoce como \textit{intensidad} o \textit{nivel de gris} de la imagen en dicho punto. Se considera una \textbf{Imagen Digital} siempre y cuando $i$, $j$ y los valores de la amplitud de $f$ sean finitos. Los autores destacan también que la imagen digital se compone de un número finito de elementos, cada uno de los cuales tiene una ubicación y valor particulares, comúnmente conocidos como \textbf{píxeles}.
 
 \subsection{Espacios de color}
-Para facilitar el manejo de los datos dentro de las imágenes digitales, se utilizan los llamados \textit{Espacios de color}, que estandarizan las características de los colores, representándolos en un sistema coordenado en el cual cada color es representado por un punto único dentro de dichos espacios \cite{gonzalez_digital_2002}. Es decir, dentro de una imagen digital a color, cada píxel de determinado color tiene asociado un punto dentro del respectivo Espacio.
+Para facilitar el manejo de los datos dentro de las imágenes digitales, se utilizan los llamados \textit{Espacios de color}, que estandarizan las características de los colores, representándolos en un sistema coordenado en el cual cada color es representado por un punto único dentro de dichos espacios (\cite{gonzalez_digital_2002}). Es decir, dentro de una imagen digital a color, cada píxel de determinado color tiene asociado un punto dentro del respectivo Espacio.
 
 \subsubsection{Espacio RGB}
-De acuerdo con Pratt \cite{pratt_introduction_2014} las imágenes que se obtienen por medio de cámaras o escáneres de color cuentan con tres sensores principales, cada uno sensible a cierto rango de frecuencias que se asocian a los colores rojo, verde y azul del espectro de luz perceptible por el ojo humano. Estos sensores generan señales de color que son linealmente proporcionales a la cantidad de luz roja, verde o azul  detectada, de esta forma se obtiene una tercia de valores que resultan en el color mostrado en cada píxel de una imagen digital. Con esta información, se obtiene una representación numérica de las imágenes basada en los proporciones de cada uno de estos colores, formando en espacio de color RGB, \textit{Red}, \textit{Green}, \textit{Blue}. A partir de este planteamiento es posible visualizar el comportamiento de los colores en el espacio tridimensional usando como ejes las proporciones de rojo, verde y azul, donde las coordenadas del vector obtenido con los valores de cada uno de los colores primarios resulta en la representación en el espacio RGB.
+De acuerdo con \cite{pratt_introduction_2014} las imágenes que se obtienen por medio de cámaras o escáneres de color cuentan con tres sensores principales, cada uno sensible a cierto rango de frecuencias que se asocian a los colores rojo, verde y azul del espectro de luz perceptible por el ojo humano. Estos sensores generan señales de color que son linealmente proporcionales a la cantidad de luz roja, verde o azul  detectada, de esta forma se obtiene una tercia de valores que resultan en el color mostrado en cada píxel de una imagen digital. Con esta información, se obtiene una representación numérica de las imágenes basada en los proporciones de cada uno de estos colores, formando en espacio de color RGB, \textit{Red}, \textit{Green}, \textit{Blue}. A partir de este planteamiento es posible visualizar el comportamiento de los colores en el espacio tridimensional usando como ejes las proporciones de rojo, verde y azul, donde las coordenadas del vector obtenido con los valores de cada uno de los colores primarios resulta en la representación en el espacio RGB.
 
 \begin{figure}[H]
 \centering
@@ -55,7 +58,7 @@ De acuerdo con Pratt \cite{pratt_introduction_2014} las imágenes que se obtiene
 \subsubsection{Espacio HSV}
 Szeliski describe el espacio HSV, formado con los componentes Matiz (Hue, \textit{H}), Saturación, (Saturation, \textit{S}), Brillantez o Intensidad (Value \textit{V}, Brigtness \textit{B} o Intensity, \textit{I}), mencionando que es una transformación no lineal del espacio de color RGB, correspondiente de igual manera a una tercia de valores que describen el color de interés.
 
-Sonka y Hlavac \cite{czerwinski_definitions_2013} detallan que este espacio de color separa la intensidad y el color, mientras que el matiz y la saturación corresponden a la percepción humana, haciendo muy útil esta representación para desarrollo de algoritmos de procesamiento de imagen, aclarando también que el uso de los valores en RGB puede hacer la manipulación de la imagen propensa a deformaciones de la percepción humana del color. 
+\cite{czerwinski_definitions_2013} detallan que este espacio de color separa la intensidad y el color, mientras que el matiz y la saturación corresponden a la percepción humana, haciendo muy útil esta representación para desarrollo de algoritmos de procesamiento de imagen, aclarando también que el uso de los valores en RGB puede hacer la manipulación de la imagen propensa a deformaciones de la percepción humana del color. 
 
 Mencionan también que el espacio RGB es utilizado para almacenamiento, procesamiento, codificación o presentación de las imágenes en televisiones, a diferencia del espacio HSV, cuyas aplicaciones se encuentran más enfocadas a la percepción del color y al uso de la imagen en gráficos de computadora.
 
@@ -115,12 +118,12 @@ Lo que resulta en una representación dentro del intervalo $[-1,5]$ y finalmente
     \label{eqn:H_normalizada}
 \end{equation}
 
-Finalmente, para obtener la representación de la componente H como el correspondiente a un ángulo se multiplica por 360.
+Finalmente, para obtener la representación de la componente H como el correspondiente a un ángulo se multiplica por 360 (\cite{freire_importancia_2007}).
 
 \begin{equation}
     H^{\circ} = H\cdot360
     \label{eqn:H_degrees}
-\end{equation}
+\end{equation} 
 
 Este espacio puede ser gráficamente representado como un prisma circular invertido, donde el radio de la base representa el valor de la saturación (S), La altura del cono representa la intensidad (V), y el matiz (H) se obtiene mediante un ángulo trazado sobre la base del cilindro, comenzando con el color rojo, que se encuentra en 0 grados, el color verde en 120 grados y finalmente el color azul en 240 grados. 
 
@@ -134,8 +137,7 @@ Este espacio puede ser gráficamente representado como un prisma circular invert
 
 \subsection{Segmentación de Imágenes}
 
-En \cite{gonzalez_digital_2002}, los autores comentan que una segmentación robusta es un gran avance en el proceso de procesamiento de una imagen en la cual sea necesario identificar objetos. Adicionalmente, 
-Sonka et al. (2018)\cite{sonka_image_2008}, ahondan en las características de la \textbf{segmentación completa} y la \textbf{segmentación parcial}. Explican que en la primera, se obtiene como resultado un conjunto de regiones no superpuestas que corresponden totalmente con \textit{objetos del mundo real} en la imagen de entrada. Mientras que en la segmentación parcial las regiones no corresponden directamente con \textit{objetos del mundo real} presentes en la imagen, sino que aíslan características específicas de la imagen, como la brillantez, el color, la textura, etc. Dada la complejidad asociada a la segmentación completa de las imágenes, para obtenerlas es necesario aplicar niveles más altos de procesamiento a comparación de la segmentación parcial.
+En \cite{gonzalez_digital_2002}, los autores comentan que una segmentación robusta es un gran avance en el proceso de procesamiento de una imagen en la cual sea necesario identificar objetos. Adicionalmente, \cite{sonka_image_2008}, ahondan en las características de la \textbf{segmentación completa} y la \textbf{segmentación parcial}. Explican que en la primera, se obtiene como resultado un conjunto de regiones no superpuestas que corresponden totalmente con \textit{objetos del mundo real} en la imagen de entrada. Mientras que en la segmentación parcial las regiones no corresponden directamente con \textit{objetos del mundo real} presentes en la imagen, sino que aíslan características específicas de la imagen, como la brillantez, el color, la textura, etc. Dada la complejidad asociada a la segmentación completa de las imágenes, para obtenerlas es necesario aplicar niveles más altos de procesamiento a comparación de la segmentación parcial.
 
 
 
@@ -160,11 +162,11 @@ Este proceso corresponde a la transformación de una imagen de entrada $f$ a una
     \label{eqn:segmented_bin}
 \end{equation}
 
-Donde $T$ representa el umbral (Threshold). Después de esta trasnformación, todos los pixeles dentro de la imagen que se encuentren dentro del/los umbrales definidos tendrán un valor de 1 y a aquellos que no satisfagan la condición se les asigna el valor 0 (o vice versa) \cite{sonka_image_2008}. \phantom{saltodelinea}
+Donde $T$ representa el umbral (Threshold). Después de esta trasnformación, todos los pixeles dentro de la imagen que se encuentren dentro del/los umbrales definidos tendrán un valor de 1 y a aquellos que no satisfagan la condición se les asigna el valor 0 (o vice versa) (\cite{sonka_image_2008}). \phantom{saltodelinea}
 
 
 
-González y Woods \cite{gonzalez_digital_2002} describen el proceso de segmentación de imágenes en el espacio HSV de la siguiente manera:
+\cite{gonzalez_digital_2002} describen el proceso de segmentación de imágenes en el espacio HSV de la siguiente manera:
 \begin{itemize}
     \item Separar la imagen en sus componentes HSV.
     \item Reconocer las zonas de la imagen (y los valores de los píxeles) donde se encuentran las características de interés.
@@ -176,7 +178,7 @@ González y Woods \cite{gonzalez_digital_2002} describen el proceso de segmentac
 
 \subsection{Operaciones Morfológicas}
 
-González y Wood explican también que bajo el contexto de procesamiento de imágenes la \textit{morfología matemática} hace alusión a una herramienta para extraer los componentes de la imagen que son útiles para la representación y descripción de la forma de una región. Indica además que el lenguaje que se ha de utilizar para este procesamiento es la teoría de conjuntos y resaltan que los conjuntos en \textit{morfología matemática} representan objetos en una imagen.
+Los autores explican también que bajo el contexto de procesamiento de imágenes la \textit{morfología matemática} hace alusión a una herramienta para extraer los componentes de la imagen que son útiles para la representación y descripción de la forma de una región. Indica además que el lenguaje que se ha de utilizar para este procesamiento es la teoría de conjuntos y resaltan que los conjuntos en \textit{morfología matemática} representan objetos en una imagen.
 Debido a la relación mencionada entre el procesamiento morfológico de la imagen y la teoría de conjuntos, se explican en enseguida algunos conceptos iniciales.
 
 \subsubsection{Teoría de Conjuntos}
@@ -359,7 +361,7 @@ Una de las partes fundamentales de la visión computacional es la habilidad de r
 
 Como se ha mencionado anteriormente, para nosotros las tareas asociadas a la visión son actividades que llevamos a cabo de manera natural, sin que requiera un esfuerzo consciente en la mayoría de los casos y, teniendo ya sea un ejemplo visual o bien una descripción sobre las características de nuestro objeto de interés, somos capaces de identificarlo dentro del entorno. Con el objetivo de reconocer los objetos mediante el análisis computacional de las imágenes, es imprescindible conocer las características de dichos objetos, así como de las clases a las que pertenecen.
 
-De acuerdo con Sonka \cite{sonka_image_2008}, el diseño de una adecuada representación del conocimiento es la parte más importante de la resolución del problema del entendimiento y se refieren a las descripciones y las características como una representación de \textit{bajo nivel}, aclarando que no pueden ser consideradas en sí mismas como representaciones del conocimiento, aunque sí pueden ser usadas como parte de una estructura de representación más compleja.
+De acuerdo con \cite{sonka_image_2008}, el diseño de una adecuada representación del conocimiento es la parte más importante de la resolución del problema del entendimiento y se refieren a las descripciones y las características como una representación de \textit{bajo nivel}, aclarando que no pueden ser consideradas en sí mismas como representaciones del conocimiento, aunque sí pueden ser usadas como parte de una estructura de representación más compleja.
 
 Se ha dicho antes que como humanos podemos utilizar descripciones verbales o escritas de la apariencia de un objeto y utilizar esa información para identificarlos, sin embargo, para que una máquina pueda replicar este comportamiento es necesario tener  una representación de esta descripción que sea posible procesar matemáticamente. En este contexto las representaciones se hacen de forma numérica, asociando cada característica a una magnitud escalar. 
 Para poder hacer la clasificación de objetos complejos es preferible que la descripción incluya la representación de varias propiedades del objeto en cuestión. Al conjunto de características representadas numéricamente se le conoce como \textbf{vectores de características}, que se utilizan como entradas para los algoritmos de reconocimiento. A este vector de características se le conoce también como \textbf{patrón}.
@@ -375,8 +377,7 @@ El proceso principal para el reconocimiento de patrones se muestra en la figura 
     \label{fig:Pat_Recog}
 \end{figure}
 
-Dependiendo de la aplicación para la cual se busque realizar el reconocimiento serán importantes diferentes características de los objetos. Además, las características de los recursos disponibles también encontrarán cambios. Debido a esto, se han desarrollado muchas y muy variadas técnicas de reconocimiento, utilizando cada vez diferentes características y técnicas de procesamiento de la información.
-Treiber \cite{treiber_introduction_2010} en 2010, menciona que bajo los siguientes parámetros es posible definir una clasificación de los métodos de reconocimiento de objetos:
+Dependiendo de la aplicación para la cual se busque realizar el reconocimiento serán importantes diferentes características de los objetos. Además, las características de los recursos disponibles también encontrarán cambios. Debido a esto, se han desarrollado muchas y muy variadas técnicas de reconocimiento, utilizando cada vez diferentes características y técnicas de procesamiento de la información. \cite{treiber_introduction_2010}, menciona que bajo los siguientes parámetros es posible definir una clasificación de los métodos de reconocimiento de objetos:
 
 \begin{itemize}
     \item Representación de objetos: basados en la geometría (silueta, forma) o la apariencia (regiones de imagen que pertenecen al objeto).
@@ -403,7 +404,7 @@ El proceso utilizado en este proyecto corresponde a la última categoría de las
 
 El término 'máquinas de estado' se refiere a un modelo computacional con el cual se representan procesos de lógica secuencial. Este modelo cuenta con conjuntos de entradas, conjuntos de salidas y el funcionamiento del sistema se compone por estados y funciones de transformación. En este modelo se establece que en cualquier momento de la ejecución es posible estar en uno y solo un estado a la vez, y el salto entre estados se condiciona por medio de las ya mencionadas funciones de transformación, que determinan si se realiza el cambio a otro de los estados.
 
-Czerwinski y Kania \cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $\{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $.
+\cite{czerwinski_definitions_2013}, enuncian la definición matemática de la Máquina de Estados Finitos (FSM) utilizando un vector de 5 elementos, $\{X,Y,S,\delta,\lambda\}$, donde $X$ corresponde a un espacio de entradas finitas, $Y$ al espacio de salidas finitas, $S$ a un conjunto de estados finitos, $\delta$ representa la función de transformación y $\lambda$ la función de salidas. En este caso, la función de transición de una Máquina de estados finitos determina el siguiente estado ($S^+$), y se refiere al mapeo $\delta: X \times S \to S $.
 
 
 Dentro de las máquinas de estados finitas se encuentran dos grandes clasificaciones, las máquinas Moore y las máquinas Mealy, que reciben su nombre de los investigadores Eduard F. Moore y George H. Mealy, que desarrollaron \textit{la teoría del autómata}. En el planteamiento de la máquina de Moore las salidas dependen únicamente del estado actual de la máquina, expresando este comportamiento en términos de los vectores definidos anteriormente se obtiene: $\lambda: S \to Y$. Por el contrario, en las máquinas Mealy las salidas dependen tanto del estado actual como de las entradas actuales del sistema. Así, la función de salida se puede representar como: $\lambda: X \times S \to Y$.
@@ -411,19 +412,20 @@ Dentro de las máquinas de estados finitas se encuentran dos grandes clasificaci
 
 \section{Sistemas expertos}
  
-A mediados del Siglo XX, cuando el concepto de Inteligencia Artificial comenzaba a popularizarse, su aplicación principal se centraba en planeación y solución de problemas. En aquel momento era difícil imaginar que décadas más tarde las aplicaciones más importantes se encontraran en ingeniería del conocimiento y en sistemas expertos. En 1982 el profesor Edward Feigenbaum de la Universidad de Stanford, uno de los pioneros en el desarrollo de tecnología de sistemas expertos, definió un sistema experto como "un programa computacional que utiliza procedimientos de inferencia para resolver problemas que son suficientemente complicados para requerir conocimiento humano especializado para su solución."
-\cite{giarratano_zhuan_2002}
+A mediados del Siglo XX, cuando el concepto de Inteligencia Artificial comenzaba a popularizarse, su aplicación principal se centraba en planeación y solución de problemas. En aquel momento era difícil imaginar que décadas más tarde las aplicaciones más importantes se encontraran en ingeniería del conocimiento y en sistemas expertos. De acuerdo a \cite{giarratano_zhuan_2002}, en 1982 el profesor Edward Feigenbaum de la Universidad de Stanford, uno de los pioneros en el desarrollo de tecnología de sistemas expertos, definió un sistema experto como "\textit{un programa computacional que utiliza procedimientos de inferencia para resolver problemas que son suficientemente complicados para requerir conocimiento humano especializado para su solución.}"
 
-En 2020, 38 años más tarde de esta definición, Gupta \cite{gupta_artificial_2020} refiere que un sistema experto es un programa computacional que emula la capacidad de razonar y el comportamiento de un humano con el conocimiento y experiencia de un experto en un campo específico. También indica que los sistemas expertos son utilizados para resolver problemas complejos utilizando el conocimiento almacenado en una base de datos en forma de reglas. 
+En 2020, 38 años más tarde de esta definición, \cite{gupta_artificial_2020} refieren que un sistema experto es un programa computacional que emula la capacidad de razonar y el comportamiento de un humano con el conocimiento y experiencia de un experto en un campo específico. También indica que los sistemas expertos son utilizados para resolver problemas complejos utilizando el conocimiento almacenado en una base de datos en forma de reglas. 
 
-De acuerdo con Liebowitz \cite{liebowitz_handbook_2019} la adquisición de conocimiento es el proceso de extraer, estructurar y organizar el conocimiento de diferentes fuentes, usualmente humanos expertos en un área, de forma tal que la habilidad de solucionar problemas pueda ser capturada y transformada para que una computadora sea capaz de leerla. De acuerdo con este autor: 'Sin conocimiento explícitamente representado, un sistema experto no es más que un programa de computadora.' Gupta y Liebowitz señalan también que uno de los pasos intermedios entre la adquisición de conocimiento y la implementación de sistemas expertos es la intervención de un Ingeniero de conocimiento, un individuo que estudia la forma en que los expertos toman decisiones y lo traduce a reglas en términos comprensibles para la máquina. A partir de esto, Gupta menciona que los sistemas expertos son considerados como Inteligencia Artificial Aplicada. 
+De acuerdo con \cite{liebowitz_handbook_2019} la adquisición de conocimiento es el proceso de extraer, estructurar y organizar el conocimiento de diferentes fuentes, usualmente humanos expertos en un área, de forma tal que la habilidad de solucionar problemas pueda ser capturada y transformada para que una computadora sea capaz de leerla. De acuerdo con este autor: "\textit{Sin conocimiento explícitamente representado, un sistema experto no es más que un programa de computadora.}". 
+
+Gupta y Liebowitz señalan también que uno de los pasos intermedios entre la adquisición de conocimiento y la implementación de sistemas expertos es la intervención de un Ingeniero de conocimiento, un individuo que estudia la forma en que los expertos toman decisiones y lo traduce a reglas en términos comprensibles para la máquina. A partir de esto, los autores mencionan que los sistemas expertos son considerados como \textit{Inteligencia Artificial Aplicada} (\cite*{gupta_artificial_2020}). 
 
 \section{Manipulación del Robot}
 Siendo la manipulación de objetos un de los objetivos principales de este proyecto es pertinente explicar la forma en que le es posible al robot tomar los objetos que se espera que transporte. Para esto, es necesario realizar el análisis cinemático del robot, que consiste en el estudio de la relación que guarda el efector final respecto a la estructura que compone el manipulador del robot, es decir el comportamiento que debe tener cada articulación del robot para que el efector final pueda posicionarse en las coordenadas finales deseadas para el comportamiento esperado del robot.
 
 Para realizar este análisis es necesario conocer el número de grados de libertad con los que cuenta el manipulador que se usará, así como el tipo de articulaciones con las que cuenta, los ejes en los que actúa cada una y sus limitaciones de movimiento.
 
-Ceccareli \cite{ceccarelli_fundamentals_2022}, explica que es posible formular numéricamente esta situación para determinar las coordenadas de las articulaciones $q_{i}(i=1,...,N)$ como funciones de la configuración del manipulador. Amplía diciendo que la formulación debe considerar aspectos numéricos que están relacionados a la existencia de soluciones  y a la multiplicidad de soluciones.
+\cite{ceccarelli_fundamentals_2022}, explica que es posible formular numéricamente esta situación para determinar las coordenadas de las articulaciones $q_{i}(i=1,...,N)$ como funciones de la configuración del manipulador. Amplía diciendo que la formulación debe considerar aspectos numéricos que están relacionados a la existencia de soluciones  y a la multiplicidad de soluciones.
 
 Los autores describen que la existencia de soluciones hace referencia a que cuando una configuración dada no se encuentre dentro del rango de movilidad del manipulador, la solución numérica de la cinemática inversa no puede ser obtenida dentro del espacio de trabajo del manipulador. Para lo cual se requiere conocer el rango de movilidad de las articulaciones y los límites del espacio de trabajo antes de unir la solución numérica. En términos matemáticos, el cumplimiento de los límites del espacio de trabajo significa que las soluciones que se obtengan pertenezcan al dominio de los números reales.
 
@@ -439,7 +441,7 @@ Dentro de la documentación disponible en el sitio web oficial de la RoboCup se 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.15]{Figures/Conveyor_GRIPS_TDP.png}     \includegraphics[scale=0.2]{Figures/Conveyor_HOG_GRIPS_TDP.png}
-        \caption{Detección de Histogramas de Gradientes Orientados (HOG)\cite{furbaß_robocup_2021}}
+        \caption{Detección de Histogramas de Gradientes Orientados (HOG) \cite*{furbaß_robocup_2021}}
         \label{fig:HOG_GRIPS}
     \end{figure}
 

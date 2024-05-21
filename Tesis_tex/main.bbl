@@ -572,7 +572,8 @@
       \strng{authorfullhash}{44a001326b9459f20031d2ea28f25aba}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -582,6 +583,7 @@
       \field{urlday}{12}
       \field{urlmonth}{8}
       \field{urlyear}{2022}
+      \field{year}{2020}
       \field{urldateera}{ce}
       \verb{file}
       \verb Snapshot:/home/robocup/Zotero/storage/XB4D56B4/service-robots.html:text/html
@@ -650,8 +652,8 @@
       \strng{authorbibnamehash}{f2e556c93256e7d70895d67702e14f1a}
       \strng{authornamehash}{f2e556c93256e7d70895d67702e14f1a}
       \strng{authorfullhash}{f2e556c93256e7d70895d67702e14f1a}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1171,12 +1173,14 @@
       \strng{authorfullhash}{eaa4486f96371c81e086e0e71925c61a}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The present paper presents team GRIPS (Graz Robust and Intelligent Production System) and its approaches to the challenges in the RoboCup Logistics League 2020. Festo’s Robotino, a customized additional construction and some further hardware, such as laser scanners, cameras, PC, and PLC, are used as a hardware platform. The software architecture is built in a multi-layer format. A scheduler/planner functions as a central decision-making instance for all robots at the top player. Beneath this layer, various BehaviourTree are used for individual decisions dduring Action. At the lowest leve, the robot operating system (ROS) executes the tasks assigned to the robot by the top layer.}
       \field{title}{{RoboCup} {Logistics} {League} {Graz} {Robust} and {Intelligent} {Production} {System} {GRIPS}}
+      \field{year}{2021}
     \endentry
     \entry{davison_kinect_2012}{book}{}
       \name{author}{1}{}{%
@@ -1355,8 +1359,8 @@
       \strng{authorbibnamehash}{f1bff120a21d82670a8ecad076527021}
       \strng{authornamehash}{f1bff120a21d82670a8ecad076527021}
       \strng{authorfullhash}{f1bff120a21d82670a8ecad076527021}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1469,12 +1473,14 @@
     \entry{tf_ROS}{misc}{}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{tf - {ROS} {Wiki}}
       \field{urlday}{21}
       \field{urlmonth}{11}
       \field{urlyear}{2023}
+      \field{year}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://wiki.ros.org/tf
@@ -1558,8 +1564,8 @@
       \strng{authorbibnamehash}{3c96d2784c96f6b0cb26c2b9525209a3}
       \strng{authornamehash}{1f39537e34d95c7e6c2d997387ca1657}
       \strng{authorfullhash}{3c96d2784c96f6b0cb26c2b9525209a3}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1576,14 +1582,16 @@
       \field{urldateera}{ce}
     \endentry
     \entry{ros_wiki_std_msgs}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
-      \field{title}{std\_msgs - {ROS} {Wiki}}
+      \field{title}{std\_msgs}
       \field{urlday}{13}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{file}
       \verb std_msgs - ROS Wiki:/home/robocup/Zotero/storage/WAFJD62U/std_msgs.html:text/html
@@ -1595,15 +1603,62 @@
       \verb http://wiki.ros.org/std_msgs
       \endverb
     \endentry
+    \entry{vazquez_silva_desarrollo_2018}{thesis}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=378fed3ac916015bb81b0821eda2c3ae}{%
+           family={Vázquez\bibnamedelima Silva},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Edgar\bibnamedelimb de\bibnamedelima Jesús},
+           giveni={E\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f09c4e816cd8701550dd03745a978e0}{%
+           family={Negrete},
+           familyi={N\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Nacional Autónoma de México}%
+      }
+      \list{language}{1}{%
+        {Español}%
+      }
+      \list{location}{1}{%
+        {Ciudad Universitaria, CDMX, México}%
+      }
+      \strng{namehash}{a16fc2ca52325c72bf9885292653d4d3}
+      \strng{fullhash}{a16fc2ca52325c72bf9885292653d4d3}
+      \strng{bibnamehash}{a16fc2ca52325c72bf9885292653d4d3}
+      \strng{authorbibnamehash}{a16fc2ca52325c72bf9885292653d4d3}
+      \strng{authornamehash}{a16fc2ca52325c72bf9885292653d4d3}
+      \strng{authorfullhash}{a16fc2ca52325c72bf9885292653d4d3}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Desarrollo de un sistema de detección y manipulación de objetos para un robot de servicio}
+      \field{type}{phdthesis}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+    \endentry
     \entry{OpvenCV-website}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{About - {OpenCV}}
       \field{urlday}{24}
       \field{urlmonth}{1}
       \field{urlyear}{2024}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{file}
       \verb About - OpenCV:/home/robocup20/snap/zotero-snap/common/Zotero/storage/BZCW4H23/about.html:text/html
@@ -1647,11 +1702,13 @@
       \strng{authorfullhash}{11a5f12605f157107edbed9bb78bec98}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{LA} {LIBRERÍA} {DE} {VISIÓN} {ARTIFICIAL} {OPENCV} {APLICACIÓN} {A} {LA} {DOCENCIA} {E} {INVESTIGACIÓN}}
+      \field{year}{2002}
       \verb{file}
       \verb Arévalo et al. - LA LIBRERÍA DE VISIÓN ARTIFICIAL OPENCV APLICACIÓN.pdf:/home/robocup20/snap/zotero-snap/common/Zotero/storage/93YTA8FQ/Arévalo et al. - LA LIBRERÍA DE VISIÓN ARTIFICIAL OPENCV APLICACIÓN.pdf:application/pdf
       \endverb
@@ -1659,12 +1716,14 @@
     \entry{ROS_concepts_MoveIt}{misc}{}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{Concepts | {MoveIt}}
       \field{urlday}{22}
       \field{urlmonth}{11}
       \field{urlyear}{2023}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{file}
       \verb Concepts | MoveIt:/home/robocup/Zotero/storage/NWQJ8JT2/concepts.html:text/html
@@ -1679,12 +1738,14 @@
     \entry{FESTO-RobotinoView}{misc}{}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{Festo {Didactic} {InfoPortal}}
       \field{urlday}{24}
       \field{urlmonth}{1}
       \field{urlyear}{2024}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{file}
       \verb Festo Didactic InfoPortal:/home/robocup20/snap/zotero-snap/common/Zotero/storage/ECTMI8VD/RobotinoView.html:text/html
@@ -1762,8 +1823,8 @@
       \strng{authorbibnamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authornamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authorfullhash}{5334219c90597d1231207034bb0ac4ce}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1808,8 +1869,8 @@
       \strng{editorbibnamehash}{6f678c717f87ed76cc565e6a5e0240e6}
       \strng{editornamehash}{6f678c717f87ed76cc565e6a5e0240e6}
       \strng{editorfullhash}{6f678c717f87ed76cc565e6a5e0240e6}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1836,8 +1897,8 @@
       \strng{authorbibnamehash}{035f816b611a315946a7a49743b1601c}
       \strng{authornamehash}{035f816b611a315946a7a49743b1601c}
       \strng{authorfullhash}{035f816b611a315946a7a49743b1601c}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1889,14 +1950,16 @@
       \endverb
     \endentry
     \entry{Interbotix_interbotix}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{Interbotix {X}-{Series} {Arms} — {Interbotix} {X}-{Series} {Arms} {Documentation}}
       \field{urlday}{9}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
+      \field{year}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.trossenrobotics.com/interbotix_xsarms_docs/
@@ -1909,26 +1972,30 @@
       \list{language}{1}{%
         {en}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{abstract}{http://www.trossenrobotics.com/WidowxRobotArmMK2}
       \field{title}{{WidowX} {MKII} {Robotic} {Arm} - {Download} {Free} {3D} model by {Interbotix} - {Sketchfab}}
       \field{urlday}{9}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
+      \field{year}{2022}
       \field{urldateera}{ce}
     \endentry
     \entry{Inerbotix_pincher_arm}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labeldatesource}{nodate}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
       \field{title}{Robotic {Arms}}
       \field{urlday}{27}
       \field{urlmonth}{2}
       \field{urlyear}{2024}
+      \field{year}{2022}
       \field{urldateera}{ce}
       \verb{file}
       \verb Robotic Arms:/home/robocup20/snap/zotero-snap/common/Zotero/storage/Z4I9ZA5S/Robotic-Arms.html:text/html
@@ -1955,8 +2022,8 @@
       \strng{authorbibnamehash}{9931bc557c5e242429cad250e5fababe}
       \strng{authornamehash}{9931bc557c5e242429cad250e5fababe}
       \strng{authorfullhash}{9931bc557c5e242429cad250e5fababe}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}

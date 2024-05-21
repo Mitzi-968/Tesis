@@ -6,7 +6,7 @@
     
         \subsection{Herramientas de software}
             \subsubsection{ROS}
-            En 2018 Edgar Vázquez realiza una breve de descripción del sistema ROS, en la cual comenta que el objetivo principal es dar soporte a la reutilización de código en la investigación y desarrollo de robótica, referenciando a Quigley en \cite{quigley_ROS}. Adicionalmente, Vázquez menciona que ROS ofrece las siguientes utilidades:
+            En 2018 Edgar Vázquez realiza una breve de descripción del sistema ROS, en la cual comenta que el objetivo principal es dar soporte a la reutilización de código en la investigación y desarrollo de robótica, referenciando a \cite{quigley_ROS}. Adicionalmente, Vázquez menciona que ROS ofrece las siguientes utilidades:
             \begin{itemize}
                 \item Abstracción de hardware.
                 \item Control de dispositivos de bajo nivel.
@@ -21,8 +21,8 @@
             \begin{itemize}
                 \item Nodos: los nodos son los módulos que en conjunto forman la red le trabajo, y se encargar generalmente de las funcionalidades aisladas que se mencionaron anteriormente. Es decir, la activación de los actuadores, el procesamiento de imagen, el control de la interfaz del usuario, cada una de estas actividades se encontraría bajo el cargo de un nodo, independiente de las demás, pero que bajo la estructura de ROS les es posible intercambiar información.
                 \item Paquetes: Vázquez comenta que dentro de la estructura de ROS, los paquetes pueden se comparados con carpetas, las cuales tienen características estructurales definidas y en las cuales es posible contener a los nodos. Además, dentro del paquete se deben establecer las bibliotecas u otras paqueterías que requiera la correcta ejecución de los nodos, como pueden ser los tipos de datos personalizados, recursos ajenos a ROS o archivos de configuración adicionales. 
-                \item Tópicos: son el elemento que se utiliza para intercomunicar los nodos. Dentro de la implementación con ROS es posible \textit{publicar} información dentro del entorno por medio de mensajes y haciendo uso de los tópicos, los mensajes pueden ser diversos tipos, dependiendo de los requerimientos de la implementación, adicionalmente, es posible crear nuevos tipos de mensaje de ser necesario \cite{ros_wiki_std_msgs}. 
-                \item Servicios: un método distinto a los tópicos mediante el cual también se puede compartir información son los servicios. La diferencia entre estas herramientas es que los servicios necesitan ser solicitados por otro agente, es decir, sigue un modelo petición-respuesta. Vázquez comenta que si un proceso necesita realizarse solo en momentos específicos lo recomendable es implementarlo como un servicio.
+                \item Tópicos: son el elemento que se utiliza para intercomunicar los nodos. Dentro de la implementación con ROS es posible \textit{publicar} información dentro del entorno por medio de mensajes y haciendo uso de los tópicos, los mensajes pueden ser diversos tipos, dependiendo de los requerimientos de la implementación, adicionalmente, es posible crear nuevos tipos de mensaje de ser necesario (\cite{ros_wiki_std_msgs}). 
+                \item Servicios: un método distinto a los tópicos mediante el cual también se puede compartir información son los servicios. La diferencia entre estas herramientas es que los servicios necesitan ser solicitados por otro agente, es decir, sigue un modelo petición-respuesta. Los autores comentan que si un proceso necesita realizarse solo en momentos específicos lo recomendable es implementarlo como un servicio. (\cite{vazquez_silva_desarrollo_2018})
             \end{itemize}
 
             
@@ -37,22 +37,21 @@
                 \item \textit{Camera Calibration and 3D Reconstruction}: algoritmos geométricos básicos de vistas múltiples, calibración de cámaras sencillas y stereo, estimación de la pose de objetos, elementos de reconstrucción 3D.
                 \item \textit{2D Features Framework}: detector de características, descriptores y emparejamiento de descriptores. 
                 \item \textit{Object Detection}: detección de objetos e instancias pertenecientes a clases predefinidas.
-                \item \textit{Video I/O}: interfaz fácil de usar para captura de videos, además de compresores y decompresores de archivos multimedia.
+                \item \textit{Video I/O}: interfaz fácil de usar para captura de videos, además de compresores y decompresores de archivos multimedia. (\cite*{OpvenCV-website})
             \end{itemize}
-            \cite{OpvenCV-website}
 
-            En \cite{arevalo_librerivision_nodate}, Arévalo et.al describen la historia del proyecto OpenCV, mencionando que dio inicio en el año 2000, cuando la empresa Intel y un grupo de investigadores empezaron a trabajar en el desarrollo de una biblioteca de funciones desarrolladas en lenguaje C y especializada en Visión Computacional, con el objetivo de facilitar el uso de estas herramientas para docentes e investigadores, utilizando, además una licencia de Software Libre. 
+            En \cite{arevalo_librerivision_nodate}, los autores describen la historia del proyecto OpenCV, mencionando que dio inicio en el año 2000, cuando la empresa Intel y un grupo de investigadores empezaron a trabajar en el desarrollo de una biblioteca de funciones desarrolladas en lenguaje C y especializada en Visión Computacional, con el objetivo de facilitar el uso de estas herramientas para docentes e investigadores, utilizando, además una licencia de Software Libre. 
             Actualmente es posible utilizar esta biblioteca usando diferentes lenguajes de programación y cuenta con integraciones con otros sistemas como ROS y Matlab \textregistered.
 
             \subsubsection{MoveIT}
             Esta paquetería fue utilizada para la generación de las trayectorias de movimiento que realizaba el manipulador, es decir se realizan dentro de esta paquetería el análisis cinemático y dinámico del manipulador del robot. Para su configuración, MoveIt utiliza elementos dentro de la estructura de ROS para obenter la siguiente información: 
             \begin{itemize}
                 \item \textbf{URDF} (Universal Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description} para obtener la descripción de la configuración del Robot. 
-                \item \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. 
-                \end{itemize}                
+                \item \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. (\cite{ROS_concepts_MoveIt}) 
+            \end{itemize}                
                 Dentro de la documentación de la paquetería se sugiere que se generen estos archivos haciendo uso del asistente propio de la misma. \textbf{\textit{MoveIt configuration}} buscará dentro del entorno de ROS otras configuraciones pertinentes, como los límites de las articulaciones, cinemática, planeación de movimientos, percepción, etc. Estos archivos de configuración se encuentran dentro de la carpeta \textit{config} y se generan automáticamente al ejecutar el asistente de configuración de la paquetería.
             \textbf{Robot Interface}
-             MoveIt se comunica con el robot a través de ROS, pudiendo leer el estado actual de las articulaciones, obtener las nubes de puntos u otra información recabada por sensores, al mismo tiempo que se comunica con los controladores del robot \cite{ROS_concepts_MoveIt}.
+             MoveIt se comunica con el robot a través de ROS, pudiendo leer el estado actual de las articulaciones, obtener las nubes de puntos u otra información recabada por sensores, al mismo tiempo que se comunica con los controladores del robot (\cite{ROS_concepts_MoveIt}).
              \begin{itemize}
                  \item Joint state - La paquetería escucha los tópicos que publican la información en tiempo real de las articulaciones del robot.
                  \item Transform state - La paquetería utiliza la biblioteca TF para monitorear la información de las transformaciones presentes en el robot y su entorno.
@@ -61,7 +60,7 @@
              
             \subsubsection{RobotinoView}
             Robotino View es un entorno de programación grafico que es posible utilizar directamente con Robotino y que, de hecho, viene preinstalado con el robot desde la configuración de fábrica. Dentro de este ambiente es posible crear y ejecutar programas de control para el robot.
-            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades\cite{FESTO-RobotinoView}:
+            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades(\cite{FESTO-RobotinoView}):
             \begin{itemize}
                 \item Programas secuenciales son mostrtados como Grafcet.
                 \item Control simultáneo de varios Robotino.
@@ -71,7 +70,7 @@
                 \item Bloques de función para intercambio de datos: UDP, TCP/IP client / server, OPC.
                 \item Descarga y ejecución de programas en RobotinoView, directamente en Robotino.
                 \item Creación e integración de funciones propias en C++.
-                \item Interfaz de usuario y manuales en multiples idiomas.
+                \item Interfaz de usuario y manuales en multiples idiomas. (\cite*{FESTO-RobotinoView})
             \end{itemize}
 
             Esta herramienta fue utilizada durante la familizariación con el equipo, realizar pruebas básicas y para generar secuencias sencillas de movimiento, no directamente en la implementación del proyecto.
@@ -147,7 +146,7 @@
                             
             \subsubsection{Camara RGBD - Kinect}
 
-            El autor Vangos Pterneas, ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, \cite{pterneas_mastering_2022} realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019), así como un análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
+            El autor (\cite{pterneas_mastering_2022}), ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019). Así como un análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
             El autor narra que en 2009 Microsoft lanzó al mercado el dispositivo llamado \textit{Project Natal}, cambiando el nombre a \textbf{Kinect} en 2010 y distribuyéndolo como un accesorio para la consola de videojuegos \textit{XBOX 360}. Este dispositivo es capaz de reconocer las partes del cuerpo de las personas y entender sus voces en tiempo real, creando una interfaz interactiva que permitía a los usuarios utilizar la consola sin necesitar un control físico. Para el proyecto que este documento describe, se utilizó la versión 1 del Kinect, mostrado en la figura \ref{fig:Kinect_Parts}, donde también se observan los componentes del dispositivo.
 
             \begin{figure}[ht]
@@ -159,8 +158,9 @@
 
             \begin{itemize}
                 \item Sensor de Profundidad: \\
-                En \cite{kramer_hacking_2012} Kramer et.al. especifican que el dispositivo Kinect utiliza una cámara MT9M001 (ver figura \ref{fig:Kinect_Sensors}) de la compañía Micron \cite{micron_12-inch_2004}, siendo esta una cámara monocromática con un arreglo de $1280\times1024$ píxeles, aunque estas dimensiones son modificadas antes de la reducción de resolución que se realiza posteriormente.
-                Por su parte Davison, en \cite{davison_kinect_2012} describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. En  \cite{kramer_hacking_2012} se añade que el sensor infrarrojo crea un patrón ruidoso de luz infrarroja estructurada de 830 [nm]. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. Mientras que \cite{davison_kinect_2012} también se explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.
+                En \cite{kramer_hacking_2012} los autores especifican que el dispositivo Kinect utiliza una cámara MT9M001 (ver figura \ref{fig:Kinect_Sensors}) de la compañía Micron \cite{micron_12-inch_2004}, siendo esta una cámara monocromática con un arreglo de $1280\times1024$ píxeles, aunque estas dimensiones son modificadas antes de la reducción de resolución que se realiza posteriormente.
+
+                Por su parte \cite{davison_kinect_2012}, describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. En  \cite{kramer_hacking_2012} se añade que el sensor infrarrojo crea un patrón ruidoso de luz infrarroja estructurada de 830 [nm]. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. Mientras que \cite{davison_kinect_2012} también se explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.
 
                 \begin{figure}[ht]
                     \centering
@@ -220,7 +220,7 @@
             \end{table}
 
             \item Cámara de video RGB: \\
-            De acuerdo con Kramer et.al (2012) \cite{kramer_hacking_2012} el dispositivo Kinect contiene una cámara RGB que, según Bob Widenhofer en \cite{eetimes_inside_2010}, utiliza un sensor MT9M112 (ver figura \ref{fig:Kinect_Sensors}). Kramer y su equipo especifican que la cámara opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
+            De acuerdo con \cite{kramer_hacking_2012} el dispositivo Kinect contiene una cámara RGB que, según Bob Widenhofer (\cite*{eetimes_inside_2010}), utiliza un sensor MT9M112 (ver figura \ref{fig:Kinect_Sensors}). Kramer y su equipo especifican que la cámara opera a 30 [Hz] enviando imágenes de $640\times512$ píxeles. Sin embargo, es posible utilizar una configuración \textit{High Resolution}, que opera a una frecuencia de 15 cuadros por segundo, con imágenes de $1280\times1024$ píxeles. Los autore mencionan también que la cámara cuenta con balance de blancos automático, prevención de parpadeo, saturación de color, referencia de negros y correción de defectos. Los autores también resaltan que ninguno de los dos dispositivos anteriores es de verdadesa utilizad a menos de que se encuentren correctamente calibrados. 
             \end{itemize}
             
             \subsubsection{Manipulador PhantomX Pincher AX-12}
@@ -280,7 +280,7 @@ Durante las pruebas realizadas, se observó que existe la posibilidad de confusi
 \begin{figure}[ht]
     \centering
     \includegraphics[scale=0.4]{Figures/PieceColors_HSVColorMap.png}
-        \caption{OpenCV - espacio HSV - mapa de color \cite{pai_adityapai2398colour-segmentation--opencv_2022}}
+        \caption{OpenCV - espacio HSV - mapa de color (\cite{pai_adityapai2398colour-segmentation--opencv_2022})}
         \label{fig:ColorMapHSVOpenCV}
 \end{figure}
 
