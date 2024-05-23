@@ -1,0 +1,16 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'pres_tesis_REMA.blg'
+[68] biber:322> INFO - === jue may 23, 2024, 16:41:22
+[80] Biber.pm:415> INFO - Reading 'pres_tesis_REMA.bcf'
+[137] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[149] Biber.pm:4256> INFO - Processing section 0
+[149] Utils.pm:75> INFO - Globbing data source 'Referencias.bib'
+[149] Utils.pm:91> INFO - Globbed data source 'Referencias.bib' to Referencias.bib
+[159] Biber.pm:4455> INFO - Looking for bibtex format file 'Referencias.bib' for section 0
+[163] bibtex.pm:1653> INFO - LaTeX decoding ...
+[246] bibtex.pm:1471> INFO - Found BibTeX data source 'Referencias.bib'
+[347] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[347] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[347] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[358] bbl.pm:652> INFO - Writing 'pres_tesis_REMA.bbl' with encoding 'UTF-8'
+[365] bbl.pm:755> INFO - Output to pres_tesis_REMA.bbl

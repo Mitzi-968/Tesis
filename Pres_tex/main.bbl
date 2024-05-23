@@ -1,0 +1,437 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{basco_industria_2018}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5fd62b76a112d48ba65263d7ca7a9df6}{%
+           family={Basco},
+           familyi={B\bibinitperiod},
+           given={Ana\bibnamedelima Inés},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3126360740ba01b0e11b1a0c5562f95e}{%
+           family={Beliz},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=77f2fb16797b8d152e3c3c629096676d}{%
+           family={Coatz},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=46626068fe1b20555214afd61d082f0a}{%
+           family={Garnero},
+           familyi={G\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \list{publisher}{1}{%
+        {Inter-American Development Bank}%
+      }
+      \strng{namehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
+      \strng{fullhash}{4e85f6207b88c93b6bc7198a525baedf}
+      \strng{bibnamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
+      \strng{authorbibnamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
+      \strng{authornamehash}{94d3dbd05f6bf2c8b77bf8d5c861760a}
+      \strng{authorfullhash}{4e85f6207b88c93b6bc7198a525baedf}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La economía global transita una nueva fase que se caracteriza por la digitalización y la conectividad. “INDUSTRIA 4.0. Fabricando el Futuro” explora los impactos de la denominada Cuarta Revolución Industrial sobre la producción manufacturera, el trabajo, las cadenas globales de valor y el comercio. La publicación reúne las voces de diversos especialistas que analizan los desafíos y oportunidades para la industria que conllevan tecnologías como Internet de las cosas, computación en nube, big data, inteligencia artificial e impresión 3D, entre otras. Asimismo, presenta los estudios de caso realizados sobre la experiencia de dos firmas argentinas que dan cuenta de los alcances de la trasformación digital: Tenaris, dedicada a la producción de tubos para la industria de petróleo y gas; y Sinteplast, dedicada a la fabricación de pinturas. “INDUSTRIA 4.0. Fabricando el Futuro” recorre estas experiencias, así como los aportes de la industria automotriz y de políticas públicas de fomento a la industria, como el caso alemán de “Industrie 4.0” y el “Mapa de ruta de la Industria 4.0” de México. De este modo, se propone ofrecer un marco para la comprensión de un fenómeno complejo cuyas consecuencias apenas se comienzan a vislumbrar.}
+      \field{month}{7}
+      \field{note}{Google-Books-ID: geiGDwAAQBAJ}
+      \field{shorttitle}{Industria 4.0}
+      \field{title}{Industria 4.0: {Fabricando} el {Futuro}}
+      \field{year}{2018}
+      \keyw{Business \& Economics / Industries / Manufacturing,Technology \& Engineering / Industrial Technology,Technology \& Engineering / Technical \& Manufacturing Industries \& Trades}
+    \endentry
+    \entry{giarratano_expert_2006}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6d554cd3aa26ed00a25f450df92c15ee}{%
+           family={Giarratano},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ac6c64d5adcfe9fe6f0eefc2f2376f72}{%
+           family={Riley},
+           familyi={R\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Boston, Mass}%
+      }
+      \list{publisher}{1}{%
+        {Thomson Course Technology}%
+      }
+      \strng{namehash}{795aae7993fd61298fcb84f1f16a1c77}
+      \strng{fullhash}{795aae7993fd61298fcb84f1f16a1c77}
+      \strng{bibnamehash}{795aae7993fd61298fcb84f1f16a1c77}
+      \strng{authorbibnamehash}{795aae7993fd61298fcb84f1f16a1c77}
+      \strng{authornamehash}{795aae7993fd61298fcb84f1f16a1c77}
+      \strng{authorfullhash}{795aae7993fd61298fcb84f1f16a1c77}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{4. ed., [repr.]}
+      \field{isbn}{978-0-534-38447-0}
+      \field{shorttitle}{Expert systems}
+      \field{title}{Expert systems: principles and programming}
+      \field{year}{2006}
+    \endentry
+    \entry{hornung_octomap_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f9bed8d5d2f1a7f46def7b01b507bdc9}{%
+           family={Hornung},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=053b166824772e62f94b1409c9a3fd32}{%
+           family={Wurm},
+           familyi={W\bibinitperiod},
+           given={Kai\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=38bbd60cd009b934787bb8cdf9f77a79}{%
+           family={Bennewitz},
+           familyi={B\bibinitperiod},
+           given={Maren},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d87e0c36213202151bff64fdd9346a3}{%
+           family={Stachniss},
+           familyi={S\bibinitperiod},
+           given={Cyrill},
+           giveni={C\bibinitperiod}}}%
+        {{hash=98f4ab1bc2ac191d8f8a0651315ce9c0}{%
+           family={Burgard},
+           familyi={B\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9215a3ab7fd0ac9a7afb808a5f4bb0c1}
+      \strng{fullhash}{34d18fce449a2cbcdbc97c48773c94f3}
+      \strng{bibnamehash}{9215a3ab7fd0ac9a7afb808a5f4bb0c1}
+      \strng{authorbibnamehash}{9215a3ab7fd0ac9a7afb808a5f4bb0c1}
+      \strng{authornamehash}{9215a3ab7fd0ac9a7afb808a5f4bb0c1}
+      \strng{authorfullhash}{34d18fce449a2cbcdbc97c48773c94f3}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0929-5593, 1573-7527}
+      \field{journaltitle}{Autonomous Robots}
+      \field{month}{4}
+      \field{number}{3}
+      \field{shorttitle}{{OctoMap}}
+      \field{title}{{OctoMap}: an efficient probabilistic {3D} mapping framework based on octrees}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{34}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{189\bibrangedash 206}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s10514-012-9321-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10514-012-9321-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10514-012-9321-0
+      \endverb
+    \endentry
+    \entry{ifr_international_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=44a001326b9459f20031d2ea28f25aba}{%
+           family={IFR},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{44a001326b9459f20031d2ea28f25aba}
+      \strng{fullhash}{44a001326b9459f20031d2ea28f25aba}
+      \strng{bibnamehash}{44a001326b9459f20031d2ea28f25aba}
+      \strng{authorbibnamehash}{44a001326b9459f20031d2ea28f25aba}
+      \strng{authornamehash}{44a001326b9459f20031d2ea28f25aba}
+      \strng{authorfullhash}{44a001326b9459f20031d2ea28f25aba}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The International Federation of Robotics is a professional non-profit organization to promote, strengthen and protect the robotics industry worldwide.}
+      \field{journaltitle}{IFR International Federation of Robotics}
+      \field{title}{International {Federation} of {Robotics}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/robocup/Zotero/storage/XB4D56B4/service-robots.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ifr.org/service-robots
+      \endverb
+      \verb{url}
+      \verb https://ifr.org/service-robots
+      \endverb
+    \endentry
+    \entry{Kasaei2020}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=3f1983bb1075c282d3f4cd74dfc56387}{%
+           family={Kasaei},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi Hamidreza},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6b0dd6b612601fdff2dc01f88a91c127}{%
+           family={Melsen},
+           familyi={M\bibinitperiod},
+           given={Jorik},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c93c0c7616d63805b8705c581c43c3f5}{%
+           family={Beers},
+           familyi={B\bibinitperiod},
+           given={Floris},
+           giveni={F\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=986d6bfb6c6a6a66a3009e9c827e763f}{%
+           family={Steenkist},
+           familyi={S\bibinitperiod},
+           given={Christiaan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cd7830e0c3883eb0f2be1dfbbafb37fc}{%
+           family={Voncina},
+           familyi={V\bibinitperiod},
+           given={Klemen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c4091a95c300779600c5775c3b2e83d}
+      \strng{fullhash}{ee0fdf5f74bc774460b160b5ecb7194f}
+      \strng{bibnamehash}{3c4091a95c300779600c5775c3b2e83d}
+      \strng{authorbibnamehash}{3c4091a95c300779600c5775c3b2e83d}
+      \strng{authornamehash}{3c4091a95c300779600c5775c3b2e83d}
+      \strng{authorfullhash}{ee0fdf5f74bc774460b160b5ecb7194f}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The state of lifelong learning in Service Robots}
+      \field{year}{2020}
+    \endentry
+    \entry{robocup__mathworks_robocup_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4ea04da49195e3b6dc9bb5210e631b0d}{%
+           family={{RoboCup \& Mathworks}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Inglés}%
+      }
+      \strng{namehash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \strng{fullhash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \strng{bibnamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \strng{authorbibnamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \strng{authornamehash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \strng{authorfullhash}{4ea04da49195e3b6dc9bb5210e631b0d}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RoboCup Autonomous Robot Manipulation Challenge}
+      \field{month}{3}
+      \field{title}{{RoboCup} {ARM} {Challenge}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://arm.robocup.org/home
+      \endverb
+      \verb{url}
+      \verb https://arm.robocup.org/home
+      \endverb
+    \endentry
+    \entry{roveda_robot_2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2de2c10e99c28606267995edef7da9fe}{%
+           family={Roveda},
+           familyi={R\bibinitperiod},
+           given={Loris},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ab279c47cee3831ea85b2293029666ca}{%
+           family={Maroni},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=068f7329d5e53ab4e65179ee914472fa}{%
+           family={Mazzuchelli},
+           familyi={M\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e2be0dabce4d02373c9f6911cc377ada}{%
+           family={Praolini},
+           familyi={P\bibinitperiod},
+           given={Loris},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ad7c9a441a9ccb2448bde404a6bbd5b3}{%
+           family={Shahid},
+           familyi={S\bibinitperiod},
+           given={Asad\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2038a55c1fc9ef2b8795f5a86ce9c11d}{%
+           family={Bucca},
+           familyi={B\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=305fc22b0a12eecc98874a863170167d}{%
+           family={Piga},
+           familyi={P\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e683ff695cf145e51a13e62894eff92e}
+      \strng{fullhash}{1f575d63735daee6ac202f3be97db52f}
+      \strng{bibnamehash}{e683ff695cf145e51a13e62894eff92e}
+      \strng{authorbibnamehash}{e683ff695cf145e51a13e62894eff92e}
+      \strng{authornamehash}{e683ff695cf145e51a13e62894eff92e}
+      \strng{authorfullhash}{1f575d63735daee6ac202f3be97db52f}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296, 1573-0409}
+      \field{journaltitle}{Journal of Intelligent \& Robotic Systems}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Robot {End}-{Effector} {Mounted} {Camera} {Pose} {Optimization} in {Object} {Detection}-{Based} {Tasks}}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{16}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10846-021-01558-0
+      \endverb
+      \verb{file}
+      \verb Roveda et al. - 2022 - Robot End-Effector Mounted Camera Pose Optimizatio.pdf:/home/anie/Zotero/storage/RC5VG926/Roveda et al. - 2022 - Robot End-Effector Mounted Camera Pose Optimizatio.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10846-021-01558-0
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-021-01558-0
+      \endverb
+    \endentry
+    \entry{SAVAGE201977}{article}{}
+      \name{author}{9}{}{%
+        {{hash=e6204895994ae773f4b1386443ef9d51}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={Jesus},
+           giveni={J\bibinitperiod}}}%
+        {{hash=097542419d1a9197cee8475fa817215c}{%
+           family={Rosenblueth},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=676d0a28b2db585d6d1bd785efc685ef}{%
+           family={Matamoros},
+           familyi={M\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3f09c4e816cd8701550dd03745a978e0}{%
+           family={Negrete},
+           familyi={N\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15d7bf6d4c3dc8055fa29eb72d3d6d12}{%
+           family={Contreras},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bde5f3dbda5f0f359b2dce48cc5b8c36}{%
+           family={Cruz},
+           familyi={C\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8466ea219a83a89981c8be0072baf71}{%
+           family={Martell},
+           familyi={M\bibinitperiod},
+           given={Reynaldo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4be41d5ede6424199c2afb48f0125f91}{%
+           family={Estrada},
+           familyi={E\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=212f0de9e663d1c417c0af039fb56ca2}{%
+           family={Okada},
+           familyi={O\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{30e15805f2f82d83740df60ed246c0fb}
+      \strng{fullhash}{d45584daa313ddcbe0307e84186b6224}
+      \strng{bibnamehash}{30e15805f2f82d83740df60ed246c0fb}
+      \strng{authorbibnamehash}{30e15805f2f82d83740df60ed246c0fb}
+      \strng{authornamehash}{30e15805f2f82d83740df60ed246c0fb}
+      \strng{authorfullhash}{d45584daa313ddcbe0307e84186b6224}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-8890}
+      \field{journaltitle}{Robotics and Autonomous Systems}
+      \field{title}{Semantic reasoning in service robots using expert systems}
+      \field{volume}{114}
+      \field{year}{2019}
+      \field{pages}{77\bibrangedash 92}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.robot.2019.01.007
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889018302501
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889018302501
+      \endverb
+      \keyw{Service robots,Semantic reasoning,Knowledge representation}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
