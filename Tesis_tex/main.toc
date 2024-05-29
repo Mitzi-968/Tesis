@@ -99,7 +99,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.4}Manipulación}{47}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{48}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{47}{subsection.5.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.6}Algoritmos de las Máquinas de Estados - Cartas ASM}{48}{subsection.5.2.6}%
 \defcounter {refsection}{0}\relax 

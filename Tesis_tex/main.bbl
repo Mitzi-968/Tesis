@@ -1564,8 +1564,8 @@
       \strng{authorbibnamehash}{3c96d2784c96f6b0cb26c2b9525209a3}
       \strng{authornamehash}{1f39537e34d95c7e6c2d997387ca1657}
       \strng{authorfullhash}{3c96d2784c96f6b0cb26c2b9525209a3}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1823,8 +1823,8 @@
       \strng{authorbibnamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authornamehash}{5334219c90597d1231207034bb0ac4ce}
       \strng{authorfullhash}{5334219c90597d1231207034bb0ac4ce}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -1950,8 +1950,8 @@
       \endverb
     \endentry
     \entry{Interbotix_interbotix}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labeltitlesource}{title}

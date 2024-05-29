@@ -75,9 +75,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Kinect versión 1 - Componentes\relax }}{60}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Proyector Infrarrojo y Sensores CMOS \cite {eetimes_inside_2010}\relax }}{60}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Proyector Infrarrojo y Sensores CMOS \cite *{eetimes_inside_2010}\relax }}{60}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces PhantomX Pincher AX-12 \cite {Inerbotix_pincher_arm}\relax }}{63}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces PhantomX Pincher AX-12 (\cite *{Inerbotix_pincher_arm})\relax }}{63}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Medias de color\relax }}{64}{figure.caption.52}%
 \defcounter {refsection}{0}\relax 

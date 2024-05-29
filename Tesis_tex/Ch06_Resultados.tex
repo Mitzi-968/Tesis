@@ -21,8 +21,8 @@
             \begin{itemize}
                 \item Nodos: los nodos son los módulos que en conjunto forman la red le trabajo, y se encargar generalmente de las funcionalidades aisladas que se mencionaron anteriormente. Es decir, la activación de los actuadores, el procesamiento de imagen, el control de la interfaz del usuario, cada una de estas actividades se encontraría bajo el cargo de un nodo, independiente de las demás, pero que bajo la estructura de ROS les es posible intercambiar información.
                 \item Paquetes: Vázquez comenta que dentro de la estructura de ROS, los paquetes pueden se comparados con carpetas, las cuales tienen características estructurales definidas y en las cuales es posible contener a los nodos. Además, dentro del paquete se deben establecer las bibliotecas u otras paqueterías que requiera la correcta ejecución de los nodos, como pueden ser los tipos de datos personalizados, recursos ajenos a ROS o archivos de configuración adicionales. 
-                \item Tópicos: son el elemento que se utiliza para intercomunicar los nodos. Dentro de la implementación con ROS es posible \textit{publicar} información dentro del entorno por medio de mensajes y haciendo uso de los tópicos, los mensajes pueden ser diversos tipos, dependiendo de los requerimientos de la implementación, adicionalmente, es posible crear nuevos tipos de mensaje de ser necesario (\cite{ros_wiki_std_msgs}). 
-                \item Servicios: un método distinto a los tópicos mediante el cual también se puede compartir información son los servicios. La diferencia entre estas herramientas es que los servicios necesitan ser solicitados por otro agente, es decir, sigue un modelo petición-respuesta. Los autores comentan que si un proceso necesita realizarse solo en momentos específicos lo recomendable es implementarlo como un servicio. (\cite{vazquez_silva_desarrollo_2018})
+                \item Tópicos: son el elemento que se utiliza para intercomunicar los nodos. Dentro de la implementación con ROS es posible \textit{publicar} información dentro del entorno por medio de mensajes y haciendo uso de los tópicos, los mensajes pueden ser diversos tipos, dependiendo de los requerimientos de la implementación, adicionalmente, es posible crear nuevos tipos de mensaje de ser necesario (\cite*{ros_wiki_std_msgs}). 
+                \item Servicios: un método distinto a los tópicos mediante el cual también se puede compartir información son los servicios. La diferencia entre estas herramientas es que los servicios necesitan ser solicitados por otro agente, es decir, sigue un modelo petición-respuesta. Los autores comentan que si un proceso necesita realizarse solo en momentos específicos lo recomendable es implementarlo como un servicio. (\cite*{vazquez_silva_desarrollo_2018})
             \end{itemize}
 
             
@@ -40,14 +40,14 @@
                 \item \textit{Video I/O}: interfaz fácil de usar para captura de videos, además de compresores y decompresores de archivos multimedia. (\cite*{OpvenCV-website})
             \end{itemize}
 
-            En \cite{arevalo_librerivision_nodate}, los autores describen la historia del proyecto OpenCV, mencionando que dio inicio en el año 2000, cuando la empresa Intel y un grupo de investigadores empezaron a trabajar en el desarrollo de una biblioteca de funciones desarrolladas en lenguaje C y especializada en Visión Computacional, con el objetivo de facilitar el uso de estas herramientas para docentes e investigadores, utilizando, además una licencia de Software Libre. 
+            \cite{arevalo_librerivision_nodate}, describen la historia del proyecto OpenCV, mencionando que dio inicio en el año 2000, cuando la empresa Intel y un grupo de investigadores empezaron a trabajar en el desarrollo de una biblioteca de funciones desarrolladas en lenguaje C y especializada en Visión Computacional, con el objetivo de facilitar el uso de estas herramientas para docentes e investigadores, utilizando, además una licencia de Software Libre. 
             Actualmente es posible utilizar esta biblioteca usando diferentes lenguajes de programación y cuenta con integraciones con otros sistemas como ROS y Matlab \textregistered.
 
             \subsubsection{MoveIT}
             Esta paquetería fue utilizada para la generación de las trayectorias de movimiento que realizaba el manipulador, es decir se realizan dentro de esta paquetería el análisis cinemático y dinámico del manipulador del robot. Para su configuración, MoveIt utiliza elementos dentro de la estructura de ROS para obenter la siguiente información: 
             \begin{itemize}
                 \item \textbf{URDF} (Universal Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description} para obtener la descripción de la configuración del Robot. 
-                \item \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. (\cite{ROS_concepts_MoveIt}) 
+                \item \textbf{SRDF} (Semantic Robot Description Format) - utiliza el parámetro de ROS llamado \textit{robot\_description\_semantic}, esta información se complementa con la recopilada en el URDF, especificando grupos de articulaciones, configuraciones predeterminadas del robot, información adicional sobre colisiones o transformaciones adicionales que sean de interés para el movimiento del robot. (\cite*{ROS_concepts_MoveIt}) 
             \end{itemize}                
                 Dentro de la documentación de la paquetería se sugiere que se generen estos archivos haciendo uso del asistente propio de la misma. \textbf{\textit{MoveIt configuration}} buscará dentro del entorno de ROS otras configuraciones pertinentes, como los límites de las articulaciones, cinemática, planeación de movimientos, percepción, etc. Estos archivos de configuración se encuentran dentro de la carpeta \textit{config} y se generan automáticamente al ejecutar el asistente de configuración de la paquetería.
             \textbf{Robot Interface}
@@ -60,7 +60,7 @@
              
             \subsubsection{RobotinoView}
             Robotino View es un entorno de programación grafico que es posible utilizar directamente con Robotino y que, de hecho, viene preinstalado con el robot desde la configuración de fábrica. Dentro de este ambiente es posible crear y ejecutar programas de control para el robot.
-            De acuerdo con la información que ofrece FESTo respecto a este entorno, se tienen las siguientes funcionalidades(\cite{FESTO-RobotinoView}):
+            De acuerdo con la información que ofrece FESTO respecto a este entorno, se tienen las siguientes funcionalidades:
             \begin{itemize}
                 \item Programas secuenciales son mostrtados como Grafcet.
                 \item Control simultáneo de varios Robotino.
@@ -72,8 +72,6 @@
                 \item Creación e integración de funciones propias en C++.
                 \item Interfaz de usuario y manuales en multiples idiomas. (\cite*{FESTO-RobotinoView})
             \end{itemize}
-
-            Esta herramienta fue utilizada durante la familizariación con el equipo, realizar pruebas básicas y para generar secuencias sencillas de movimiento, no directamente en la implementación del proyecto.
             
         \subsection{Herramientas de hardware}
             \subsubsection{Robotino FESTO}
@@ -146,7 +144,7 @@
                             
             \subsubsection{Camara RGBD - Kinect}
 
-            El autor (\cite{pterneas_mastering_2022}), ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019). Así como un análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
+            El autor Vangos \cite{pterneas_mastering_2022}, ganador del reconocimiento \textit{Microsoft Most Valuable Professional (2014-2019)}, realiza una descripción del dispositivo Azure Kinect (Microsoft, 2019). Así como un análisis de su impacto en la tecnología actual y las herramientas de hardware que le permiten a este aparato ser tan ampliamente utilizado, dando también una descripción de sus antecesores, los dispositivos \textit{HoloLens}, \textit{Kinect versión 2} y \textit{Kinect versión 1}.
             El autor narra que en 2009 Microsoft lanzó al mercado el dispositivo llamado \textit{Project Natal}, cambiando el nombre a \textbf{Kinect} en 2010 y distribuyéndolo como un accesorio para la consola de videojuegos \textit{XBOX 360}. Este dispositivo es capaz de reconocer las partes del cuerpo de las personas y entender sus voces en tiempo real, creando una interfaz interactiva que permitía a los usuarios utilizar la consola sin necesitar un control físico. Para el proyecto que este documento describe, se utilizó la versión 1 del Kinect, mostrado en la figura \ref{fig:Kinect_Parts}, donde también se observan los componentes del dispositivo.
 
             \begin{figure}[ht]
@@ -158,14 +156,17 @@
 
             \begin{itemize}
                 \item Sensor de Profundidad: \\
-                En \cite{kramer_hacking_2012} los autores especifican que el dispositivo Kinect utiliza una cámara MT9M001 (ver figura \ref{fig:Kinect_Sensors}) de la compañía Micron \cite{micron_12-inch_2004}, siendo esta una cámara monocromática con un arreglo de $1280\times1024$ píxeles, aunque estas dimensiones son modificadas antes de la reducción de resolución que se realiza posteriormente.
+                \cite{kramer_hacking_2012}, especifica que el dispositivo Kinect utiliza una cámara MT9M001 (ver figura \ref{fig:Kinect_Sensors}) de la compañía Micron (\cite*{micron_12-inch_2004}), siendo esta una cámara monocromática con un arreglo de $1280\times1024$ píxeles, aunque estas dimensiones son modificadas antes de la reducción de resolución que se realiza posteriormente.
 
-                Por su parte \cite{davison_kinect_2012}, describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. En  \cite{kramer_hacking_2012} se añade que el sensor infrarrojo crea un patrón ruidoso de luz infrarroja estructurada de 830 [nm]. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. Mientras que \cite{davison_kinect_2012} también se explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.
+                Por su parte \cite{davison_kinect_2012}, describe sus especificaciones, explicando que el sensor de profundidad del Kinect consiste en una fuente de luz infrarroja que proyecta un patrón de puntos, los cuales son leídos después por un sensor infrarrojo CMOS, que detecta los segmentos reflejados del patrón de puntos, además de convertir sus intensidades a distancias. 
+                
+
+                \cite{kramer_hacking_2012}, añade que el sensor infrarrojo crea un patrón ruidoso de luz infrarroja estructurada de 830 [nm]. El rango de profundidad del sensor tiene un alcance de 50 [cm] a 3 [m], con una resolución de alrededor de 1 [cm] sobre el eje Z, mientras que la resolución espacial (sobre los ejes X e Y) se encuentra en el orden de los milímetros. \cite{davison_kinect_2012}, también explica que cada cuadro generado por el sensor de profundidad cuenta con una resolución de (640 $\times$ 480 píxeles), siendo capaz de mostrar 11 valores de profundidad de 11 bits, dando como resultado 2048 niveles de sensibilidad.
 
                 \begin{figure}[ht]
                     \centering
                     \includegraphics[scale=0.35]{Figures/Kinect_open.png}
-                    \caption{Proyector Infrarrojo y Sensores CMOS \cite{eetimes_inside_2010}}
+                    \caption{Proyector Infrarrojo y Sensores CMOS \cite*{eetimes_inside_2010}}
                     \label{fig:Kinect_Sensors}
                 \end{figure}
 
@@ -224,9 +225,9 @@
             \end{itemize}
             
             \subsubsection{Manipulador PhantomX Pincher AX-12}
-            El manipulador utilizado para este proyecto es el brazo robótico \textbf{PhantomX Pincher AX-12} distribuido por la empresa \textit{Trossen Robotics (Interbotix)}, conocida por poner a disposición del público hardware y software \textit{open source} utilizado en robótica para uso educativo, profesional o de entretenimiento. Los dispositivos de Interbotix se encuentran construidos con servomotores DYNAMIXEL X-Series, y se pueden obtener en configuraciones de 4, 5 o 6 grados de libertad, y es posible controlarlos mediante el Middleware ROS \cite{Interbotix_interbotix}. 
+            El manipulador utilizado para este proyecto es el brazo robótico \textbf{PhantomX Pincher AX-12} distribuido por la empresa \textit{Trossen Robotics (Interbotix)}, conocida por poner a disposición del público hardware y software \textit{open source} utilizado en robótica para uso educativo, profesional o de entretenimiento. Los dispositivos de Interbotix se encuentran construidos con servomotores DYNAMIXEL X-Series, y se pueden obtener en configuraciones de 4, 5 o 6 grados de libertad, y es posible controlarlos mediante el Middleware ROS (\cite{Interbotix_interbotix}). 
             
-            De acuerdo con la información del fabricante \cite{Interbotix_widowx_PincherArm}, este dispositivo es un brazo robótico de 4 grados de libertad, diseñado para se compatible con la plataforma robótica \textit{TurtleBot} de ROS y cuenta con los elementos necesarios para usarlo ya sea como un elemento independiente o bien, como en este caso, integrarlo dentro de otra plataforma robótica, en la figura \ref{fig:Phantom_Pincher} se muestra un ejemplo del manipulador.\newpage
+            De acuerdo con la información del fabricante (\cite*{Interbotix_widowx_PincherArm}), este dispositivo es un brazo robótico de 4 grados de libertad, diseñado para se compatible con la plataforma robótica \textit{TurtleBot} de ROS y cuenta con los elementos necesarios para usarlo ya sea como un elemento independiente o bien, como en este caso, integrarlo dentro de otra plataforma robótica, en la figura \ref{fig:Phantom_Pincher} se muestra un ejemplo del manipulador.\newpage
             
             \textbf{Características}
             \begin{itemize}
@@ -257,7 +258,7 @@
             \begin{figure}[ht]
                 \centering
                 \includegraphics[scale=0.2]{Figures/Phantom_Pincher.jpg}
-                    \caption{PhantomX Pincher AX-12 \cite{Inerbotix_pincher_arm}}
+                    \caption{PhantomX Pincher AX-12 (\cite*{Inerbotix_pincher_arm})}
                     \label{fig:Phantom_Pincher}
             \end{figure}
 
