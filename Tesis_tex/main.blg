@@ -1,18 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[69] biber:322> INFO - === mar may 28, 2024, 18:17:20
-[83] Biber.pm:415> INFO - Reading 'main.bcf'
-[155] Biber.pm:943> INFO - Found 48 citekeys in bib section 0
-[168] Biber.pm:4256> INFO - Processing section 0
-[168] Utils.pm:75> INFO - Globbing data source 'Referencias.bib'
-[168] Utils.pm:91> INFO - Globbed data source 'Referencias.bib' to Referencias.bib
-[178] Biber.pm:4455> INFO - Looking for bibtex format file 'Referencias.bib' for section 0
-[181] bibtex.pm:1653> INFO - LaTeX decoding ...
-[269] bibtex.pm:1471> INFO - Found BibTeX data source 'Referencias.bib'
-[271] Utils.pm:293> WARN - Duplicate entry key: 'ifr_international' in file 'Referencias.bib', skipping ...
-[536] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[536] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[536] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[566] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[595] bbl.pm:755> INFO - Output to main.bbl
-[596] Biber.pm:128> INFO - WARNINGS: 1
+[76] biber:322> INFO - === lun jul 29, 2024, 19:29:33
+[90] Biber.pm:415> INFO - Reading 'main.bcf'
+[165] Biber.pm:943> INFO - Found 48 citekeys in bib section 0
+[179] Biber.pm:4256> INFO - Processing section 0
+[179] Utils.pm:75> INFO - Globbing data source 'Referencias.bib'
+[180] Utils.pm:91> INFO - Globbed data source 'Referencias.bib' to Referencias.bib
+[190] Biber.pm:4455> INFO - Looking for bibtex format file 'Referencias.bib' for section 0
+[193] bibtex.pm:1653> INFO - LaTeX decoding ...
+[284] bibtex.pm:1471> INFO - Found BibTeX data source 'Referencias.bib'
+[286] Utils.pm:293> WARN - Duplicate entry key: 'ifr_international' in file 'Referencias.bib', skipping ...
+[587] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[587] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[587] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[621] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[653] bbl.pm:755> INFO - Output to main.bbl
+[654] Biber.pm:128> INFO - WARNINGS: 1

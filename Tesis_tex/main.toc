@@ -1,10 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Resumen}{VII}{chapter*.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Agradecimientos}{IX}{chapter*.4}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivación}{4}{section.1.1}%
@@ -29,21 +25,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Espacios de color}{11}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Espacio RGB}{11}{section*.5}%
+\contentsline {subsubsection}{Espacio RGB}{11}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Espacio HSV}{12}{section*.7}%
+\contentsline {subsubsection}{Espacio HSV}{12}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Segmentación de Imágenes}{14}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Umbralización}{14}{section*.9}%
+\contentsline {subsubsection}{Umbralización}{14}{section*.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Operaciones Morfológicas}{15}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Teoría de Conjuntos}{15}{section*.10}%
+\contentsline {subsubsection}{Teoría de Conjuntos}{15}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Operaciones Lógicas}{18}{section*.16}%
+\contentsline {subsubsection}{Operaciones Lógicas}{18}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dilatación y Erosión}{19}{section*.19}%
+\contentsline {subsubsection}{Dilatación y Erosión}{19}{section*.21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Reconocimiento de Objetos}{21}{section.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -51,7 +47,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Sistemas expertos}{24}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Manipulación del Robot}{25}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Manipulación del Robot}{24}{section.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.7}Estado del Arte}{25}{section.2.7}%
 \defcounter {refsection}{0}\relax 
@@ -93,7 +89,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}Estados}{44}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Navegación}{45}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}Navegación}{44}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.3}Exploración}{45}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -101,7 +97,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.5}Entradas y salidas}{47}{subsection.5.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.6}Algoritmos de las Máquinas de Estados - Cartas ASM}{48}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.6}Algoritmos de las Máquinas de Estados - Cartas ASM}{49}{subsection.5.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Resultados}{53}{chapter.6}%
 \defcounter {refsection}{0}\relax 
@@ -109,27 +105,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Herramientas de software}{53}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ROS}{53}{section*.40}%
+\contentsline {subsubsection}{ROS}{53}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{OpenCV}{54}{section*.41}%
+\contentsline {subsubsection}{OpenCV}{54}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MoveIT}{55}{section*.42}%
+\contentsline {subsubsection}{MoveIT}{55}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RobotinoView}{56}{section*.43}%
+\contentsline {subsubsection}{RobotinoView}{56}{section*.45}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.2}Herramientas de hardware}{57}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Robotino FESTO}{57}{section*.44}%
+\contentsline {subsubsection}{Robotino FESTO}{57}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Camara RGBD - Kinect}{59}{section*.46}%
+\contentsline {subsubsection}{Camara RGBD - Kinect}{59}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Manipulador PhantomX Pincher AX-12}{61}{section*.50}%
+\contentsline {subsubsection}{Manipulador PhantomX Pincher AX-12}{61}{section*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Implementación}{62}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Implementación}{63}{section.6.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}Resultados - Visión}{64}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Resultados - Manipulación}{65}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.2}Resultados - Manipulación}{66}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.3}Resultados - Integración}{69}{subsection.6.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -141,6 +137,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.2}Manipulación}{72}{subsection.7.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Trabajo Futuro}{72}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Trabajo Futuro}{73}{section.7.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Referencias}{73}{section.7.2}%
